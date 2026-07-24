@@ -20,6 +20,7 @@ texts don't exist yet: the cards are derived content.
 
 ```
 README.md                     ← this file: the method + the two content types
+TEXT-WRITER.md                ← self-contained brief for the agent that writes the texts + cards
 goethe-b1-wortliste.csv       ← SOURCE OF TRUTH: official Goethe B1 Wortliste (2,886 entries)
 groundwork/
 ├── topics.md                 ← master plan: 23 scene-topics, 204 scene OUTLINES,
@@ -34,7 +35,8 @@ batch-NN-<topic>/             ← one dir per batch (NONE YET — first is TBD).
 ```
 
 Groundwork is done. The next work is writing texts (content type 1) for each batch in
-`groundwork/topics.md`, then generating cards (content type 2) from them.
+`groundwork/topics.md`, then generating cards (content type 2) from them — **the agent
+doing that should read `TEXT-WRITER.md` first; it's the complete, self-contained brief.**
 
 ---
 
