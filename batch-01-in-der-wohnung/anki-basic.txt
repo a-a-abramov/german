@@ -1,0 +1,39 @@
+die Wohnung	flat, apartment — pl. die Wohnungen
+der Schlüssel	key — pl. die Schlüssel
+die Tür	door — pl. die Türen
+der Aufzug	lift, elevator — pl. die Aufzüge
+die Treppe	stairs — pl. die Treppen
+der Stock	floor, storey — pl. die Stockwerke
+der Flur	hallway — pl. die Flure
+dunkel	dark
+hell	bright
+gemütlich	cosy
+eng	narrow, cramped
+der Keller	cellar, basement — pl. die Keller
+wohnen	to live, reside — wohnt, wohnte, hat gewohnt
+der Nachbar	neighbour — pl. die Nachbarn (f. die Nachbarin)
+das Wohnzimmer	living room — pl. die Wohnzimmer
+die Ecke	corner — pl. die Ecken
+das Sofa	sofa — pl. die Sofas
+der Sessel	armchair — pl. die Sessel
+die Wand	(interior) wall — pl. die Wände
+das Regal	shelf, shelving — pl. die Regale
+der Boden	floor, ground — pl. die Böden
+der Teppich	carpet, rug — pl. die Teppiche
+das Kissen	cushion, pillow — pl. die Kissen
+die Lampe	lamp — pl. die Lampen
+das Fenster	window — pl. die Fenster
+die Küche	kitchen — pl. die Küchen
+kochen	to cook — kocht, kochte, hat gekocht
+der Kühlschrank	fridge — pl. die Kühlschränke
+der Herd	stove, cooker — pl. die Herde
+der Topf	pot — pl. die Töpfe
+der Schrank	cupboard, wardrobe — pl. die Schränke
+der Teller	plate — pl. die Teller
+der Umzug	(house) move — pl. die Umzüge
+das Bad	bathroom — pl. die Bäder
+die Dusche	shower — pl. die Duschen
+der Spiegel	mirror — pl. die Spiegel
+die Heizung	heating — pl. die Heizungen
+die Miete	rent — pl. die Mieten
+der Vermieter	landlord — pl. die Vermieter (f. die Vermieterin)

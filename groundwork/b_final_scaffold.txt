@@ -1,0 +1,282 @@
+TOTAL SCENES: 228
+
+## In der Wohnung & Zuhause (148 words, 11 scenes)
+  scene 1 [None] (13): der Abfall, der Abfalleimer, abwaschen, der Abwart / die Abwartin, die Anleitung, der Aufzug, außen, ausmachen, das Apartment, das Bett, der Bau, bauen, die Baustelle
+  scene 2 [None] (13): das Blatt, der Boden, das Brot, die Decke, die Bürste, die Zahnbürste, die Couch, die Ecke, das Eck, einrichten, die Einrichtung, die Etage, das Fenster
+  scene 3 [None] (13): die Flasche, der Flur, baden, das Bad, die Badewanne, der Balkon, die Bar, der Garten, das Geschirr, besetzen, das Dach, der Eingang, die Garage
+  scene 4 [None] (13): der Herd, das Haus, der Haushalt, der Hausmeister / die Hausmeisterin, das Heim, die Heizung, heizen, die Büchse, die Dose, die Garderobe, das Glas, der Hammer, das Heft
+  scene 5 [None] (13): der Fauteuil, die Halle, die Hütte, das Kissen, die Kerze, der Keller, der Kühlschrank, die Lampe, das Lager, der Kugelschreiber, der Kuli, der Korridor, die Küche
+  scene 6 [None] (13): das Licht, das Möbel, möbliert, der Müll, die Müllabfuhr, die Mülltonne, die Nadel, der Nagel, locker, der Löffel, das Messer, die Mitte, nähen
+  scene 7 [None] (13): derOfen, öffnen, der Ordner, ordnen, die Ordnung, packen, das Papier, putzen, die Puppe, das Regal, reinigen, die Reinigung, der Platz
+  scene 8 [None] (13): der Rand, der Raum, der Sack, sauber, die Schere, die Scheibe, der Schirm, der Schlaf, schlafen, der Schlüssel, schmutzig, der Schmutz, der Schrank
+  scene 9 [None] (13): die Schüssel, das Sofa, die Socke, das Schild, das Schloss, die Schachtel, das Stiegenhaus, die Stiege, der Stock, das Stockwerk, der Stuhl, der Teppich, die Terrasse
+  scene 10 [None] (13): der Staub, das Streichholz, der Tisch, der Sessel, der Sessel, der Stift, die Tafel, der Topf, die Vase, die Treppe, das Treppenhaus, die Tür, das Tuch
+  scene 11 [None] (18): die Uhr, umziehen, der Umzug, sich umziehen, das Tor, die Wand, das Wasser, die Wäsche, das Waschmittel, die Wohnung, das Wohnzimmer, das Zimmer, der Zettel, wohnen, zentral, das Zentrum, das Zuhause, der Zugang
+
+## Körper & Gesundheit (128 words, 10 scenes)
+  scene 1 [None] (13): abnehmen, der Arm, die Apotheke, der Appetit, der Arzt / die Ärztin, atmen, der Atem, (sich) ausruhen, äußerlich, das Asyl, der Bauch, die Besserung, der Bart
+  scene 2 [None] (13): bluten, das Blut, der Blick, blind, die Brust, die Diät, der Durst, durstig, (sich) duschen, die Dusche, sich erholen, die Erholung, sich erkälten
+  scene 3 [None] (13): erkältet, die Erkältung, erschöpft, erschrecken, das Fieber, der Finger, das Auge, der Fuß, beißen, das Bein, gesund, die Gesundheit, das Gesicht
+  scene 4 [None] (13): das Gefühl, die Grippe, das Haar, der Hals, die Hand, die Haut, husten, der Husten, hungrig, der Hunger, die Infektion, das Herz, der Kopf
+  scene 5 [None] (13): der Körper, körperlich, krank, der Kranke / die Kranke, das Krankenhaus, die Krankenkasse, der Krankenpfleger, die Krankenschwester, der Krankenwagen, die Krankheit, das Knie, der Knochen, leiden
+  scene 6 [None] (13): die Kraft, die Lippe, der Magen, mager, die Medizin, das Medikament, müde, die Mühe, der Mund, der Muskel, der Mut, mutig, die Nase
+  scene 7 [None] (13): der Nerv, nervös, die Klinik, mild, das Ohr, operieren, die Operation, das Pflaster, pflegen, der Pfleger / die Pflegerin, der Patient / die Patientin, die Notaufnahme, (sich) rasieren
+  scene 8 [None] (13): der Rücken, der Schmerz, das Schmerzmittel, der Schnupfen, die Schulter, schwitzen, die Seife, die Salbe, die Sprechstunde, die Spritze, spüren, stechen, sterben
+  scene 9 [None] (13): die Sucht, süchtig, das Suchtmittel, taub, die Tablette, die Therapie, die Temperatur, der Tod, tot, der Tote / die Tote, die Träne, untersuchen, die Untersuchung
+  scene 10 [None] (11): verschreiben, (sich) verletzen, die Verletzung, sich verlaufen, vermissen, die Zahncreme/-pasta, der Zahn, die Zange, die Wunde, die Praxis, das Vitamin
+
+## Essen, Kochen & Restaurant (149 words, 12 scenes)
+  scene 1 [None] (13): der Apfel, die Aprikose, der Alkohol, braten, der Braten, brechen, das Brot, das Brötchen, das Brötli, die Butter, das Buffet, die Bohne, das Café
+  scene 2 [None] (13): die Cafeteria, bitter, das Ei, das Eis, das Eis, ernähren, die Ernährung, die Ernte, essen, das Essen, der Essig, das Faschierte, der Fasching
+  scene 3 [None] (13): die Fasnacht, fett, das Fett, das Fleisch, der Fleischhauer / die Fleischhauerin, das Hackfleisch, backen, die Bäckerei, die Banane, das Bier, das Dessert, das Gasthaus, die Gaststätte
+  scene 4 [None] (13): der Gast, das Gebäck, das Gemüse, das Gericht, der Geschmack, das Getränk, das Gewürz, gießen, die Gabel, gemeinsam, grillen, grillieren, der Grill
+  scene 5 [None] (13): das Hähnchen/Hühnchen, das Hendl, der Honig, der Imbiss, die Jause, der Kaffee, das Kaffeehaus, der Kakao, die Kantine, die Karotte, die Kartoffel, der Käse, der Kloß
+  scene 6 [None] (13): die Konfitüre, kochen, der Koch / die Köchin, der Knödel, der Kuchen, lecker, die Lebensmittel, die Kneipe, kühl, das Lokal, die Limonade, die Mahlzeit, die Margarine
+  scene 7 [None] (13): die Marille, die Marmelade, das Mehl, das Menü, die Mensa, das Mineralwasser, die Möhre, das Müesli/Müsli, die Milch, der Metzger, die Nachspeise, das Nahrungsmittel, die Kanne
+  scene 8 [None] (13): die Nudel, das Obst, das/derObers, der Ober, die Orange, die Pfanne, der Pfeffer, die Pflaume, das Picknick, der Pilz, die Pizza, die Pommes frites, die Portion
+  scene 9 [None] (13): probieren, probieren, der Paradeiser, das Poulet, derRahm, der Reis, das Rezept, roh, dasRohr, das Restaurant, der Saft, dieSahne, der Salat
+  scene 10 [None] (13): das Salz, salzig, schmecken, das Schnitzel, die Schokolade, der Schinken, das Schwammerl, sauer, satt, die Soße/Sauce, die Speisekarte, die Suppe, süß
+  scene 11 [None] (13): die Tasse, der Teller, der Tee, Tee ziehen lassen, die Semmel, der Service, der Speisewagen, die Tomate, die Torte, vegetarisch, verpflegen, trinken, das Rüebli
+  scene 12 [None] (6): der Wein, die Zitrone, die Zwiebel, die Wurst, die Zigarette, zubereiten
+
+## Tiere (8 words, 1 scenes)
+  scene 1 [None] (8): der Bauer, fressen, füttern, der Bauernhof, die Schlange, das Tier, das Haustier, der Tierpark
+
+## Kleidung & Aussehen (44 words, 3 scenes)
+  scene 1 [None] (13): anhaben, (sich) anziehen, der Anzug, aussehen, die Bluse, die Brille, blond, chic/schick, die Creme, das Couvert, elegant, frisch, der Friseur / die Friseurin
+  scene 2 [None] (13): die Frisur, hässlich, das Hemd, die Hose, der Hut, die Jacke, die Jeans, die Kette, das Kleid, die Kleidung, das Kostüm, die Kiste, kleben
+  scene 3 [None] (18): der Knopf, der Mantel, die Mode, modern, das Modell, das Parfüm, der Pullover, der Ring, der Schmuck, schminken, schön, der Schuh, der Rock, der Stiefel, der Strumpf, das Taschentuch, die Tüte, das Zeug/-zeug
+
+## Farben, Formen & Material (41 words, 3 scenes)
+  scene 1 [None] (13): der Bogen, breit, bunt, dicht, dunkel, dünn, eckig, eng, die Farbe, farbig, flach, der Fleck, die Form
+  scene 2 [None] (13): glatt, das Gold, hart, hell, das Holz, der Kreis, das Kreuz, künstlich, der Kunststoff, laut, das Leder, leise, die Linie
+  scene 3 [None] (15): das Loch, das Material, das Metall, parallel, das Plastik, rein, rund, schief, schmal, senkrecht, spitz, der Stoff, waagerecht, weich, die Wolle
+
+## Familie & Beziehungen (107 words, 8 scenes)
+  scene 1 [None] (13): der Angehörige / die Angehörige, alt, das Alter, das Altenheim, das Altersheim, die Beziehung, der Bewohner / die Bewohnerin, die Bevölkerung, der Bruder, der Bub, der Chef / die Chefin, die Dame, der Coiffeur / die Coiffeuse
+  scene 2 [None] (13): der Cousin / die Cousine, die Ehe, die Ehefrau, das Ehepaar, einladen, die Einladung, einziehen, die Eltern, der Enkel / die Enkelin, erwachsen, der Erwachsene, erziehen, die Erziehung
+  scene 3 [None] (13): die Familie, der Familienstand, die Frau, der Freund, die Freundschaft, freundlich, der Bekannte / die Bekannte, geboren werden, die Geburt, der Geburtstag, das Geschenk, die Geschwister, geschieden
+  scene 4 [None] (13): die Hausfrau / der Hausmann, heiraten, die Heimat, die Hochzeit, der Held / die Heldin, heimlich, das Heimweh, der Hof, die Jugend, der Jugendliche / die Jugendliche, jung, der Junge, das Kind
+  scene 5 [None] (13): die Kindheit, der Kindergarten, die Jugendherberge, küssen, der Kuss, die Leute, das Mädchen, der Mann, männlich, die Mutter, der Name, der Familienname, der Vorname
+  scene 6 [None] (13): der Neffe, die Nichte, der Nachwuchs, die Oma, der Onkel, der Opa, der Partner / die Partnerin, das Paar, der Nichtraucher / die Nichtraucherin, die Person, persönlich, die Rente, in Rente gehen/sein
+  scene 7 [None] (13): der Rentner / die Rentnerin, die Senioren, der Sohn, die Schwester, Schwieger-, die Schwangerschaft, sich scheiden lassen, geschieden, die Scheidung, schenken, die Tante, die Tochter, der Vater
+  scene 8 [None] (16): (sich) verabreden, verabredet, die Verabredung, (sich) verabschieden, der Abschied, (sich) verändern, verantwortlich, die Verantwortung, verheiratet, (sich) trennen, die Trennung, getrennt leben, verwandt, der Verwandte / die Verwandte, der Wirt / die Wirtin, (sich) zwingen
+
+## Gefahr, Notfall & Sicherheit (38 words, 3 scenes)
+  scene 1 [None] (13): Achtung!, der Alarm, beschädigen, brennen, das Feuer, die Feuerwehr, fliehen, die Flucht, die Gefahr, gefährlich, das Gift, giftig, kaputt
+  scene 2 [None] (13): kaputtgehen, kaputtmachen, die Katastrophe, der Lärm, der Notausgang, der Notfall, der Notruf, retten, das Risiko, schaden, der Schaden, schädlich, schützen
+  scene 3 [None] (12): der Schutz, die Sicherheit, sichern, tödlich, überfahren, der Unfall, das Unglück, (sich) verbrennen, die Vorsicht, vorsichtig, warnen, zerstören
+
+## Natur, Wetter & Umwelt (97 words, 8 scenes)
+  scene 1 [None] (13): Abgase, der Baum, blühen, die Blume, blitzen, der Blitz, die Birne, das Dorf, draußen, der Dreck, die Energie, entsorgen, die Erde
+  scene 2 [None] (13): der Erdapfel, das Erdgeschoss/ Ergeschoß, das Feld, feucht, das Feuerzeug, die Fläche, fließen, fließend, der Fluss, die Flüssigkeit, die Frucht, Früchte, die Aussicht
+  scene 3 [None] (13): der Berg, das Gewitter, die Gegend, das Gras, hageln, der Himmel, die Hitze, der Hügel, die Insel, heiß, das Gas, der Hafen, das Grundstück
+  scene 4 [None] (13): der Kanal, das Land, die Landschaft, die Landwirtschaft, kalt, die Kälte, leer, die Luft, das Meer, der Mond, die Natur, der Nebel, neblig
+  scene 5 [None] (13): nass, der Ozean, der Rasen, regnen, der Regen, die Region, das Öl, Öko-, das Rind, der See, die See, die Nord-/Ostsee, der Schnee
+  scene 6 [None] (13): schneien, der Sand, der Schatten, verschmutzen, die Sonne, sonnig, der Stern, der Sturm, das Tal, der Stein, der Strand, der Strom, das Ufer
+  scene 7 [None] (13): die Umgebung, die Umwelt, der Umweltschutz, die Umweltverschmutzung, trocken, trocknen, der Wald, wandern, die Wanderung, die Wärme, warm, das Wetter, der Wetterbericht
+  scene 8 [None] (6): die Wettervorhersage, der Wind, windig, die Wiese, die Wolke, bewölkt
+
+## Unterwegs & Verkehr (112 words, 9 scenes)
+  scene 1 [None] (13): abbiegen, abfahren, die Abfahrt, abwärts, die Ampel, aufwärts, bremsen, die Bremse, der Bus, ein-, die Einbahnstraße, die Einfahrt, einsteigen
+  scene 2 [None] (13): die Eisenbahn, fahren, die Fähre, die Fahrbahn, der Fahrer, die Fahrkarte, der Fahrplan, das Fahrrad, das Fahrzeug, fliegen, der Flug, der Flughafen, das Flugzeug
+  scene 3 [None] (13): der Führerausweis, der Führerschein, der Ausgang, die Ausfahrt, ausfallen, das Auto, die Autobahn, die Bahn, S-Bahn, die Straßenbahn, die U-Bahn, der Bahnhof, der Bahnsteig
+  scene 4 [None] (13): der Anschluss, anschnallen, der Fußgänger / die Fußgängerin, die Fußgängerzone, der Gang, die Geschwindigkeit, die Geschwindigkeitsbeschränkung, die Brücke, der Gehsteig, das Gleis, die Haltestelle, hupen, fahren
+  scene 5 [None] (13): runterwerfen, der Laster, landen, laufen, die Kreuzung, die Kurve, die Landung, der Lift, links, link-, los/los-, losfahren, die Maschine
+  scene 6 [None] (13): das Motorrad, der Motor, der Park, parken, parkieren, der Perron, die Panne, der Passagier / die Passagierin, das Rad, das Rad, der Reifen, der Radfahrer / die Radfahrerin, rückwärts
+  scene 7 [None] (13): die Rückfahrt, die Rückkehr, die Rundfahrt, der Rucksack, der Schalter, schieben, der Schritt, die Stadt, städtisch, der Stadtplan, der Stau, die Straße, die Straßenbahn
+  scene 8 [None] (13): die Strecke, tanken, die Tankstelle, die Spur, der Stecker, die Steckdose, das Trottoir, die U-Bahn, überholen, überqueren, die Umleitung, umsteigen, der Verkehr
+  scene 9 [None] (8): das Verkehrsmittel, das Velo, das Tram, umgehen, der Wagen, der Zug, die Zone, der Weg
+
+## Reisen & Urlaub (54 words, 4 scenes)
+  scene 1 [None] (13): der Aufenthalt, ankommen, die Ankunft, der Ausflug, das Ausland, die Auskunft, besuchen, der Besuch, das Boot, buchen, der Bus, einpacken, erfahren
+  scene 2 [None] (13): die Erfahrung, erreichen, die Ferien, Ferien-, das Gepäck, die Halbpension, das Hallenbad, das Hotel, inklusive, die Kabine, der Kiosk, der Koffer, die Küste
+  scene 3 [None] (13): die Pension, die Pension, in Pension gehen/sein, pensioniert werden/sein, der Pensionist / die Pensionistin, das Quartier, die Reise, reisen, das Reisebüro, reservieren, die Reservierung, die Sehenswürdigkeit, das Schiff
+  scene 4 [None] (15): die Rezeption/Reception, transportieren, der Transport, der Urlaub, die Unterkunft, verreisen, die Toilette, der Treffpunkt, das Trinkgeld, die Tropfen, das Viertel, der Vorort, der Wohnort, der Wohnsitz, das/der Zvieri/Znüni
+
+## Einkaufen & Geld (132 words, 10 scenes)
+  scene 1 [None] (13): abheben, die Abteilung, die Aktion, anbieten, der Anbieter, das Angebot, anschaffen, die Ausgabe, ausgeben, die Ausnahme, aussuchen, auswählen, die Auswahl
+  scene 2 [None] (13): der Automat, bezahlen, der Betrag, billig, bitter, die Bohne, das Benzin, das Bargeld, bar, einführen, die Einführung, einkaufen, der Einkauf
+  scene 3 [None] (13): das Einkommen, einnehmen, die Einnahme, einzahlen, die Einzahlung, erhalten, erhöhen, die Erhöhung, die Ermäßigung, eröffnen, die Eröffnung, finanzieren, finanziell
+  scene 4 [None] (13): der Flohmarkt, die Anlage, die Bank, die Bank, der Bancomat/Bankomat, die Bankleitzahl, die Bankomat-Karte, die Gebühr, das Geld, der Geldautomat, die Geldbörse, der Gewinn, gewinnen
+  scene 5 [None] (13): das Geschäft, günstig, garantieren, die Garantie, gratis, die Karte, die Chipkarte, die Fahrkarte, die Kasse, der Katalog, kaufen, der Kauf, der Käufer / die Käuferin
+  scene 6 [None] (13): kostenlos, der Kredit, die Kreditkarte, das Konto, das Girokonto, kontrollieren, die Kontrolle, die Kosten, kosten, kosten, der Konsum, konsumieren, der Kasten
+  scene 7 [None] (13): der Kasten, der Laden, die Marke, markieren, der Markt, maximal, die Mehrwertsteuer, der Mieter / die Mieterin, mieten, die Miete, die Münze, der Preis, produzieren
+  scene 8 [None] (13): das Produkt, die Produktion, der Rabatt, rechnen, der Rechner, die Rechnung, die Quittung, das Portemonnaie/Portmonee, das Sonderangebot, der Supermarkt, die Summe, die Statistik, statistisch
+  scene 9 [None] (13): die Steuer, der Test, testen, die Tasche, das Taschengeld, die Tabelle, verkaufen, der Verkäufer / die Verkäuferin, vermieten, der Vermieter / die Vermieterin, die Vermietung, die Versicherung, versichern
+  scene 10 [None] (15): die Versichertenkarte, die Vermittlung, der Verlust, überweisen, die Überweisung, der Vertrag, zahlen, die Zahlung, zählen, die Zinsen, der Zoll, der Zuschlag, die Ware, der Zucker, die Zutaten
+
+## Stadt, Ämter & Recht (143 words, 11 scenes)
+  scene 1 [None] (13): das Amt, der Antrag, anmelden, die Anmeldung, angeben, die Angabe, ausfüllen, der Ausweis, der Anwalt / die Anwältin, anzeigen, die Anzeige, der Beamte / die Beamtin, beantragen
+  scene 2 [None] (13): die Behörde, betrügen, bestrafen, beweisen, der Bürger / die Bürgerin, der Dieb, der Dienst, das Dokument, die Droge, die Drogerie, einbrechen, der Einbrecher / die Einbrecherin, der Einbruch
+  scene 3 [None] (13): der Einwohner / die Einwohnerin, festnehmen, festsetzen, das Formular, das Fundbüro, die Burg, der Doktor / die Doktorin, behindern, bekannt geben, berichten, der Bericht, das Gebäude, das Gebiet
+  scene 4 [None] (13): die Gemeinschaft, das Gesetz, die Gesellschaft, das Gefängnis, der Gegner, die Grenze, illegal, das Gebirge, die Hauptstadt, der Hauptbahnhof, der Herr, installieren, das Kennzeichen
+  scene 5 [None] (13): die Kirche, der Krieg, die Krise, das Konsulat, der König, Kriminal- / die Kriminalpolizei, der Konflikt, die Mauer, die Mehrheit, die Minderheit, das Mitglied, der Nachbar / die Nachbarin, die Messe
+  scene 6 [None] (13): die Öffentlichkeit, öffentlich, veröffentlichen, offiziell, das Opfer, die Ordination, die Ordination, die Organisation, der Ort, der Vorort, der Wohnort, passieren, der Pass
+  scene 7 [None] (13): der Personenstand, die Personalien, die Politik, der Politiker / die Politikerin, politisch, die Polizei, der Polizist / die Polizistin, der Prozess, das Recht, rechtlich, die Reform, die Regel, regeln
+  scene 8 [None] (13): das Rathaus, der Richter / die Richterin, rauchen, der Raucher / die Raucherin, schuldig, die Schuld, schuld, die Schulden, die Religion, die Richtung, der Sozialarbeiter / die Sozialarbeiterin, sozial, strafbar
+  scene 9 [None] (13): die Strafe, der Strafzettel, der Täter / die Täterin, der Stempel, (sich) streiten, der Streit, streiken, der Streik, der Stress, das Schaufenster, die Urkunde, das Urteil, verhaften
+  scene 10 [None] (13): der Verdacht, verdächtig, der Verbrecher / die Verbrecherin, das Verbot, verbieten, verboten, die Uniform, untersagt, unterschreiben, die Unterschrift, die Ursache, verursachen, verraten
+  scene 11 [None] (13): die Versammlung, verhindern, versäumen, verurteilen, die Verwaltung, das Visum, die Vorschrift, die Vorfahrt, der Vorwurf, der Zeuge / die Zeugin, das Zeugnis, das Zertifikat, der Zivilstand
+
+## Arbeit & Beruf (138 words, 11 scenes)
+  scene 1 [None] (13): anerkennen, der Anspruch, anstellen, der Angestellte / die Angestellte, sich anstrengen, anstrengend, der Auftrag, die Aushilfe, der Architekt / die Architektin, beruflich, berufstätig, der Beruf, der Betrieb
+  scene 2 [None] (13): der Betriebsrat / die Betriebsrätin, sich bewerben, die Bewerbung, das Diplom, entlassen, die Entlassung, der Erfolg, erfolgreich, erledigen, der Experte, der Export, die Fabrik, das Fach
+  scene 3 [None] (13): der Fachmann / die Fachfrau, die Fachleute, fehlen, der Fehler, der Feierabend, die Firma, fleißig, fordern, die Forderung, fördern, die Förderung, die Führung, arbeiten
+  scene 4 [None] (13): die Arbeit, der Arbeiter / die Arbeiterin, die Arbeitserlaubnis, arbeitslos, die Arbeitslosigkeit, der Arbeitsplatz, die Arbeitsstelle, beenden, sich beteiligen, das Büro, der Direktor / die Direktorin, die Gewerkschaft, die Generation
+  scene 5 [None] (13): das Gehalt, die Gelegenheit, gründen, der Grund, der Handel, handeln, der Händler / die Händlerin, der Hersteller, herstellen, der Ingenieur, die Industrie, der Import, der Handwerker / die Handwerkerin
+  scene 6 [None] (13): die Herausforderung, die Karriere, der Kollege / die Kollegin, kündigen, die Kündigung, der Kunde / die Kundin, der Kandidat, das Kraftfahrzeug, das Kraftwerk, der Kellner / die Kellnerin, leisten, die Leistung, leiten
+  scene 7 [None] (13): der Leiter / die Leiterin, die Leitung, der Lohn, der Mangel, der Mechaniker / die Mechanikerin, der Meister, der Mitarbeiter / die Mitarbeiterin, der Migrant / die Migrantin, die Migration, nützen, das Personal, der Praktikant / die Praktikantin, das Praktikum
+  scene 8 [None] (13): der Professor / die Professorin, der Profi, der Profisportler / die Profisportlerin, das Projekt, die Qualifikation, die Mannschaft, reparieren, die Reparatur, der Rest, der Sekretär / die Sekretärin, selbstständig, der Schauspieler / die Schauspielerin, der Sänger / die Sängerin
+  scene 9 [None] (13): der Reporter / die Reporterin, die Reportage, der Serviceangestellte / die Serviceangestellte, der Spezialist / die Spezialistin, der Steward / die Stewardess, der Student / die Studentin, der Studierende / die Studierende, die Tätigkeit, der Täter / die Täterin, teilnehmen, die Teilnahme, der Teilnehmer / die Teilnehmerin, die Teilzeit
+  scene 10 [None] (13): telefonieren, das Telefon, der Termin, der Terminkalender, die Überstunde, die Unterlagen, der Unternehmer / die Unternehmerin, die Unterstützung, unterstützen, verdienen, der Verein, der Verlag, die Weiterbildung
+  scene 11 [None] (8): das Werk, die Werkstatt, das Werkzeug, zugänglich, zuständig, die Vollzeit, das Vorstellungsgespräch, der Zufall
+
+## Schule & Bildung (84 words, 7 scenes)
+  scene 1 [None] (13): die Abbildung, abschreiben, das Abitur, der Abschluss, der Abschnitt, anwenden, anwesend, abwesend, das Alphabet, analysieren, die Ausbildung, ausgebildet, aussprechen
+  scene 2 [None] (13): die Aussprache, besichtigen, die Bibliothek, das Buch, die Buchhandlung, buchen, die Biologie, eintreten, der Eintritt, entwickeln, die Entwicklung, das Ergebnis, erklären
+  scene 3 [None] (13): die Erklärung, erstellen, die Forschung, die Fortbildung, der Fortschritt, fortsetzen, die Fortsetzung, das Forum, die Aufgabe, aufgeben, das Beispiel, der Bereich, beginnen
+  scene 4 [None] (13): der Beginn, der Bleistift, das Gedicht, die Geduld, die Hausaufgabe, das Institut, der Intensivkurs, interkulturell, international, die Klasse, die Klassenarbeit, der Kurs, der Kursleiter / die Kursleiter
+  scene 5 [None] (13): die Lehre, die Lehrstelle, der Lehrer / die Lehrerin, der Lehrling, der Lebenslauf, das Kapitel, lernen, der Lerner / die Lernerin, lesen, der Leser / die Leserin, die Nachhilfe, die Matura, die Note
+  scene 6 [None] (13): präsentieren, die Präsentation, die Prüfung, prüfen, das Referat, die Schule, die Schularbeit, der Schüler / die Schülerin, das Seminar, das System, der Stil, theoretisch, die Universität
+  scene 7 [None] (6): unterrichten, der Unterricht, übersetzen, der Übersetzer / die Übersetzerin, die Übersetzung, die Übung
+
+## Freizeit, Medien & Technik (214 words, 17 scenes)
+  scene 1 [None] (13): das Abenteuer, abonnieren, das Abonnement, sich amüsieren, die Aktivität, anklicken, ansehen, aufnehmen, die Aufnahme, auftreten, der Auftritt, aufführen, ausgehen
+  scene 2 [None] (13): die Ausstellung, ausstellen, automatisch, der Autor / die Autorin, der Beleg, beliebt, das Ballett, die Bibliothek, das Bild, der Bildschirm, das Billett, die Biologie, klettern
+  scene 3 [None] (13): die Broschüre, die Bühne, die Datei, die Daten, das Denkmal, der Dialekt, der Dialog, digital, das Diplom, die Diskothek, diskutieren, die Diskussion, dekorieren
+  scene 4 [None] (13): einfügen, einschalten, elektrisch, Elektro-, elektronisch, die Fantasie/Phantasie, fantastisch, feiern, die Feier, der Feiertag, die Fernbedienung, fernsehen, das Fernsehen
+  scene 5 [None] (13): der Fernseher, die Festplatte, das Fest, die Figur, der Film, die Flöte, fotografieren, das Foto, der Fotoapparat, der Fotograf, die Fotografie, die Freizeit, funktionieren
+  scene 6 [None] (13): der Ball, der Basketball, basteln, die Batterie, die Galerie, die Gitarre, genießen, das Gerät, die/das Glace/Glacé, der Fußball, Golf, das Hobby, hochladen
+  scene 7 [None] (13): das Interview, installieren, das Instrument, historisch, die Gymnastik, Bio-, bio, das Handy, das Kabel, die Kamera, die Kassette, klicken, der Klick
+  scene 8 [None] (13): das Klavier, das Kino, das Konzert, kopieren, die Kopie, der Kopierer, der Krimi, die Kultur, kulturell, der Künstler / die Künstlerin, das Laufwerk, der Lautsprecher, das Klima
+  scene 9 [None] (13): die Klimaanlage, die Kunst, das Lexikon, das Lied, die Literatur, das Magazin, malen, der Maler / die Malerin, das Märchen, die Medien, das Museum, die Musik, musikalisch
+  scene 10 [None] (13): der Musiker / die Musikerin, der Monitor, die Mobilbox, das Mobiltelefon, die Mappe, die Mobilität, die Oper, das Orchester, die Party, organisieren, das Programm, der Prospekt, das Publikum
+  scene 11 [None] (13): das Quiz, das Radio, der Rekord, das Rätsel, die Phantasie/Fantasie, planen, der Plan, die Planung, reiten, der Saal, der Roman, schwimmen, das Schwimmbad
+  scene 12 [None] (13): singen, die Serie, der Ski/Schi, der Sitz, der Karneval, die Metropole, Prost, siegen, der Sieg, der Sieger / die Siegerin, der Spaß, der Spiegel, das Spiel
+  scene 13 [None] (13): spielen, der Spieler / die Spielerin, der Spielplatz, das Spielzeug, der Sport, die Sportart, der Sportler / die Sportlerin, sportlich, das Stadion, der Star, das Studio, das Symbol, die Szene
+  scene 14 [None] (13): das Talent, tanzen, der Tanz, das Tennis, das Theater, das Thema, die Theorie, das Ticket, die Studie, studieren, das Studium, die Technik, technisch
+  scene 15 [None] (13): die Technologie, die Rolle, die Rose, die Runde, der Salon, das Souvenir, die Station, der Titel, toll, der Tourismus, der Tourist / die Touristin, die Tradition, traditionell
+  scene 16 [None] (13): trainieren, der Trainer / die Trainerin, das Training, träumen, der Traum, Traum-, der Turm, der Versuch, das Video, virtuell, der Virus, der Wettbewerb, wetten
+  scene 17 [None] (6): der Zirkus, der Zoo, der Zuschauer / die Zuschauerin, zuschauen, die Veranstaltung, Volleyball
+
+## Gefühle & Charakter (115 words, 9 scenes)
+  scene 1 [None] (13): die Angst, ängstlich, angenehm, allein, aktiv, (sich) ärgern, der Ärger, ärgerlich, arm, beleidigen, beruhigen, betrunken, die Bewegung
+  scene 2 [None] (13): begeistert, blass, böse, dumm, dankbar, dringend, sich eignen, geeignet, eilen, die Eile, eilig, einsam, entspannend
+  scene 3 [None] (13): enttäuschen, die Enttäuschung, erleichtern, ernst, ernsthaft, faul, faulenzen, frech, froh, fröhlich, frieren, sich freuen, die Freude
+  scene 4 [None] (13): der Friede, fühlen, aufregen, befreit, befriedigend, begrenzt, beißen, bereit, berühmt, gefallen, sich etwas gefallen lassen, geehrt, gespannt
+  scene 5 [None] (13): gemütlich, (sich) fürchten, glücklich, das Glück, hassen, herzlich, höflich, hoffen, hoffentlich, die Hoffnung, interessieren, interessant, das Interesse
+  scene 6 [None] (13): interessiert, klasse, kreativ, kritisieren, die Kritik, kritisch, die Laune, ledig, leicht, leider, der Kellner / die Kellnerin, die Lust, lustig
+  scene 7 [None] (13): lieben, lieb, die Liebe, sich lohnen, neugierig, loben, peinlich, das Pech, schade, der Schreck, schrecklich, die Ruhe, ruhig
+  scene 8 [None] (13): stolz, still, sympathisch, traurig, verliebt, sich verlieben, verrückt, vergnügt, sich vergnügen, das Vergnügen, der Verlierer / die Verliererin, vertrauen, das Vertrauen
+  scene 9 [None] (11): wach, wütend, wunderbar, wunderschön, sich wundern, das Wunder, (sich) wünschen, der Wunsch, willkommen, wirken, die Wirkung
+
+## Kommunikation & Post (184 words, 14 scenes)
+  scene 1 [None] (13): die Adresse, der Absender / die Absenderin, ankündigen, ansprechen, antworten, die Antwort, anrufen, der Anruf, der Anrufbeantworter, das Paket, der Empfänger, die Ansage, die Annonce
+  scene 2 [None] (13): die Anrede, ausrichten, die Auskunft, der Apparat, ausdrucken, der Ausdruck, beantworten, sich beschweren, die Botschaft, der Brief, der Briefkasten, die Briefmarke, der Briefträger
+  scene 3 [None] (13): der Briefumschlag, die Brieftasche, buchstabieren, der Buchstabe, die Durchsage, duzen, die e-card, die ec-Karte/EC-Karte, das Einschreiben, empfangen, der Empfang, empfehlen, die Empfehlung
+  scene 4 [None] (13): entschuldigen, die Entschuldigung, sich erkundigen, erlauben, die Erlaubnis, erzählen, die Erzählung, fragen, die Frage, auffordern, die Aufforderung, begegnen, der Artikel
+  scene 5 [None] (13): bedeuten, die Bedeutung, begrüßen, behaupten, das Gespräch, aktuell, der Ausdruck, sich bedanken, bitte, bitten, die Bitte, danke, danken
+  scene 6 [None] (13): dankbar, der Dank, die Grafik, gratulieren, die Gratulation, der Glückwunsch, grüßen, der Gruß, hinweisen, der Hinweise, hallo, der Humor, der Hörer / die Hörerin / der Zuhörer
+  scene 7 [None] (13): hören, das Inserat, sich beeilen, die Idee, informieren, die Information, der Journalist / die Journalistin, klingeln, die Klingel, klingen, klopfen, die Kommunikation, der Kontakt
+  scene 8 [None] (13): sich konzentrieren, das Kuvert, melden, die Meldung, mitteilen, die Mahnung, das Netz, das Netzwerk, die Neuigkeit, die Nummer, die Presse, die Recherche, reden
+  scene 9 [None] (13): die Rede, die Reklame, die Post, die Postleitzahl, der Pöstler / die Pöstlerin, das Plakat, der Punkt, raten, der Rat, Ratschlag, sagen, schicken, die Schrift
+  scene 10 [None] (13): schriftlich, der Schriftsteller / die Schriftstellerin, senden, der Sender, die Sendung, rufen, die Rufnummer, schimpfen, schreiben, aufschreiben, das Schreiben, schreien, schweigen
+  scene 11 [None] (13): (sich) siezen, sprechen, die Sprache, die Fremdsprache, die Muttersprache, die Zweitsprache, stimmen, die Stimme, der Standpunkt, speichern, tippen, die Tastatur, die Taste
+  scene 12 [None] (13): der Text, die Überschrift, überreden, die Umfrage, umarmen, (sich) umdrehen, vereinbaren, verlangen, (sich) unterhalten, die Unterhaltung, versprechen, überprüfen, üblich
+  scene 13 [None] (13): der Vertreter / die Vertreterin, die Vertretung, vertreten, verzeihen, Verzeihung, die Visitenkarte, die Vorwahl, vorlesen, der Vortrag, wecken, der Wecker, die Werbung, der Witz
+  scene 14 [None] (15): zeigen, die Zeile, das Wort, das Wort, das Wörterbuch, vorschlagen, der Vorschlag, (sich) vorstellen, die Vorstellung, die Zeitschrift, die Zeitung, wiederholen, die Wiederholung, zuhören, der Zuhörer / die Zuhörerin
+
+## Zeit & Kalender (139 words, 11 scenes)
+  scene 1 [None] (13): der Alltag, alltäglich, anfangs, der Anfang, aufstehen, aufwachen, der Augenblick, bald, bevor, damals, danach, dann, dauern
+  scene 2 [None] (13): die Dauer, dauernd, das Datum, diesmal, donnern, der Donner, doppelt, Doppel-, einmal, enden, das Ende, endgültig, endlich
+  scene 3 [None] (13): das Ereignis, sich ereignen, erleben, das Erlebnis, erst, erst-, ewig, die Frist, früh, früher/früher-, frühstücken, das Frühstück, gestern
+  scene 4 [None] (13): heute, heutig-, hinterher, immer, halb, halbtags, die Hälfte, der Kalender, langweilig, sich langweilen, die Langeweile, der Moment, neulich
+  scene 5 [None] (13): das Leben, notieren, die Notiz, rechtzeitig, pünktlich, die Pause, das Semester, selten, schließlich, spät, spätestens, der Tagesablauf, tatsächlich
+  scene 6 [None] (13): der Schluss, starten, der Start, die Stunde, die Saison, übernachten, die Übernachtung, die Vergangenheit, die Verspätung, verpassen, die Zahl, die Anzahl, voraussichtlich
+  scene 7 [None] (13): das Zeichen, das Verkehrszeichen, zeichnen, die Zeichnung, die Zeit, der Zeitpunkt, zurzeit, das Zelt, zelten, die Zukunft, zukünftig, die Zünder, das Zündholz
+  scene 8 [None] (13): bisher, diesmal, fest, fertig, gerade, jetzt, jeweils, kurz, kürzlich, lange, langsam, längst, letzt-
+  scene 9 [None] (13): meist, meist-, mittlerweile, nachher, nächst-, noch, noch mal, nochmals, normalerweise, nun, oft/öfter, plötzlich, regelmäßig
+  scene 10 [None] (13): sofort, ständig, übermorgen, vorgestern, vorher, vorhin, vorläufig, zuerst, zunächst, zurzeit, zuletzt, zumindest, inzwischen
+  scene 11 [None] (9): irgendwann, jederzeit, jedes Mal, bereits, extra, manchmal, sonst, weiter/weiter-, wieder/wieder-
+
+## Gesellschaft, Politik & Wirtschaft (20 words, 2 scenes)
+  scene 1 [None] (13): der Ausländer / die Ausländerin, ausländisch, außerhalb, die Chance, die Bevölkerung, egal, die Freiheit, die Geschichte, der Gott, die Gewalt, der Mensch, menschlich, der Nachteil
+  scene 2 [None] (7): die Pflicht, populär, die Wirtschaft, die Welt, weltweit, die Zusammenarbeit, zusätzlich
+
+## Menge, Maß & Eigenschaften (151 words, 12 scenes)
+  scene 1 [Größe, Form & Menge] (13): groß, Groß-, die Größe, klein, die Breite, dick, hoch, die Höhe, tief, steil, riesig, die Menge, die Gruppe
+  scene 2 [Größe, Form & Menge] (14): messen, das Mal, mal, Einzel-, einzeln, einzig-, sämtliche, die Einzelheit, insgesamt, minimal, die Leiter, das Mittel, der Gegenstand, das Ding
+  scene 3 [Qualität & Bewertung] (13): gut, schlecht, schlimm, ausgezeichnet, perfekt, ideal, praktisch, preiswert, prima, super, positiv, optimistisch, realistisch
+  scene 4 [Qualität & Bewertung] (13): original, das Original, echt, die Qualität, wertlos, wertvoll, wert, der Wert, nützlich, nötig, notwendig, erforderlich, erfordern
+  scene 5 [Qualität & Bewertung] (9): gültig, haltbar, streng, der Vorteil, tolerant, die Fähigkeit, fair, gerecht, gleichberechtigt
+  scene 6 [Grad & Vergleich] (13): absolut, allgemein, ähnlich, all-, aller-, ander-, andererseits, anders, besonder-, besonders, bestimmt, deutlich, durchschnittlich
+  scene 7 [Grad & Vergleich] (13): der Durchschnitt, eindeutig, einheitlich, einig-, einfach, gering, genug, genügen, ausreichend, ausreichen, umgekehrt, höchstens, unterschiedlich
+  scene 8 [Grad & Vergleich] (16): verschieden, vergrößern, verlängern, verwechseln, total, übertreiben, ungewöhnlich, unglaublich, unheimlich, verständlich, ziemlich, zahlreich, regional, stilistisch, -weise, vorwärts
+  scene 9 [Charakter von Dingen (Konsistenz & Tempo)] (13): stark, schwach, schwer, die Schwierigkeit, schwierig, bequem, kräftig, knapp, klug, intelligent, die Intelligenz, intensiv, individuell
+  scene 10 [Charakter von Dingen (Konsistenz & Tempo)] (13): häufig, schnell, scharf, spannend, teuer, der Satz, treu, wild, zuverlässig, zufrieden, wahnsinnig, weiblich, reif
+  scene 11 [Charakter von Dingen (Konsistenz & Tempo)] (13): reich, das Gewicht, der Gegensatz, das Tempo, voll, hübsch, pauschal, korrigieren, mündlich, eher, ehrlich, der Bedarf, die Entfernung
+  scene 12 [Charakter von Dingen (Konsistenz & Tempo)] (8): enthalten, flexibel, die Gewohnheit, gewohnt, gewöhnlich, gewöhnen, furchtbar, schlank
+
+## Handlungen: Alltagsverben (191 words, 15 scenes)
+  scene 1 [Verwaltung, Organisieren & Absprachen] (13): abgeben, abmachen, absagen, abstimmen, bedienen, die Bedienungsanleitung, beraten, die Beratung, bestätigen, die Bestätigung, bestehen, bestellen, betreuen
+  scene 2 [Verwaltung, Organisieren & Absprachen] (13): der Betreuer / die Betreuerin, die Betreuung, dienen, einsetzen, einstellen, eintragen, unterbrechen, unternehmen, unterlassen, verpflichtet, verschieben, (sich) vorbereiten, die Vorbereitung
+  scene 3 [Verwaltung, Organisieren & Absprachen] (13): vorhaben, zusagen, zusammenfassen, unterscheiden, besprechen, die Besprechung, darstellen, die Darstellung, verteilen, umtauschen, der Umtausch, verwenden, warten
+  scene 4 [Geben, Nehmen & Besitzen] (13): abheben, abholen, bekommen, benötigen, benutzen, besitzen, besorgen, bringen, geben, gebrauchen, die Gebrauchsanweisung, gehören, greifen
+  scene 5 [Geben, Nehmen & Besitzen] (11): halten, der Halt, heben, holen, kriegen, leihen, liefern, die Lieferung, tragen, treiben, die Stelle
+  scene 6 [Körperliche Alltagsaktionen] (13): aufhalten, aufheben, anschließen, ausziehen, aufräumen, aufpassen, drehen, drucken, der Drucker, drücken, der Druck, fangen, bleiben
+  scene 7 [Körperliche Alltagsaktionen] (13): gehen, heißen, kämpfen, der Kampf, sich kümmern, lächeln, lachen, leben, löschen, machen, pflanzen, die Pflanze, schaffen
+  scene 8 [Körperliche Alltagsaktionen] (13): schalten, schauen, zuschauen, schließen, (sich) schneiden, schneien, schütteln, sammeln, sinken, schlagen, rennen, schießen, springen
+  scene 9 [Körperliche Alltagsaktionen] (13): staubsaugen, spülen, stürzen, tauschen, teilen, tauchen, stehlen, stinken, (sich) stoßen, treffen, treten, tun, üben
+  scene 10 [Körperliche Alltagsaktionen] (13): überlegen, übernehmen, verlassen, verlieren, (sich) verstecken, (sich) verstehen, versuchen, vermeiden, vergleichen, der Vergleich, verpacken, verschwinden, vergessen
+  scene 11 [Körperliche Alltagsaktionen] (13): verbringen, verbrauchen, verbinden, die Verbindung, (sich) verbessern, unterstreichen, vergeblich, verzichten, (sich) waschen, wechseln, sich weigern, weinen, wenden
+  scene 12 [Körperliche Alltagsaktionen] (12): werfen, wiegen, winken, ziehen, zugehen, zumachen, zunehmen, zurechtkommen, wehtun, steigen, stoppen, stören
+  scene 13 [Bemühen, Wandel & Reaktion] (13): ändern, die Änderung, anfangen, aufhören, aufladen, ausmachen, sich bemühen, beschränken, beschreiben, die Beschreibung, behalten, behandeln, der Beitrag
+  scene 14 [Bemühen, Wandel & Reaktion] (13): klagen, entfernen, ersetzen, der Ersatz, gelingen, integrieren, die Integration, helfen, die Hilfe, sorgen, die Sorge, sparen, sparsam
+  scene 15 [Bemühen, Wandel & Reaktion] (12): spazieren gehen, der Spaziergang, suchen, reduzieren, protestieren, der Protest, abnehmen, beobachten, berechnen, dekorieren, bieten, brauchen
+
+## Denken, Wissen & Meinen (156 words, 12 scenes)
+  scene 1 [Meinen, Wissen & Überzeugen] (13): meinen, die Meinung, glauben, wissen, das Wissen, die Wissenschaft, der Wissenschaftler / die Wissenschaftlerin, wahr, die Wahrheit, wichtig, widersprechen, wirklich, die Wirklichkeit
+  scene 2 [Meinen, Wissen & Überzeugen] (13): der Zweifel, zweifeln, zustimmen, die Zustimmung, vermuten, vernünftig, das Verständnis, akzeptieren, bekannt, bemerken, sich irren, beweisen, der Beweis
+  scene 3 [Meinen, Wissen & Überzeugen] (12): begründen, die Begründung, ordentlich, realisieren, die Realität, reagieren, die Reaktion, ausschließen, ausschließlich, annehmen, genehmigen, gelten
+  scene 4 [Entscheiden, Planen & Feststellen] (13): entscheiden, die Entscheidung, unentschieden, sich entschließen, entschlossen, beschließen, sich einigen, wählen, die Wahl, der Unterschied, vorkommen, festhalten, festlegen
+  scene 5 [Entscheiden, Planen & Feststellen] (14): feststehen, feststellen, finden, führen, beachten, beschäftigen, die Beschäftigung, die Art, auflösen, die Reihenfolge, die Reihe, reichen, das Ziel, der Zustand
+  scene 6 [Erinnern, Entdecken & Verstehen] (13): der Gedanke, denken, erinnern, die Erinnerung, erkennen, entdecken, erfinden, die Erfindung, erwarten, nachdenken, nachschlagen, kennen, kennenlernen
+  scene 7 [Erinnern, Entdecken & Verstehen] (17): die Kenntnisse, merken, merkwürdig, sich nähern, die Nähe, das Geheimnis, geheim, die Herkunft, der Inhalt, gründlich, sichtbar, scheinen, der Schein, seltsam, typisch, der Typ, der Tipp
+  scene 8 [Streit, Absicht & Gemütslage (abstrakt)] (13): abhängen, abhängig, die Ahnung, ablehnen, die Absicht, achten, auffallen, aufmerksam, die Alternative, alternativ, der Bescheid, Bescheid sagen, Bescheid geben
+  scene 9 [Streit, Absicht & Gemütslage (abstrakt)] (13): die Distanz, doch, der Eindruck, einerseits, einfallen, der Einfall, der Einfluss, beeinflussen, der Faktor, fassen, der Kompromiss, die Konferenz, die Konkurrenz
+  scene 10 [Streit, Absicht & Gemütslage (abstrakt)] (13): die Lage, die Liste, die Lösung, lösen, die Lüge, lügen, die Methode, mischen, die Nachfrage, die Nachricht, das Problem, der Respekt, sinnlos
+  scene 11 [Streit, Absicht & Gemütslage (abstrakt)] (13): sinnvoll, der Sinn, schätzen, die Rücksicht, die Situation, der/dasObers, die Stimmung, die Tat, die Tatsache, die Störung, (sich) überzeugen, die Überzeugung, überraschen
+  scene 12 [Streit, Absicht & Gemütslage (abstrakt)] (9): die Überraschung, das Verhalten, sich verhalten, das Verhältnis, die Praxis, das Gewissen, geschehen, bewegen, der Zusammenhang
+
+## Raum & Richtung (83 words, 7 scenes)
+  scene 1 [Präpositionen (Ort/Zeit/Grund)] (13): ab, an, auf, aus, bei, bis, durch, entlang, für, gegen, gegenüber, in, mit
+  scene 2 [Präpositionen (Ort/Zeit/Grund)] (16): nach, neben, ohne, per, pro, seit, statt, trotz, über, um, unter, von, vor, während, wegen, zwischen
+  scene 3 [Richtung & Ort (Raumadverbien)] (13): da, dabei, dafür, dagegen, daher, dahin, damit, daneben, dort, dorthin, drüben, drin, entgegenkommen
+  scene 4 [Richtung & Ort (Raumadverbien)] (13): her/her-, heraus-, herein-, herunter-, hier/hier-, hierher, hinten, hinter/hinter-, innen, inner-, innerhalb, nah, nebenan
+  scene 5 [Richtung & Ort (Raumadverbien)] (13): nebenbei, oben, ober-, unten, unter-, unterwegs, vorn, vorder-, quer, rauf/rauf-, raus/raus-, rechts, überall
+  scene 6 [Richtung & Ort (Raumadverbien)] (6): vorbei/vorbei-, weg/weg-, zurück/zurück-, geradeaus, weit, lang
+  scene 7 [Positionsverben (stehen/liegen/setzen/stellen/hängen)] (9): liegen, stellen, stecken, hängen, stehen, stehen bleiben, (sich) setzen, sitzen, legen
+
+## Logik & Verbindungen (36 words, 3 scenes)
+  scene 1 [Konjunktionen & Satzverbinder] (13): aber, als, als ob, also, bevor, dass, denn, deshalb, deswegen, doch, entweder ... oder, indem, je … desto …
+  scene 2 [Konjunktionen & Satzverbinder] (17): jedoch, nachdem, obwohl, oder, seitdem, sobald, sodass, solange, sondern, sowohl … als auch, trotzdem, und, weder … noch, weil, wenn, um … zu, falls
+  scene 3 [Bedingungen, Ausnahmen & Folgen] (6): die Bedingung, die Ausnahme, die Folge, folgen, folgend, die Voraussetzung
+
+## Grammatik-Glue (Pronomen, Partikeln, Kernverben) (200 words, 15 scenes)
+  scene 1 [Fragewörter] (13): was, was für ein-, wann, warum, weshalb, wie, wieso, wie viel, wo, woher, wohin, wer, welcher
+  scene 2 [Grad-, Mengen- & Modalpartikeln] (13): auch, außer, außerdem, beinahe, direkt, eben, ebenfalls, ebenso, extrem, ganz, gar, genau, genauso
+  scene 3 [Grad-, Mengen- & Modalpartikeln] (13): gleich, gleichfalls, gleichzeitig, kaum, komplett, mehr, mehrere, mindestens, möglichst, nur, paar, recht, relativ
+  scene 4 [Grad-, Mengen- & Modalpartikeln] (13): richtig, sehr, sicher, so, sogar, soviel, so viel/so viel wie, sowieso, überhaupt, umso, umsonst, ungefähr, viel/viele
+  scene 5 [Grad-, Mengen- & Modalpartikeln] (16): vielleicht, völlig, wenig/wenige, wenigstens, zusammen/zusammen-, allerdings, ja, nämlich, natürlich, offenbar, schon, selbstverständlich, wahrscheinlich, vermutlich, zwar, wohl
+  scene 6 [Pronomen & Artikelwörter] (13): derselbe, dies-, eigen-, es, jeder, kein-, man, manch-, nichts, niemand, selb-, selbst, selber
+  scene 7 [Pronomen & Artikelwörter] (16): solch-, irgendirgendein, jemand, jemals, nirgends, nirgendwo, nie, nein, beid-, ein bisschen, meinetwegen, möglich, die Möglichkeit, worüber, worum, zufällig
+  scene 8 [Modal- & Hilfsverben] (11): dürfen, können, möchten, mögen, müssen, sollen, wollen, werden, haben, sein, lassen
+  scene 9 [Alltags-Kleinwörter & Small Talk] (13): bloß, der Fall, fällig, falsch, fast, frei, im Freien, freiwillig, fremd, das Geschlecht, auseinander, begleiten, das Detail
+  scene 10 [Alltags-Kleinwörter & Small Talk] (13): das Gegenteil, sich befinden, gucken, halt, klar, klappen, klären, komisch, kommen, kompliziert, korrekt, die Länge, leid tun
+  scene 11 [Alltags-Kleinwörter & Small Talk] (13): heim, hinterlassen, miteinander, mitten, mittler-, nett, neu, nicht, niedrig, normal, Lieblings-, ob, offen
+  scene 12 [Alltags-Kleinwörter & Small Talk] (13): privat, nutzen, passen, die Sache, passiv, riechen, sehen, die Seite, stattfinden, stammen, Speise-/-speise, Spezial-, speziell
+  scene 13 [Alltags-Kleinwörter & Small Talk] (13): stumm, die Stufe, das Teil, der Teil, das Stück/-stück, übrig, übrigens, unbedingt, un-, vertrauen, voneinander, vor allem, voraus
+  scene 14 [Alltags-Kleinwörter & Small Talk] (13): ursprünglich, zu, zu sein, wachsen, der Zweck, einschließlich, einverstanden, entstehen, erfüllen, ergänzen, etwa, etwas, eventuell
+  scene 15 [Alltags-Kleinwörter & Small Talk] (14): miss-, mobil/mobil-, national/national-, negativ, durcheinander, eigentlich, fallen, gern/gerne, gesamt-/Gesamt-, je, nehmen, nennen, recht-, sogenannt-
+
