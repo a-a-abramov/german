@@ -26,7 +26,7 @@ groundwork/
 │                                concrete→abstract cram order. Write texts FROM this.
 └── glue-pool.md              ← 326 closed-class function words (prepositions, pronouns,
                                  particles…). NOT scened — woven through every batch's texts.
-batch-01-in-der-wohnung/      ← a COMPLETED batch — the reference example of both content types
+batch-NN-<topic>/             ← one dir per batch (NONE YET — first is TBD). Each holds:
 ├── wordlist.md               ← frozen word list (article · plural/verb forms · gloss)
 ├── texts.md                  ← CONTENT TYPE 1: the cramming texts
 ├── anki-cloze.txt            ← CONTENT TYPE 2: cloze cards (import as Cloze note type)
@@ -98,5 +98,6 @@ time it lands in any finalized text, until all 326 are covered.
 
 ## Batches
 
-- `batch-01-in-der-wohnung/` — complete (reference example).
-- Remaining topics: see `groundwork/topics.md`.
+- None yet. (An earlier `batch-01-in-der-wohnung/` was removed — it predated this
+  taxonomy/glue-pool structure; recoverable from git history if a reference is wanted.)
+- Pick the first from `groundwork/topics.md` (start with a Stage A topic).
