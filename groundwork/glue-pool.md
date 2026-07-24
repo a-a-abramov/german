@@ -34,7 +34,7 @@ Repetition across many texts is expected and good — that's how glue words actu
 ### Konjunktionen & Satzverbinder — 32 words
 *Sentence connectors — reach for these constantly; almost every text can carry several.*
 
-`☐ aber` `☐ als` `☐ als ob` `☐ also` `☐ bevor` `☐ dass` `☐ denn` `☐ deshalb` `☐ deswegen` `☐ doch` `☐ entweder ... oder` `☐ indem` `☐ je … desto …` `☐ jedoch` `☐ nachdem` `☐ obwohl` `☐ oder` `☐ seitdem` `☐ sobald` `☐ sodass` `☐ solange` `☐ sondern` `☐ sowohl … als auch` `☐ trotzdem` `☐ und` `☐ weder … noch` `☐ weil` `☐ wenn` `☐ um … zu` `☐ falls` `☐ einerseits` `☐ andererseits`
+`☑ aber` `☑ als` `☐ als ob` `☑ also` `☑ bevor` `☑ dass` `☑ denn` `☐ deshalb` `☐ deswegen` `☑ doch` `☐ entweder ... oder` `☐ indem` `☐ je … desto …` `☐ jedoch` `☐ nachdem` `☐ obwohl` `☐ oder` `☐ seitdem` `☐ sobald` `☑ sodass` `☐ solange` `☐ sondern` `☐ sowohl … als auch` `☐ trotzdem` `☑ und` `☐ weder … noch` `☑ weil` `☑ wenn` `☑ um … zu` `☐ falls` `☐ einerseits` `☐ andererseits`
 
 ### Bedingungen, Ausnahmen & Folgen — 6 words
 *The "rule / exception / consequence" cluster — natural in any negotiation, complaint, or bureaucracy scene.*
@@ -44,37 +44,37 @@ Repetition across many texts is expected and good — that's how glue words actu
 ### Präpositionen — 29 words
 *Prepositions — unavoidable in every single sentence; you will tick most of these off almost immediately, but check them off deliberately so none is forgotten.*
 
-`☐ ab` `☐ an` `☐ auf` `☐ aus` `☐ bei` `☐ bis` `☐ durch` `☐ entlang` `☐ für` `☐ gegen` `☐ gegenüber` `☐ in` `☐ mit` `☐ nach` `☐ neben` `☐ ohne` `☐ per` `☐ pro` `☐ seit` `☐ statt` `☐ trotz` `☐ über` `☐ um` `☐ unter` `☐ von` `☐ vor` `☐ während` `☐ wegen` `☐ zwischen`
+`☐ ab` `☑ an` `☑ auf` `☑ aus` `☑ bei` `☑ bis` `☑ durch` `☐ entlang` `☑ für` `☑ gegen` `☐ gegenüber` `☑ in` `☑ mit` `☑ nach` `☑ neben` `☐ ohne` `☐ per` `☐ pro` `☑ seit` `☑ statt` `☑ trotz` `☑ über` `☑ um` `☑ unter` `☑ von` `☑ vor` `☑ während` `☐ wegen` `☑ zwischen`
 
 ### Richtungs- & Pronominaladverbien — 41 words
 *Directional & pronominal adverbs (da-/hier-/her-/hin- compounds, oben/unten/rechts/dort…) — the connective half of any spatial description. Their picturable partners (the position verbs stehen/liegen/setzen… and the dimensions nah/weit/lang) stayed in a real scene, "Der Umzugstag" under Handlungen; these pure locators live here.*
 
-`☐ da` `☐ dabei` `☐ dafür` `☐ dagegen` `☐ daher` `☐ dahin` `☐ damit` `☐ daneben` `☐ dort` `☐ dorthin` `☐ drüben` `☐ drin` `☐ her/her-` `☐ heraus-` `☐ herein-` `☐ herunter-` `☐ hier/hier-` `☐ hierher` `☐ hinten` `☐ hinter/hinter-` `☐ innen` `☐ inner-` `☐ innerhalb` `☐ nebenan` `☐ nebenbei` `☐ oben` `☐ ober-` `☐ unten` `☐ unter-` `☐ unterwegs` `☐ vorn` `☐ vorder-` `☐ quer` `☐ rauf/rauf-` `☐ raus/raus-` `☐ rechts` `☐ überall` `☐ vorbei/vorbei-` `☐ weg/weg-` `☐ zurück/zurück-` `☐ geradeaus`
+`☐ da` `☑ dabei` `☑ dafür` `☐ dagegen` `☐ daher` `☐ dahin` `☐ damit` `☑ daneben` `☑ dort` `☐ dorthin` `☐ drüben` `☐ drin` `☐ her/her-` `☐ heraus-` `☐ herein-` `☐ herunter-` `☑ hier/hier-` `☐ hierher` `☑ hinten` `☐ hinter/hinter-` `☐ innen` `☐ inner-` `☐ innerhalb` `☐ nebenan` `☐ nebenbei` `☐ oben` `☐ ober-` `☐ unten` `☐ unter-` `☐ unterwegs` `☐ vorn` `☐ vorder-` `☐ quer` `☐ rauf/rauf-` `☐ raus/raus-` `☐ rechts` `☑ überall` `☐ vorbei/vorbei-` `☑ weg/weg-` `☑ zurück/zurück-` `☐ geradeaus`
 
 ### Fragewörter — 13 words
 *Question words — any dialogue, interview, or interrogation scene mops these up fast.*
 
-`☐ was` `☐ was für ein-` `☐ wann` `☐ warum` `☐ weshalb` `☐ wie` `☐ wieso` `☐ wie viel` `☐ wo` `☐ woher` `☐ wohin` `☐ wer` `☐ welcher`
+`☐ was` `☐ was für ein-` `☐ wann` `☐ warum` `☐ weshalb` `☐ wie` `☐ wieso` `☐ wie viel` `☑ wo` `☐ woher` `☑ wohin` `☐ wer` `☑ welcher`
 
 ### Grad-, Mengen- & Modalpartikeln — 73 words
 *Degree / quantity / hedging particles & quantifier-determiners (sehr, ziemlich, genug, sämtliche, all-, insgesamt…) — sprinkle freely; German speech is full of them.*
 
-`☐ auch` `☐ außer` `☐ außerdem` `☐ beinahe` `☐ direkt` `☐ eben` `☐ ebenfalls` `☐ ebenso` `☐ extrem` `☐ ganz` `☐ gar` `☐ genau` `☐ genauso` `☐ gleich` `☐ gleichfalls` `☐ gleichzeitig` `☐ kaum` `☐ komplett` `☐ mehr` `☐ mehrere` `☐ mindestens` `☐ möglichst` `☐ nur` `☐ paar` `☐ recht` `☐ relativ` `☐ richtig` `☐ sehr` `☐ sicher` `☐ so` `☐ sogar` `☐ soviel` `☐ so viel/so viel wie` `☐ sowieso` `☐ überhaupt` `☐ umso` `☐ umsonst` `☐ ungefähr` `☐ viel/viele` `☐ vielleicht` `☐ völlig` `☐ wenig/wenige` `☐ wenigstens` `☐ zusammen/zusammen-` `☐ allerdings` `☐ ja` `☐ nämlich` `☐ natürlich` `☐ offenbar` `☐ schon` `☐ selbstverständlich` `☐ wahrscheinlich` `☐ vermutlich` `☐ zwar` `☐ wohl` `☐ sämtliche` `☐ insgesamt` `☐ all-` `☐ aller-` `☐ ander-` `☐ anders` `☐ besonders` `☐ einig-` `☐ genug` `☐ höchstens` `☐ total` `☐ ziemlich` `☐ absolut` `☐ eher` `☐ -weise` `☐ vorwärts` `☐ mal` `☐ ausschließlich`
+`☑ auch` `☐ außer` `☑ außerdem` `☐ beinahe` `☐ direkt` `☐ eben` `☐ ebenfalls` `☐ ebenso` `☐ extrem` `☑ ganz` `☐ gar` `☑ genau` `☐ genauso` `☑ gleich` `☐ gleichfalls` `☐ gleichzeitig` `☑ kaum` `☐ komplett` `☑ mehr` `☐ mehrere` `☐ mindestens` `☐ möglichst` `☑ nur` `☑ paar` `☐ recht` `☐ relativ` `☑ richtig` `☐ sehr` `☐ sicher` `☑ so` `☑ sogar` `☐ soviel` `☐ so viel/so viel wie` `☐ sowieso` `☐ überhaupt` `☐ umso` `☐ umsonst` `☐ ungefähr` `☑ viel/viele` `☐ vielleicht` `☐ völlig` `☐ wenig/wenige` `☐ wenigstens` `☐ zusammen/zusammen-` `☐ allerdings` `☑ ja` `☐ nämlich` `☐ natürlich` `☐ offenbar` `☑ schon` `☐ selbstverständlich` `☐ wahrscheinlich` `☐ vermutlich` `☐ zwar` `☐ wohl` `☐ sämtliche` `☐ insgesamt` `☑ all-` `☐ aller-` `☑ ander-` `☐ anders` `☐ besonders` `☐ einig-` `☑ genug` `☐ höchstens` `☐ total` `☐ ziemlich` `☐ absolut` `☐ eher` `☐ -weise` `☐ vorwärts` `☐ mal` `☐ ausschließlich`
 
 ### Pronomen & Artikelwörter — 29 words
 *Pronouns & determiners — unavoidable glue; they appear whether you plan them or not, but tick them off deliberately.*
 
-`☐ derselbe` `☐ dies-` `☐ eigen-` `☐ es` `☐ jeder` `☐ kein-` `☐ man` `☐ manch-` `☐ nichts` `☐ niemand` `☐ selb-` `☐ selbst` `☐ selber` `☐ solch-` `☐ irgendirgendein` `☐ jemand` `☐ jemals` `☐ nirgends` `☐ nirgendwo` `☐ nie` `☐ nein` `☐ beid-` `☐ ein bisschen` `☐ meinetwegen` `☐ möglich` `☐ die Möglichkeit` `☐ worüber` `☐ worum` `☐ zufällig`
+`☐ derselbe` `☑ dies-` `☑ eigen-` `☑ es` `☑ jeder` `☑ kein-` `☑ man` `☐ manch-` `☐ nichts` `☐ niemand` `☐ selb-` `☑ selbst` `☐ selber` `☐ solch-` `☐ irgendirgendein` `☑ jemand` `☐ jemals` `☐ nirgends` `☐ nirgendwo` `☐ nie` `☐ nein` `☐ beid-` `☑ ein bisschen` `☐ meinetwegen` `☐ möglich` `☐ die Möglichkeit` `☐ worüber` `☐ worum` `☐ zufällig`
 
 ### Modal- & Hilfsverben — 11 words
 *Modal & auxiliary verbs — every text with a plan, wish, or obligation uses these.*
 
-`☐ dürfen` `☐ können` `☐ möchten` `☐ mögen` `☐ müssen` `☐ sollen` `☐ wollen` `☐ werden` `☐ haben` `☐ sein` `☐ lassen`
+`☐ dürfen` `☑ können` `☐ möchten` `☐ mögen` `☑ müssen` `☑ sollen` `☑ wollen` `☑ werden` `☑ haben` `☑ sein` `☑ lassen`
 
 ### Alltags-Kleinwörter & Small Talk — 92 words
 *Mixed bag: filler/small words PLUS some picturable content words (riechen, wachsen, begleiten, das Detail…) that were dumped in the old grammar catch-all. The content words MAY migrate into concrete batches on a later pass; until then, cover them here.*
 
-`☐ bloß` `☐ der Fall` `☐ fällig` `☐ falsch` `☐ fast` `☐ frei` `☐ im Freien` `☐ freiwillig` `☐ fremd` `☐ das Geschlecht` `☐ auseinander` `☐ begleiten` `☐ das Detail` `☐ das Gegenteil` `☐ sich befinden` `☐ gucken` `☐ halt` `☐ klar` `☐ klappen` `☐ klären` `☐ komisch` `☐ kommen` `☐ kompliziert` `☐ korrekt` `☐ die Länge` `☐ leid tun` `☐ heim` `☐ hinterlassen` `☐ miteinander` `☐ mitten` `☐ mittler-` `☐ nett` `☐ neu` `☐ nicht` `☐ niedrig` `☐ normal` `☐ Lieblings-` `☐ ob` `☐ offen` `☐ privat` `☐ nutzen` `☐ passen` `☐ die Sache` `☐ passiv` `☐ riechen` `☐ sehen` `☐ die Seite` `☐ stattfinden` `☐ stammen` `☐ Speise-/-speise` `☐ Spezial-` `☐ speziell` `☐ stumm` `☐ die Stufe` `☐ das Teil` `☐ der Teil` `☐ das Stück/-stück` `☐ übrig` `☐ übrigens` `☐ unbedingt` `☐ un-` `☐ vertrauen` `☐ voneinander` `☐ vor allem` `☐ voraus` `☐ ursprünglich` `☐ zu` `☐ zu sein` `☐ wachsen` `☐ der Zweck` `☐ einschließlich` `☐ einverstanden` `☐ entstehen` `☐ erfüllen` `☐ ergänzen` `☐ etwa` `☐ etwas` `☐ eventuell` `☐ miss-` `☐ mobil/mobil-` `☐ national/national-` `☐ negativ` `☐ durcheinander` `☐ eigentlich` `☐ fallen` `☐ gern/gerne` `☐ gesamt-/Gesamt-` `☐ je` `☐ nehmen` `☐ nennen` `☐ recht-` `☐ sogenannt-`
+`☐ bloß` `☐ der Fall` `☐ fällig` `☐ falsch` `☑ fast` `☐ frei` `☐ im Freien` `☐ freiwillig` `☐ fremd` `☐ das Geschlecht` `☐ auseinander` `☐ begleiten` `☐ das Detail` `☐ das Gegenteil` `☐ sich befinden` `☐ gucken` `☐ halt` `☐ klar` `☐ klappen` `☐ klären` `☐ komisch` `☑ kommen` `☐ kompliziert` `☐ korrekt` `☐ die Länge` `☐ leid tun` `☐ heim` `☐ hinterlassen` `☐ miteinander` `☑ mitten` `☐ mittler-` `☐ nett` `☑ neu` `☑ nicht` `☐ niedrig` `☐ normal` `☐ Lieblings-` `☐ ob` `☐ offen` `☐ privat` `☐ nutzen` `☐ passen` `☐ die Sache` `☐ passiv` `☐ riechen` `☐ sehen` `☑ die Seite` `☐ stattfinden` `☐ stammen` `☐ Speise-/-speise` `☐ Spezial-` `☐ speziell` `☐ stumm` `☐ die Stufe` `☐ das Teil` `☐ der Teil` `☑ das Stück/-stück` `☐ übrig` `☐ übrigens` `☐ unbedingt` `☐ un-` `☐ vertrauen` `☐ voneinander` `☐ vor allem` `☐ voraus` `☐ ursprünglich` `☐ zu` `☐ zu sein` `☐ wachsen` `☐ der Zweck` `☐ einschließlich` `☐ einverstanden` `☐ entstehen` `☐ erfüllen` `☐ ergänzen` `☐ etwa` `☐ etwas` `☐ eventuell` `☐ miss-` `☐ mobil/mobil-` `☐ national/national-` `☐ negativ` `☐ durcheinander` `☑ eigentlich` `☐ fallen` `☐ gern/gerne` `☐ gesamt-/Gesamt-` `☐ je` `☐ nehmen` `☐ nennen` `☐ recht-` `☐ sogenannt-`
 
 ---
 
