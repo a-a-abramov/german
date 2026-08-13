@@ -28,6 +28,7 @@ The user learns by **mnemonic grounding**: a text works only if the depicted sit
 | `groundwork/glue-pool.md` | **326 closed-class function words** (prepositions, connectors, pronouns, particles…) with a checkbox tracker. | Weave these through the texts as connective tissue. **Rule: OK to repeat, NOT OK to omit.** Tick each word (`☐`→`☑`) the first time you use it. Coverage is across the **whole corpus**, not per batch. |
 | `goethe-b1-wortliste.csv` | **Source of truth.** 2,886 rows. Col 1 = headword *with forms* (`der Teppich, -e`; `abbiegen, biegt ab, bog ab, ist abgebogen`). Col 2 = official example sentences. | Pull exact genders/plurals/verb forms; grab a gloss; **validate every word against it**. |
 | `README.md` | Overall orientation. | Background. |
+| `groundwork/dwds-wortprofil-guide.md` | **Collocation method.** How to read DWDS-Wortprofil, and `tools/wortprofil.py`, which turns a saved Wortprofil page into a B1-filtered table of *attested chunks* (`eine Tasse trinken`, `aus der Tasse trinken`, `Tassen und Teller`). | Read §1.4 and §4 before writing. If `batch-NN-*/chunks.md` exists, **build sentences out of those chunks** (see Step 3b). |
 
 **The scene word-lists are alphabetical slices, not tidy themes.** One scene may mix (e.g.) trash, a caretaker, and a construction site. So treat the given premise as a **springboard you stretch** to accommodate the exact 13 words into one imaginable situation — adapt or reshape the premise as needed. Your hard constraints are: *all target words featured*, *imaginable*, *correct German*. If a word truly won't fit that scene's situation, you may move it to a sibling scene in the same topic — but it must land somewhere, and the topic's full word set must still be covered.
 
@@ -61,12 +62,36 @@ batch-NN-<slug>/
 - A few **known source artifacts** exist and are NOT your fault — e.g. `irgendirgendein` (a typo for `irgendein`) and `der/dasObers` (a mangled homonym). Use the sensible intended form; don't treat them as missing.
 - Table columns: `| word (with article) | forms | gloss | text | carded? |`.
 
+**Step 2a — Rank the batch by frequency.** Fully automatic, no manual step, a few seconds:
+
+```bash
+python3 tools/wordfreq.py batch-NN-<slug>/wordlist.md
+```
+
+Gives each word a DWDS frequency band (0–6, **higher = more frequent**). Spend the
+scene's prominent, most-memorable positions on the high-band words; let band-0/1 words
+(`der Fauteuil`, `das Stiegenhaus`) ride along in a subordinate clause. `n/a` means
+DWDS couldn't attribute the count (usually a homograph like `Schloss`) — **not** rare.
+Spot-check just those few with `--words Schloss locker --hits`; never sweep a whole
+wordlist with `--hits` (the tool refuses past 25 words, and explains why).
+
+**Step 2b — Harvest chunks → `chunks.md`** *(optional, recommended; see `groundwork/dwds-wortprofil-guide.md`)*. Pick the **10–20 load-bearing nouns and verbs** of the batch — the ones the scenes actually turn on, not all 148 words. The user opens each one's DWDS-Wortprofil page in a browser and saves it to `dwds-cache/` (the site's robots.txt forbids automated access to `/wp` — **never fetch it yourself**). Then:
+
+```bash
+python3 tools/wortprofil.py dwds-cache/*.html > batch-NN-<slug>/chunks.md
+```
+
+That yields, per word, the *attested* combinations filtered to Goethe A1∪A2∪B1 and rendered as ready-to-use chunks (`eine heiße Tasse`, `eine Tasse trinken`, `aus der Tasse trinken`, `die Tasse im Schrank`, `Tassen und Teller`).
+
+No saved pages to hand? `python3 tools/leipzig.py <word>…` needs none — it calls the Leipzig Corpora Collection API (CC BY 4.0) directly. Weaker data (no grammatical relation labels, small news-skewed corpora) but instant and scriptable. See the guide's Part Five.
+
 **Step 3 — Write the texts (CONTENT TYPE 1) → `texts.md`.** One text per scene:
 - **German only.** 4–8 sentences. Natural, native-sounding B1 German.
 - Use the scene's **premise + comedic angle** as the situation (springboard — adapt to fit the words).
 - Feature **every target word** of that scene, each in its **canonical B1 sense** with the **correct gender/article/form**. Cross-check tricky genders against the CSV.
 - **Weave in glue-pool words** naturally (connectors, prepositions, particles). Tick each one you use in `glue-pool.md`. Repeat freely across texts.
 - Bold the target words on first draft (optional) so coverage is easy to verify; the final memorized version needs no bolding.
+- **If `chunks.md` exists, build the sentences out of it.** Prefer an attested chunk over an arrangement you invented — same word count, same scene, but the grammar *between* the words is now real German rather than plausible German. Wortprofil never records the **case**, so you still supply it (`in den Schrank` vs `im Schrank`). Do not let a chunk drag in a non-B1 word, and never let chunk-fitting damage the imaginability of the scene — vividness still outranks idiomaticity.
 
 **Step 4 — Vet.** Confirm: (a) grammar, genders, verb forms correct; (b) **every target word present at least once**; (c) it reads like natural German a native would write; (d) every word validated against the CSV; (e) the situation is genuinely imaginable.
 

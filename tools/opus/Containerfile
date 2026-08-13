@@ -1,0 +1,17 @@
+# Self-contained spaCy German parsing environment for the OpenSubtitles Wortprofil
+# build. Everything the overnight run needs is baked in at build time so the run
+# itself can execute with --network=none.
+FROM docker.io/library/python:3.12-slim
+
+RUN pip install --no-cache-dir "spacy==3.8.*" \
+ && python -m spacy download de_core_news_sm
+
+# Record exactly what we got — never hand-write these versions from memory.
+RUN pip freeze > /opt/pip-freeze.txt \
+ && python -c "import spacy, de_core_news_sm; \
+print('spacy', spacy.__version__); \
+print('model', de_core_news_sm.load().meta['version'])" > /opt/versions.txt \
+ && cat /opt/versions.txt
+
+WORKDIR /work
+ENV PYTHONUNBUFFERED=1

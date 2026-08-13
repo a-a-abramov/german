@@ -21,14 +21,32 @@ texts don't exist yet: the cards are derived content.
 ```
 README.md                     ← this file: the method + the two content types
 TEXT-WRITER.md                ← self-contained brief for the agent that writes the texts + cards
+WORTPROFIL.md                 ← MANUAL: querying the OpenSubtitles collocation database
 goethe-b1-wortliste.csv       ← SOURCE OF TRUTH: official Goethe B1 Wortliste (2,886 entries)
 groundwork/
 ├── topics.md                 ← master plan: 23 scene-topics, 204 scene OUTLINES,
 │                                concrete→abstract cram order. Write texts FROM this.
-└── glue-pool.md              ← 326 closed-class function words (prepositions, pronouns,
-                                 particles…). NOT scened — woven through every batch's texts.
+├── glue-pool.md              ← 326 closed-class function words (prepositions, pronouns,
+│                                particles…). NOT scened — woven through every batch's texts.
+├── dwds-wortprofil-guide.md  ← COLLOCATION METHOD: how to read DWDS-Wortprofil, and why
+│                                the texts are built from attested CHUNKS, not bare words.
+│                                Part Five = where to get collocations programmatically.
+└── diy-wortprofil-opensubtitles.md ← the original recipe for building your own
+                                 relation-typed collocation DB. BUILT 2026-08-13 — but its
+                                 Step 3 label table proved wrong in four ways; corrections
+                                 are in tools/opus/IMPLEMENTATION.md.
+tools/
+├── wortprofil.py             ← saved Wortprofil page → B1-filtered chunk table
+├── wortprofil_db.py          ← SAME output, queried from opus-de/wp.db (no browser needed)
+├── leipzig.py                ← collocations via the Leipzig API (CC BY 4.0, scriptable)
+├── wordfreq.py               ← batch wordlist → words ranked by DWDS corpus frequency
+└── opus/                     ← the pipeline that BUILDS wp.db (see its IMPLEMENTATION.md)
+opus-de/                      ← (git-ignored) wp.db, 1.5 GB. Built, not committed.
+dwds-cache/                   ← (git-ignored) Wortprofil pages you saved + Goethe A1/A2/B1
+                                 lemma lists. Not committed: DWDS/Goethe content.
 batch-NN-<topic>/             ← one dir per batch (NONE YET — first is TBD). Each holds:
 ├── wordlist.md               ← frozen word list (article · plural/verb forms · gloss)
+├── chunks.md                 ← (optional) attested collocations per load-bearing word
 ├── texts.md                  ← CONTENT TYPE 1: the cramming texts
 ├── anki-cloze.txt            ← CONTENT TYPE 2: cloze cards (import as Cloze note type)
 └── anki-basic.txt            ← CONTENT TYPE 2: word→meaning cards (import as Basic note type)
