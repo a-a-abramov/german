@@ -9,10 +9,23 @@ domestic and spoken. Film dialogue is the closest freely available register.
 Building it yourself gets you **all three things at once**: relation-typed collocations,
 a spoken register, and no access restrictions.
 
-**Status: designed and costed, NOT yet run.** Every URL, size, and version below was
-verified live on 2026-08-09. The dependency-label mapping in Step 3 is from memory of
-the TIGER scheme and **must be checked empirically** — Step 3a is that check. Don't
-trust the table until you've run it.
+> **STATUS: BUILT — 2026-08-13. This document is the original recipe, kept as the
+> design rationale. It is NOT the build record, and its Step 3 label table is WRONG.**
+>
+> The database exists (`opus-de/wp.db`, 1.5 GB) and is queried with `tools/wortprofil_db.py`
+> — see `WORTPROFIL.md` for the query manual. What was actually built, and how it differs
+> from what is written below, is in **`tools/opus/IMPLEMENTATION.md`**.
+>
+> **Before using anything in Step 3, read `tools/opus/IMPLEMENTATION.md` §4.** The
+> dependency-label mapping below was written from memory of the TIGER scheme and proved
+> wrong in four ways — the auxiliary hop, passive vs. future, coordination through the
+> conjunction, and predicatives on the copula. Each produces well-formed, plausible-looking,
+> worthless rows, and **nothing raises an error**. The corrections are structural (resolve
+> AUX → its `oc` child, check `VerbForm`, hop the `cd`, compare POS classes not tags), so
+> they do not reduce to fixes in the table's cells; that is why the table is left standing
+> here rather than patched.
+
+Every URL, size, and version below was verified live on 2026-08-09.
 
 ---
 
@@ -124,7 +137,11 @@ Print this before writing any counting code. Confirm with your own eyes which la
 lands on *Wohnung* (expect `oa`), on *Mieter* (expect `sb`), on *kleine* (expect `nk`).
 **If the labels differ from the table below, trust the output, not the table.**
 
-### The mapping (unverified — check against 3a)
+### The mapping (WRONG AS WRITTEN — see `tools/opus/IMPLEMENTATION.md` §4)
+
+> This table survived into the build and produced silent garbage. It is wrong in four
+> ways that no cell edit can express; `tools/opus/extract.py` is the corrected reference
+> implementation. Read it, or §4 of IMPLEMENTATION.md, before writing any counting code.
 
 | TIGER dep | Wortprofil relation | surfaces as |
 |---|---|---|
@@ -217,7 +234,9 @@ Step 2b doesn't change — it just stops needing manually saved pages.
 
 **Do the 5M validation run first and eyeball `Wohnung`, `Tasse`, `Schrank`.** If
 `mieten`, `trinken`, `Schrank` don't surface near the top, something's wrong with the
-label mapping — go back to Step 3a. Don't spend 10 hours before that check passes.
+label mapping — go back to Step 3a, and check your extractor against
+`tools/opus/IMPLEMENTATION.md` §4, which lists the four errors this table actually
+caused. Don't spend 10 hours before that check passes.
 
 ---
 

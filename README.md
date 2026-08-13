@@ -44,17 +44,23 @@ tools/
 opus-de/                      ← (git-ignored) wp.db, 1.5 GB. Built, not committed.
 dwds-cache/                   ← (git-ignored) Wortprofil pages you saved + Goethe A1/A2/B1
                                  lemma lists. Not committed: DWDS/Goethe content.
-batch-NN-<topic>/             ← one dir per batch (NONE YET — first is TBD). Each holds:
-├── wordlist.md               ← frozen word list (article · plural/verb forms · gloss)
-├── chunks.md                 ← (optional) attested collocations per load-bearing word
-├── texts.md                  ← CONTENT TYPE 1: the cramming texts
-├── anki-cloze.txt            ← CONTENT TYPE 2: cloze cards (import as Cloze note type)
-└── anki-basic.txt            ← CONTENT TYPE 2: word→meaning cards (import as Basic note type)
+batch-NN-<topic>/             ← one dir per batch = one topic. Files appear in pipeline
+                                 order, so a batch mid-flight has only the early ones:
+├── wordlist.md               ← [step 2] frozen word list (article · plural/verb forms · gloss)
+├── chunks.md                 ← [step 2b, optional] attested collocations per load-bearing word
+├── texts.md                  ← [step 3] CONTENT TYPE 1: the cramming texts
+├── anki-cloze.txt            ← [step 6] CONTENT TYPE 2: cloze cards (import as Cloze note type)
+└── anki-basic.txt            ← [step 6] CONTENT TYPE 2: word→meaning cards (import as Basic note type)
+
+batch-01-in-der-wohnung/      ← the only batch so far: wordlist.md + texts.md written
+                                 (148 words, 11 texts). Cards deliberately not cut yet —
+                                 they wait until the texts are reviewed (steps 5→6).
 ```
 
-Groundwork is done. The next work is writing texts (content type 1) for each batch in
-`groundwork/topics.md`, then generating cards (content type 2) from them — **the agent
-doing that should read `TEXT-WRITER.md` first; it's the complete, self-contained brief.**
+Groundwork is done and batch 01 is under way (texts written, cards pending). The
+remaining work is, per topic in `groundwork/topics.md`: write the texts (content type 1),
+then cut the cards (content type 2) from them — **the agent doing that should read
+`TEXT-WRITER.md` first; it's the complete, self-contained brief.**
 
 ---
 
@@ -90,9 +96,18 @@ that's how batch 01's invented word "Vorhang" got caught and replaced with the o
 
 ## Batch sizing
 
-- 1 batch = 1 topic = 2–3 texts = ~30–45 target words (~10–15 new words per text).
-- Keeps "know it by heart" survivable in one encoding sitting + a few days of rewriting.
-- Large topics in `topics.md` are pre-split into scene-sized chunks (~13 words each).
+**The scene is the encoding unit; the batch is the whole topic.** Don't conflate them —
+a batch is days of work, not one sitting.
+
+- **1 scene = 1 text = ~13 target words.** This is the unit sized to survive "know it by
+  heart" in one encoding sitting + a few days of rewriting. `topics.md` pre-splits every
+  topic into these scene-sized chunks (2,542 scened words / 204 scenes ≈ 12.5 each).
+- **1 batch = 1 topic = one text per scene.** Topics vary widely: 1–17 scenes and 8–214
+  target words (see the table in `topics.md` §2). Batch 1 is 11 scenes / 148 words;
+  the largest is Batch 16 (Freizeit, Medien & Technik) at 17 scenes / 214 words, the
+  smallest Batch 4 (Tiere) at a single 8-word scene.
+- So a batch is cranked scene by scene, over several sittings — the *batch* is the unit of
+  planning and card generation, the *scene* is the unit of memorization.
 
 ## The glue pool
 
@@ -118,6 +133,13 @@ time it lands in any finalized text, until all 326 are covered.
 
 ## Batches
 
-- None yet. (An earlier `batch-01-in-der-wohnung/` was removed — it predated this
-  taxonomy/glue-pool structure; recoverable from git history if a reference is wanted.)
-- Pick the first from `groundwork/topics.md` (start with a Stage A topic).
+- **`batch-01-in-der-wohnung/`** — Stage A, topic 1. 148 target words across 11 scenes.
+  `wordlist.md` frozen (CSV-verified forms, nothing invented) and all 11 `texts.md`
+  written; glue-pool coverage ticked in `groundwork/glue-pool.md` (that file is the
+  live counter — don't mirror the number here). **Awaiting the step 5 cram + review** — Anki
+  cards are held until then, so `anki-*.txt` don't exist yet and `carded? = no`
+  throughout the wordlist. (An earlier version of this batch predated the
+  taxonomy/glue-pool structure and was removed in `2177517`; the current one was
+  rewritten against it in `cd080cc`.)
+- **Next:** pick another Stage A topic from `groundwork/topics.md` (Körper & Gesundheit
+  is topic 2), or finish batch 01 by generating its cards.
