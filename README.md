@@ -54,6 +54,9 @@ tools/
 ├── wortprofil.py     ← same output from a hand-saved DWDS page (fallback, needs a browser)
 ├── leipzig.py        ← collocations via the Leipzig API (CC BY 4.0, scriptable)
 ├── wordfreq.py       ← DWDS frequency bands (already imported into the ledger)
+├── site.py           ← THE READER: renders the ledger + content/ into site/ (git-ignored)
+├── site-assets/      ← the reader's one stylesheet and one script, copied in verbatim
+├── publish-site.sh   ← builds site/ and pushes it to the gh-pages branch
 └── opus/             ← the pipeline that BUILDS wortprofil.db, on a separate machine.
                          Its /home/andrey/… and /work/… paths are remote, not repo paths.
 
@@ -83,10 +86,25 @@ skill; it is the complete brief.**
 ### Reading the texts
 
 `texts.md` is the authored source of truth and stays markdown — it is what the user
-reviews and what `vocab.py scan` parses. A reader front-end is planned; it will live in a
-top-level `web/` and read `content/batches/` plus the ledger, which already knows which
-text each word landed in (`uses.batch`, `uses.text_no`) and its gloss and forms. Nothing
-needs to move for that to happen.
+reviews and what `vocab.py scan` parses. The reader front-end renders it:
+
+    python3 tools/site.py --serve     # build + http://localhost:8000
+    tools/publish-site.sh             # build + push to gh-pages
+
+live at **https://a-a-abramov.github.io/german/**. It is a pure function of
+`curriculum/vocab.db` and `content/batches/` — nothing is authored in it, `site/` is
+git-ignored, and only the `gh-pages` branch carries HTML. Two surfaces:
+
+- **the index** — the 23 topics in cram order with their real state, and every word in
+  the ledger, searchable, each linking to the text that taught it
+- **the reader** — one dialogue per page, big serif, the scene's owned words in the
+  margin, a gloss on every target word, and the batch's chunk tables one click away
+
+Which target words a dialogue realises is not recomputed here: `site.py` imports
+`vocab.py`'s matcher (`variants` / `csv_forms` / `phrase_matches`), so the site and
+`vocab.py scan` can never disagree about what a text covers. The one difference is that
+`scan_file` stops at a word's first sighting — the ledger records first sightings — while
+the reader wants every sighting in every text.
 
 ---
 
