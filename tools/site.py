@@ -164,6 +164,11 @@ def attest(pool, texts):
 
     vocab.scan_file answers this for the file as a whole and stops at a word's first
     hit. The reader needs it per text and without the break.
+
+    This finds surfaces, which is what the reader highlights. It is NOT the coverage
+    number: the ledger also carries hand-recorded uses (`vocab.py use`) for words no
+    matcher can reach — three in batch 2 — so counting from here alone would under-report.
+    `covered_in` below is the union, and every count on the site comes from that.
     """
     forms = {r["id"]: list(dict.fromkeys(variants(r["lemma"]) + csv_forms(r["forms"])))
              for r in pool}
@@ -181,13 +186,20 @@ def attest(pool, texts):
     return out
 
 
+def covered_in(hits, seen, batch, text_no):
+    """Word ids this text covers: matched surfaces plus the ledger's hand-recorded uses."""
+    ids = set(hits.get(text_no, {}))
+    ids |= {wid for wid, (b, no, _) in seen.items() if b == batch and no == text_no}
+    return ids
+
+
 # ---------------------------------------------------------------- html plumbing
 
 def e(s):
     return html.escape(str(s), quote=True)
 
 
-def page(title, depth, body, cls="", extra_head=""):
+def page(title, depth, body, cls=""):
     up = "../" * depth
     return f"""<!doctype html>
 <html lang="de">
@@ -197,7 +209,7 @@ def page(title, depth, body, cls="", extra_head=""):
 <title>{e(title)}</title>
 <link rel="stylesheet" href="{up}assets/site.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='14'>📖</text></svg>">
-{extra_head}</head>
+</head>
 <body class="{cls}">
 {body}
 </body>
@@ -242,17 +254,16 @@ def anchor(word):
 
 # ---------------------------------------------------------------- the reader (Lesesaal)
 
-def render_text(batch, topic, text, scene, hits, words_by_id, words_by_lemma,
+def render_text(batch, topic, text, scene, hits, covered, words_by_id, words_by_lemma,
                 prev_t, next_t, chunk_anchors):
     """One dialogue, set to be read aloud from."""
-    marks, glue_seen, target_seen = {}, [], {}
+    marks, glue_seen, target_seen = {}, [], set()
     for wid, surface in hits.items():
+        if words_by_id[wid]["kind"] == "target":
+            marks[surface] = (words_by_id[wid]["lemma"], words_by_id[wid]["gloss"])
+    for wid in covered:
         w = words_by_id[wid]
-        if w["kind"] == "target":
-            target_seen[w["lemma"]] = surface
-            marks[surface] = (w["lemma"], w["gloss"])
-        else:
-            glue_seen.append(w["lemma"])
+        (target_seen.add(w["lemma"]) if w["kind"] == "target" else glue_seen.append(w["lemma"]))
 
     turns = []
     for who, line in text["turns"]:
@@ -330,14 +341,14 @@ def render_text(batch, topic, text, scene, hits, words_by_id, words_by_lemma,
 
 # ---------------------------------------------------------------- batch page
 
-def render_batch(batch, topic, scenes, texts, hits, words_by_id, batch_words, has_chunks):
+def render_batch(batch, topic, scenes, texts, covered, words_by_id, batch_words, has_chunks):
     by_no = {t["no"]: t for t in texts}
-    used = {w["id"] for w in batch_words if any(w["id"] in h for h in hits.values())}
+    everywhere = set().union(*covered.values()) if covered else set()
+    used = {w["id"] for w in batch_words if w["id"] in everywhere}
     cards = []
     for sc in scenes:
         t = by_no.get(sc["no"])
-        hit = hits.get(sc["no"], {})
-        seen = {words_by_id[i]["lemma"] for i in hit}
+        seen = {words_by_id[i]["lemma"] for i in covered.get(sc["no"], set())}
         n_hit = sum(1 for w in sc["words"] if w in seen)
         head = (f'<a class="scene" href="text-{t["no"]}.html">' if t else '<div class="scene idle">')
         tail = "</a>" if t else "</div>"
@@ -544,18 +555,30 @@ def build(out):
             + REGIONAL_SQL, (batch,)))
         batch_words = [r for r in pool if r["kind"] == "target"]
         hits = attest(pool, texts)
+        covered = {t["no"]: covered_in(hits, seen, batch, t["no"]) for t in texts}
         written[batch] = texts
+
+        # one coverage answer for the whole site: the ledger's record where it has one
+        # (it carries hand-recorded uses no matcher can reach), the matched text otherwise
+        titles = {t["no"]: t["title"] for t in texts}
+        for wid, (b, no, title) in list(seen.items()):
+            if b == batch and not title:
+                seen[wid] = (b, no, titles.get(no))
+        for t in texts:
+            for wid in hits[t["no"]]:
+                seen.setdefault(wid, (batch, t["no"], t["title"]))
 
         chunk_anchors = {fold(c["word"]): anchor(c["word"]) for c in chunks}
         by_no = {s["no"]: s for s in scenes}
         for i, t in enumerate(texts):
             write(out, f"batch/{slug}/text-{t['no']}.html", render_text(
-                batch, topic, t, by_no.get(t["no"]), hits[t["no"]], by_id, by_lemma,
+                batch, topic, t, by_no.get(t["no"]), hits[t["no"]], covered[t["no"]],
+                by_id, by_lemma,
                 texts[i - 1] if i else None,
                 texts[i + 1] if i + 1 < len(texts) else None,
                 chunk_anchors))
         write(out, f"batch/{slug}/index.html", render_batch(
-            batch, topic, scenes, texts, hits, by_id, batch_words, bool(chunks)))
+            batch, topic, scenes, texts, covered, by_id, batch_words, bool(chunks)))
         if chunks:
             write(out, f"batch/{slug}/chunks.html", render_chunks(batch, topic, chunks))
         print(f"  batch {batch:02d} {slug}: {len(texts)} texts, "
