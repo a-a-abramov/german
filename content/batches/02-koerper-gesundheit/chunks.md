@@ -7170,3 +7170,761 @@
 | verschreiben + Sache(Dat./Gen.) | Sache |  | 8.1 | 43 | ✓ |
 | verschreiben + Patient(Dat./Gen.) | Patient |  | 7.8 | 21 | ✓ |
 
+# Krankenwagen: no rows (not in corpus, or below the floors)
+## Arm
+
+*Filter: Freq ≥ 20, logDice ≥ 4.0, B1 lemmas only · source: OpenSubtitles de v2024*
+
+### ist in Koordination mit
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Arm und Bein | Bein |  | 12.4 | 1425 | ✓ |
+| Arm und Hand | Hand |  | 8.8 | 174 | ✓ |
+| Arm und Schulter | Schulter |  | 8.8 | 71 | ✓ |
+| Arm und Kopf | Kopf |  | 8.7 | 117 | ✓ |
+| Arm und Brust | Brust |  | 8.0 | 42 | ✓ |
+| Arm und Rücken | Rücken |  | 7.8 | 33 | ✓ |
+| Arm und Fuß | Fuß |  | 7.7 | 45 | ✓ |
+| Arm und Hals | Hals |  | 7.6 | 29 | ✓ |
+| Arm und Gesicht | Gesicht |  | 7.4 | 45 | ✓ |
+| Arm und Auge | Auge |  | 7.1 | 50 | ✓ |
+| Arm und Finger | Finger |  | 6.9 | 20 | ✓ |
+| Arm und Nase | Nase |  | 6.8 | 21 | ✓ |
+| Arm und Herz | Herz |  | 6.1 | 22 | ✓ |
+
+### ist in Präpositionalgruppe
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| in nehmen … Arm | in nehmen | Akk. | 10.4 | 1676 | ✓ |
+| auf nehmen … Arm | auf nehmen | Akk. | 10.3 | 940 | ✓ |
+| unter greifen … Arm | unter greifen | Akk. | 9.9 | 515 | ✓ |
+| in halten … Arm | in halten | Dat. | 9.3 | 661 | ✓ |
+| mit empfangen … Arm | mit empfangen | Dat. | 9.0 | 278 | ✓ |
+| in schließen … Arm | in schließen | Akk. | 8.7 | 258 | ✓ |
+| in laufen … Arm | in laufen | Akk. | 8.6 | 408 | ✓ |
+| an packen … Arm | an packen | Dat. | 7.9 | 139 | ✓ |
+| in Nadel … Arm | in Nadel | Dat. | 7.9 | 135 | ✓ |
+| in treiben … Arm | in treiben | Akk. | 7.9 | 185 | ✓ |
+| in Baby … Arm | in Baby | Dat. | 7.9 | 137 | ✓ |
+| in fallen … Arm | in fallen | Akk. | 7.8 | 245 | ✓ |
+| in Arm … Arm | in Arm | Dat. | 7.7 | 111 | ✓ |
+| an verletzen … Arm | an verletzen | Dat. | 7.3 | 91 | ✓ |
+| in Schmerz … Arm | in Schmerz | Dat. | 7.2 | 87 | ✓ |
+
+### hat Genitivattribut
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Arm des/der Gesetz | Gesetz |  | 10.0 | 108 | ✓ |
+| Arm des/der Mann | Mann |  | 6.3 | 63 | ✓ |
+| Arm des/der Opfer | Opfer |  | 6.2 | 29 | ✓ |
+| Arm des/der Frau | Frau |  | 6.1 | 52 | ✓ |
+| Arm des/der Mutter | Mutter |  | 5.3 | 28 | ✓ |
+| Arm des/der Gott | Gott |  | 5.2 | 25 | ✓ |
+| Arm des/der Vater | Vater |  | 4.9 | 28 | ✓ |
+
+### ist Akkusativ-Objekt von
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Arm(Akk.) brechen | brechen |  | 10.0 | 1426 | ✓ |
+| Arm(Akk.) heben | heben |  | 9.3 | 444 | ✓ |
+| Arm(Akk.) bewegen | bewegen |  | 9.3 | 417 | ✓ |
+| Arm(Akk.) legen | legen |  | 8.5 | 606 | ✓ |
+| Arm(Akk.) verlieren | verlieren |  | 7.1 | 498 | ✓ |
+| Arm(Akk.) verletzen | verletzen |  | 6.9 | 93 | ✓ |
+| Arm(Akk.) spüren | spüren |  | 6.6 | 95 | ✓ |
+| Arm(Akk.) packen | packen |  | 6.4 | 64 | ✓ |
+| Arm(Akk.) halten | halten |  | 6.4 | 325 | ✓ |
+| Arm(Akk.) schneiden | schneiden |  | 6.3 | 56 | ✓ |
+| Arm(Akk.) öffnen | öffnen |  | 5.9 | 78 | ✓ |
+| Arm(Akk.) stecken | stecken |  | 5.9 | 55 | ✓ |
+| Arm(Akk.) benutzen | benutzen |  | 5.8 | 105 | ✓ |
+| Arm(Akk.) verbinden | verbinden |  | 5.7 | 31 | ✓ |
+| Arm(Akk.) abnehmen | abnehmen |  | 5.7 | 35 | ✓ |
+
+### hat Prädikativ
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Arm ist/wird taub | taub |  | 9.7 | 49 | ✓ |
+| Arm ist/wird müde | müde |  | 9.3 | 57 | ✓ |
+| Arm ist/wird lang | lang |  | 8.4 | 96 | ✓ |
+| Arm ist/wird kurz | kurz |  | 8.3 | 45 | ✓ |
+| Arm ist/wird schwach | schwach |  | 7.7 | 35 | ✓ |
+| Arm ist/wird schwer | schwer |  | 6.8 | 31 | ✓ |
+| Arm ist/wird stark | stark |  | 6.3 | 31 | ✓ |
+
+### hat Adjektivattribut
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| ein(e) offene(r) Arm | offen |  | 9.6 | 510 | ✓ |
+| ein(e) rechte(r) Arm | recht |  | 8.5 | 113 | ✓ |
+| ein(e) starke(r) Arm | stark |  | 7.9 | 260 | ✓ |
+| ein(e) lange(r) Arm | lang |  | 7.3 | 303 | ✓ |
+| ein(e) kräftige(r) Arm | kräftig |  | 7.0 | 33 | ✓ |
+| ein(e) gesunde(r) Arm | gesund |  | 6.5 | 37 | ✓ |
+| ein(e) kaputte(r) Arm | kaputt |  | 6.5 | 32 | ✓ |
+| ein(e) kurze(r) Arm | kurz |  | 6.1 | 58 | ✓ |
+| ein(e) schwache(r) Arm | schwach |  | 5.8 | 21 | ✓ |
+
+### hat Präpositionalgruppe
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Arm + um Schulter | um Schulter | Akk. | 9.2 | 25 | ✓ |
+| Arm + in Arm | in Arm | Dat. | 8.7 | 111 | ✓ |
+| Arm + um Hals | um Hals | Akk. | 8.1 | 39 | ✓ |
+| Arm + über Kopf | über Kopf | Akk. | 7.3 | 33 | ✓ |
+
+### ist Passivsubjekt von
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Arm wird brechen | brechen |  | 8.9 | 23 | ✓ |
+
+### ist Subjekt von
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Arm brechen(t) | brechen |  | 7.8 | 146 | ✓ |
+| Arm wehtun(t) | wehtun |  | 7.3 | 27 | ✓ |
+| Arm wachsen(t) | wachsen |  | 6.8 | 53 | ✓ |
+| Arm bewegen(t) | bewegen |  | 6.8 | 44 | ✓ |
+| Arm fühlen(t) | fühlen |  | 6.3 | 48 | ✓ |
+| Arm tun(t) | tun |  | 6.3 | 250 | ✓ |
+| Arm fehlen(t) | fehlen |  | 6.3 | 85 | ✓ |
+| Arm reichen(t) | reichen |  | 6.1 | 53 | ✓ |
+| Arm schlafen(t) | schlafen |  | 5.5 | 23 | ✓ |
+| Arm legen(t) | legen |  | 5.4 | 22 | ✓ |
+| Arm stecken(t) | stecken |  | 5.2 | 33 | ✓ |
+| Arm fallen(t) | fallen |  | 5.1 | 57 | ✓ |
+| Arm funktionieren(t) | funktionieren |  | 4.9 | 26 | ✓ |
+| Arm sehen(t) | sehen |  | 4.6 | 96 | ✓ |
+| Arm liegen(t) | liegen |  | 4.1 | 49 | ✓ |
+
+### ist Genitivattribut von
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Kraft des/der Arm | Kraft |  | 6.8 | 21 | ✓ |
+| Ende des/der Arm | Ende |  | 4.2 | 20 | ✓ |
+
+### ist Dativ-/Genitiv-Objekt von
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Arm(Dat./Gen.) gehen | gehen |  | 6.4 | 65 | ✓ |
+
+
+## Finger
+
+*Filter: Freq ≥ 20, logDice ≥ 4.0, B1 lemmas only · source: OpenSubtitles de v2024*
+
+### hat Genitivattribut
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Finger des/der Hand | Hand |  | 11.0 | 125 | ✓ |
+
+### ist in Präpositionalgruppe
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| mit zeigen … Finger | mit zeigen | Dat. | 10.7 | 715 | ✓ |
+| in kriegen … Finger | in kriegen | Akk. | 10.3 | 793 | ✓ |
+| an Ring … Finger | an Ring | Dat. | 9.9 | 356 | ✓ |
+| in bekommen … Finger | in bekommen | Akk. | 9.8 | 619 | ✓ |
+| auf schauen … Finger | auf schauen | Akk. | 8.7 | 202 | ✓ |
+| an stecken … Finger | an stecken | Akk. | 8.3 | 118 | ✓ |
+| mit essen … Finger | mit essen | Dat. | 7.5 | 92 | ✓ |
+| auf klopfen … Finger | auf klopfen | Akk. | 7.4 | 67 | ✓ |
+| an tragen … Finger | an tragen | Dat. | 7.4 | 72 | ✓ |
+| auf gucken … Finger | auf gucken | Akk. | 7.1 | 55 | ✓ |
+| in schneiden … Finger | in schneiden | Akk. | 7.1 | 55 | ✓ |
+| an haben … Finger | an haben | Dat. | 6.8 | 119 | ✓ |
+| in stechen … Finger | in stechen | Akk. | 6.7 | 43 | ✓ |
+| von Ring … Finger | von Ring | Dat. | 6.6 | 37 | ✓ |
+| auf sehen … Finger | auf sehen | Akk. | 6.1 | 68 | ✓ |
+
+### hat Prädikativ
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Finger ist/wird taub | taub |  | 9.7 | 39 | ✓ |
+| Finger ist/wird dick | dick |  | 8.3 | 25 | ✓ |
+| Finger ist/wird kalt | kalt |  | 7.2 | 22 | ✓ |
+
+### ist Akkusativ-Objekt von
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Finger(Akk.) stecken | stecken |  | 9.3 | 596 | ✓ |
+| Finger(Akk.) lassen | lassen |  | 8.8 | 1375 | ✓ |
+| Finger(Akk.) verbrennen | verbrennen |  | 8.8 | 270 | ✓ |
+| Finger(Akk.) bewegen | bewegen |  | 8.6 | 249 | ✓ |
+| Finger(Akk.) brechen | brechen |  | 8.3 | 437 | ✓ |
+| Finger(Akk.) schneiden | schneiden |  | 7.8 | 158 | ✓ |
+| Finger(Akk.) legen | legen |  | 7.1 | 240 | ✓ |
+| Finger(Akk.) heben | heben |  | 7.0 | 85 | ✓ |
+| Finger(Akk.) reichen | reichen |  | 6.7 | 68 | ✓ |
+| Finger(Akk.) verlieren | verlieren |  | 6.3 | 297 | ✓ |
+| Finger(Akk.) zählen | zählen |  | 6.1 | 40 | ✓ |
+| Finger(Akk.) zeigen | zeigen |  | 6.1 | 183 | ✓ |
+| Finger(Akk.) verletzen | verletzen |  | 6.0 | 47 | ✓ |
+| Finger(Akk.) drücken | drücken |  | 6.0 | 47 | ✓ |
+| Finger(Akk.) benutzen | benutzen |  | 5.7 | 102 | ✓ |
+
+### hat Präpositionalgruppe
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Finger + von Sache | von Sache | Dat. | 8.5 | 65 | ✓ |
+| Finger + von Droge | von Droge | Dat. | 7.5 | 24 | ✓ |
+| Finger + von Mädchen | von Mädchen | Dat. | 7.4 | 32 | ✓ |
+| Finger + an Hand | an Hand | Dat. | 7.4 | 46 | ✓ |
+| Finger + aus Gesicht | aus Gesicht | Dat. | 7.3 | 21 | ✓ |
+| Finger + von Frau | von Frau | Dat. | 7.2 | 83 | ✓ |
+| Finger + von Tochter | von Tochter | Dat. | 7.2 | 23 | ✓ |
+| Finger + in Mund | in Mund | Dat. | 5.8 | 21 | ✓ |
+| Finger + von Mann | von Mann | Dat. | 5.6 | 20 | ✓ |
+
+### ist in Koordination mit
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Finger und Hand | Hand |  | 8.1 | 90 | ✓ |
+| Finger und Zahn | Zahn |  | 8.1 | 28 | ✓ |
+| Finger und Ohr | Ohr |  | 7.8 | 30 | ✓ |
+| Finger und Fuß | Fuß |  | 7.1 | 20 | ✓ |
+| Finger und Arm | Arm |  | 6.9 | 20 | ✓ |
+| Finger und Auge | Auge |  | 6.2 | 22 | ✓ |
+
+### hat Adjektivattribut
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| ein(e) schlimme(r) Finger | schlimm |  | 7.8 | 177 | ✓ |
+| ein(e) kleine(r) Finger | klein |  | 7.4 | 1419 | ✓ |
+| ein(e) schmutzige(r) Finger | schmutzig |  | 7.4 | 57 | ✓ |
+| ein(e) dicke(r) Finger | dick |  | 7.1 | 64 | ✓ |
+| ein(e) fette(r) Finger | fett |  | 6.3 | 28 | ✓ |
+| ein(e) kalte(r) Finger | kalt |  | 6.3 | 39 | ✓ |
+| ein(e) lange(r) Finger | lang |  | 5.8 | 106 | ✓ |
+| ein(e) schnelle(r) Finger | schnell |  | 5.5 | 21 | ✓ |
+| ein(e) hübsche(r) Finger | hübsch |  | 4.6 | 20 | ✓ |
+| ein(e) tote(r) Finger | tot |  | 4.5 | 20 | ✓ |
+
+### ist Subjekt von
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Finger verbrennen(t) | verbrennen |  | 7.4 | 28 | ✓ |
+| Finger fehlen(t) | fehlen |  | 6.9 | 129 | ✓ |
+| Finger bewegen(t) | bewegen |  | 6.8 | 41 | ✓ |
+| Finger riechen(t) | riechen |  | 6.4 | 20 | ✓ |
+| Finger stecken(t) | stecken |  | 6.4 | 75 | ✓ |
+| Finger brechen(t) | brechen |  | 6.0 | 40 | ✓ |
+| Finger zeigen(t) | zeigen |  | 5.6 | 62 | ✓ |
+| Finger lassen(t) | lassen |  | 5.3 | 75 | ✓ |
+| Finger fühlen(t) | fühlen |  | 5.2 | 21 | ✓ |
+| Finger tun(t) | tun |  | 4.3 | 61 | ✓ |
+| Finger gehören(t) | gehören |  | 4.1 | 39 | ✓ |
+
+### ist Dativ-/Genitiv-Objekt von
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Finger(Dat./Gen.) folgen | folgen |  | 6.6 | 49 | ✓ |
+
+
+## Bart
+
+*Filter: Freq ≥ 20, logDice ≥ 4.0, B1 lemmas only · source: OpenSubtitles de v2024*
+
+### ist Akkusativ-Objekt von
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Bart(Akk.) wachsen | wachsen |  | 10.5 | 210 | ✓ |
+| Bart(Akk.) rasieren | rasieren |  | 8.8 | 57 | ✓ |
+| Bart(Akk.) stehen | stehen |  | 6.8 | 42 | ✓ |
+| Bart(Akk.) tragen | tragen |  | 6.3 | 200 | ✓ |
+| Bart(Akk.) abnehmen | abnehmen |  | 6.1 | 24 | ✓ |
+| Bart(Akk.) schneiden | schneiden |  | 5.9 | 22 | ✓ |
+| Bart(Akk.) mögen | mögen |  | 4.1 | 33 | ✓ |
+
+### ist in Koordination mit
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Bart und Haar | Haar |  | 9.3 | 159 | ✓ |
+| Bart und Brille | Brille |  | 8.7 | 30 | ✓ |
+
+### ist in Präpositionalgruppe
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| mit Typ … Bart | mit Typ | Dat. | 8.7 | 69 | ✓ |
+| mit Mann … Bart | mit Mann | Dat. | 8.7 | 131 | ✓ |
+| mit erkennen … Bart | mit erkennen | Dat. | 8.1 | 21 | ✓ |
+| ohne sehen … Bart | ohne sehen | Akk. | 7.7 | 22 | ✓ |
+| an ziehen … Bart | an ziehen | Dat. | 6.5 | 20 | ✓ |
+| mit sehen … Bart | mit sehen | Dat. | 6.2 | 43 | ✓ |
+
+### ist Subjekt von
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Bart wachsen(t) | wachsen |  | 8.0 | 104 | ✓ |
+
+### hat Adjektivattribut
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| ein(e) graue(r) Bart | grau |  | 7.6 | 34 | ✓ |
+| ein(e) weiße(r) Bart | weiß |  | 6.6 | 118 | ✓ |
+| ein(e) lange(r) Bart | lang |  | 6.0 | 116 | ✓ |
+| ein(e) falsche(r) Bart | falsch |  | 5.8 | 93 | ✓ |
+| ein(e) rote(r) Bart | rot |  | 5.2 | 37 | ✓ |
+| ein(e) schwarze(r) Bart | schwarz |  | 4.5 | 26 | ✓ |
+
+
+## Diät
+
+*Filter: Freq ≥ 20, logDice ≥ 4.0, B1 lemmas only · source: OpenSubtitles de v2024*
+
+### hat Adjektivattribut
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| ein(e) strenge(r) Diät | streng |  | 9.3 | 72 | ✓ |
+| ein(e) spezielle(r) Diät | speziell |  | 6.8 | 29 | ✓ |
+
+### ist in Koordination mit
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Diät und Sport | Sport |  | 9.2 | 32 | ✓ |
+
+### ist in Präpositionalgruppe
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| auf setzen … Diät | auf setzen | Akk. | 8.1 | 130 | ✓ |
+| auf sein … Diät | auf sein | Akk. | 5.8 | 338 | ✓ |
+| an halten … Diät | an halten | Akk. | 5.1 | 20 | ✓ |
+
+### ist Akkusativ-Objekt von
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Diät(Akk.) halten | halten |  | 5.0 | 108 | ✓ |
+| Diät(Akk.) machen | machen |  | 4.4 | 479 | ✓ |
+
+
+## abnehmen
+
+*Filter: Freq ≥ 20, logDice ≥ 4.0, B1 lemmas only · source: OpenSubtitles de v2024*
+
+### hat Passivsubjekt
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Blut wird abnehmen | Blut |  | 10.3 | 50 | ✓ |
+| Entscheidung wird abnehmen | Entscheidung |  | 9.5 | 23 | ✓ |
+
+### hat Akkusativ-Objekt
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| abnehmen + Kilo(Akk.) | Kilo |  | 9.9 | 373 | ✓ |
+| abnehmen + Blut(Akk.) | Blut |  | 9.9 | 837 | ✓ |
+| abnehmen + Pfund(Akk.) | Pfund |  | 8.8 | 175 | ✓ |
+| abnehmen + Hörer(Akk.) | Hörer |  | 8.8 | 126 | ✓ |
+| abnehmen + Brille(Akk.) | Brille |  | 8.3 | 130 | ✓ |
+| abnehmen + Hut(Akk.) | Hut |  | 8.0 | 106 | ✓ |
+| abnehmen + Ring(Akk.) | Ring |  | 7.4 | 101 | ✓ |
+| abnehmen + Mütze(Akk.) | Mütze |  | 7.4 | 51 | ✓ |
+| abnehmen + Führerschein(Akk.) | Führerschein |  | 7.3 | 57 | ✓ |
+| abnehmen + Mantel(Akk.) | Mantel |  | 7.2 | 55 | ✓ |
+| abnehmen + Entscheidung(Akk.) | Entscheidung |  | 7.1 | 128 | ✓ |
+| abnehmen + Kette(Akk.) | Kette |  | 7.0 | 52 | ✓ |
+| abnehmen + Bein(Akk.) | Bein |  | 7.0 | 95 | ✓ |
+| abnehmen + Arbeit(Akk.) | Arbeit |  | 6.9 | 221 | ✓ |
+| abnehmen + Telefon(Akk.) | Telefon |  | 6.8 | 63 | ✓ |
+
+### hat Subjekt
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Blut abnehmen(t) | Blut |  | 6.2 | 27 | ✓ |
+| Schwester abnehmen(t) | Schwester |  | 4.9 | 24 | ✓ |
+
+### hat Dativ-/Genitiv-Objekt
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| abnehmen + Leute(Dat./Gen.) | Leute |  | 6.0 | 33 | ✓ |
+| abnehmen + Frau(Dat./Gen.) | Frau |  | 5.8 | 26 | ✓ |
+| abnehmen + Mann(Dat./Gen.) | Mann |  | 5.8 | 28 | ✓ |
+
+### hat Präpositionalgruppe
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| abnehmen + in Woche | in Woche | Dat. | 5.0 | 23 | ✓ |
+| abnehmen + in Tag | in Tag | Dat. | 4.9 | 24 | ✓ |
+| abnehmen + in Zeit | in Zeit | Dat. | 4.5 | 29 | ✓ |
+
+
+## Notaufnahme
+
+*Filter: Freq ≥ 20, logDice ≥ 4.0, B1 lemmas only · source: OpenSubtitles de v2024*
+
+### hat Genitivattribut
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Notaufnahme des/der Krankenhaus | Krankenhaus |  | 9.1 | 21 | ✓ |
+
+### ist Genitivattribut von
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Chef des/der Notaufnahme | Chef |  | 8.0 | 34 | ✓ |
+| Leiter des/der Notaufnahme | Leiter |  | 7.6 | 32 | ✓ |
+
+### ist in Präpositionalgruppe
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| in Arzt … Notaufnahme | in Arzt | Dat. | 7.3 | 24 | ✓ |
+| in bringen … Notaufnahme | in bringen | Akk. | 7.1 | 266 | ✓ |
+| in Besuch … Notaufnahme | in Besuch | Dat. | 7.0 | 24 | ✓ |
+| in brauchen … Notaufnahme | in brauchen | Dat. | 7.0 | 48 | ✓ |
+| in melden … Notaufnahme | in melden | Dat. | 6.9 | 26 | ✓ |
+| in landen … Notaufnahme | in landen | Dat. | 6.5 | 52 | ✓ |
+| in müssen … Notaufnahme | in müssen | Akk. | 6.5 | 29 | ✓ |
+| in fahren … Notaufnahme | in fahren | Akk. | 6.4 | 90 | ✓ |
+| in arbeiten … Notaufnahme | in arbeiten | Dat. | 6.4 | 99 | ✓ |
+| in Nacht … Notaufnahme | in Nacht | Dat. | 6.3 | 26 | ✓ |
+| in sollen … Notaufnahme | in sollen | Akk. | 6.3 | 23 | ✓ |
+| in kommen … Notaufnahme | in kommen | Akk. | 6.1 | 234 | ✓ |
+| in warten … Notaufnahme | in warten | Dat. | 5.9 | 28 | ✓ |
+| in schicken … Notaufnahme | in schicken | Akk. | 5.2 | 21 | ✓ |
+| zu fahren … Notaufnahme | zu fahren | Dat. | 5.1 | 38 | ✓ |
+
+### hat Prädikativ
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Notaufnahme ist/wird voll | voll |  | 6.2 | 21 | ✓ |
+
+### ist Akkusativ-Objekt von
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Notaufnahme(Akk.) leiten | leiten |  | 6.0 | 41 | ✓ |
+| Notaufnahme(Akk.) schließen | schließen |  | 5.0 | 23 | ✓ |
+
+
+## Salbe
+
+*Filter: Freq ≥ 20, logDice ≥ 4.0, B1 lemmas only · source: OpenSubtitles de v2024*
+
+### ist Subjekt von
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Salbe helfen(t) | helfen |  | 4.0 | 24 | ✓ |
+
+
+## Zange
+
+*Filter: Freq ≥ 20, logDice ≥ 4.0, B1 lemmas only · source: OpenSubtitles de v2024*
+
+### ist in Präpositionalgruppe
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| in nehmen … Zange | in nehmen | Akk. | 8.6 | 271 | ✓ |
+| in haben … Zange | in haben | Dat. | 4.2 | 51 | ✓ |
+
+
+## Seife
+
+*Filter: Freq ≥ 20, logDice ≥ 4.0, B1 lemmas only · source: OpenSubtitles de v2024*
+
+### ist in Präpositionalgruppe
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| mit waschen … Seife | mit waschen | Dat. | 9.6 | 22 | ✓ |
+
+### ist in Koordination mit
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Seife und Wasser | Wasser |  | 7.0 | 42 | ✓ |
+
+### ist Akkusativ-Objekt von
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Seife(Akk.) benutzen | benutzen |  | 4.0 | 25 | ✓ |
+
+
+## rasieren
+
+*Filter: Freq ≥ 20, logDice ≥ 4.0, B1 lemmas only · source: OpenSubtitles de v2024*
+
+### ist in Koordination mit
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| rasieren und duschen | duschen |  | 9.5 | 35 | ✓ |
+| rasieren und waschen | waschen |  | 8.0 | 25 | ✓ |
+
+### hat Akkusativ-Objekt
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| rasieren + Bein(Akk.) | Bein |  | 9.0 | 267 | ✓ |
+| rasieren + Bart(Akk.) | Bart |  | 8.8 | 57 | ✓ |
+| rasieren + Kopf(Akk.) | Kopf |  | 8.3 | 370 | ✓ |
+| rasieren + Brust(Akk.) | Brust |  | 7.2 | 20 | ✓ |
+| rasieren + Rücken(Akk.) | Rücken |  | 7.1 | 36 | ✓ |
+| rasieren + Ei(Akk.) | Ei |  | 6.2 | 34 | ✓ |
+| rasieren + Haar(Akk.) | Haar |  | 6.0 | 42 | ✓ |
+| rasieren + Gesicht(Akk.) | Gesicht |  | 4.6 | 24 | ✓ |
+
+
+## duschen
+
+*Filter: Freq ≥ 20, logDice ≥ 4.0, B1 lemmas only · source: OpenSubtitles de v2024*
+
+### ist in Koordination mit
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| duschen und umziehen | umziehen |  | 9.8 | 42 | ✓ |
+| duschen und rasieren | rasieren |  | 9.5 | 35 | ✓ |
+| duschen und anziehen | anziehen |  | 8.2 | 21 | ✓ |
+| duschen und waschen | waschen |  | 7.7 | 23 | ✓ |
+| duschen und schlafen | schlafen |  | 7.5 | 46 | ✓ |
+| duschen und essen | essen |  | 6.4 | 34 | ✓ |
+| duschen und ziehen | ziehen |  | 5.3 | 28 | ✓ |
+| duschen und gehen | gehen |  | 4.1 | 74 | ✓ |
+
+### hat Präpositionalgruppe
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| duschen + seit Tag | seit Tag | Dat. | 5.9 | 23 | ✓ |
+| duschen + zu Haus | zu Haus | Dat. | 4.0 | 42 | ✓ |
+
+
+## ausruhen
+
+*Filter: Freq ≥ 20, logDice ≥ 4.0, B1 lemmas only · source: OpenSubtitles de v2024*
+
+### ist in Koordination mit
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| ausruhen und entspannen | entspannen |  | 8.0 | 22 | ✓ |
+| ausruhen und essen | essen |  | 7.0 | 51 | ✓ |
+| ausruhen und schlafen | schlafen |  | 6.9 | 30 | ✓ |
+| ausruhen und bleiben | bleiben |  | 5.1 | 30 | ✓ |
+| ausruhen und gehen | gehen |  | 4.5 | 95 | ✓ |
+
+### hat Akkusativ-Objekt
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| ausruhen + Moment(Akk.) | Moment |  | 5.9 | 39 | ✓ |
+| ausruhen + Minute(Akk.) | Minute |  | 5.1 | 30 | ✓ |
+| ausruhen + Auge(Akk.) | Auge |  | 4.6 | 31 | ✓ |
+
+### hat Präpositionalgruppe
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| ausruhen + zu Haus | zu Haus | Dat. | 5.1 | 91 | ✓ |
+| ausruhen + in Zimmer | in Zimmer | Dat. | 4.5 | 25 | ✓ |
+
+
+## Erholung
+
+*Filter: Freq ≥ 20, logDice ≥ 4.0, B1 lemmas only · source: OpenSubtitles de v2024*
+
+### ist in Koordination mit
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Erholung und Ruhe | Ruhe |  | 9.0 | 79 | ✓ |
+
+### ist in Präpositionalgruppe
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| zu fahren … Erholung | zu fahren | Dat. | 4.4 | 21 | ✓ |
+
+
+## erschrecken
+
+*Filter: Freq ≥ 20, logDice ≥ 4.0, B1 lemmas only · source: OpenSubtitles de v2024*
+
+### hat Präpositionalgruppe
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| erschrecken + zu Tod | zu Tod | Dat. | 11.1 | 891 | ✓ |
+
+### hat Akkusativ-Objekt
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| erschrecken + Pferd(Akk.) | Pferd |  | 6.6 | 47 | ✓ |
+| erschrecken + Dame(Akk.) | Dame |  | 6.4 | 23 | ✓ |
+| erschrecken + Leute(Akk.) | Leute |  | 6.4 | 209 | ✓ |
+| erschrecken + Tier(Akk.) | Tier |  | 5.6 | 20 | ✓ |
+| erschrecken + Kind(Akk.) | Kind |  | 5.6 | 156 | ✓ |
+| erschrecken + Mädchen(Akk.) | Mädchen |  | 4.9 | 36 | ✓ |
+| erschrecken + Mensch(Akk.) | Mensch |  | 4.8 | 47 | ✓ |
+| erschrecken + Mutter(Akk.) | Mutter |  | 4.0 | 21 | ✓ |
+| erschrecken + Frau(Akk.) | Frau |  | 4.0 | 45 | ✓ |
+
+
+## Krankenschwester
+
+*Filter: Freq ≥ 20, logDice ≥ 4.0, B1 lemmas only · source: OpenSubtitles de v2024*
+
+### ist in Koordination mit
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Krankenschwester und Arzt | Arzt |  | 9.7 | 142 | ✓ |
+
+### ist in Präpositionalgruppe
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| zu Ausbildung … Krankenschwester | zu Ausbildung | Dat. | 9.1 | 24 | ✓ |
+| als arbeiten … Krankenschwester | als arbeiten | Nom. | 8.3 | 97 | ✓ |
+| als sein … Krankenschwester | als sein | Nom. | 4.6 | 24 | ✓ |
+
+### hat Adjektivattribut
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| ein(e) ausgebildete(r) Krankenschwester | ausgebildet |  | 8.5 | 25 | ✓ |
+| ein(e) hübsche(r) Krankenschwester | hübsch |  | 4.8 | 20 | ✓ |
+
+### ist Prädikativ zu
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Mutter ist/wird Krankenschwester | Mutter |  | 6.9 | 52 | ✓ |
+| Frau ist/wird Krankenschwester | Frau |  | 5.1 | 27 | ✓ |
+
+### ist Akkusativ-Objekt von
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Krankenschwester(Akk.) fragen | fragen |  | 4.7 | 21 | ✓ |
+| Krankenschwester(Akk.) spielen | spielen |  | 4.5 | 72 | ✓ |
+| Krankenschwester(Akk.) rufen | rufen |  | 4.3 | 31 | ✓ |
+
+
+## Sprechstunde
+
+*Filter: Freq ≥ 20, logDice ≥ 4.0, B1 lemmas only · source: OpenSubtitles de v2024*
+
+### ist in Präpositionalgruppe
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| in kommen … Sprechstunde | in kommen | Akk. | 4.3 | 63 | ✓ |
+
+### ist Subjekt von
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Sprechstunde beginnen(t) | beginnen |  | 4.2 | 21 | ✓ |
+
+
+## Therapie
+
+*Filter: Freq ≥ 20, logDice ≥ 4.0, B1 lemmas only · source: OpenSubtitles de v2024*
+
+### ist in Koordination mit
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Therapie und Medikament | Medikament |  | 9.6 | 56 | ✓ |
+
+### hat Adjektivattribut
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| ein(e) alternative(r) Therapie | alternativ |  | 8.2 | 28 | ✓ |
+| ein(e) richtige(r) Therapie | richtig |  | 4.4 | 52 | ✓ |
+| ein(e) neue(r) Therapie | neu |  | 4.1 | 142 | ✓ |
+
+### ist Akkusativ-Objekt von
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Therapie(Akk.) fortsetzen | fortsetzen |  | 7.6 | 41 | ✓ |
+| Therapie(Akk.) beginnen | beginnen |  | 6.9 | 55 | ✓ |
+| Therapie(Akk.) anfangen | anfangen |  | 6.5 | 23 | ✓ |
+| Therapie(Akk.) empfehlen | empfehlen |  | 6.4 | 22 | ✓ |
+| Therapie(Akk.) beenden | beenden |  | 6.4 | 65 | ✓ |
+| Therapie(Akk.) starten | starten |  | 5.9 | 23 | ✓ |
+| Therapie(Akk.) entwickeln | entwickeln |  | 5.8 | 25 | ✓ |
+| Therapie(Akk.) versuchen | versuchen |  | 5.5 | 26 | ✓ |
+| Therapie(Akk.) machen | machen |  | 5.4 | 987 | ✓ |
+| Therapie(Akk.) brauchen | brauchen |  | 5.3 | 384 | ✓ |
+| Therapie(Akk.) bezahlen | bezahlen |  | 5.2 | 40 | ✓ |
+
+### ist in Präpositionalgruppe
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| in lernen … Therapie | in lernen | Dat. | 7.0 | 38 | ✓ |
+| mit versuchen … Therapie | mit versuchen | Dat. | 6.6 | 27 | ✓ |
+| mit beginnen … Therapie | mit beginnen | Dat. | 6.5 | 53 | ✓ |
+| auf sprechen … Therapie | auf sprechen | Akk. | 6.5 | 20 | ✓ |
+| zu schicken … Therapie | zu schicken | Dat. | 6.5 | 34 | ✓ |
+| zu gehen … Therapie | zu gehen | Dat. | 5.9 | 202 | ✓ |
+| in schicken … Therapie | in schicken | Dat. | 5.3 | 21 | ✓ |
+| an glauben … Therapie | an glauben | Dat. | 5.2 | 24 | ✓ |
+| zu gehören … Therapie | zu gehören | Dat. | 5.0 | 36 | ✓ |
+| in gehen … Therapie | in gehen | Dat. | 4.6 | 98 | ✓ |
+| in sein … Therapie | in sein | Dat. | 4.5 | 543 | ✓ |
+| für Zeit … Therapie | für Zeit | Akk. | 4.5 | 20 | ✓ |
+
+### ist Subjekt von
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Therapie wirken(t) | wirken |  | 6.5 | 44 | ✓ |
+| Therapie funktionieren(t) | funktionieren |  | 6.5 | 70 | ✓ |
+| Therapie helfen(t) | helfen |  | 6.3 | 122 | ✓ |
+| Therapie dauern(t) | dauern |  | 5.7 | 25 | ✓ |
+| Therapie schlagen(t) | schlagen |  | 5.3 | 25 | ✓ |
+| Therapie beginnen(t) | beginnen |  | 4.7 | 30 | ✓ |
+| Therapie laufen(t) | laufen |  | 4.5 | 42 | ✓ |
+| Therapie bringen(t) | bringen |  | 4.0 | 34 | ✓ |
+
+### ist Genitivattribut von
+
+| chunk | collocate | Kasus | logDice | Freq | B1 |
+|---|---|:-:|---:|---:|:-:|
+| Teil des/der Therapie | Teil |  | 5.8 | 75 | ✓ |
+
