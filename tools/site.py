@@ -254,58 +254,20 @@ def anchor(word):
 
 # ---------------------------------------------------------------- the reader (Lesesaal)
 
-def render_text(batch, topic, text, scene, hits, covered, words_by_id, words_by_lemma,
-                prev_t, next_t, chunk_anchors):
-    """One dialogue, set to be read aloud from."""
-    marks, glue_seen, target_seen = {}, [], set()
-    for wid, surface in hits.items():
-        if words_by_id[wid]["kind"] == "target":
-            marks[surface] = (words_by_id[wid]["lemma"], words_by_id[wid]["gloss"])
-    for wid in covered:
-        w = words_by_id[wid]
-        (target_seen.add(w["lemma"]) if w["kind"] == "target" else glue_seen.append(w["lemma"]))
+def render_text(batch, topic, text, hits, scene, words_by_id, prev_t, next_t):
+    """One dialogue and nothing else — the page is for reading aloud from.
+
+    No word list, no coverage rail: that bookkeeping belongs on the batch page, and a
+    margin full of vocabulary is exactly what pulls the eye off the German. The only
+    thing the ledger contributes here is the gloss behind each target word.
+    """
+    marks = {s: (words_by_id[w]["lemma"], words_by_id[w]["gloss"])
+             for w, s in hits.items() if words_by_id[w]["kind"] == "target"}
 
     turns = []
     for who, line in text["turns"]:
         turns.append(f'<div class="turn"><div class="who">{e(who)}</div>'
                      f'<p class="line">{highlight(line, marks)}</p></div>')
-
-    owned = scene["words"] if scene else []
-    owned_keys = {fold(w) for w in owned}
-    rail = []
-    if owned:
-        hit_n = sum(1 for w in owned if w in target_seen)
-        extra = [l for l in target_seen if fold(l) not in owned_keys]
-        pct = 100 * hit_n // max(len(owned), 1)
-        note = f" · {len(extra)} aus anderen Szenen mitgenommen" if extra else ""
-        rail.append(f'<div class="prog">{hit_n} von {len(owned)} Szenenwörtern im Text{note}'
-                    f'<span class="bar"><i style="width:{pct}%"></i></span></div>')
-        rail.append("<h4>Szenenwörter</h4><ul class=\"wl\">")
-        for w in owned:
-            g = words_by_lemma.get(fold(w))
-            gloss = g["gloss"] if g else ""
-            seen_here = w in target_seen
-            # chunks.md heads each section with the bare word ("## Wohnung"), so match
-            # through variants(); it only covers the batch's load-bearing words anyway,
-            # and a word with no section gets no link rather than a dead anchor
-            a = next((chunk_anchors[fold(v)] for v in variants(w)
-                      if fold(v) in chunk_anchors), None)
-            link = f'<a href="chunks.html#{a}">{e(w)}</a>' if a else e(w)
-            rail.append(f'<li class="{"" if seen_here else "open"}">'
-                        f'<span class="tick">{"✓" if seen_here else "·"}</span>{link}'
-                        f'<span class="gl">{e(gloss or "")}</span></li>')
-        rail.append("</ul>")
-        if extra:
-            rail.append("<h4>Aus anderen Szenen</h4><ul class=\"wl\">")
-            for l in sorted(extra):
-                g = words_by_lemma.get(fold(l))
-                rail.append(f'<li class="carry"><span class="tick">+</span>{e(l)}'
-                            f'<span class="gl">{e((g and g["gloss"]) or "")}</span></li>')
-            rail.append("</ul>")
-    if glue_seen:
-        rail.append("<h4>Glue in diesem Text</h4>")
-        rail.append('<p class="glue">' + " · ".join(e(g) for g in sorted(glue_seen, key=fold))
-                    + "</p>")
 
     prev_link = (f'<a href="text-{prev_t["no"]}.html">← <b>Text {prev_t["no"]}</b> — {e(prev_t["title"])}</a>'
                  if prev_t else '<a href="index.html">← Szenenplan</a>')
@@ -325,15 +287,12 @@ def render_text(batch, topic, text, scene, hits, covered, words_by_id, words_by_
     <a href="index.html">Batch {batch} · {e(topic)}</a>
     <span>Text {text["no"]}</span>
   </div>
-  <div class="cols">
-    <article class="read">
-      <p class="kicker">Szene {text["no"]}</p>
-      <h1>{e(text["title"])}</h1>
-      {premise}
-      {"".join(turns)}
-    </article>
-    <aside class="rail">{"".join(rail)}</aside>
-  </div>
+  <article class="read">
+    <p class="kicker">Szene {text["no"]}</p>
+    <h1>{e(text["title"])}</h1>
+    {premise}
+    {"".join(turns)}
+  </article>
   <nav class="pager">{prev_link}{next_link}</nav>
 </div>"""
     return page(f'{text["title"]} — Batch {batch}', 2, body, cls="lesesaal")
@@ -424,30 +383,27 @@ def render_index(rows, seen, written, topics, dirslug):
     covered = sum(1 for r in targets if r["id"] in seen)
     dialogues = sum(len(v) for v in written.values())
 
+    # A plain numbered list, not 23 cards: only two of them are anywhere to go, and the
+    # cram order is the point — a card grid buries a sequence under decoration.
     cards = []
     for lo, hi, stage, stage_name in STAGES:
         cards.append(f'<div class="stagehead"><b>{stage}</b><span>{e(stage_name)}</span></div>')
-        cards.append('<div class="grid">')
+        cards.append('<ol class="topics">')
         for b in range(lo, hi + 1):
             if b not in topics:
                 continue
             n = sum(1 for r in targets if r["batch"] == b)
-            hit = sum(1 for r in targets if r["batch"] == b and r["id"] in seen)
-            pct = 100 * hit // max(n, 1)
             if b in written:
                 cards.append(
-                    f'<a class="card" href="batch/{dirslug[b]}/index.html">'
-                    f'<span class="chip">fertig</span>'
-                    f'<div class="n">{b:02d}</div><h3>{e(topics[b])}</h3>'
-                    f'<div class="meta">{n} Wörter · {len(written[b])} Dialoge</div>'
-                    f'<div class="bar"><i style="width:{pct}%"></i></div></a>')
+                    f'<li><a href="batch/{dirslug[b]}/index.html">'
+                    f'<span class="n">{b:02d}</span><span class="t">{e(topics[b])}</span>'
+                    f'<span class="m">{n} Wörter · {len(written[b])} Dialoge</span></a></li>')
             else:
                 cards.append(
-                    f'<div class="card idle"><div class="n">{b:02d}</div>'
-                    f'<h3>{e(topics[b])}</h3>'
-                    f'<div class="meta">{n} Wörter · geplant</div>'
-                    f'<div class="bar"><i style="width:0"></i></div></div>')
-        cards.append("</div>")
+                    f'<li class="idle"><div>'
+                    f'<span class="n">{b:02d}</span><span class="t">{e(topics[b])}</span>'
+                    f'<span class="m">{n} Wörter</span></div></li>')
+        cards.append("</ol>")
 
     trs = []
     for r in rows:
@@ -533,10 +489,6 @@ def build(out):
         topics[r["batch"]] = r["topic"]
 
     by_id = {r["id"]: r for r in rows}
-    # lemma lookup for the rail, keyed the way scenes.md writes the word
-    by_lemma = {}
-    for r in rows:
-        by_lemma.setdefault(fold(r["lemma"]), r)
 
     written, dirslug = {}, {}
     for batch, slug, path in batch_dirs():
@@ -568,15 +520,12 @@ def build(out):
             for wid in hits[t["no"]]:
                 seen.setdefault(wid, (batch, t["no"], t["title"]))
 
-        chunk_anchors = {fold(c["word"]): anchor(c["word"]) for c in chunks}
         by_no = {s["no"]: s for s in scenes}
         for i, t in enumerate(texts):
             write(out, f"batch/{slug}/text-{t['no']}.html", render_text(
-                batch, topic, t, by_no.get(t["no"]), hits[t["no"]], covered[t["no"]],
-                by_id, by_lemma,
+                batch, topic, t, hits[t["no"]], by_no.get(t["no"]), by_id,
                 texts[i - 1] if i else None,
-                texts[i + 1] if i + 1 < len(texts) else None,
-                chunk_anchors))
+                texts[i + 1] if i + 1 < len(texts) else None))
         write(out, f"batch/{slug}/index.html", render_batch(
             batch, topic, scenes, texts, covered, by_id, batch_words, bool(chunks)))
         if chunks:
