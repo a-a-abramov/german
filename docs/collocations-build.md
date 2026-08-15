@@ -1,7 +1,7 @@
 # Building your own Wortprofil from OpenSubtitles
 
 **Why this exists.** DWDS-Wortprofil has the best data but can't be accessed
-programmatically (robots.txt `Disallow: /wp`, see `dwds-wortprofil-guide.md` §3.2).
+programmatically (robots.txt `Disallow: /wp`, see `collocations-method.md` §3.2).
 Leipzig's API is open but gives no grammatical relations and is news-skewed. Both are
 *journalistic* — and batches 1–8 (Wohnung, Körper, Essen, Kleidung, Familie) are
 domestic and spoken. Film dialogue is the closest freely available register.
@@ -12,8 +12,8 @@ a spoken register, and no access restrictions.
 > **STATUS: BUILT — 2026-08-13. This document is the original recipe, kept as the
 > design rationale. It is NOT the build record, and its Step 3 label table is WRONG.**
 >
-> The database exists (`opus-de/wp.db`, 1.5 GB) and is queried with `tools/wortprofil_db.py`
-> — see `WORTPROFIL.md` for the query manual. What was actually built, and how it differs
+> The database exists (`data/wortprofil.db`, 1.5 GB) and is queried with `tools/wortprofil_db.py`
+> — see `docs/collocations-query.md` for the query manual. What was actually built, and how it differs
 > from what is written below, is in **`tools/opus/IMPLEMENTATION.md`**.
 >
 > **Before using anything in Step 3, read `tools/opus/IMPLEMENTATION.md` §4.** The

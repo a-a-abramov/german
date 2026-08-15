@@ -8,7 +8,7 @@ every batch carried a `wordlist.md`). Tracking state inside prose meant the writ
 agent had to read — and rewrite — thousands of lines of ledger just to write eight
 dialogues, and it nudged the texts toward whatever slice the list happened to hold.
 
-So the ledger moved here: one SQLite file, `groundwork/vocab.db`, holding
+So the ledger moved here: one SQLite file, `curriculum/vocab.db`, holding
 
     words   every B1 word: its batch (topic), its CSV forms, gloss, frequency band
     uses    which text of which batch used a word  (= coverage)
@@ -24,8 +24,8 @@ USAGE
     python3 tools/vocab.py words --batch 2           # the batch's word list, with status
     python3 tools/vocab.py words --batch 2 --open    # only what is still uncovered
     python3 tools/vocab.py glue --open --group Frage # still-missing question words
-    python3 tools/vocab.py scan batch-02-*/texts.md --batch 2          # dry run
-    python3 tools/vocab.py scan batch-02-*/texts.md --batch 2 --apply  # record coverage
+    python3 tools/vocab.py scan content/batches/02-*/texts.md --batch 2         # dry run
+    python3 tools/vocab.py scan content/batches/02-*/texts.md --batch 2 --apply # record coverage
     python3 tools/vocab.py use   --batch 2 --text 3 "die Grippe"       # manual override
     python3 tools/vocab.py skip  --batch 2 "das Asyl" --reason "no natural home"
     python3 tools/vocab.py card  --batch 2 --all                       # after carding
@@ -45,11 +45,9 @@ import sqlite3
 import sys
 import unicodedata
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.dirname(HERE)
-DB = os.path.join(ROOT, "groundwork", "vocab.db")
-CSV_PATH = os.path.join(ROOT, "goethe-b1-wortliste.csv")
-SEED = os.path.join(ROOT, "groundwork", "assignments.tsv")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from paths import (ASSIGNMENTS as SEED, BATCHES, GOETHE_CSV as CSV_PATH,  # noqa: E402
+                   ROOT, VOCAB_DB as DB)
 
 SCHEMA = """
 CREATE TABLE words (
@@ -353,7 +351,6 @@ def cmd_export(args):
 
 def load_bands():
     try:
-        sys.path.insert(0, HERE)
         import wordfreq
         return wordfreq.load_bands()
     except Exception as e:                       # noqa: BLE001 - bands are a nicety
@@ -464,7 +461,7 @@ def cmd_init(args):
 
     if not os.path.isfile(SEED):
         sys.exit(f"missing {SEED} — the assignment seed is the plain-text master copy.\n"
-                 "Recover it from git (`git checkout groundwork/assignments.tsv`) or, for a\n"
+                 "Recover it from git (`git checkout curriculum/assignments.tsv`) or, for a\n"
                  "one-off rebuild from the retired prose lists, from an older revision of\n"
                  "topics.md + glue-pool.md.")
     src = f"seed {os.path.relpath(SEED, ROOT)}"
@@ -476,9 +473,9 @@ def cmd_init(args):
     # the old checkbox ticks: a tick on a sentence that was later rewritten is a word
     # silently marked covered that no text actually contains.
     seeded = []
-    for d in sorted(os.listdir(ROOT)):
-        m = re.match(r"^batch-(\d+)-", d)
-        path = os.path.join(ROOT, d, "texts.md")
+    for d in sorted(os.listdir(BATCHES) if os.path.isdir(BATCHES) else []):
+        m = re.match(r"^(\d+)-", d)
+        path = os.path.join(BATCHES, d, "texts.md")
         if not m or not os.path.isfile(path):
             continue
         batch = int(m.group(1))
@@ -802,7 +799,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
 
-    p = sub.add_parser("init", help="build groundwork/vocab.db from groundwork/assignments.tsv")
+    p = sub.add_parser("init", help="build curriculum/vocab.db from curriculum/assignments.tsv")
     p.add_argument("--force", action="store_true")
     p.set_defaults(fn=cmd_init)
 
@@ -870,7 +867,7 @@ def main():
     p.add_argument("--batch", type=int)
     p.set_defaults(fn=cmd_note)
 
-    p = sub.add_parser("export", help="write groundwork/assignments.tsv, the seed init reads")
+    p = sub.add_parser("export", help="write curriculum/assignments.tsv, the seed init reads")
     p.set_defaults(fn=cmd_export)
 
     p = sub.add_parser("find", help="look a word up")

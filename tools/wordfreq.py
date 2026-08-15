@@ -7,13 +7,13 @@ earns a whole scene; `der Abfalleimer` (band 2) earns a clause. This orders them
 the cramming texts can spend their real estate accordingly.
 
 TWO DATA SOURCES, both fully sanctioned (unlike Wortprofil — see
-groundwork/dwds-wortprofil-guide.md §3.2):
+docs/collocations-method.md §3.2):
 
   1. BULK, one request, no per-word traffic  [default]
      https://www.dwds.de/lemma/csv — the DWDS Lemmadatenbank, an offered download
      (Content-Disposition: attachment) linked from https://www.dwds.de/lemma/list.
      279,346 lemmas with a `frequenzklasse` column. `/lemma` is not robots-disallowed.
-     Cached to dwds-cache/dwds_lemmata.csv (~27 MB) — fetched once, reused forever.
+     Cached to data/dwds/dwds_lemmata.csv (~27 MB) — fetched once, reused forever.
 
   2. FINE-GRAINED, one request per word       [--hits]  ** SPOT-CHECKS ONLY **
      https://www.dwds.de/api/frequency/?q=WORT — the documented frequency API, which
@@ -50,8 +50,9 @@ import time
 import urllib.parse
 import urllib.request
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CACHE = os.path.join(ROOT, "dwds-cache")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from paths import DWDS_CACHE as CACHE                        # noqa: E402
+
 LEMMA_CSV = os.path.join(CACHE, "dwds_lemmata.csv")
 LEMMA_URL = "https://www.dwds.de/lemma/csv"
 HITS_CACHE = os.path.join(CACHE, "frequency-hits.json")

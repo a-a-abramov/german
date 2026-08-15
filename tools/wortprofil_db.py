@@ -29,10 +29,8 @@ import sqlite3
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from paths import WORTPROFIL_DB as DEFAULT_DB              # noqa: E402
 from wortprofil import RELATION_PATTERNS, in_b1, load_b1   # noqa: E402
-
-DEFAULT_DB = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-                          "opus-de", "wp.db")
 
 CASE_DE = {"Nom": "Nom.", "Acc": "Akk.", "Dat": "Dat.", "Gen": "Gen."}
 

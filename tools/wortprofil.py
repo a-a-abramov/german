@@ -14,23 +14,23 @@ You open the Wortprofil page in your browser (an ordinary human page view, which
 exactly what the site is for) and save it. This script parses what you saved.
 
   1. Open  https://www.dwds.de/wp/?q=<WORT>&minfreq=5&limit=20&view=table&mode=full
-  2. Save the page:  Cmd-S  →  "Web Page, HTML Only"  →  dwds-cache/<Wort>.html
-  3. python3 tools/wortprofil.py dwds-cache/Tasse.html
+  2. Save the page:  Cmd-S  →  "Web Page, HTML Only"  →  data/dwds/<Wort>.html
+  3. python3 tools/wortprofil.py data/dwds/Tasse.html
 
 The only network calls this script makes are to
 https://www.dwds.de/api/lemma/goethe/{A1,A2,B1}.json — documented, publicly published
 API endpoints (see https://www.dwds.de/d/api#wb-list-goethe), not robots-disallowed.
-They are cached to dwds-cache/goethe-*.json after the first run.
+They are cached to data/dwds/goethe-*.json after the first run.
 
 NOTE: those three lists are INCREMENTAL, not cumulative — B1.json holds only the
 words new at B1 (1842 entries; `trinken` and `heiß` are not in it, they are A1).
 A B1 candidate knows the union: 3308 lemmas. This script unions all three.
 
 USAGE
-    python3 tools/wortprofil.py dwds-cache/Tasse.html            # markdown chunk table
-    python3 tools/wortprofil.py dwds-cache/*.html --tsv          # tsv for scripting
-    python3 tools/wortprofil.py dwds-cache/Tasse.html --all      # don't hide non-B1
-    python3 tools/wortprofil.py dwds-cache/Tasse.html --min-freq 30 --min-dice 3.0
+    python3 tools/wortprofil.py data/dwds/Tasse.html            # markdown chunk table
+    python3 tools/wortprofil.py data/dwds/*.html --tsv          # tsv for scripting
+    python3 tools/wortprofil.py data/dwds/Tasse.html --all      # don't hide non-B1
+    python3 tools/wortprofil.py data/dwds/Tasse.html --min-freq 30 --min-dice 3.0
 """
 
 import argparse
@@ -41,10 +41,11 @@ import re
 import sys
 import urllib.request
 
-CACHE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "dwds-cache")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from paths import DWDS_CACHE as CACHE, GOETHE_CSV as REPO_CSV      # noqa: E402
+
 LEVELS = ("A1", "A2", "B1")
 LEVEL_URL = "https://www.dwds.de/api/lemma/goethe/{}.json"
-REPO_CSV = os.path.join(os.path.dirname(CACHE), "goethe-b1-wortliste.csv")
 
 # Wortprofil relation -> how the chunk actually surfaces in a German sentence.
 # This mapping is the whole point: a bare collocate is a word, a collocate *plus its

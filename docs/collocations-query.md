@@ -1,7 +1,7 @@
 # Wortprofil — your own collocation database
 
 **What it is:** a relation-typed German collocation database built from 514 million tokens
-of film dialogue, sitting on your disk as `opus-de/wp.db`. It answers *"which words really
+of film dialogue, sitting on your disk as `data/wortprofil.db`. It answers *"which words really
 go with this word, and in what grammatical relation?"* — the same question DWDS-Wortprofil
 answers, but queryable from the command line and in a **spoken, domestic register** rather
 than a journalistic one.
@@ -146,7 +146,7 @@ removes both, which is a good reason to leave it on for text-writing.
 One table. No B1 filtering is applied at this level.
 
 ```bash
-sqlite3 -header -column opus-de/wp.db \
+sqlite3 -header -column data/wortprofil.db \
   "SELECT collocate, case_, freq, round(logdice,1) dice FROM colloc
    WHERE headword='Küche' AND relation='ist in Präpositionalgruppe'
    AND freq>=30 ORDER BY logdice DESC LIMIT 15;"
@@ -161,12 +161,12 @@ Useful one-liners:
 ```bash
 # which of a batch's words have usable data?
 for w in Wohnung Zimmer Küche Bad Schrank Bett; do
-  printf "%-10s %s\n" "$w" "$(sqlite3 opus-de/wp.db \
+  printf "%-10s %s\n" "$w" "$(sqlite3 data/wortprofil.db \
     "SELECT count(*) FROM colloc WHERE headword='$w' AND freq>=20 AND logdice>=4;")"
 done
 
 # what does this word coordinate with? (good for topic-adjacent vocabulary)
-sqlite3 opus-de/wp.db "SELECT collocate, freq FROM colloc
+sqlite3 data/wortprofil.db "SELECT collocate, freq FROM colloc
   WHERE headword='Teller' AND relation='ist in Koordination mit'
   ORDER BY freq DESC LIMIT 10;"
 ```
@@ -180,7 +180,7 @@ You shouldn't need to — but the machinery is still on `atlas` and is resumable
 ```bash
 ssh andrey@192.168.88.5 '/home/andrey/opus-de/code/launch.sh'   # start or resume
 ssh andrey@192.168.88.5 '/home/andrey/opus-de/code/morning.sh'  # full status report
-scp andrey@192.168.88.5:/home/andrey/opus-de/work/merged/wp.db opus-de/wp.db
+scp andrey@192.168.88.5:/home/andrey/opus-de/work/merged/wp.db data/wortprofil.db
 ```
 
 The last build: 200 shards, 0 failures, 514M tokens, **5.2 hours**, 5.36M rows.
@@ -213,9 +213,9 @@ deletable if you need the space.
 chunk-harvesting step of the `text-writer` skill doesn't change — it just stops needing
 manually saved DWDS pages.
 
-- `groundwork/dwds-wortprofil-guide.md` — *why* texts are built from attested chunks, and
+- `docs/collocations-method.md` — *why* texts are built from attested chunks, and
   how to read a Wortprofil. **Still the conceptual reference; read it first.**
-- `groundwork/diy-wortprofil-opensubtitles.md` — the original recipe for this build.
+- `docs/collocations-build.md` — the original recipe for this build.
   Note its Step 3 dependency-label table was checked and found wrong in four ways; the
   corrections are in `tools/opus/IMPLEMENTATION.md`.
 - `tools/opus/IMPLEMENTATION.md` — for whoever maintains or rebuilds the pipeline.

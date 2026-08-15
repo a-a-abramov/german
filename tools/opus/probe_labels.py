@@ -1,5 +1,5 @@
 """Step 3a: verify TIGER dependency labels EMPIRICALLY before writing any counting code.
-The mapping table in diy-wortprofil-opensubtitles.md is from memory and must not be trusted."""
+The mapping table in docs/collocations-build.md is from memory and must not be trusted."""
 import spacy
 
 nlp = spacy.load("de_core_news_sm", exclude=["ner"])

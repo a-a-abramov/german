@@ -5,8 +5,8 @@ must keep them clearly separated:
 
 | # | Content type | Purpose | Lives in |
 |---|---|---|---|
-| **1** | **Cramming texts** — short, vivid German scenes | **Initial encoding.** The user reads them slowly, visualizes, handwrites them several times, and memorizes them by heart. Mnemonic, one-time deep learning. | `batch-NN-*/texts.md` |
-| **2** | **Anki cards** — cloze + word→meaning | **Long-term maintenance.** Spaced-repetition review *after* a text is already memorized. | `batch-NN-*/anki-*.txt` |
+| **1** | **Cramming texts** — short, vivid German scenes | **Initial encoding.** The user reads them slowly, visualizes, handwrites them several times, and memorizes them by heart. Mnemonic, one-time deep learning. | `content/batches/NN-*/texts.md` |
+| **2** | **Anki cards** — cloze + word→meaning | **Long-term maintenance.** Spaced-repetition review *after* a text is already memorized. | `content/batches/NN-*/anki-*.txt` |
 
 **These are two stages of one memory, not two separate study systems.** The texts come
 first (encoding by hand); the cards are cut *from those same texts* afterwards
@@ -18,61 +18,81 @@ texts don't exist yet: the cards are derived content.
 
 ## Repo map (orientation for agents)
 
-```
-README.md                     ← this file: the method + the two content types
-.claude/skills/text-writer/   ← THE BRIEF for the agent that writes the texts + cards
-WORTPROFIL.md                 ← MANUAL: querying the OpenSubtitles collocation database
-goethe-b1-wortliste.csv       ← SOURCE OF TRUTH: official Goethe B1 Wortliste (2,886 entries)
-groundwork/
-├── vocab.db                  ← THE LEDGER: every word's batch, forms, gloss, frequency
-│                                band, coverage and card state. Query with tools/vocab.py.
-├── assignments.tsv           ← the ledger's plain-text seed (diffable; vocab.py init reads it)
-├── topics.md                 ← the plan: 23 topics, concrete→abstract cram order, plus a
-│                                non-binding bank of scene premises. No word lists.
-├── glue-pool.md              ← why 326 closed-class function words are pooled instead of
-│                                scened, and how they get woven through every batch's texts.
-├── dwds-wortprofil-guide.md  ← COLLOCATION METHOD: how to read DWDS-Wortprofil, and why
-│                                the texts are built from attested CHUNKS, not bare words.
-│                                Part Five = where to get collocations programmatically.
-└── diy-wortprofil-opensubtitles.md ← the original recipe for building your own
-                                 relation-typed collocation DB. BUILT 2026-08-13 — but its
-                                 Step 3 label table proved wrong in four ways; corrections
-                                 are in tools/opus/IMPLEMENTATION.md.
-tools/
-├── wortprofil.py             ← saved Wortprofil page → B1-filtered chunk table
-├── wortprofil_db.py          ← SAME output, queried from opus-de/wp.db (no browser needed)
-├── leipzig.py                ← collocations via the Leipzig API (CC BY 4.0, scriptable)
-├── vocab.py                  ← THE LEDGER CLI: words, coverage, scan, skip, cards
-├── wordfreq.py               ← DWDS frequency bands (already imported into the ledger)
-└── opus/                     ← the pipeline that BUILDS wp.db (see its IMPLEMENTATION.md)
-opus-de/                      ← (git-ignored) wp.db, 1.5 GB. Built, not committed.
-dwds-cache/                   ← (git-ignored) Wortprofil pages you saved + Goethe A1/A2/B1
-                                 lemma lists. Not committed: DWDS/Goethe content.
-batch-NN-<topic>/             ← one dir per batch = one topic. Files appear in pipeline
-                                 order, so a batch mid-flight has only the early ones:
-        (bracketed steps are the text-writer skill's procedure steps)
-├── scenes.md                 ← [step 1] the batch's scenes: premise · angle · words
-├── chunks.md                 ← [step 2] attested collocations per load-bearing word
-├── texts.md                  ← [step 3] CONTENT TYPE 1: the cramming dialogues
-├── anki-cloze.txt            ← [step 5] CONTENT TYPE 2: cloze cards (import as Cloze note type)
-└── anki-basic.txt            ← [step 5] CONTENT TYPE 2: word→meaning cards (import as Basic note type)
+Four top-level directories, one question each: **what am I learning** (`curriculum/`),
+**what have I written** (`content/`), **what do I run** (`tools/`), **how does it work**
+(`docs/`). Plus `data/`, which is git-ignored and rebuildable — nothing in it is authored.
 
-batch-01-in-der-wohnung/      ← the only finished batch: 11 dialogues, 142/142 words
-                                 covered (scenes.md + texts.md). Cards not cut yet.
-batch-02-koerper-gesundheit/  ← chunks harvested; no texts yet.
+```
+README.md            ← this file: the method + the two content types
+
+content/             ← THE STUDY MATERIAL. The only directory whose contents are read by
+└── batches/            a human (and, later, by the reader front-end). Everything else
+    └── NN-<topic>/     here exists to produce this.
+        (bracketed steps are the text-writer skill's procedure steps)
+        ├── scenes.md      ← [step 1] the batch's scenes: premise · angle · words
+        ├── chunks.md      ← [step 2] attested collocations per load-bearing word
+        ├── texts.md       ← [step 3] CONTENT TYPE 1: the cramming dialogues
+        ├── anki-cloze.txt ← [step 5] CONTENT TYPE 2: cloze cards (Anki Cloze note type)
+        └── anki-basic.txt ← [step 5] CONTENT TYPE 2: word→meaning cards (Anki Basic)
+        Files appear in pipeline order, so a batch mid-flight has only the early ones.
+        The NN prefix is a database key (`words.batch`) — a batch dir is never renumbered.
+
+curriculum/          ← THE PLAN AND THE BOOKKEEPING: what is to be learned, and how far
+├── goethe-b1-wortliste.csv ← SOURCE OF TRUTH: official Goethe B1 Wortliste (2,886 entries)
+├── vocab.db          ← THE LEDGER: every word's batch, forms, gloss, frequency band,
+│                        coverage and card state. Query it with tools/vocab.py.
+├── assignments.tsv   ← the ledger's plain-text seed (diffable; vocab.py init reads it)
+├── topics.md         ← 23 topics in concrete→abstract cram order, plus a non-binding
+│                        bank of scene premises. No word lists — those are in the ledger.
+└── glue-pool.md      ← why 326 closed-class function words are pooled instead of scened,
+                         and how they get woven through every batch's texts.
+
+tools/
+├── paths.py          ← every repo path in one place; the other tools import it
+├── vocab.py          ← THE LEDGER CLI: words, coverage, scan, skip, cards
+├── wortprofil_db.py  ← collocations from data/wortprofil.db (the normal way)
+├── wortprofil.py     ← same output from a hand-saved DWDS page (fallback, needs a browser)
+├── leipzig.py        ← collocations via the Leipzig API (CC BY 4.0, scriptable)
+├── wordfreq.py       ← DWDS frequency bands (already imported into the ledger)
+└── opus/             ← the pipeline that BUILDS wortprofil.db, on a separate machine.
+                         Its /home/andrey/… and /work/… paths are remote, not repo paths.
+
+docs/                ← the method write-ups. Read in this order:
+├── collocations-method.md ← WHY the texts are built from attested CHUNKS, not bare words,
+│                            and how to read a Wortprofil. Start here.
+├── collocations-build.md  ← the recipe for building your own relation-typed collocation
+│                            DB. Built 2026-08-13; its Step 3 label table proved wrong in
+│                            four ways — corrections in tools/opus/IMPLEMENTATION.md.
+└── collocations-query.md  ← MANUAL: querying the finished database day to day.
+
+data/                ← (git-ignored, rebuildable, never committed)
+├── wortprofil.db     ← 1.5 GB OpenSubtitles collocation DB, built by tools/opus/
+└── dwds/             ← DWDS downloads: Goethe A1/A2/B1 lemma lists (a live dependency —
+                         they are the B1 filter on every chunk harvest), the 27 MB
+                         Lemmadatenbank, and any Wortprofil page saved by hand.
+
+.claude/skills/text-writer/ ← THE BRIEF for the agent that writes the texts + cards
 ```
 
 There is no per-batch word list any more: a batch's words, their forms and their coverage
 live in the ledger (`python3 tools/vocab.py words --batch 2`). The remaining work is, per
-topic in `groundwork/topics.md`: write the texts (content type 1), then cut the cards
+topic in `curriculum/topics.md`: write the texts (content type 1), then cut the cards
 (content type 2) from them — **the agent doing that should invoke the `text-writer`
 skill; it is the complete brief.**
+
+### Reading the texts
+
+`texts.md` is the authored source of truth and stays markdown — it is what the user
+reviews and what `vocab.py scan` parses. A reader front-end is planned; it will live in a
+top-level `web/` and read `content/batches/` plus the ledger, which already knows which
+text each word landed in (`uses.batch`, `uses.text_no`) and its gloss and forms. Nothing
+needs to move for that to happen.
 
 ---
 
 ## The source of truth
 
-`goethe-b1-wortliste.csv` — the official list extracted by wejn.org
+`curriculum/goethe-b1-wortliste.csv` — the official list extracted by wejn.org
 (https://wejn.org/2023/12/extracting-data-from-goethe-zertifikat-b1-wortliste/,
 repo https://github.com/wejn/goethe-b1-wortliste, © Goethe-Institut 2016, personal
 use only). **2,886 entries.** Two columns:
@@ -95,20 +115,20 @@ standard German that happens to be shared.
 
 ## Per-batch pipeline
 
-1. **Pick a topic** from `groundwork/topics.md` — batches are ordered concrete→abstract;
+1. **Pick a topic** from `curriculum/topics.md` — batches are ordered concrete→abstract;
    start with Stage A (Wohnung, Körper, Essen…). `vocab.py status` shows what's left.
 2. **Design the scenes** — `scenes.md`: read the batch's whole word list
    (`vocab.py words --batch N`) and group it **by situation**, never by list order. This is
    the creative step; the list's sort order must never become the scenes' structure.
 3. **Harvest the chunks** — `chunks.md`, from the local collocation database:
    `python3 tools/wortprofil_db.py <Wörter> --min-freq 20 --min-dice 4 --top 15`
-   (see `WORTPROFIL.md`). The texts get built out of these attested combinations.
+   (see `docs/collocations-query.md`). The texts get built out of these attested combinations.
 4. **Write the cramming texts (content type 1)** in three passes — initial draft → review
    and enrichment → final pass — each of which puts naturalness first: short, imaginable
    German-only **dialogues** (4–8 turns, `A:` / `B:` format), every word in its canonical
    B1 sense, glue-pool words woven in. **90–95% coverage of natural-sounding dialogue beats
    100% that reads like a word list**; leftovers are `vocab.py skip`ped with a reason.
-5. **Record coverage** — `vocab.py scan batch-NN-*/texts.md --batch N --apply`, correcting
+5. **Record coverage** — `vocab.py scan content/batches/NN-*/texts.md --batch N --apply`, correcting
    the scanner's misses by hand.
 6. **Cram** (the user's loop) — read slow → visualize → handwrite several times → recite.
 7. **Generate the Anki cards (content type 2)** — *from the finalized texts*: one cloze
@@ -159,10 +179,10 @@ not per batch: `vocab.py glue --open` lists what no finished text has used yet.
 Run `python3 tools/vocab.py status` for the live picture — it is the counter; don't mirror
 its numbers here.
 
-- **`batch-01-in-der-wohnung/`** — Stage A, topic 1. Rewritten with the scene-design +
+- **`content/batches/01-in-der-wohnung/`** — Stage A, topic 1. Rewritten with the scene-design +
   three-stage method: `scenes.md` groups the 142 words into 11 situations, `texts.md` has
   one dialogue each (142/142 covered, 154 glue words). **Awaiting the cram + review pass**;
   Anki cards are held until then, so `anki-*.txt` don't exist yet.
-- **`batch-02-koerper-gesundheit/`** — chunks harvested, nothing written.
+- **`content/batches/02-koerper-gesundheit/`** — chunks harvested, nothing written.
 - **Next:** write batch 02 with the `text-writer` skill, or finish batch 01 by generating
   its cards.

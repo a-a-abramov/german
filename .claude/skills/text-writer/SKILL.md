@@ -49,12 +49,12 @@ Words that resist a natural home get `skip`ped with a reason and are picked up l
 
 | Path | What it is |
 |---|---|
-| `tools/vocab.py` + `groundwork/vocab.db` | **The ledger.** Every B1 word: its batch, CSV forms, gloss, frequency band, and whether a finished text has used it. All bookkeeping lives here — never in prose files. |
-| `groundwork/assignments.tsv` | Plain-text seed of the ledger (`vocab.py init` reads it). Edit here if a word must change topic, then `init --force`. |
-| `groundwork/topics.md` | The plan: 23 topics ordered concrete→abstract, plus a non-binding scene-idea bank. |
-| `groundwork/glue-pool.md` | Why 326 closed-class function words are pooled rather than scened, and how to weave them in. |
-| `goethe-b1-wortliste.csv` | Source of truth for forms, genders and official example sentences. |
-| `WORTPROFIL.md` + `tools/wortprofil_db.py` | The collocation database: 514M tokens of film dialogue, relation-typed. Exactly the register these texts need. |
+| `tools/vocab.py` + `curriculum/vocab.db` | **The ledger.** Every B1 word: its batch, CSV forms, gloss, frequency band, and whether a finished text has used it. All bookkeeping lives here — never in prose files. |
+| `curriculum/assignments.tsv` | Plain-text seed of the ledger (`vocab.py init` reads it). Edit here if a word must change topic, then `init --force`. |
+| `curriculum/topics.md` | The plan: 23 topics ordered concrete→abstract, plus a non-binding scene-idea bank. |
+| `curriculum/glue-pool.md` | Why 326 closed-class function words are pooled rather than scened, and how to weave them in. |
+| `curriculum/goethe-b1-wortliste.csv` | Source of truth for forms, genders and official example sentences. |
+| `docs/collocations-query.md` + `tools/wortprofil_db.py` | The collocation database: 514M tokens of film dialogue, relation-typed. Exactly the register these texts need. |
 | `tools/wordfreq.py`, `tools/leipzig.py` | Frequency bands (already in the ledger) and a fallback collocation source. |
 
 ## Procedure
@@ -103,12 +103,12 @@ it will carry. Rules:
 - A word may appear in several scenes — coverage counts the first natural use.
 - Leftovers are expected. Park them in a "still homeless" list; Stage 2 finds homes for
   most, Stage 3 skips the rest.
-- `groundwork/topics.md` has an inherited scene-idea bank you may raid for premises. It
+- `curriculum/topics.md` has an inherited scene-idea bank you may raid for premises. It
   is **non-binding** — it was written against the retired alphabetical slicing, so its
   word groupings are meaningless. Take a premise if it fits your grouping; otherwise
   invent your own.
 
-Write the scene plan to `batch-NN-<slug>/scenes.md` (title, premise, angle, word list) so
+Write the scene plan to `content/batches/NN-<slug>/scenes.md` (title, premise, angle, word list) so
 Stages 2 and 3 can see what each dialogue was supposed to do.
 
 ### Step 2 — Harvest chunks
@@ -118,7 +118,7 @@ on, not all 130 words — and run:
 
 ```bash
 python3 tools/wortprofil_db.py <Wort> <Wort> … --min-freq 20 --min-dice 4 --top 15 \
-    > batch-NN-<slug>/chunks.md
+    > content/batches/NN-<slug>/chunks.md
 ```
 
 That gives, per word and per grammatical relation, the top-15 *attested* combinations,
@@ -149,7 +149,7 @@ sentence, leave it out — Stage 2 will look at it again. Save to `texts.md` in 
 below. Then:
 
 ```bash
-python3 tools/vocab.py scan batch-NN-<slug>/texts.md --batch N -v
+python3 tools/vocab.py scan content/batches/NN-<slug>/texts.md --batch N -v
 ```
 
 **Stage 2 — Review and enrichment.** Re-read every dialogue as a native speaker would.
@@ -164,7 +164,7 @@ still reads like a list. Check the mechanics: genders and verb forms against the
 every scene genuinely imaginable, 4–8 turns, no English. Then close out coverage:
 
 ```bash
-python3 tools/vocab.py scan batch-NN-<slug>/texts.md --batch N --apply
+python3 tools/vocab.py scan content/batches/NN-<slug>/texts.md --batch N --apply
 python3 tools/vocab.py skip --batch N "<word>" "<word>" --reason "no natural home in this batch"
 python3 tools/vocab.py status --batch N
 ```

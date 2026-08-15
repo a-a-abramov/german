@@ -1,10 +1,10 @@
 # Wortprofil build — implementation notes
 
 **Audience: the agent maintaining or rebuilding this.** For how to *use* the result, see
-`WORTPROFIL.md` in the repo root. This file records data structures, the empirical
+`docs/collocations-query.md` in the repo root. This file records data structures, the empirical
 relation model, and the reasoning behind choices that look arbitrary from the code.
 
-Built 2026-08-13. Implements `groundwork/diy-wortprofil-opensubtitles.md`, **and departs
+Built 2026-08-13. Implements `docs/collocations-build.md`, **and departs
 from it in seven places** — all of them documented below with the evidence.
 
 ---

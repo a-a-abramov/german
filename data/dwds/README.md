@@ -1,12 +1,16 @@
-# dwds-cache/
+# data/dwds/
 
-Scratch directory for `tools/wortprofil.py`. **Git-ignored — nothing here is committed.**
+Everything this repo downloads from DWDS. **Git-ignored — nothing here is committed**, and
+everything here is refetchable, so it is safe to delete. It is not, however, scratch:
+`goethe-A1/A2/B1.json` are a **live dependency** — they are the B1 filter that
+`tools/wortprofil.py` and `tools/wortprofil_db.py` apply to *every* chunk harvest. Delete
+them and the next harvest silently refetches; delete them offline and it fails.
 
 Two kinds of file land here:
 
 1. **Wortprofil pages you saved yourself.** Open e.g.
    `https://www.dwds.de/wp/?q=Tasse&pos=Substantiv&minfreq=20&minstat=3&limit=25&view=table&mode=full`
-   in a browser, then `Cmd-S` → *"Web Page, HTML Only"* → `dwds-cache/Tasse.html`.
+   in a browser, then `Cmd-S` → *"Web Page, HTML Only"* → `data/dwds/Tasse.html`.
 
    Do **not** fetch these with a script. `https://www.dwds.de/robots.txt` carries
    `Disallow: /wp` for every user-agent plus an explicit legal notice forbidding
@@ -26,4 +30,4 @@ Two kinds of file land here:
 4. **`frequency-hits.json`** — per-word raw hit counts from `/api/frequency`, cached so a
    word is never requested twice. The fetcher waits 1.5 s between calls.
 
-See `groundwork/dwds-wortprofil-guide.md` for the full method.
+See `docs/collocations-method.md` for the full method.

@@ -6,7 +6,7 @@ co-occur) than isolated words — and better to learn *frequent* chunks than rar
 Wortprofil is the single best free tool for finding out which chunks those are in German.
 
 Everything below was verified against a live Wortprofil page (`Tasse`, saved to
-`dwds-cache/Tasse.html`) and the DWDS API docs at https://www.dwds.de/d/api.
+`data/dwds/Tasse.html`) and the DWDS API docs at https://www.dwds.de/d/api.
 Where I'm inferring rather than quoting, it says so.
 
 ---
@@ -452,11 +452,11 @@ second one is worth taking:
 ```bash
 # 1. In your browser, open (swap the word):
 #    https://www.dwds.de/wp/?q=Tasse&pos=Substantiv&minfreq=20&minstat=3&limit=25&view=table&mode=full
-# 2. Cmd-S → "Web Page, HTML Only" → dwds-cache/Tasse.html
+# 2. Cmd-S → "Web Page, HTML Only" → data/dwds/Tasse.html
 # 3.
-python3 tools/wortprofil.py dwds-cache/Tasse.html
-python3 tools/wortprofil.py dwds-cache/*.html --tsv > chunks.tsv
-python3 tools/wortprofil.py dwds-cache/Tasse.html --all --min-freq 50
+python3 tools/wortprofil.py data/dwds/Tasse.html
+python3 tools/wortprofil.py data/dwds/*.html --tsv > chunks.tsv
+python3 tools/wortprofil.py data/dwds/Tasse.html --all --min-freq 50
 ```
 
 It:
@@ -549,7 +549,7 @@ collocational grammar too — the part that keeps learners sounding foreign long
 their vocabulary is fine.
 
 > **Caveat on this very example:** `Tasse` is a batch-3 word; I used it because it's the
-> one profile saved in `dwds-cache/`. A real Step 2b harvests profiles for the batch's
+> one profile saved in `data/dwds/`. A real Step 2b harvests profiles for the batch's
 > **own** load-bearing words (for batch 1: `Wohnung`, `Schrank`, `Fenster`, `Miete`,
 > `putzen`, `umziehen`…), and the chunks then fall inside the batch by construction.
 
@@ -560,8 +560,8 @@ sits between scene design and drafting. Historically it read:
 
 > **Step 2b — Harvest chunks (optional but recommended).** For the ~10–20 *load-bearing*
 > nouns and verbs of the batch (not all 148 words — the ones the scenes actually turn
-> on), open the Wortprofil URL, save the page to `dwds-cache/`, and run
-> `tools/wortprofil.py`. Write the surviving chunks into `batch-NN-*/chunks.md`. In
+> on), open the Wortprofil URL, save the page to `data/dwds/`, and run
+> `tools/wortprofil.py`. Write the surviving chunks into `content/batches/NN-*/chunks.md`. In
 > Step 3, build sentences **out of those chunks** rather than out of bare words.
 
 Two cheap wins to layer on later:
@@ -666,7 +666,7 @@ German corpora: `deu_news_2012_3M` (biggest), `deu_news_2012_1M`, `deu_news_2010
 > is exactly where the verbs are.
 
 **`tools/leipzig.py`** wraps it — same B1 filtering as the Wortprofil tool, plus it drops
-closed-class words using this repo's own `groundwork/glue-pool.md` as the stoplist:
+closed-class words using this repo's own `curriculum/glue-pool.md` as the stoplist:
 
 ```bash
 python3 tools/leipzig.py Tasse
@@ -738,7 +738,7 @@ That's a weekend project, not an afternoon. But it's the honest answer to "surel
 possible programmatically": yes — by computing it from a corpus you're licensed to hold,
 which is exactly what DWDS did.
 
-> **→ Written up in full as `groundwork/diy-wortprofil-opensubtitles.md`** — verified
+> **→ Written up in full as `docs/collocations-build.md`** — verified
 > corpus URL and size (950M tokens), spaCy model choice, the extraction loop, the logDice
 > scoring, and the costing. Designed and priced, not yet run.
 
@@ -777,7 +777,7 @@ https://api.wortschatz-leipzig.de/ws/cooccurrences/deu_news_2012_3M/cooccurrence
 
 # Local
 python3 tools/leipzig.py   Tasse Wohnung                 # collocations, scriptable
-python3 tools/wortprofil.py dwds-cache/*.html            # collocations (needs saved pages)
+python3 tools/wortprofil.py data/dwds/*.html            # collocations (needs saved pages)
 python3 tools/vocab.py     words --batch 1                # frequency bands (from the ledger)
 python3 tools/wordfreq.py  --words Schloss locker --hits  # spot-check an n/a band
 ```

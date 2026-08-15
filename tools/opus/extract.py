@@ -4,7 +4,7 @@ extract.py — dependency-triple extraction, shared by parse_shard.py and the te
 
 THE MAPPING IS EMPIRICAL. Every rule below was read off actual de_core_news_sm output
 (tools/opus/probe_labels.py, probe2.py), not from the table in
-groundwork/diy-wortprofil-opensubtitles.md. That table is wrong in four ways that would
+docs/collocations-build.md. That table is wrong in four ways that would
 each have quietly poisoned a whole night of counting:
 
   1. AUXILIARY HOP. In periphrastic tenses the subject attaches to the finite auxiliary,

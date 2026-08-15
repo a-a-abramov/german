@@ -20,7 +20,7 @@ WHAT YOU GET, AND HOW IT DIFFERS FROM WORTPROFIL
     Wortprofil : dependency-typed  -> "Tasse IST AKKUSATIV-OBJEKT VON trinken"
     Leipzig    : window-based      -> "Tasse co-occurs with trinken (sig 587)"
 Leipzig does NOT label the grammatical relation. You lose the single most useful thing
-Wortprofil had (see groundwork/dwds-wortprofil-guide.md §1.4). What you keep: a real,
+Wortprofil had (see docs/collocations-method.md §1.4). What you keep: a real,
 scriptable, licensed collocation signal. `left`/`right` position is a crude proxy for
 structure — a noun's left neighbours skew determiner/adjective, its right neighbours
 skew the noun it heads or the preposition that follows.
@@ -49,17 +49,13 @@ import urllib.parse
 import urllib.request
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from paths import GLUE_POOL, LEIPZIG_CACHE as CACHE          # noqa: E402
 from wortprofil import in_b1, load_b1                        # noqa: E402
-
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CACHE = os.path.join(ROOT, "dwds-cache", "leipzig")
 BASE = "https://api.wortschatz-leipzig.de/ws"
 DEFAULT_CORPUS = "deu_news_2012_3M"
 UA = "anki-b1-cram/personal-study"
 DELAY = 1.0
 
-
-GLUE_POOL = os.path.join(ROOT, "groundwork", "glue-pool.md")
 
 
 def log_dice(pair_freq, f_a, f_b):

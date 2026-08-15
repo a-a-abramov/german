@@ -2,7 +2,7 @@
 
 **This is the merged, final deliverable.** It combines the winning entry (agent B — semantic within-scene word grouping) with specific ideas absorbed from the judged comparison in `JUDGE.md`: agent C's three-way functional split of the grammar mega-topic (RAUM / LOGIK / GLUE) and its sharper premises and audit rigor, and agent A's fine-grained Gefahr/Notfall and Farben/Formen/Material topics. See `JUDGE.md` for the comparison this builds on.
 
-Groundwork for the crammed-topic-batch → write-a-vivid-scene → Anki-card method. This file is **taxonomy and cram order** — which words belong to which topic, and in what order the topics are crammed. It holds no word lists (those are in the ledger, `groundwork/vocab.db` / `assignments.tsv`) and no German practice text (that is written per batch by the `text-writer` skill).
+Groundwork for the crammed-topic-batch → write-a-vivid-scene → Anki-card method. This file is **taxonomy and cram order** — which words belong to which topic, and in what order the topics are crammed. It holds no word lists (those are in the ledger, `curriculum/vocab.db` / `assignments.tsv`) and no German practice text (that is written per batch by the `text-writer` skill).
 
 Source: `goethe-b1-wortliste.csv`, 2886 data rows (version-header row skipped). Parsed with Python — see the Methodology section at the end for exactly how, plus every judgment call.
 
@@ -153,8 +153,8 @@ first letter share nothing else, and texts written from such a slice read like a
 vocabulary list with quotation marks around it.
 
 **Where the words live now.** Every word's topic assignment, forms, gloss, frequency band
-and coverage state is in the ledger — `groundwork/vocab.db`, seeded from the diffable
-`groundwork/assignments.tsv`, queried with `tools/vocab.py`:
+and coverage state is in the ledger — `curriculum/vocab.db`, seeded from the diffable
+`curriculum/assignments.tsv`, queried with `tools/vocab.py`:
 
 ```bash
 python3 tools/vocab.py status                 # coverage across all 23 batches + the pool

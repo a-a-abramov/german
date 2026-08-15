@@ -1,7 +1,11 @@
 .claude/worktrees/
 .claude/settings.local.json
-dwds-cache/*
-!dwds-cache/README.md
 
-# OpenSubtitles-derived Wortprofil database (~GB, rebuilt by tools/opus/, not redistributable)
-opus-de/
+# DWDS downloads: the Goethe A1/A2/B1 lemma lists, the 27 MB Lemmadatenbank, and any
+# Wortprofil page saved by hand. Refetchable by the tools; DWDS/Goethe content, not ours.
+data/dwds/*
+!data/dwds/README.md
+
+# OpenSubtitles-derived collocation database (~1.5 GB, rebuilt by tools/opus/,
+# not redistributable).
+data/wortprofil.db

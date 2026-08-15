@@ -1,11 +1,11 @@
 # tools/opus — the Wortprofil build pipeline
 
-Builds `opus-de/wp.db` from OPUS OpenSubtitles on the server `atlas` (192.168.88.5),
+Builds `data/wortprofil.db` from OPUS OpenSubtitles on the server `atlas` (192.168.88.5),
 in a rootless podman container with nothing installed on the host.
 
 **Two documents, depending on what you need:**
 
-- **[`../../WORTPROFIL.md`](../../WORTPROFIL.md)** — how to *query* the database.
+- **[`../../docs/collocations-query.md`](../../docs/collocations-query.md)** — how to *query* the database.
   Start here if you just want collocations.
 - **[`IMPLEMENTATION.md`](IMPLEMENTATION.md)** — data structures, the empirical relation
   model, and why the code departs from the recipe in seven places. Read before changing

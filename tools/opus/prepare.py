@@ -3,7 +3,7 @@
 prepare.py — turn OPUS OpenSubtitles de.txt.gz into deduplicated, uniformly sampled
 parse shards.
 
-Three things this does that the recipe in groundwork/diy-wortprofil-opensubtitles.md
+Three things this does that the recipe in docs/collocations-build.md
 does not, each of which affects the correctness of the resulting statistics:
 
 1. NO PREFIX SAMPLING.  The recipe's `itertools.islice(f, limit)` reads the first N
