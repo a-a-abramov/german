@@ -555,8 +555,8 @@ their vocabulary is fine.
 
 ## 4.3 Where it plugs into the pipeline
 
-One new optional step, between **Step 2 (freeze wordlist)** and **Step 3 (write texts)**
-of `TEXT-WRITER.md`:
+The chunk-harvesting step of the `text-writer` skill (`.claude/skills/text-writer/`), which
+sits between scene design and drafting. Historically it read:
 
 > **Step 2b — Harvest chunks (optional but recommended).** For the ~10–20 *load-bearing*
 > nouns and verbs of the batch (not all 148 words — the ones the scenes actually turn
@@ -572,8 +572,11 @@ Two cheap wins to layer on later:
   can give the common words the prominent, most-memorable positions instead of whatever
   position the alphabet handed them.
 
+  Bands for all 2,886 words are already imported into the ledger, so the everyday form of
+  this is `python3 tools/vocab.py words --batch N` (band column, commonest first).
+  `wordfreq.py` itself is still the way to spot-check:
+
   ```bash
-  python3 tools/wordfreq.py batch-01-in-der-wohnung/wordlist.md   # bulk CSV, 0 requests
   python3 tools/wordfreq.py --words Schloss locker --hits         # spot-check the n/a's
   ```
 
@@ -775,8 +778,8 @@ https://api.wortschatz-leipzig.de/ws/cooccurrences/deu_news_2012_3M/cooccurrence
 # Local
 python3 tools/leipzig.py   Tasse Wohnung                 # collocations, scriptable
 python3 tools/wortprofil.py dwds-cache/*.html            # collocations (needs saved pages)
-python3 tools/wordfreq.py  batch-01-*/wordlist.md        # frequency (fully automatic)
-python3 tools/wordfreq.py  batch-01-*/wordlist.md --hits
+python3 tools/vocab.py     words --batch 1                # frequency bands (from the ledger)
+python3 tools/wordfreq.py  --words Schloss locker --hits  # spot-check an n/a band
 ```
 
 **Rules of thumb**

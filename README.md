@@ -20,14 +20,17 @@ texts don't exist yet: the cards are derived content.
 
 ```
 README.md                     ← this file: the method + the two content types
-TEXT-WRITER.md                ← self-contained brief for the agent that writes the texts + cards
+.claude/skills/text-writer/   ← THE BRIEF for the agent that writes the texts + cards
 WORTPROFIL.md                 ← MANUAL: querying the OpenSubtitles collocation database
 goethe-b1-wortliste.csv       ← SOURCE OF TRUTH: official Goethe B1 Wortliste (2,886 entries)
 groundwork/
-├── topics.md                 ← master plan: 23 scene-topics, 204 scene OUTLINES,
-│                                concrete→abstract cram order. Write texts FROM this.
-├── glue-pool.md              ← 326 closed-class function words (prepositions, pronouns,
-│                                particles…). NOT scened — woven through every batch's texts.
+├── vocab.db                  ← THE LEDGER: every word's batch, forms, gloss, frequency
+│                                band, coverage and card state. Query with tools/vocab.py.
+├── assignments.tsv           ← the ledger's plain-text seed (diffable; vocab.py init reads it)
+├── topics.md                 ← the plan: 23 topics, concrete→abstract cram order, plus a
+│                                non-binding bank of scene premises. No word lists.
+├── glue-pool.md              ← why 326 closed-class function words are pooled instead of
+│                                scened, and how they get woven through every batch's texts.
 ├── dwds-wortprofil-guide.md  ← COLLOCATION METHOD: how to read DWDS-Wortprofil, and why
 │                                the texts are built from attested CHUNKS, not bare words.
 │                                Part Five = where to get collocations programmatically.
@@ -39,28 +42,31 @@ tools/
 ├── wortprofil.py             ← saved Wortprofil page → B1-filtered chunk table
 ├── wortprofil_db.py          ← SAME output, queried from opus-de/wp.db (no browser needed)
 ├── leipzig.py                ← collocations via the Leipzig API (CC BY 4.0, scriptable)
-├── wordfreq.py               ← batch wordlist → words ranked by DWDS corpus frequency
+├── vocab.py                  ← THE LEDGER CLI: words, coverage, scan, skip, cards
+├── wordfreq.py               ← DWDS frequency bands (already imported into the ledger)
 └── opus/                     ← the pipeline that BUILDS wp.db (see its IMPLEMENTATION.md)
 opus-de/                      ← (git-ignored) wp.db, 1.5 GB. Built, not committed.
 dwds-cache/                   ← (git-ignored) Wortprofil pages you saved + Goethe A1/A2/B1
                                  lemma lists. Not committed: DWDS/Goethe content.
 batch-NN-<topic>/             ← one dir per batch = one topic. Files appear in pipeline
                                  order, so a batch mid-flight has only the early ones:
-├── wordlist.md               ← [step 2] frozen word list (article · plural/verb forms · gloss)
-├── chunks.md                 ← [step 2b, optional] attested collocations per load-bearing word
-├── texts.md                  ← [step 3] CONTENT TYPE 1: the cramming texts
-├── anki-cloze.txt            ← [step 6] CONTENT TYPE 2: cloze cards (import as Cloze note type)
-└── anki-basic.txt            ← [step 6] CONTENT TYPE 2: word→meaning cards (import as Basic note type)
+        (bracketed steps are the text-writer skill's procedure steps)
+├── scenes.md                 ← [step 1] the batch's scenes: premise · angle · words
+├── chunks.md                 ← [step 2] attested collocations per load-bearing word
+├── texts.md                  ← [step 3] CONTENT TYPE 1: the cramming dialogues
+├── anki-cloze.txt            ← [step 5] CONTENT TYPE 2: cloze cards (import as Cloze note type)
+└── anki-basic.txt            ← [step 5] CONTENT TYPE 2: word→meaning cards (import as Basic note type)
 
-batch-01-in-der-wohnung/      ← the only batch so far: wordlist.md + texts.md written
-                                 (148 words, 11 texts). Cards deliberately not cut yet —
-                                 they wait until the texts are reviewed (steps 5→6).
+batch-01-in-der-wohnung/      ← the only finished batch: 11 dialogues, 142/142 words
+                                 covered (scenes.md + texts.md). Cards not cut yet.
+batch-02-koerper-gesundheit/  ← chunks harvested; no texts yet.
 ```
 
-Groundwork is done and batch 01 is under way (texts written, cards pending). The
-remaining work is, per topic in `groundwork/topics.md`: write the texts (content type 1),
-then cut the cards (content type 2) from them — **the agent doing that should read
-`TEXT-WRITER.md` first; it's the complete, self-contained brief.**
+There is no per-batch word list any more: a batch's words, their forms and their coverage
+live in the ledger (`python3 tools/vocab.py words --batch 2`). The remaining work is, per
+topic in `groundwork/topics.md`: write the texts (content type 1), then cut the cards
+(content type 2) from them — **the agent doing that should invoke the `text-writer`
+skill; it is the complete brief.**
 
 ---
 
@@ -78,34 +84,47 @@ use only). **2,886 entries.** Two columns:
 that's how batch 01's invented word "Vorhang" got caught and replaced with the on-list
 `das Kissen`.
 
+**Standard German only.** The list also carries the Austrian and Swiss doublets of words it
+lists for Germany (`die Stiege` for *Treppe*, `das Velo` for *Fahrrad*, `der Erdapfel` for
+*Kartoffel*). The ledger records each entry's region tag and excludes the **54 A/CH-only**
+entries from every batch's targets — they are out of scope, not lost (`vocab.py words
+--batch N --regional` shows them). Entries tagged `(D, A)` or `(D, CH)` stay: those are
+standard German that happens to be shared.
+
 ---
 
 ## Per-batch pipeline
 
 1. **Pick a topic** from `groundwork/topics.md` — batches are ordered concrete→abstract;
-   start with Stage A (Wohnung, Körper, Essen…).
-2. **Freeze the word list** — `wordlist.md`: word | gender+plural or verb forms | gloss |
-   text# | in-Anki? — forms copied verbatim from the CSV.
-3. **Write the cramming texts (content type 1)** — turn that topic's scene outlines into
-   2–3 short, imaginable German-only scenes (4–8 sentences each). Every target word in its
-   canonical B1 sense; weave in glue-pool words naturally (see below). Iterate.
-4. **Vet** — naturalness + correctness pass; validate every word against the CSV.
-5. **Cram** (the user's loop) — read slow → visualize → handwrite several times → recite.
-6. **Generate the Anki cards (content type 2)** — *from the finalized texts*: one cloze
-   card per target word (cut from its sentence) + one word→meaning card.
+   start with Stage A (Wohnung, Körper, Essen…). `vocab.py status` shows what's left.
+2. **Design the scenes** — `scenes.md`: read the batch's whole word list
+   (`vocab.py words --batch N`) and group it **by situation**, never by list order. This is
+   the creative step; the list's sort order must never become the scenes' structure.
+3. **Harvest the chunks** — `chunks.md`, from the local collocation database:
+   `python3 tools/wortprofil_db.py <Wörter> --min-freq 20 --min-dice 4 --top 15`
+   (see `WORTPROFIL.md`). The texts get built out of these attested combinations.
+4. **Write the cramming texts (content type 1)** in three passes — initial draft → review
+   and enrichment → final pass — each of which puts naturalness first: short, imaginable
+   German-only **dialogues** (4–8 turns, `A:` / `B:` format), every word in its canonical
+   B1 sense, glue-pool words woven in. **90–95% coverage of natural-sounding dialogue beats
+   100% that reads like a word list**; leftovers are `vocab.py skip`ped with a reason.
+5. **Record coverage** — `vocab.py scan batch-NN-*/texts.md --batch N --apply`, correcting
+   the scanner's misses by hand.
+6. **Cram** (the user's loop) — read slow → visualize → handwrite several times → recite.
+7. **Generate the Anki cards (content type 2)** — *from the finalized texts*: one cloze
+   card per target word (cut verbatim from its utterance) + one word→meaning card.
 
 ## Batch sizing
 
 **The scene is the encoding unit; the batch is the whole topic.** Don't conflate them —
 a batch is days of work, not one sitting.
 
-- **1 scene = 1 text = ~13 target words.** This is the unit sized to survive "know it by
-  heart" in one encoding sitting + a few days of rewriting. `topics.md` pre-splits every
-  topic into these scene-sized chunks (2,542 scened words / 204 scenes ≈ 12.5 each).
-- **1 batch = 1 topic = one text per scene.** Topics vary widely: 1–17 scenes and 8–214
-  target words (see the table in `topics.md` §2). Batch 1 is 11 scenes / 148 words;
-  the largest is Batch 16 (Freizeit, Medien & Technik) at 17 scenes / 214 words, the
-  smallest Batch 4 (Tiere) at a single 8-word scene.
+- **1 scene = 1 text = 10–18 target words.** This is the unit sized to survive "know it by
+  heart" in one encoding sitting + a few days of rewriting.
+- **1 batch = 1 topic = one text per scene**, with the scenes designed fresh for each batch
+  (8–14 of them, grouped by situation). Topics vary widely: 8–214 target words, see the
+  table in `topics.md` §2. Batch 1 came to 11 texts for 148 words; the largest is Batch 16
+  (Freizeit, Medien & Technik) at 214 words, the smallest Batch 4 (Tiere) at 8.
 - So a batch is cranked scene by scene, over several sittings — the *batch* is the unit of
   planning and card generation, the *scene* is the unit of memorization.
 
@@ -114,8 +133,8 @@ a batch is days of work, not one sitting.
 Pure function words (`obwohl, zwischen, derselbe, ziemlich`…) have no mental picture, so
 they get **no standalone scenes**. Instead the text-writer draws from `glue-pool.md` while
 writing *every* batch's texts, as connective tissue. **Rule: it's OK to repeat these words;
-it's NOT OK to leave them out.** The pool has a checkbox tracker — tick each word the first
-time it lands in any finalized text, until all 326 are covered.
+it's NOT OK to leave them out.** Coverage is tracked in the ledger across the whole corpus,
+not per batch: `vocab.py glue --open` lists what no finished text has used yet.
 
 ## Why this shape
 
@@ -123,7 +142,11 @@ time it lands in any finalized text, until all 326 are covered.
   reactivates the exact scene built by hand, so cramming and spaced repetition are the
   *same* memory, not two competing ones.
 - **Word→meaning** cards guarantee context-free recall so a word isn't stuck to one sentence.
-- **Frozen list with gender/plural/verb forms** so a nice story never hides a wrong article.
+- **Ledger-held forms** (gender/plural/principal parts, CSV-verified) so a nice story never
+  hides a wrong article.
+- **Tracking outside the prose.** Word lists inside the plan used to double as the writing
+  brief, and the texts came out shaped like the lists. The plan is prose, the ledger is a
+  database, and the scenes are designed from meaning.
 
 ## Anki import
 
@@ -133,13 +156,13 @@ time it lands in any finalized text, until all 326 are covered.
 
 ## Batches
 
-- **`batch-01-in-der-wohnung/`** — Stage A, topic 1. 148 target words across 11 scenes.
-  `wordlist.md` frozen (CSV-verified forms, nothing invented) and all 11 `texts.md`
-  written; glue-pool coverage ticked in `groundwork/glue-pool.md` (that file is the
-  live counter — don't mirror the number here). **Awaiting the step 5 cram + review** — Anki
-  cards are held until then, so `anki-*.txt` don't exist yet and `carded? = no`
-  throughout the wordlist. (An earlier version of this batch predated the
-  taxonomy/glue-pool structure and was removed in `2177517`; the current one was
-  rewritten against it in `cd080cc`.)
-- **Next:** pick another Stage A topic from `groundwork/topics.md` (Körper & Gesundheit
-  is topic 2), or finish batch 01 by generating its cards.
+Run `python3 tools/vocab.py status` for the live picture — it is the counter; don't mirror
+its numbers here.
+
+- **`batch-01-in-der-wohnung/`** — Stage A, topic 1. Rewritten with the scene-design +
+  three-stage method: `scenes.md` groups the 142 words into 11 situations, `texts.md` has
+  one dialogue each (142/142 covered, 154 glue words). **Awaiting the cram + review pass**;
+  Anki cards are held until then, so `anki-*.txt` don't exist yet.
+- **`batch-02-koerper-gesundheit/`** — chunks harvested, nothing written.
+- **Next:** write batch 02 with the `text-writer` skill, or finish batch 01 by generating
+  its cards.

@@ -34,10 +34,10 @@ order within a tier. `n/a` means DWDS has no frequency for that lemma (affixes,
 multiword entries, lemmatisation problems) — it does NOT mean "rare".
 
 USAGE
-    python3 tools/wordfreq.py batch-01-in-der-wohnung/wordlist.md
-    python3 tools/wordfreq.py batch-01-in-der-wohnung/wordlist.md --hits
+    python3 tools/wordfreq.py --words Tasse Wohnung Fauteuil
+    python3 tools/wordfreq.py --words Tasse Wohnung Fauteuil --hits
     python3 tools/wordfreq.py --words Wohnung Schrank Tasse
-    python3 tools/wordfreq.py batch-01-in-der-wohnung/wordlist.md --tsv
+    python3 tools/wordfreq.py --words Tasse Wohnung Fauteuil --tsv
 """
 
 import argparse

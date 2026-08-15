@@ -210,7 +210,7 @@ deletable if you need the space.
 ## How this fits the repo
 
 `tools/wortprofil_db.py` renders **the same format** as `tools/wortprofil.py`, so the
-text-writing workflow in `TEXT-WRITER.md` (Step 2b) doesn't change — it just stops needing
+chunk-harvesting step of the `text-writer` skill doesn't change — it just stops needing
 manually saved DWDS pages.
 
 - `groundwork/dwds-wortprofil-guide.md` — *why* texts are built from attested chunks, and

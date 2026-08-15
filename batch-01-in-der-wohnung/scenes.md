@@ -1,0 +1,95 @@
+# Batch 1 — In der Wohnung & Zuhause · Szenenplan
+
+142 target words grouped **by situation** into 11 scenes (10–15 words each). This replaces
+the retired alphabetical slicing: every scene below is a place and a moment two people
+could actually be standing in, and the words were pulled to it from wherever they sat in
+the list.
+
+Recurring cast, so the batch reads as one flat and one week:
+**Nadja** (moves in), **Herr Bruckner** (the caretaker/Hausmeister),
+**Tobi** (friend who helps and eats), **Frau Wolf** (the neighbour from next door).
+
+**Standard German only.** The Goethe list's Austrian and Swiss doublets (Stiege,
+Stiegenhaus, Eck, Fauteuil, Abwart) are out of scope and excluded from the ledger — the
+five they replace (Treppe, Treppenhaus, Ecke, Sessel, Hausmeister) carry those meanings.
+
+---
+
+### Scene 1 — Die Wohnungsbesichtigung
+- **Premise:** Nadja views an empty flat; the caretaker walks her through it, selling the central location and quietly downplaying the broken lift.
+- **Angle:** He calls the fourth floor "sportlich" and the lift "gerade in Reparatur" — for two years.
+- **Words (14):** die Wohnung, das Apartment, wohnen, zentral, das Zentrum, der Raum, das Zimmer, die Etage, der Stock, das Stockwerk, der Aufzug, der Hausmeister / die Hausmeisterin, möbliert, die Einrichtung
+
+### Scene 2 — Der Umzugstag
+- **Premise:** Moving day. Everything has to go from the truck at the gate, through the entrance, up the stairs.
+- **Angle:** The neighbour quotes the house rules at everyone while carrying nothing at all.
+- **Words (12):** der Umzug, umziehen, packen, die Schachtel, das Tor, der Zugang, der Eingang, die Treppe, das Treppenhaus, der Korridor, der Flur, die Halle
+
+### Scene 3 — Ausgesperrt
+- **Premise:** Nadja is locked out on the first evening; Tobi is on the phone; the plan involves the neighbour's balcony.
+- **Angle:** The note she leaves for the caretaker gets longer than the problem, and the spare key was in her pocket.
+- **Words (13):** der Schlüssel, das Schloss, die Tür, öffnen, das Schild, der Balkon, die Terrasse, der Zettel, der Stift, der Kugelschreiber, der Kuli, das Blatt, das Papier
+
+### Scene 4 — Das Regal aus dem Karton
+- **Premise:** Two people assemble flatpack shelving without reading the instructions.
+- **Angle:** It stands — leaning on the wall, one screw short, and nobody is allowed to touch it.
+- **Words (15):** die Anleitung, das Möbel, einrichten, das Regal, der Schrank, der Tisch, der Stuhl, der Hammer, der Nagel, locker, die Wand, der Boden, der Platz, die Mitte, der Rand
+
+### Scene 5 — Der gute Sessel
+- **Premise:** Film evening. There is one armchair everybody wants and one everybody avoids.
+- **Angle:** The good armchair is objectively the worst piece of furniture in the flat, and its owner defends it like an heirloom.
+- **Words (13):** der Sessel, das Sofa, die Couch, das Kissen, der Teppich, die Lampe, das Licht, ausmachen, die Kerze, das Streichholz, die Vase, das Wohnzimmer, die Tafel
+
+### Scene 6 — Sonntag in der Küche
+- **Premise:** Cooking together in a kitchen with one pot, and the washing-up negotiation that follows.
+- **Angle:** Whoever cooks doesn't wash up — so both suddenly want to cook, and nobody has started.
+- **Words (15):** die Küche, der Herd, derOfen, der Kühlschrank, der Topf, die Schüssel, das Geschirr, abwaschen, das Messer, der Löffel, das Glas, die Flasche, das Brot, die Dose, die Büchse
+
+### Scene 7 — Der Frühjahrsputz
+- **Premise:** A whole Saturday of cleaning, sorting and labelling.
+- **Angle:** Three hours in, the flat is dirtier than at the start because everything is now on the floor "in order".
+- **Words (14):** putzen, reinigen, sauber, schmutzig, der Schmutz, der Staub, das Tuch, die Bürste, die Ordnung, ordnen, der Ordner, das Heft, das Lager, die Ecke
+
+### Scene 8 — Der Mülltag
+- **Premise:** Bin day: the wrong bin, the wrong day, and a neighbour who knows the rules by heart.
+- **Angle:** The bin lorry has already been; the sack now lives in the garage until Thursday.
+- **Words (13):** der Müll, die Mülltonne, die Müllabfuhr, der Abfall, der Abfalleimer, der Sack, das Haus, der Haushalt, der Keller, die Garage, die Hütte, der Garten, das Dach
+
+### Scene 9 — Waschtag
+- **Premise:** Laundry day in the shared basement machine, plus the pile of things that need mending or the dry cleaner.
+- **Angle:** One sock survives every wash alone; the doll goes through the machine by accident and comes out fine.
+- **Words (12):** die Wäsche, das Waschmittel, die Reinigung, die Socke, die Nadel, nähen, die Schere, die Garderobe, sich umziehen, der Schirm, die Puppe, das Wasser
+
+### Scene 10 — Die kalte Wohnung
+- **Premise:** The heating dies in November; the only warm option is a bath, and the bathroom is occupied.
+- **Angle:** They end up sleeping in coats under three blankets and calling it cosy.
+- **Words (11):** das Bad, die Badewanne, baden, besetzen, die Heizung, heizen, die Zahnbürste, das Bett, der Schlaf, schlafen, die Decke
+
+### Scene 11 — Die Einweihungsparty
+- **Premise:** Housewarming: a bar improvised on the kitchen table, guests at the window, a building site outside.
+- **Angle:** At six in the morning the site starts working — and the last guests applaud.
+- **Words (10):** die Bar, das Zuhause, das Heim, das Fenster, die Scheibe, außen, der Bau, bauen, die Baustelle, die Uhr
+
+---
+
+**Which text owns a word (for card-cutting): this file.** The ledger's `uses.text_no`
+records where `vocab.py scan` *first saw* a word, which is not the same thing — 10 of the
+142 appear incidentally in an earlier dialogue before the scene that owns them:
+
+| word | first seen | owned by |
+|---|---:|---:|
+| die Tür | Text 2 | Scene 3 |
+| der Schrank | Text 2 | Scene 4 |
+| die Küche | Text 1 | Scene 6 |
+| schmutzig | Text 6 | Scene 7 |
+| die Socke | Text 5 | Scene 9 |
+| sich umziehen | Text 2 | Scene 9 |
+| außen | Text 3 | Scene 11 |
+| das Fenster | Text 4 | Scene 11 |
+| die Baustelle | Text 7 | Scene 11 |
+| die Uhr | Text 2 | Scene 11 |
+
+Each of the ten also appears in its own scene's dialogue, so every cloze can still be cut
+verbatim from the owning text. Incidental earlier hits are a bonus, not a reassignment.
+
+_Partition verified against the ledger: 142 assigned, 0 duplicated, 0 left over._

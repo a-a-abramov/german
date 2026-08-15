@@ -1,0 +1,2895 @@
+# lemma	kind	batch	topic	gloss	note  — the plain-text seed `vocab.py init` reads; regenerate with `vocab.py export`
+abwaschen	target	1	In der Wohnung & Zuhause	to wash up (dishes)
+ausmachen	target	1	In der Wohnung & Zuhause	to turn off
+außen	target	1	In der Wohnung & Zuhause	outside, on the outside
+baden	target	1	In der Wohnung & Zuhause	to bathe, have a bath
+bauen	target	1	In der Wohnung & Zuhause	to build
+besetzen	target	1	In der Wohnung & Zuhause	to occupy
+das Apartment	target	1	In der Wohnung & Zuhause	apartment, flat
+das Bad	target	1	In der Wohnung & Zuhause	bath; bathroom
+das Bett	target	1	In der Wohnung & Zuhause	bed
+das Blatt	target	1	In der Wohnung & Zuhause	sheet (of paper); leaf
+das Brot	target	1	In der Wohnung & Zuhause	bread
+das Dach	target	1	In der Wohnung & Zuhause	roof
+das Eck	target	1	In der Wohnung & Zuhause	corner (Austrian variant)
+das Fenster	target	1	In der Wohnung & Zuhause	window
+das Geschirr	target	1	In der Wohnung & Zuhause	dishes, crockery
+das Glas	target	1	In der Wohnung & Zuhause	glass
+das Haus	target	1	In der Wohnung & Zuhause	house
+das Heft	target	1	In der Wohnung & Zuhause	notebook, exercise book
+das Heim	target	1	In der Wohnung & Zuhause	home; institution/hostel
+das Kissen	target	1	In der Wohnung & Zuhause	cushion, pillow
+das Lager	target	1	In der Wohnung & Zuhause	storeroom, warehouse; camp
+das Licht	target	1	In der Wohnung & Zuhause	light
+das Messer	target	1	In der Wohnung & Zuhause	knife
+das Möbel	target	1	In der Wohnung & Zuhause	piece of furniture
+das Papier	target	1	In der Wohnung & Zuhause	paper
+das Regal	target	1	In der Wohnung & Zuhause	shelf, shelving
+das Schild	target	1	In der Wohnung & Zuhause	sign
+das Schloss	target	1	In der Wohnung & Zuhause	lock; castle
+das Sofa	target	1	In der Wohnung & Zuhause	sofa
+das Stiegenhaus	target	1	In der Wohnung & Zuhause	stairwell (A)
+das Stockwerk	target	1	In der Wohnung & Zuhause	floor, storey
+das Streichholz	target	1	In der Wohnung & Zuhause	match
+das Tor	target	1	In der Wohnung & Zuhause	gate
+das Treppenhaus	target	1	In der Wohnung & Zuhause	stairwell
+das Tuch	target	1	In der Wohnung & Zuhause	cloth, towel
+das Waschmittel	target	1	In der Wohnung & Zuhause	detergent
+das Wasser	target	1	In der Wohnung & Zuhause	water
+das Wohnzimmer	target	1	In der Wohnung & Zuhause	living room
+das Zentrum	target	1	In der Wohnung & Zuhause	centre
+das Zimmer	target	1	In der Wohnung & Zuhause	room
+das Zuhause	target	1	In der Wohnung & Zuhause	home
+der Abfall	target	1	In der Wohnung & Zuhause	rubbish, waste
+der Abfalleimer	target	1	In der Wohnung & Zuhause	rubbish bin
+der Abwart / die Abwartin	target	1	In der Wohnung & Zuhause	caretaker, janitor (CH)
+der Aufzug	target	1	In der Wohnung & Zuhause	lift, elevator
+der Balkon	target	1	In der Wohnung & Zuhause	balcony
+der Bau	target	1	In der Wohnung & Zuhause	construction, building work
+der Boden	target	1	In der Wohnung & Zuhause	floor; ground
+der Eingang	target	1	In der Wohnung & Zuhause	entrance
+der Fauteuil	target	1	In der Wohnung & Zuhause	armchair (A/CH)
+der Flur	target	1	In der Wohnung & Zuhause	hallway, corridor
+der Garten	target	1	In der Wohnung & Zuhause	garden
+der Hammer	target	1	In der Wohnung & Zuhause	hammer
+der Haushalt	target	1	In der Wohnung & Zuhause	household
+der Hausmeister / die Hausmeisterin	target	1	In der Wohnung & Zuhause	caretaker, janitor
+der Herd	target	1	In der Wohnung & Zuhause	stove, cooker
+der Keller	target	1	In der Wohnung & Zuhause	cellar, basement
+der Korridor	target	1	In der Wohnung & Zuhause	corridor
+der Kugelschreiber	target	1	In der Wohnung & Zuhause	ballpoint pen
+der Kuli	target	1	In der Wohnung & Zuhause	biro, pen (colloq. = Kugelschreiber)
+der Kühlschrank	target	1	In der Wohnung & Zuhause	fridge
+der Löffel	target	1	In der Wohnung & Zuhause	spoon
+der Müll	target	1	In der Wohnung & Zuhause	rubbish, garbage
+der Nagel	target	1	In der Wohnung & Zuhause	nail
+der Ordner	target	1	In der Wohnung & Zuhause	file, ring binder
+der Platz	target	1	In der Wohnung & Zuhause	space; place, square
+der Rand	target	1	In der Wohnung & Zuhause	edge, rim, border
+der Raum	target	1	In der Wohnung & Zuhause	room, space
+der Sack	target	1	In der Wohnung & Zuhause	sack, bag
+der Schirm	target	1	In der Wohnung & Zuhause	umbrella
+der Schlaf	target	1	In der Wohnung & Zuhause	sleep
+der Schlüssel	target	1	In der Wohnung & Zuhause	key
+der Schmutz	target	1	In der Wohnung & Zuhause	dirt
+der Schrank	target	1	In der Wohnung & Zuhause	cupboard, wardrobe
+der Sessel	target	1	In der Wohnung & Zuhause	armchair (D/CH) / chair (A)
+der Staub	target	1	In der Wohnung & Zuhause	dust
+der Stift	target	1	In der Wohnung & Zuhause	pen, pencil
+der Stock	target	1	In der Wohnung & Zuhause	floor, storey
+der Stuhl	target	1	In der Wohnung & Zuhause	chair
+der Teppich	target	1	In der Wohnung & Zuhause	carpet, rug
+der Tisch	target	1	In der Wohnung & Zuhause	table
+der Topf	target	1	In der Wohnung & Zuhause	pot
+der Umzug	target	1	In der Wohnung & Zuhause	move, house move
+der Zettel	target	1	In der Wohnung & Zuhause	note, slip of paper
+der Zugang	target	1	In der Wohnung & Zuhause	access, entrance
+derOfen	target	1	In der Wohnung & Zuhause	oven, stove	source typo: write 'der Ofen'
+die Anleitung	target	1	In der Wohnung & Zuhause	instructions, manual
+die Badewanne	target	1	In der Wohnung & Zuhause	bathtub
+die Bar	target	1	In der Wohnung & Zuhause	bar
+die Baustelle	target	1	In der Wohnung & Zuhause	construction site
+die Büchse	target	1	In der Wohnung & Zuhause	tin, can
+die Bürste	target	1	In der Wohnung & Zuhause	brush
+die Couch	target	1	In der Wohnung & Zuhause	couch, sofa
+die Decke	target	1	In der Wohnung & Zuhause	blanket; ceiling
+die Dose	target	1	In der Wohnung & Zuhause	tin, can
+die Ecke	target	1	In der Wohnung & Zuhause	corner
+die Einrichtung	target	1	In der Wohnung & Zuhause	furnishings; facility
+die Etage	target	1	In der Wohnung & Zuhause	floor, storey
+die Flasche	target	1	In der Wohnung & Zuhause	bottle
+die Garage	target	1	In der Wohnung & Zuhause	garage
+die Garderobe	target	1	In der Wohnung & Zuhause	coat rack; cloakroom
+die Halle	target	1	In der Wohnung & Zuhause	hall
+die Heizung	target	1	In der Wohnung & Zuhause	heating, heater
+die Hütte	target	1	In der Wohnung & Zuhause	hut, cabin
+die Kerze	target	1	In der Wohnung & Zuhause	candle
+die Küche	target	1	In der Wohnung & Zuhause	kitchen
+die Lampe	target	1	In der Wohnung & Zuhause	lamp
+die Mitte	target	1	In der Wohnung & Zuhause	middle, centre
+die Müllabfuhr	target	1	In der Wohnung & Zuhause	garbage collection
+die Mülltonne	target	1	In der Wohnung & Zuhause	garbage bin
+die Nadel	target	1	In der Wohnung & Zuhause	needle
+die Ordnung	target	1	In der Wohnung & Zuhause	order, tidiness
+die Puppe	target	1	In der Wohnung & Zuhause	doll
+die Reinigung	target	1	In der Wohnung & Zuhause	cleaning; dry cleaner's
+die Schachtel	target	1	In der Wohnung & Zuhause	box, packet
+die Scheibe	target	1	In der Wohnung & Zuhause	pane; slice
+die Schere	target	1	In der Wohnung & Zuhause	scissors
+die Schüssel	target	1	In der Wohnung & Zuhause	bowl
+die Socke	target	1	In der Wohnung & Zuhause	sock
+die Stiege	target	1	In der Wohnung & Zuhause	stairs (A)
+die Tafel	target	1	In der Wohnung & Zuhause	board; bar (of chocolate)
+die Terrasse	target	1	In der Wohnung & Zuhause	terrace, patio
+die Treppe	target	1	In der Wohnung & Zuhause	stairs
+die Tür	target	1	In der Wohnung & Zuhause	door
+die Uhr	target	1	In der Wohnung & Zuhause	clock, watch
+die Vase	target	1	In der Wohnung & Zuhause	vase
+die Wand	target	1	In der Wohnung & Zuhause	wall
+die Wohnung	target	1	In der Wohnung & Zuhause	flat, apartment
+die Wäsche	target	1	In der Wohnung & Zuhause	laundry, washing
+die Zahnbürste	target	1	In der Wohnung & Zuhause	toothbrush
+einrichten	target	1	In der Wohnung & Zuhause	to furnish, set up
+heizen	target	1	In der Wohnung & Zuhause	to heat
+locker	target	1	In der Wohnung & Zuhause	loose
+möbliert	target	1	In der Wohnung & Zuhause	furnished
+nähen	target	1	In der Wohnung & Zuhause	to sew
+ordnen	target	1	In der Wohnung & Zuhause	to arrange, put in order
+packen	target	1	In der Wohnung & Zuhause	to pack
+putzen	target	1	In der Wohnung & Zuhause	to clean
+reinigen	target	1	In der Wohnung & Zuhause	to clean
+sauber	target	1	In der Wohnung & Zuhause	clean
+schlafen	target	1	In der Wohnung & Zuhause	to sleep
+schmutzig	target	1	In der Wohnung & Zuhause	dirty
+sich umziehen	target	1	In der Wohnung & Zuhause	to move (house)
+umziehen	target	1	In der Wohnung & Zuhause	to move (house)
+wohnen	target	1	In der Wohnung & Zuhause	to live, reside
+zentral	target	1	In der Wohnung & Zuhause	central
+öffnen	target	1	In der Wohnung & Zuhause	to open
+(sich) ausruhen	target	2	Körper & Gesundheit	to rest
+(sich) duschen	target	2	Körper & Gesundheit	to shower
+(sich) rasieren	target	2	Körper & Gesundheit	to shave
+(sich) verletzen	target	2	Körper & Gesundheit	to injure (o.s.)
+abnehmen	target	2	Körper & Gesundheit	to lose weight; to take off
+atmen	target	2	Körper & Gesundheit	to breathe
+beißen	target	2	Körper & Gesundheit	to bite
+blind	target	2	Körper & Gesundheit	blind
+bluten	target	2	Körper & Gesundheit	to bleed
+das Asyl	target	2	Körper & Gesundheit	asylum (*um Asyl bitten*)	canonical CSV sense: um Asyl bitten (political asylum) — a stray in this topic
+das Auge	target	2	Körper & Gesundheit	eye
+das Bein	target	2	Körper & Gesundheit	leg
+das Blut	target	2	Körper & Gesundheit	blood
+das Fieber	target	2	Körper & Gesundheit	fever
+das Gefühl	target	2	Körper & Gesundheit	feeling
+das Gesicht	target	2	Körper & Gesundheit	face
+das Haar	target	2	Körper & Gesundheit	hair
+das Herz	target	2	Körper & Gesundheit	heart
+das Knie	target	2	Körper & Gesundheit	knee
+das Krankenhaus	target	2	Körper & Gesundheit	hospital
+das Medikament	target	2	Körper & Gesundheit	medication, drug
+das Ohr	target	2	Körper & Gesundheit	ear
+das Pflaster	target	2	Körper & Gesundheit	plaster, bandage
+das Schmerzmittel	target	2	Körper & Gesundheit	painkiller
+das Suchtmittel	target	2	Körper & Gesundheit	addictive substance
+das Vitamin	target	2	Körper & Gesundheit	vitamin
+der Appetit	target	2	Körper & Gesundheit	appetite
+der Arm	target	2	Körper & Gesundheit	arm	noun (arm), not the adjective 'arm' (poor) — both exist in the CSV
+der Arzt / die Ärztin	target	2	Körper & Gesundheit	doctor
+der Atem	target	2	Körper & Gesundheit	breath
+der Bart	target	2	Körper & Gesundheit	beard
+der Bauch	target	2	Körper & Gesundheit	belly, stomach
+der Blick	target	2	Körper & Gesundheit	look, glance; view
+der Durst	target	2	Körper & Gesundheit	thirst
+der Finger	target	2	Körper & Gesundheit	finger
+der Fuß	target	2	Körper & Gesundheit	foot
+der Hals	target	2	Körper & Gesundheit	neck, throat
+der Hunger	target	2	Körper & Gesundheit	hunger
+der Husten	target	2	Körper & Gesundheit	to cough
+der Knochen	target	2	Körper & Gesundheit	bone
+der Kopf	target	2	Körper & Gesundheit	head
+der Kranke / die Kranke	target	2	Körper & Gesundheit	the sick person, patient
+der Krankenpfleger	target	2	Körper & Gesundheit	male nurse
+der Krankenwagen	target	2	Körper & Gesundheit	ambulance
+der Körper	target	2	Körper & Gesundheit	body
+der Magen	target	2	Körper & Gesundheit	stomach
+der Mund	target	2	Körper & Gesundheit	mouth
+der Muskel	target	2	Körper & Gesundheit	muscle
+der Mut	target	2	Körper & Gesundheit	courage
+der Nerv	target	2	Körper & Gesundheit	nerve (*auf die Nerven gehen*)
+der Patient / die Patientin	target	2	Körper & Gesundheit	patient
+der Pfleger / die Pflegerin	target	2	Körper & Gesundheit	carer, nurse
+der Rücken	target	2	Körper & Gesundheit	back
+der Schmerz	target	2	Körper & Gesundheit	pain
+der Schnupfen	target	2	Körper & Gesundheit	runny nose, head cold
+der Tod	target	2	Körper & Gesundheit	death
+der Tote / die Tote	target	2	Körper & Gesundheit	dead person
+der Zahn	target	2	Körper & Gesundheit	tooth
+die Apotheke	target	2	Körper & Gesundheit	pharmacy
+die Besserung	target	2	Körper & Gesundheit	recovery (*Gute Besserung!*)
+die Brust	target	2	Körper & Gesundheit	chest, breast
+die Diät	target	2	Körper & Gesundheit	diet (*eine Diät machen*)
+die Dusche	target	2	Körper & Gesundheit	shower
+die Erholung	target	2	Körper & Gesundheit	recovery, rest
+die Erkältung	target	2	Körper & Gesundheit	a cold
+die Gesundheit	target	2	Körper & Gesundheit	health
+die Grippe	target	2	Körper & Gesundheit	flu
+die Hand	target	2	Körper & Gesundheit	hand
+die Haut	target	2	Körper & Gesundheit	skin
+die Infektion	target	2	Körper & Gesundheit	infection
+die Klinik	target	2	Körper & Gesundheit	clinic
+die Kraft	target	2	Körper & Gesundheit	strength, force
+die Krankenkasse	target	2	Körper & Gesundheit	health insurance fund
+die Krankenschwester	target	2	Körper & Gesundheit	nurse
+die Krankheit	target	2	Körper & Gesundheit	illness, disease
+die Lippe	target	2	Körper & Gesundheit	lip
+die Medizin	target	2	Körper & Gesundheit	medicine (the substance & the subject)
+die Mühe	target	2	Körper & Gesundheit	effort, trouble (*Danke für Ihre Mühe*)
+die Nase	target	2	Körper & Gesundheit	nose
+die Notaufnahme	target	2	Körper & Gesundheit	A&E, emergency room
+die Operation	target	2	Körper & Gesundheit	operation, surgery
+die Praxis	target	2	Körper & Gesundheit	doctor's surgery, practice	the doctor's-surgery sense, not 'theory vs. practice'
+die Salbe	target	2	Körper & Gesundheit	ointment
+die Schulter	target	2	Körper & Gesundheit	shoulder
+die Seife	target	2	Körper & Gesundheit	soap
+die Sprechstunde	target	2	Körper & Gesundheit	consultation hours
+die Spritze	target	2	Körper & Gesundheit	injection, syringe
+die Sucht	target	2	Körper & Gesundheit	addiction
+die Tablette	target	2	Körper & Gesundheit	tablet, pill
+die Temperatur	target	2	Körper & Gesundheit	temperature
+die Therapie	target	2	Körper & Gesundheit	therapy
+die Träne	target	2	Körper & Gesundheit	tear
+die Untersuchung	target	2	Körper & Gesundheit	examination, check-up
+die Verletzung	target	2	Körper & Gesundheit	injury
+die Wunde	target	2	Körper & Gesundheit	wound
+die Zahncreme/-pasta	target	2	Körper & Gesundheit	toothpaste
+die Zange	target	2	Körper & Gesundheit	pliers, forceps
+durstig	target	2	Körper & Gesundheit	thirsty
+erkältet	target	2	Körper & Gesundheit	having a cold (*ich bin erkältet*)
+erschrecken	target	2	Körper & Gesundheit	to frighten sb. / to get a fright
+erschöpft	target	2	Körper & Gesundheit	exhausted
+gesund	target	2	Körper & Gesundheit	healthy
+hungrig	target	2	Körper & Gesundheit	hungry
+husten	target	2	Körper & Gesundheit	to cough
+krank	target	2	Körper & Gesundheit	ill, sick
+körperlich	target	2	Körper & Gesundheit	physical(ly)
+leiden	target	2	Körper & Gesundheit	to suffer (*leiden an/unter*)
+mager	target	2	Körper & Gesundheit	lean, low-fat; thin
+mild	target	2	Körper & Gesundheit	mild
+mutig	target	2	Körper & Gesundheit	brave
+müde	target	2	Körper & Gesundheit	tired
+nervös	target	2	Körper & Gesundheit	nervous
+operieren	target	2	Körper & Gesundheit	to operate (on)
+pflegen	target	2	Körper & Gesundheit	to care for, nurse
+schwitzen	target	2	Körper & Gesundheit	to sweat
+sich erholen	target	2	Körper & Gesundheit	to recover, recuperate
+sich erkälten	target	2	Körper & Gesundheit	to catch a cold
+sich verlaufen	target	2	Körper & Gesundheit	to get lost (on foot)
+spüren	target	2	Körper & Gesundheit	to feel, sense
+stechen	target	2	Körper & Gesundheit	to sting, prick
+sterben	target	2	Körper & Gesundheit	to die
+süchtig	target	2	Körper & Gesundheit	addicted (*süchtig nach*)
+taub	target	2	Körper & Gesundheit	deaf; numb
+tot	target	2	Körper & Gesundheit	dead
+untersuchen	target	2	Körper & Gesundheit	to examine
+vermissen	target	2	Körper & Gesundheit	to miss (sb./sth.)
+verschreiben	target	2	Körper & Gesundheit	to prescribe
+äußerlich	target	2	Körper & Gesundheit	external(ly), for external use
+backen	target	3	Essen, Kochen & Restaurant
+bitter	target	3	Essen, Kochen & Restaurant
+braten	target	3	Essen, Kochen & Restaurant
+brechen	target	3	Essen, Kochen & Restaurant
+das Bier	target	3	Essen, Kochen & Restaurant
+das Brot	target	3	Essen, Kochen & Restaurant	bread
+das Brötchen	target	3	Essen, Kochen & Restaurant
+das Brötli	target	3	Essen, Kochen & Restaurant
+das Buffet	target	3	Essen, Kochen & Restaurant
+das Café	target	3	Essen, Kochen & Restaurant
+das Dessert	target	3	Essen, Kochen & Restaurant
+das Ei	target	3	Essen, Kochen & Restaurant
+das Eis	target	3	Essen, Kochen & Restaurant
+das Essen	target	3	Essen, Kochen & Restaurant
+das Faschierte	target	3	Essen, Kochen & Restaurant
+das Fett	target	3	Essen, Kochen & Restaurant
+das Fleisch	target	3	Essen, Kochen & Restaurant
+das Gasthaus	target	3	Essen, Kochen & Restaurant
+das Gebäck	target	3	Essen, Kochen & Restaurant
+das Gemüse	target	3	Essen, Kochen & Restaurant
+das Gericht	target	3	Essen, Kochen & Restaurant
+das Getränk	target	3	Essen, Kochen & Restaurant
+das Gewürz	target	3	Essen, Kochen & Restaurant
+das Hackfleisch	target	3	Essen, Kochen & Restaurant
+das Hendl	target	3	Essen, Kochen & Restaurant
+das Hähnchen/Hühnchen	target	3	Essen, Kochen & Restaurant
+das Kaffeehaus	target	3	Essen, Kochen & Restaurant
+das Lokal	target	3	Essen, Kochen & Restaurant
+das Mehl	target	3	Essen, Kochen & Restaurant
+das Menü	target	3	Essen, Kochen & Restaurant
+das Mineralwasser	target	3	Essen, Kochen & Restaurant
+das Müesli/Müsli	target	3	Essen, Kochen & Restaurant
+das Nahrungsmittel	target	3	Essen, Kochen & Restaurant
+das Obst	target	3	Essen, Kochen & Restaurant
+das Picknick	target	3	Essen, Kochen & Restaurant
+das Poulet	target	3	Essen, Kochen & Restaurant
+das Restaurant	target	3	Essen, Kochen & Restaurant
+das Rezept	target	3	Essen, Kochen & Restaurant
+das Rüebli	target	3	Essen, Kochen & Restaurant
+das Salz	target	3	Essen, Kochen & Restaurant
+das Schnitzel	target	3	Essen, Kochen & Restaurant
+das Schwammerl	target	3	Essen, Kochen & Restaurant
+das/derObers	target	3	Essen, Kochen & Restaurant		regional (A) — out of scope; the D word for this is 'die Sahne'
+dasRohr	target	3	Essen, Kochen & Restaurant		regional (A) — out of scope; the D word for this is 'der Ofen'
+der Alkohol	target	3	Essen, Kochen & Restaurant
+der Apfel	target	3	Essen, Kochen & Restaurant
+der Braten	target	3	Essen, Kochen & Restaurant
+der Essig	target	3	Essen, Kochen & Restaurant
+der Fasching	target	3	Essen, Kochen & Restaurant
+der Fleischhauer / die Fleischhauerin	target	3	Essen, Kochen & Restaurant
+der Gast	target	3	Essen, Kochen & Restaurant
+der Geschmack	target	3	Essen, Kochen & Restaurant
+der Grill	target	3	Essen, Kochen & Restaurant
+der Honig	target	3	Essen, Kochen & Restaurant
+der Imbiss	target	3	Essen, Kochen & Restaurant
+der Kaffee	target	3	Essen, Kochen & Restaurant
+der Kakao	target	3	Essen, Kochen & Restaurant
+der Kloß	target	3	Essen, Kochen & Restaurant
+der Knödel	target	3	Essen, Kochen & Restaurant
+der Koch / die Köchin	target	3	Essen, Kochen & Restaurant
+der Kuchen	target	3	Essen, Kochen & Restaurant
+der Käse	target	3	Essen, Kochen & Restaurant
+der Metzger	target	3	Essen, Kochen & Restaurant
+der Ober	target	3	Essen, Kochen & Restaurant
+der Paradeiser	target	3	Essen, Kochen & Restaurant
+der Pfeffer	target	3	Essen, Kochen & Restaurant
+der Pilz	target	3	Essen, Kochen & Restaurant
+der Reis	target	3	Essen, Kochen & Restaurant
+der Saft	target	3	Essen, Kochen & Restaurant
+der Salat	target	3	Essen, Kochen & Restaurant
+der Schinken	target	3	Essen, Kochen & Restaurant
+der Service	target	3	Essen, Kochen & Restaurant
+der Speisewagen	target	3	Essen, Kochen & Restaurant
+der Tee	target	3	Essen, Kochen & Restaurant
+der Teller	target	3	Essen, Kochen & Restaurant
+der Wein	target	3	Essen, Kochen & Restaurant
+derRahm	target	3	Essen, Kochen & Restaurant		regional (CH) — out of scope; the D word for this is 'die Sahne'
+die Aprikose	target	3	Essen, Kochen & Restaurant
+die Banane	target	3	Essen, Kochen & Restaurant
+die Bohne	target	3	Essen, Kochen & Restaurant
+die Butter	target	3	Essen, Kochen & Restaurant
+die Bäckerei	target	3	Essen, Kochen & Restaurant
+die Cafeteria	target	3	Essen, Kochen & Restaurant
+die Ernte	target	3	Essen, Kochen & Restaurant
+die Ernährung	target	3	Essen, Kochen & Restaurant
+die Fasnacht	target	3	Essen, Kochen & Restaurant
+die Gabel	target	3	Essen, Kochen & Restaurant
+die Gaststätte	target	3	Essen, Kochen & Restaurant
+die Jause	target	3	Essen, Kochen & Restaurant
+die Kanne	target	3	Essen, Kochen & Restaurant
+die Kantine	target	3	Essen, Kochen & Restaurant
+die Karotte	target	3	Essen, Kochen & Restaurant
+die Kartoffel	target	3	Essen, Kochen & Restaurant
+die Kneipe	target	3	Essen, Kochen & Restaurant
+die Konfitüre	target	3	Essen, Kochen & Restaurant
+die Lebensmittel	target	3	Essen, Kochen & Restaurant
+die Limonade	target	3	Essen, Kochen & Restaurant
+die Mahlzeit	target	3	Essen, Kochen & Restaurant
+die Margarine	target	3	Essen, Kochen & Restaurant
+die Marille	target	3	Essen, Kochen & Restaurant
+die Marmelade	target	3	Essen, Kochen & Restaurant
+die Mensa	target	3	Essen, Kochen & Restaurant
+die Milch	target	3	Essen, Kochen & Restaurant
+die Möhre	target	3	Essen, Kochen & Restaurant
+die Nachspeise	target	3	Essen, Kochen & Restaurant
+die Nudel	target	3	Essen, Kochen & Restaurant
+die Orange	target	3	Essen, Kochen & Restaurant
+die Pfanne	target	3	Essen, Kochen & Restaurant
+die Pflaume	target	3	Essen, Kochen & Restaurant
+die Pizza	target	3	Essen, Kochen & Restaurant
+die Pommes frites	target	3	Essen, Kochen & Restaurant
+die Portion	target	3	Essen, Kochen & Restaurant
+die Schokolade	target	3	Essen, Kochen & Restaurant
+die Semmel	target	3	Essen, Kochen & Restaurant
+die Soße/Sauce	target	3	Essen, Kochen & Restaurant
+die Speisekarte	target	3	Essen, Kochen & Restaurant
+die Suppe	target	3	Essen, Kochen & Restaurant
+die Tasse	target	3	Essen, Kochen & Restaurant
+die Tomate	target	3	Essen, Kochen & Restaurant
+die Torte	target	3	Essen, Kochen & Restaurant
+die Wurst	target	3	Essen, Kochen & Restaurant
+die Zigarette	target	3	Essen, Kochen & Restaurant
+die Zitrone	target	3	Essen, Kochen & Restaurant
+die Zwiebel	target	3	Essen, Kochen & Restaurant
+dieSahne	target	3	Essen, Kochen & Restaurant		source typo: write 'die Sahne'
+ernähren	target	3	Essen, Kochen & Restaurant
+essen	target	3	Essen, Kochen & Restaurant
+fett	target	3	Essen, Kochen & Restaurant
+gemeinsam	target	3	Essen, Kochen & Restaurant
+gießen	target	3	Essen, Kochen & Restaurant
+grillen	target	3	Essen, Kochen & Restaurant
+grillieren	target	3	Essen, Kochen & Restaurant
+kochen	target	3	Essen, Kochen & Restaurant
+kühl	target	3	Essen, Kochen & Restaurant
+lecker	target	3	Essen, Kochen & Restaurant
+probieren	target	3	Essen, Kochen & Restaurant
+roh	target	3	Essen, Kochen & Restaurant
+salzig	target	3	Essen, Kochen & Restaurant
+satt	target	3	Essen, Kochen & Restaurant
+sauer	target	3	Essen, Kochen & Restaurant
+schmecken	target	3	Essen, Kochen & Restaurant
+süß	target	3	Essen, Kochen & Restaurant
+Tee ziehen lassen	target	3	Essen, Kochen & Restaurant
+trinken	target	3	Essen, Kochen & Restaurant
+vegetarisch	target	3	Essen, Kochen & Restaurant
+verpflegen	target	3	Essen, Kochen & Restaurant
+zubereiten	target	3	Essen, Kochen & Restaurant
+das Haustier	target	4	Tiere
+das Tier	target	4	Tiere
+der Bauer	target	4	Tiere
+der Bauernhof	target	4	Tiere
+der Tierpark	target	4	Tiere
+die Schlange	target	4	Tiere
+fressen	target	4	Tiere
+füttern	target	4	Tiere
+(sich) anziehen	target	5	Kleidung & Aussehen
+anhaben	target	5	Kleidung & Aussehen
+aussehen	target	5	Kleidung & Aussehen
+blond	target	5	Kleidung & Aussehen
+chic/schick	target	5	Kleidung & Aussehen
+das Couvert	target	5	Kleidung & Aussehen
+das Hemd	target	5	Kleidung & Aussehen
+das Kleid	target	5	Kleidung & Aussehen
+das Kostüm	target	5	Kleidung & Aussehen
+das Modell	target	5	Kleidung & Aussehen
+das Parfüm	target	5	Kleidung & Aussehen
+das Taschentuch	target	5	Kleidung & Aussehen
+das Zeug/-zeug	target	5	Kleidung & Aussehen
+der Anzug	target	5	Kleidung & Aussehen
+der Friseur / die Friseurin	target	5	Kleidung & Aussehen
+der Hut	target	5	Kleidung & Aussehen
+der Knopf	target	5	Kleidung & Aussehen
+der Mantel	target	5	Kleidung & Aussehen
+der Pullover	target	5	Kleidung & Aussehen
+der Ring	target	5	Kleidung & Aussehen
+der Rock	target	5	Kleidung & Aussehen
+der Schmuck	target	5	Kleidung & Aussehen
+der Schuh	target	5	Kleidung & Aussehen
+der Stiefel	target	5	Kleidung & Aussehen
+der Strumpf	target	5	Kleidung & Aussehen
+die Bluse	target	5	Kleidung & Aussehen
+die Brille	target	5	Kleidung & Aussehen
+die Creme	target	5	Kleidung & Aussehen
+die Frisur	target	5	Kleidung & Aussehen
+die Hose	target	5	Kleidung & Aussehen
+die Jacke	target	5	Kleidung & Aussehen
+die Jeans	target	5	Kleidung & Aussehen
+die Kette	target	5	Kleidung & Aussehen
+die Kiste	target	5	Kleidung & Aussehen
+die Kleidung	target	5	Kleidung & Aussehen
+die Mode	target	5	Kleidung & Aussehen
+die Tüte	target	5	Kleidung & Aussehen
+elegant	target	5	Kleidung & Aussehen
+frisch	target	5	Kleidung & Aussehen
+hässlich	target	5	Kleidung & Aussehen
+kleben	target	5	Kleidung & Aussehen
+modern	target	5	Kleidung & Aussehen
+schminken	target	5	Kleidung & Aussehen
+schön	target	5	Kleidung & Aussehen
+breit	target	6	Farben, Formen & Material
+bunt	target	6	Farben, Formen & Material
+das Gold	target	6	Farben, Formen & Material
+das Holz	target	6	Farben, Formen & Material
+das Kreuz	target	6	Farben, Formen & Material
+das Leder	target	6	Farben, Formen & Material
+das Loch	target	6	Farben, Formen & Material
+das Material	target	6	Farben, Formen & Material
+das Metall	target	6	Farben, Formen & Material
+das Plastik	target	6	Farben, Formen & Material
+der Bogen	target	6	Farben, Formen & Material
+der Fleck	target	6	Farben, Formen & Material
+der Kreis	target	6	Farben, Formen & Material
+der Kunststoff	target	6	Farben, Formen & Material
+der Stoff	target	6	Farben, Formen & Material
+dicht	target	6	Farben, Formen & Material
+die Farbe	target	6	Farben, Formen & Material
+die Form	target	6	Farben, Formen & Material
+die Linie	target	6	Farben, Formen & Material
+die Wolle	target	6	Farben, Formen & Material
+dunkel	target	6	Farben, Formen & Material
+dünn	target	6	Farben, Formen & Material
+eckig	target	6	Farben, Formen & Material
+eng	target	6	Farben, Formen & Material
+farbig	target	6	Farben, Formen & Material
+flach	target	6	Farben, Formen & Material
+glatt	target	6	Farben, Formen & Material
+hart	target	6	Farben, Formen & Material
+hell	target	6	Farben, Formen & Material
+künstlich	target	6	Farben, Formen & Material
+laut	target	6	Farben, Formen & Material
+leise	target	6	Farben, Formen & Material
+parallel	target	6	Farben, Formen & Material
+rein	target	6	Farben, Formen & Material
+rund	target	6	Farben, Formen & Material
+schief	target	6	Farben, Formen & Material
+schmal	target	6	Farben, Formen & Material
+senkrecht	target	6	Farben, Formen & Material
+spitz	target	6	Farben, Formen & Material
+waagerecht	target	6	Farben, Formen & Material
+weich	target	6	Farben, Formen & Material
+(sich) trennen	target	7	Familie & Beziehungen
+(sich) verabreden	target	7	Familie & Beziehungen
+(sich) verabschieden	target	7	Familie & Beziehungen
+(sich) verändern	target	7	Familie & Beziehungen
+(sich) zwingen	target	7	Familie & Beziehungen
+alt	target	7	Familie & Beziehungen
+das Altenheim	target	7	Familie & Beziehungen
+das Alter	target	7	Familie & Beziehungen
+das Altersheim	target	7	Familie & Beziehungen
+das Ehepaar	target	7	Familie & Beziehungen
+das Geschenk	target	7	Familie & Beziehungen
+das Heimweh	target	7	Familie & Beziehungen
+das Kind	target	7	Familie & Beziehungen
+das Mädchen	target	7	Familie & Beziehungen
+das Paar	target	7	Familie & Beziehungen
+der Abschied	target	7	Familie & Beziehungen
+der Angehörige / die Angehörige	target	7	Familie & Beziehungen
+der Bekannte / die Bekannte	target	7	Familie & Beziehungen
+der Bewohner / die Bewohnerin	target	7	Familie & Beziehungen
+der Bruder	target	7	Familie & Beziehungen
+der Bub	target	7	Familie & Beziehungen
+der Chef / die Chefin	target	7	Familie & Beziehungen
+der Coiffeur / die Coiffeuse	target	7	Familie & Beziehungen
+der Cousin / die Cousine	target	7	Familie & Beziehungen
+der Enkel / die Enkelin	target	7	Familie & Beziehungen
+der Erwachsene	target	7	Familie & Beziehungen
+der Familienname	target	7	Familie & Beziehungen
+der Familienstand	target	7	Familie & Beziehungen
+der Freund	target	7	Familie & Beziehungen
+der Geburtstag	target	7	Familie & Beziehungen
+der Held / die Heldin	target	7	Familie & Beziehungen
+der Hof	target	7	Familie & Beziehungen
+der Jugendliche / die Jugendliche	target	7	Familie & Beziehungen
+der Junge	target	7	Familie & Beziehungen
+der Kindergarten	target	7	Familie & Beziehungen
+der Kuss	target	7	Familie & Beziehungen
+der Mann	target	7	Familie & Beziehungen
+der Nachwuchs	target	7	Familie & Beziehungen
+der Name	target	7	Familie & Beziehungen
+der Neffe	target	7	Familie & Beziehungen
+der Nichtraucher / die Nichtraucherin	target	7	Familie & Beziehungen
+der Onkel	target	7	Familie & Beziehungen
+der Opa	target	7	Familie & Beziehungen
+der Partner / die Partnerin	target	7	Familie & Beziehungen
+der Rentner / die Rentnerin	target	7	Familie & Beziehungen
+der Sohn	target	7	Familie & Beziehungen
+der Vater	target	7	Familie & Beziehungen
+der Verwandte / die Verwandte	target	7	Familie & Beziehungen
+der Vorname	target	7	Familie & Beziehungen
+der Wirt / die Wirtin	target	7	Familie & Beziehungen
+die Bevölkerung	target	7	Familie & Beziehungen
+die Beziehung	target	7	Familie & Beziehungen
+die Dame	target	7	Familie & Beziehungen
+die Ehe	target	7	Familie & Beziehungen
+die Ehefrau	target	7	Familie & Beziehungen
+die Einladung	target	7	Familie & Beziehungen
+die Eltern	target	7	Familie & Beziehungen
+die Erziehung	target	7	Familie & Beziehungen
+die Familie	target	7	Familie & Beziehungen
+die Frau	target	7	Familie & Beziehungen
+die Freundschaft	target	7	Familie & Beziehungen
+die Geburt	target	7	Familie & Beziehungen
+die Geschwister	target	7	Familie & Beziehungen
+die Hausfrau / der Hausmann	target	7	Familie & Beziehungen
+die Heimat	target	7	Familie & Beziehungen
+die Hochzeit	target	7	Familie & Beziehungen
+die Jugend	target	7	Familie & Beziehungen
+die Jugendherberge	target	7	Familie & Beziehungen
+die Kindheit	target	7	Familie & Beziehungen
+die Leute	target	7	Familie & Beziehungen
+die Mutter	target	7	Familie & Beziehungen
+die Nichte	target	7	Familie & Beziehungen
+die Oma	target	7	Familie & Beziehungen
+die Person	target	7	Familie & Beziehungen
+die Rente	target	7	Familie & Beziehungen
+die Scheidung	target	7	Familie & Beziehungen
+die Schwangerschaft	target	7	Familie & Beziehungen
+die Schwester	target	7	Familie & Beziehungen
+die Senioren	target	7	Familie & Beziehungen
+die Tante	target	7	Familie & Beziehungen
+die Tochter	target	7	Familie & Beziehungen
+die Trennung	target	7	Familie & Beziehungen
+die Verabredung	target	7	Familie & Beziehungen
+die Verantwortung	target	7	Familie & Beziehungen
+einladen	target	7	Familie & Beziehungen
+einziehen	target	7	Familie & Beziehungen
+erwachsen	target	7	Familie & Beziehungen
+erziehen	target	7	Familie & Beziehungen
+freundlich	target	7	Familie & Beziehungen
+geboren werden	target	7	Familie & Beziehungen
+geschieden	target	7	Familie & Beziehungen
+getrennt leben	target	7	Familie & Beziehungen
+heimlich	target	7	Familie & Beziehungen
+heiraten	target	7	Familie & Beziehungen
+in Rente gehen/sein	target	7	Familie & Beziehungen
+jung	target	7	Familie & Beziehungen
+küssen	target	7	Familie & Beziehungen
+männlich	target	7	Familie & Beziehungen
+persönlich	target	7	Familie & Beziehungen
+schenken	target	7	Familie & Beziehungen
+Schwieger-	target	7	Familie & Beziehungen
+sich scheiden lassen	target	7	Familie & Beziehungen
+verabredet	target	7	Familie & Beziehungen
+verantwortlich	target	7	Familie & Beziehungen
+verheiratet	target	7	Familie & Beziehungen
+verwandt	target	7	Familie & Beziehungen
+(sich) verbrennen	target	8	Gefahr, Notfall & Sicherheit
+Achtung!	target	8	Gefahr, Notfall & Sicherheit
+beschädigen	target	8	Gefahr, Notfall & Sicherheit
+brennen	target	8	Gefahr, Notfall & Sicherheit
+das Feuer	target	8	Gefahr, Notfall & Sicherheit
+das Gift	target	8	Gefahr, Notfall & Sicherheit
+das Risiko	target	8	Gefahr, Notfall & Sicherheit
+das Unglück	target	8	Gefahr, Notfall & Sicherheit
+der Alarm	target	8	Gefahr, Notfall & Sicherheit
+der Lärm	target	8	Gefahr, Notfall & Sicherheit
+der Notausgang	target	8	Gefahr, Notfall & Sicherheit
+der Notfall	target	8	Gefahr, Notfall & Sicherheit
+der Notruf	target	8	Gefahr, Notfall & Sicherheit
+der Schaden	target	8	Gefahr, Notfall & Sicherheit
+der Schutz	target	8	Gefahr, Notfall & Sicherheit
+der Unfall	target	8	Gefahr, Notfall & Sicherheit
+die Feuerwehr	target	8	Gefahr, Notfall & Sicherheit
+die Flucht	target	8	Gefahr, Notfall & Sicherheit
+die Gefahr	target	8	Gefahr, Notfall & Sicherheit
+die Katastrophe	target	8	Gefahr, Notfall & Sicherheit
+die Sicherheit	target	8	Gefahr, Notfall & Sicherheit
+die Vorsicht	target	8	Gefahr, Notfall & Sicherheit
+fliehen	target	8	Gefahr, Notfall & Sicherheit
+gefährlich	target	8	Gefahr, Notfall & Sicherheit
+giftig	target	8	Gefahr, Notfall & Sicherheit
+kaputt	target	8	Gefahr, Notfall & Sicherheit
+kaputtgehen	target	8	Gefahr, Notfall & Sicherheit
+kaputtmachen	target	8	Gefahr, Notfall & Sicherheit
+retten	target	8	Gefahr, Notfall & Sicherheit
+schaden	target	8	Gefahr, Notfall & Sicherheit
+schädlich	target	8	Gefahr, Notfall & Sicherheit
+schützen	target	8	Gefahr, Notfall & Sicherheit
+sichern	target	8	Gefahr, Notfall & Sicherheit
+tödlich	target	8	Gefahr, Notfall & Sicherheit
+vorsichtig	target	8	Gefahr, Notfall & Sicherheit
+warnen	target	8	Gefahr, Notfall & Sicherheit
+zerstören	target	8	Gefahr, Notfall & Sicherheit
+überfahren	target	8	Gefahr, Notfall & Sicherheit
+Abgase	target	9	Natur, Wetter & Umwelt
+bewölkt	target	9	Natur, Wetter & Umwelt
+blitzen	target	9	Natur, Wetter & Umwelt
+blühen	target	9	Natur, Wetter & Umwelt
+das Dorf	target	9	Natur, Wetter & Umwelt
+das Erdgeschoss/ Ergeschoß	target	9	Natur, Wetter & Umwelt
+das Feld	target	9	Natur, Wetter & Umwelt
+das Feuerzeug	target	9	Natur, Wetter & Umwelt
+das Gas	target	9	Natur, Wetter & Umwelt
+das Gewitter	target	9	Natur, Wetter & Umwelt
+das Gras	target	9	Natur, Wetter & Umwelt
+das Grundstück	target	9	Natur, Wetter & Umwelt
+das Land	target	9	Natur, Wetter & Umwelt
+das Meer	target	9	Natur, Wetter & Umwelt
+das Rind	target	9	Natur, Wetter & Umwelt
+das Tal	target	9	Natur, Wetter & Umwelt
+das Ufer	target	9	Natur, Wetter & Umwelt
+das Wetter	target	9	Natur, Wetter & Umwelt
+das Öl	target	9	Natur, Wetter & Umwelt
+der Baum	target	9	Natur, Wetter & Umwelt
+der Berg	target	9	Natur, Wetter & Umwelt
+der Blitz	target	9	Natur, Wetter & Umwelt
+der Dreck	target	9	Natur, Wetter & Umwelt
+der Erdapfel	target	9	Natur, Wetter & Umwelt
+der Fluss	target	9	Natur, Wetter & Umwelt
+der Hafen	target	9	Natur, Wetter & Umwelt
+der Himmel	target	9	Natur, Wetter & Umwelt
+der Hügel	target	9	Natur, Wetter & Umwelt
+der Kanal	target	9	Natur, Wetter & Umwelt
+der Mond	target	9	Natur, Wetter & Umwelt
+der Nebel	target	9	Natur, Wetter & Umwelt
+der Ozean	target	9	Natur, Wetter & Umwelt
+der Rasen	target	9	Natur, Wetter & Umwelt
+der Regen	target	9	Natur, Wetter & Umwelt
+der Sand	target	9	Natur, Wetter & Umwelt
+der Schatten	target	9	Natur, Wetter & Umwelt
+der Schnee	target	9	Natur, Wetter & Umwelt
+der See	target	9	Natur, Wetter & Umwelt
+der Stein	target	9	Natur, Wetter & Umwelt
+der Stern	target	9	Natur, Wetter & Umwelt
+der Strand	target	9	Natur, Wetter & Umwelt
+der Strom	target	9	Natur, Wetter & Umwelt
+der Sturm	target	9	Natur, Wetter & Umwelt
+der Umweltschutz	target	9	Natur, Wetter & Umwelt
+der Wald	target	9	Natur, Wetter & Umwelt
+der Wetterbericht	target	9	Natur, Wetter & Umwelt
+der Wind	target	9	Natur, Wetter & Umwelt
+die Aussicht	target	9	Natur, Wetter & Umwelt
+die Birne	target	9	Natur, Wetter & Umwelt
+die Blume	target	9	Natur, Wetter & Umwelt
+die Energie	target	9	Natur, Wetter & Umwelt
+die Erde	target	9	Natur, Wetter & Umwelt
+die Fläche	target	9	Natur, Wetter & Umwelt
+die Flüssigkeit	target	9	Natur, Wetter & Umwelt
+die Frucht	target	9	Natur, Wetter & Umwelt
+die Gegend	target	9	Natur, Wetter & Umwelt
+die Hitze	target	9	Natur, Wetter & Umwelt
+die Insel	target	9	Natur, Wetter & Umwelt
+die Kälte	target	9	Natur, Wetter & Umwelt
+die Landschaft	target	9	Natur, Wetter & Umwelt
+die Landwirtschaft	target	9	Natur, Wetter & Umwelt
+die Luft	target	9	Natur, Wetter & Umwelt
+die Natur	target	9	Natur, Wetter & Umwelt
+die Nord-/Ostsee	target	9	Natur, Wetter & Umwelt
+die Region	target	9	Natur, Wetter & Umwelt
+die See	target	9	Natur, Wetter & Umwelt
+die Sonne	target	9	Natur, Wetter & Umwelt
+die Umgebung	target	9	Natur, Wetter & Umwelt
+die Umwelt	target	9	Natur, Wetter & Umwelt
+die Umweltverschmutzung	target	9	Natur, Wetter & Umwelt
+die Wanderung	target	9	Natur, Wetter & Umwelt
+die Wettervorhersage	target	9	Natur, Wetter & Umwelt
+die Wiese	target	9	Natur, Wetter & Umwelt
+die Wolke	target	9	Natur, Wetter & Umwelt
+die Wärme	target	9	Natur, Wetter & Umwelt
+draußen	target	9	Natur, Wetter & Umwelt
+entsorgen	target	9	Natur, Wetter & Umwelt
+feucht	target	9	Natur, Wetter & Umwelt
+fließen	target	9	Natur, Wetter & Umwelt
+fließend	target	9	Natur, Wetter & Umwelt
+Früchte	target	9	Natur, Wetter & Umwelt
+hageln	target	9	Natur, Wetter & Umwelt
+heiß	target	9	Natur, Wetter & Umwelt
+kalt	target	9	Natur, Wetter & Umwelt
+leer	target	9	Natur, Wetter & Umwelt
+nass	target	9	Natur, Wetter & Umwelt
+neblig	target	9	Natur, Wetter & Umwelt
+regnen	target	9	Natur, Wetter & Umwelt
+schneien	target	9	Natur, Wetter & Umwelt
+sonnig	target	9	Natur, Wetter & Umwelt
+trocken	target	9	Natur, Wetter & Umwelt
+trocknen	target	9	Natur, Wetter & Umwelt
+verschmutzen	target	9	Natur, Wetter & Umwelt
+wandern	target	9	Natur, Wetter & Umwelt
+warm	target	9	Natur, Wetter & Umwelt
+windig	target	9	Natur, Wetter & Umwelt
+Öko-	target	9	Natur, Wetter & Umwelt
+abbiegen	target	10	Unterwegs & Verkehr
+abfahren	target	10	Unterwegs & Verkehr
+abwärts	target	10	Unterwegs & Verkehr
+anschnallen	target	10	Unterwegs & Verkehr
+aufwärts	target	10	Unterwegs & Verkehr
+ausfallen	target	10	Unterwegs & Verkehr
+bremsen	target	10	Unterwegs & Verkehr
+das Auto	target	10	Unterwegs & Verkehr
+das Fahrrad	target	10	Unterwegs & Verkehr
+das Fahrzeug	target	10	Unterwegs & Verkehr
+das Flugzeug	target	10	Unterwegs & Verkehr
+das Gleis	target	10	Unterwegs & Verkehr
+das Motorrad	target	10	Unterwegs & Verkehr
+das Rad	target	10	Unterwegs & Verkehr
+das Tram	target	10	Unterwegs & Verkehr
+das Trottoir	target	10	Unterwegs & Verkehr
+das Velo	target	10	Unterwegs & Verkehr
+das Verkehrsmittel	target	10	Unterwegs & Verkehr
+der Anschluss	target	10	Unterwegs & Verkehr
+der Ausgang	target	10	Unterwegs & Verkehr
+der Bahnhof	target	10	Unterwegs & Verkehr
+der Bahnsteig	target	10	Unterwegs & Verkehr
+der Bus	target	10	Unterwegs & Verkehr
+der Fahrer	target	10	Unterwegs & Verkehr
+der Fahrplan	target	10	Unterwegs & Verkehr
+der Flug	target	10	Unterwegs & Verkehr
+der Flughafen	target	10	Unterwegs & Verkehr
+der Fußgänger / die Fußgängerin	target	10	Unterwegs & Verkehr
+der Führerausweis	target	10	Unterwegs & Verkehr
+der Führerschein	target	10	Unterwegs & Verkehr
+der Gang	target	10	Unterwegs & Verkehr
+der Gehsteig	target	10	Unterwegs & Verkehr
+der Laster	target	10	Unterwegs & Verkehr
+der Lift	target	10	Unterwegs & Verkehr
+der Motor	target	10	Unterwegs & Verkehr
+der Park	target	10	Unterwegs & Verkehr
+der Passagier / die Passagierin	target	10	Unterwegs & Verkehr
+der Perron	target	10	Unterwegs & Verkehr
+der Radfahrer / die Radfahrerin	target	10	Unterwegs & Verkehr
+der Reifen	target	10	Unterwegs & Verkehr
+der Rucksack	target	10	Unterwegs & Verkehr
+der Schalter	target	10	Unterwegs & Verkehr
+der Schritt	target	10	Unterwegs & Verkehr
+der Stadtplan	target	10	Unterwegs & Verkehr
+der Stau	target	10	Unterwegs & Verkehr
+der Stecker	target	10	Unterwegs & Verkehr
+der Verkehr	target	10	Unterwegs & Verkehr
+der Wagen	target	10	Unterwegs & Verkehr
+der Weg	target	10	Unterwegs & Verkehr
+der Zug	target	10	Unterwegs & Verkehr
+die Abfahrt	target	10	Unterwegs & Verkehr
+die Ampel	target	10	Unterwegs & Verkehr
+die Ausfahrt	target	10	Unterwegs & Verkehr
+die Autobahn	target	10	Unterwegs & Verkehr
+die Bahn	target	10	Unterwegs & Verkehr
+die Bremse	target	10	Unterwegs & Verkehr
+die Brücke	target	10	Unterwegs & Verkehr
+die Einbahnstraße	target	10	Unterwegs & Verkehr
+die Einfahrt	target	10	Unterwegs & Verkehr
+die Eisenbahn	target	10	Unterwegs & Verkehr
+die Fahrbahn	target	10	Unterwegs & Verkehr
+die Fahrkarte	target	10	Unterwegs & Verkehr
+die Fußgängerzone	target	10	Unterwegs & Verkehr
+die Fähre	target	10	Unterwegs & Verkehr
+die Geschwindigkeit	target	10	Unterwegs & Verkehr
+die Geschwindigkeitsbeschränkung	target	10	Unterwegs & Verkehr
+die Haltestelle	target	10	Unterwegs & Verkehr
+die Kreuzung	target	10	Unterwegs & Verkehr
+die Kurve	target	10	Unterwegs & Verkehr
+die Landung	target	10	Unterwegs & Verkehr
+die Maschine	target	10	Unterwegs & Verkehr
+die Panne	target	10	Unterwegs & Verkehr
+die Rundfahrt	target	10	Unterwegs & Verkehr
+die Rückfahrt	target	10	Unterwegs & Verkehr
+die Rückkehr	target	10	Unterwegs & Verkehr
+die Spur	target	10	Unterwegs & Verkehr
+die Stadt	target	10	Unterwegs & Verkehr
+die Steckdose	target	10	Unterwegs & Verkehr
+die Straße	target	10	Unterwegs & Verkehr
+die Straßenbahn	target	10	Unterwegs & Verkehr
+die Strecke	target	10	Unterwegs & Verkehr
+die Tankstelle	target	10	Unterwegs & Verkehr
+die U-Bahn	target	10	Unterwegs & Verkehr
+die Umleitung	target	10	Unterwegs & Verkehr
+die Zone	target	10	Unterwegs & Verkehr
+ein-	target	10	Unterwegs & Verkehr
+einsteigen	target	10	Unterwegs & Verkehr
+fahren	target	10	Unterwegs & Verkehr
+fliegen	target	10	Unterwegs & Verkehr
+hupen	target	10	Unterwegs & Verkehr
+landen	target	10	Unterwegs & Verkehr
+laufen	target	10	Unterwegs & Verkehr
+link-	target	10	Unterwegs & Verkehr
+links	target	10	Unterwegs & Verkehr
+los/los-	target	10	Unterwegs & Verkehr
+losfahren	target	10	Unterwegs & Verkehr
+parken	target	10	Unterwegs & Verkehr
+parkieren	target	10	Unterwegs & Verkehr
+runterwerfen	target	10	Unterwegs & Verkehr
+rückwärts	target	10	Unterwegs & Verkehr
+S-Bahn	target	10	Unterwegs & Verkehr
+schieben	target	10	Unterwegs & Verkehr
+städtisch	target	10	Unterwegs & Verkehr
+tanken	target	10	Unterwegs & Verkehr
+umgehen	target	10	Unterwegs & Verkehr
+umsteigen	target	10	Unterwegs & Verkehr
+überholen	target	10	Unterwegs & Verkehr
+überqueren	target	10	Unterwegs & Verkehr
+ankommen	target	11	Reisen & Urlaub
+besuchen	target	11	Reisen & Urlaub
+buchen	target	11	Reisen & Urlaub
+das Ausland	target	11	Reisen & Urlaub
+das Boot	target	11	Reisen & Urlaub
+das Gepäck	target	11	Reisen & Urlaub
+das Hallenbad	target	11	Reisen & Urlaub
+das Hotel	target	11	Reisen & Urlaub
+das Quartier	target	11	Reisen & Urlaub
+das Reisebüro	target	11	Reisen & Urlaub
+das Schiff	target	11	Reisen & Urlaub
+das Trinkgeld	target	11	Reisen & Urlaub
+das Viertel	target	11	Reisen & Urlaub
+das/der Zvieri/Znüni	target	11	Reisen & Urlaub
+der Aufenthalt	target	11	Reisen & Urlaub
+der Ausflug	target	11	Reisen & Urlaub
+der Besuch	target	11	Reisen & Urlaub
+der Bus	target	11	Reisen & Urlaub
+der Kiosk	target	11	Reisen & Urlaub
+der Koffer	target	11	Reisen & Urlaub
+der Pensionist / die Pensionistin	target	11	Reisen & Urlaub
+der Transport	target	11	Reisen & Urlaub
+der Treffpunkt	target	11	Reisen & Urlaub
+der Urlaub	target	11	Reisen & Urlaub
+der Vorort	target	11	Reisen & Urlaub
+der Wohnort	target	11	Reisen & Urlaub
+der Wohnsitz	target	11	Reisen & Urlaub
+die Ankunft	target	11	Reisen & Urlaub
+die Auskunft	target	11	Reisen & Urlaub
+die Erfahrung	target	11	Reisen & Urlaub
+die Ferien	target	11	Reisen & Urlaub
+die Halbpension	target	11	Reisen & Urlaub
+die Kabine	target	11	Reisen & Urlaub
+die Küste	target	11	Reisen & Urlaub
+die Pension	target	11	Reisen & Urlaub
+die Reise	target	11	Reisen & Urlaub
+die Reservierung	target	11	Reisen & Urlaub
+die Rezeption/Reception	target	11	Reisen & Urlaub
+die Sehenswürdigkeit	target	11	Reisen & Urlaub
+die Toilette	target	11	Reisen & Urlaub
+die Tropfen	target	11	Reisen & Urlaub
+die Unterkunft	target	11	Reisen & Urlaub
+einpacken	target	11	Reisen & Urlaub
+erfahren	target	11	Reisen & Urlaub
+erreichen	target	11	Reisen & Urlaub
+Ferien-	target	11	Reisen & Urlaub
+in Pension gehen/sein	target	11	Reisen & Urlaub
+inklusive	target	11	Reisen & Urlaub
+pensioniert werden/sein	target	11	Reisen & Urlaub
+reisen	target	11	Reisen & Urlaub
+reservieren	target	11	Reisen & Urlaub
+transportieren	target	11	Reisen & Urlaub
+verreisen	target	11	Reisen & Urlaub
+abheben	target	12	Einkaufen & Geld
+anbieten	target	12	Einkaufen & Geld
+anschaffen	target	12	Einkaufen & Geld
+ausgeben	target	12	Einkaufen & Geld
+aussuchen	target	12	Einkaufen & Geld
+auswählen	target	12	Einkaufen & Geld
+bar	target	12	Einkaufen & Geld	bar
+bezahlen	target	12	Einkaufen & Geld
+billig	target	12	Einkaufen & Geld
+bitter	target	12	Einkaufen & Geld
+das Angebot	target	12	Einkaufen & Geld
+das Bargeld	target	12	Einkaufen & Geld
+das Benzin	target	12	Einkaufen & Geld
+das Einkommen	target	12	Einkaufen & Geld
+das Geld	target	12	Einkaufen & Geld
+das Geschäft	target	12	Einkaufen & Geld
+das Girokonto	target	12	Einkaufen & Geld
+das Konto	target	12	Einkaufen & Geld
+das Portemonnaie/Portmonee	target	12	Einkaufen & Geld
+das Produkt	target	12	Einkaufen & Geld
+das Sonderangebot	target	12	Einkaufen & Geld
+das Taschengeld	target	12	Einkaufen & Geld
+der Anbieter	target	12	Einkaufen & Geld
+der Automat	target	12	Einkaufen & Geld
+der Bancomat/Bankomat	target	12	Einkaufen & Geld
+der Betrag	target	12	Einkaufen & Geld
+der Einkauf	target	12	Einkaufen & Geld
+der Flohmarkt	target	12	Einkaufen & Geld
+der Geldautomat	target	12	Einkaufen & Geld
+der Gewinn	target	12	Einkaufen & Geld
+der Kasten	target	12	Einkaufen & Geld
+der Katalog	target	12	Einkaufen & Geld
+der Kauf	target	12	Einkaufen & Geld
+der Konsum	target	12	Einkaufen & Geld
+der Kredit	target	12	Einkaufen & Geld
+der Käufer / die Käuferin	target	12	Einkaufen & Geld
+der Laden	target	12	Einkaufen & Geld
+der Markt	target	12	Einkaufen & Geld
+der Mieter / die Mieterin	target	12	Einkaufen & Geld
+der Preis	target	12	Einkaufen & Geld
+der Rabatt	target	12	Einkaufen & Geld
+der Rechner	target	12	Einkaufen & Geld
+der Supermarkt	target	12	Einkaufen & Geld
+der Test	target	12	Einkaufen & Geld
+der Verkäufer / die Verkäuferin	target	12	Einkaufen & Geld
+der Verlust	target	12	Einkaufen & Geld
+der Vermieter / die Vermieterin	target	12	Einkaufen & Geld
+der Vertrag	target	12	Einkaufen & Geld
+der Zoll	target	12	Einkaufen & Geld
+der Zucker	target	12	Einkaufen & Geld
+der Zuschlag	target	12	Einkaufen & Geld
+die Abteilung	target	12	Einkaufen & Geld
+die Aktion	target	12	Einkaufen & Geld
+die Anlage	target	12	Einkaufen & Geld
+die Ausgabe	target	12	Einkaufen & Geld
+die Ausnahme	target	12	Einkaufen & Geld
+die Auswahl	target	12	Einkaufen & Geld
+die Bank	target	12	Einkaufen & Geld
+die Bankleitzahl	target	12	Einkaufen & Geld
+die Bankomat-Karte	target	12	Einkaufen & Geld
+die Bohne	target	12	Einkaufen & Geld
+die Chipkarte	target	12	Einkaufen & Geld
+die Einführung	target	12	Einkaufen & Geld
+die Einnahme	target	12	Einkaufen & Geld
+die Einzahlung	target	12	Einkaufen & Geld
+die Erhöhung	target	12	Einkaufen & Geld
+die Ermäßigung	target	12	Einkaufen & Geld
+die Eröffnung	target	12	Einkaufen & Geld
+die Fahrkarte	target	12	Einkaufen & Geld
+die Garantie	target	12	Einkaufen & Geld
+die Gebühr	target	12	Einkaufen & Geld
+die Geldbörse	target	12	Einkaufen & Geld
+die Karte	target	12	Einkaufen & Geld
+die Kasse	target	12	Einkaufen & Geld
+die Kontrolle	target	12	Einkaufen & Geld
+die Kosten	target	12	Einkaufen & Geld
+die Kreditkarte	target	12	Einkaufen & Geld
+die Marke	target	12	Einkaufen & Geld
+die Mehrwertsteuer	target	12	Einkaufen & Geld
+die Miete	target	12	Einkaufen & Geld
+die Münze	target	12	Einkaufen & Geld
+die Produktion	target	12	Einkaufen & Geld
+die Quittung	target	12	Einkaufen & Geld
+die Rechnung	target	12	Einkaufen & Geld
+die Statistik	target	12	Einkaufen & Geld
+die Steuer	target	12	Einkaufen & Geld
+die Summe	target	12	Einkaufen & Geld
+die Tabelle	target	12	Einkaufen & Geld
+die Tasche	target	12	Einkaufen & Geld
+die Vermietung	target	12	Einkaufen & Geld
+die Vermittlung	target	12	Einkaufen & Geld
+die Versichertenkarte	target	12	Einkaufen & Geld
+die Versicherung	target	12	Einkaufen & Geld
+die Ware	target	12	Einkaufen & Geld
+die Zahlung	target	12	Einkaufen & Geld
+die Zinsen	target	12	Einkaufen & Geld
+die Zutaten	target	12	Einkaufen & Geld
+die Überweisung	target	12	Einkaufen & Geld
+einführen	target	12	Einkaufen & Geld
+einkaufen	target	12	Einkaufen & Geld
+einnehmen	target	12	Einkaufen & Geld
+einzahlen	target	12	Einkaufen & Geld
+erhalten	target	12	Einkaufen & Geld
+erhöhen	target	12	Einkaufen & Geld
+eröffnen	target	12	Einkaufen & Geld
+finanziell	target	12	Einkaufen & Geld
+finanzieren	target	12	Einkaufen & Geld
+garantieren	target	12	Einkaufen & Geld
+gewinnen	target	12	Einkaufen & Geld
+gratis	target	12	Einkaufen & Geld
+günstig	target	12	Einkaufen & Geld
+kaufen	target	12	Einkaufen & Geld
+konsumieren	target	12	Einkaufen & Geld
+kontrollieren	target	12	Einkaufen & Geld
+kosten	target	12	Einkaufen & Geld
+kostenlos	target	12	Einkaufen & Geld
+markieren	target	12	Einkaufen & Geld
+maximal	target	12	Einkaufen & Geld
+mieten	target	12	Einkaufen & Geld
+produzieren	target	12	Einkaufen & Geld
+rechnen	target	12	Einkaufen & Geld
+statistisch	target	12	Einkaufen & Geld
+testen	target	12	Einkaufen & Geld
+verkaufen	target	12	Einkaufen & Geld
+vermieten	target	12	Einkaufen & Geld
+versichern	target	12	Einkaufen & Geld
+zahlen	target	12	Einkaufen & Geld
+zählen	target	12	Einkaufen & Geld
+überweisen	target	12	Einkaufen & Geld
+(sich) streiten	target	13	Stadt, Ämter & Recht
+angeben	target	13	Stadt, Ämter & Recht
+anmelden	target	13	Stadt, Ämter & Recht
+anzeigen	target	13	Stadt, Ämter & Recht
+ausfüllen	target	13	Stadt, Ämter & Recht
+beantragen	target	13	Stadt, Ämter & Recht
+behindern	target	13	Stadt, Ämter & Recht
+bekannt geben	target	13	Stadt, Ämter & Recht
+berichten	target	13	Stadt, Ämter & Recht
+bestrafen	target	13	Stadt, Ämter & Recht
+betrügen	target	13	Stadt, Ämter & Recht
+beweisen	target	13	Stadt, Ämter & Recht
+das Amt	target	13	Stadt, Ämter & Recht
+das Dokument	target	13	Stadt, Ämter & Recht
+das Formular	target	13	Stadt, Ämter & Recht
+das Fundbüro	target	13	Stadt, Ämter & Recht
+das Gebiet	target	13	Stadt, Ämter & Recht
+das Gebirge	target	13	Stadt, Ämter & Recht
+das Gebäude	target	13	Stadt, Ämter & Recht
+das Gefängnis	target	13	Stadt, Ämter & Recht
+das Gesetz	target	13	Stadt, Ämter & Recht
+das Kennzeichen	target	13	Stadt, Ämter & Recht
+das Konsulat	target	13	Stadt, Ämter & Recht
+das Mitglied	target	13	Stadt, Ämter & Recht
+das Opfer	target	13	Stadt, Ämter & Recht
+das Rathaus	target	13	Stadt, Ämter & Recht
+das Recht	target	13	Stadt, Ämter & Recht
+das Schaufenster	target	13	Stadt, Ämter & Recht
+das Urteil	target	13	Stadt, Ämter & Recht
+das Verbot	target	13	Stadt, Ämter & Recht
+das Visum	target	13	Stadt, Ämter & Recht
+das Zertifikat	target	13	Stadt, Ämter & Recht
+das Zeugnis	target	13	Stadt, Ämter & Recht
+der Antrag	target	13	Stadt, Ämter & Recht
+der Anwalt / die Anwältin	target	13	Stadt, Ämter & Recht
+der Ausweis	target	13	Stadt, Ämter & Recht
+der Beamte / die Beamtin	target	13	Stadt, Ämter & Recht
+der Bericht	target	13	Stadt, Ämter & Recht
+der Bürger / die Bürgerin	target	13	Stadt, Ämter & Recht
+der Dieb	target	13	Stadt, Ämter & Recht
+der Dienst	target	13	Stadt, Ämter & Recht
+der Doktor / die Doktorin	target	13	Stadt, Ämter & Recht
+der Einbrecher / die Einbrecherin	target	13	Stadt, Ämter & Recht
+der Einbruch	target	13	Stadt, Ämter & Recht
+der Einwohner / die Einwohnerin	target	13	Stadt, Ämter & Recht
+der Gegner	target	13	Stadt, Ämter & Recht
+der Hauptbahnhof	target	13	Stadt, Ämter & Recht
+der Herr	target	13	Stadt, Ämter & Recht
+der Konflikt	target	13	Stadt, Ämter & Recht
+der Krieg	target	13	Stadt, Ämter & Recht
+der König	target	13	Stadt, Ämter & Recht
+der Nachbar / die Nachbarin	target	13	Stadt, Ämter & Recht
+der Ort	target	13	Stadt, Ämter & Recht
+der Pass	target	13	Stadt, Ämter & Recht
+der Personenstand	target	13	Stadt, Ämter & Recht
+der Politiker / die Politikerin	target	13	Stadt, Ämter & Recht
+der Polizist / die Polizistin	target	13	Stadt, Ämter & Recht
+der Prozess	target	13	Stadt, Ämter & Recht
+der Raucher / die Raucherin	target	13	Stadt, Ämter & Recht
+der Richter / die Richterin	target	13	Stadt, Ämter & Recht
+der Sozialarbeiter / die Sozialarbeiterin	target	13	Stadt, Ämter & Recht
+der Stempel	target	13	Stadt, Ämter & Recht
+der Strafzettel	target	13	Stadt, Ämter & Recht
+der Streik	target	13	Stadt, Ämter & Recht
+der Streit	target	13	Stadt, Ämter & Recht
+der Stress	target	13	Stadt, Ämter & Recht
+der Täter / die Täterin	target	13	Stadt, Ämter & Recht
+der Verbrecher / die Verbrecherin	target	13	Stadt, Ämter & Recht
+der Verdacht	target	13	Stadt, Ämter & Recht
+der Vorort	target	13	Stadt, Ämter & Recht
+der Vorwurf	target	13	Stadt, Ämter & Recht
+der Wohnort	target	13	Stadt, Ämter & Recht
+der Zeuge / die Zeugin	target	13	Stadt, Ämter & Recht
+der Zivilstand	target	13	Stadt, Ämter & Recht
+die Angabe	target	13	Stadt, Ämter & Recht
+die Anmeldung	target	13	Stadt, Ämter & Recht
+die Anzeige	target	13	Stadt, Ämter & Recht
+die Behörde	target	13	Stadt, Ämter & Recht
+die Burg	target	13	Stadt, Ämter & Recht
+die Droge	target	13	Stadt, Ämter & Recht
+die Drogerie	target	13	Stadt, Ämter & Recht
+die Gemeinschaft	target	13	Stadt, Ämter & Recht
+die Gesellschaft	target	13	Stadt, Ämter & Recht
+die Grenze	target	13	Stadt, Ämter & Recht
+die Hauptstadt	target	13	Stadt, Ämter & Recht
+die Kirche	target	13	Stadt, Ämter & Recht
+die Krise	target	13	Stadt, Ämter & Recht
+die Mauer	target	13	Stadt, Ämter & Recht
+die Mehrheit	target	13	Stadt, Ämter & Recht
+die Messe	target	13	Stadt, Ämter & Recht
+die Minderheit	target	13	Stadt, Ämter & Recht
+die Ordination	target	13	Stadt, Ämter & Recht
+die Organisation	target	13	Stadt, Ämter & Recht
+die Personalien	target	13	Stadt, Ämter & Recht
+die Politik	target	13	Stadt, Ämter & Recht
+die Polizei	target	13	Stadt, Ämter & Recht
+die Reform	target	13	Stadt, Ämter & Recht
+die Regel	target	13	Stadt, Ämter & Recht
+die Religion	target	13	Stadt, Ämter & Recht
+die Richtung	target	13	Stadt, Ämter & Recht
+die Schuld	target	13	Stadt, Ämter & Recht
+die Schulden	target	13	Stadt, Ämter & Recht
+die Strafe	target	13	Stadt, Ämter & Recht
+die Uniform	target	13	Stadt, Ämter & Recht
+die Unterschrift	target	13	Stadt, Ämter & Recht
+die Urkunde	target	13	Stadt, Ämter & Recht
+die Ursache	target	13	Stadt, Ämter & Recht
+die Versammlung	target	13	Stadt, Ämter & Recht
+die Verwaltung	target	13	Stadt, Ämter & Recht
+die Vorfahrt	target	13	Stadt, Ämter & Recht
+die Vorschrift	target	13	Stadt, Ämter & Recht
+die Öffentlichkeit	target	13	Stadt, Ämter & Recht
+einbrechen	target	13	Stadt, Ämter & Recht
+festnehmen	target	13	Stadt, Ämter & Recht
+festsetzen	target	13	Stadt, Ämter & Recht
+illegal	target	13	Stadt, Ämter & Recht
+installieren	target	13	Stadt, Ämter & Recht
+Kriminal- / die Kriminalpolizei	target	13	Stadt, Ämter & Recht
+offiziell	target	13	Stadt, Ämter & Recht
+passieren	target	13	Stadt, Ämter & Recht
+politisch	target	13	Stadt, Ämter & Recht
+rauchen	target	13	Stadt, Ämter & Recht
+rechtlich	target	13	Stadt, Ämter & Recht
+regeln	target	13	Stadt, Ämter & Recht
+schuld	target	13	Stadt, Ämter & Recht
+schuldig	target	13	Stadt, Ämter & Recht
+sozial	target	13	Stadt, Ämter & Recht
+strafbar	target	13	Stadt, Ämter & Recht
+streiken	target	13	Stadt, Ämter & Recht
+untersagt	target	13	Stadt, Ämter & Recht
+unterschreiben	target	13	Stadt, Ämter & Recht
+verbieten	target	13	Stadt, Ämter & Recht
+verboten	target	13	Stadt, Ämter & Recht
+verdächtig	target	13	Stadt, Ämter & Recht
+verhaften	target	13	Stadt, Ämter & Recht
+verhindern	target	13	Stadt, Ämter & Recht
+verraten	target	13	Stadt, Ämter & Recht
+versäumen	target	13	Stadt, Ämter & Recht
+verursachen	target	13	Stadt, Ämter & Recht
+verurteilen	target	13	Stadt, Ämter & Recht
+veröffentlichen	target	13	Stadt, Ämter & Recht
+öffentlich	target	13	Stadt, Ämter & Recht
+anerkennen	target	14	Arbeit & Beruf
+anstellen	target	14	Arbeit & Beruf
+anstrengend	target	14	Arbeit & Beruf
+arbeiten	target	14	Arbeit & Beruf
+arbeitslos	target	14	Arbeit & Beruf
+beenden	target	14	Arbeit & Beruf
+beruflich	target	14	Arbeit & Beruf
+berufstätig	target	14	Arbeit & Beruf
+das Büro	target	14	Arbeit & Beruf
+das Diplom	target	14	Arbeit & Beruf
+das Fach	target	14	Arbeit & Beruf
+das Gehalt	target	14	Arbeit & Beruf
+das Kraftfahrzeug	target	14	Arbeit & Beruf
+das Kraftwerk	target	14	Arbeit & Beruf
+das Personal	target	14	Arbeit & Beruf
+das Praktikum	target	14	Arbeit & Beruf
+das Projekt	target	14	Arbeit & Beruf
+das Telefon	target	14	Arbeit & Beruf
+das Vorstellungsgespräch	target	14	Arbeit & Beruf
+das Werk	target	14	Arbeit & Beruf
+das Werkzeug	target	14	Arbeit & Beruf
+der Angestellte / die Angestellte	target	14	Arbeit & Beruf
+der Anspruch	target	14	Arbeit & Beruf
+der Arbeiter / die Arbeiterin	target	14	Arbeit & Beruf
+der Arbeitsplatz	target	14	Arbeit & Beruf
+der Architekt / die Architektin	target	14	Arbeit & Beruf
+der Auftrag	target	14	Arbeit & Beruf
+der Beruf	target	14	Arbeit & Beruf
+der Betrieb	target	14	Arbeit & Beruf
+der Betriebsrat / die Betriebsrätin	target	14	Arbeit & Beruf
+der Direktor / die Direktorin	target	14	Arbeit & Beruf
+der Erfolg	target	14	Arbeit & Beruf
+der Experte	target	14	Arbeit & Beruf
+der Export	target	14	Arbeit & Beruf
+der Fachmann / die Fachfrau	target	14	Arbeit & Beruf
+der Fehler	target	14	Arbeit & Beruf
+der Feierabend	target	14	Arbeit & Beruf
+der Grund	target	14	Arbeit & Beruf
+der Handel	target	14	Arbeit & Beruf
+der Handwerker / die Handwerkerin	target	14	Arbeit & Beruf
+der Hersteller	target	14	Arbeit & Beruf
+der Händler / die Händlerin	target	14	Arbeit & Beruf
+der Import	target	14	Arbeit & Beruf
+der Ingenieur	target	14	Arbeit & Beruf
+der Kandidat	target	14	Arbeit & Beruf
+der Kellner / die Kellnerin	target	14	Arbeit & Beruf
+der Kollege / die Kollegin	target	14	Arbeit & Beruf
+der Kunde / die Kundin	target	14	Arbeit & Beruf
+der Leiter / die Leiterin	target	14	Arbeit & Beruf
+der Lohn	target	14	Arbeit & Beruf
+der Mangel	target	14	Arbeit & Beruf
+der Mechaniker / die Mechanikerin	target	14	Arbeit & Beruf
+der Meister	target	14	Arbeit & Beruf
+der Migrant / die Migrantin	target	14	Arbeit & Beruf
+der Mitarbeiter / die Mitarbeiterin	target	14	Arbeit & Beruf
+der Praktikant / die Praktikantin	target	14	Arbeit & Beruf
+der Professor / die Professorin	target	14	Arbeit & Beruf
+der Profi	target	14	Arbeit & Beruf
+der Profisportler / die Profisportlerin	target	14	Arbeit & Beruf
+der Reporter / die Reporterin	target	14	Arbeit & Beruf
+der Rest	target	14	Arbeit & Beruf
+der Schauspieler / die Schauspielerin	target	14	Arbeit & Beruf
+der Sekretär / die Sekretärin	target	14	Arbeit & Beruf
+der Serviceangestellte / die Serviceangestellte	target	14	Arbeit & Beruf
+der Spezialist / die Spezialistin	target	14	Arbeit & Beruf
+der Steward / die Stewardess	target	14	Arbeit & Beruf
+der Student / die Studentin	target	14	Arbeit & Beruf
+der Studierende / die Studierende	target	14	Arbeit & Beruf
+der Sänger / die Sängerin	target	14	Arbeit & Beruf
+der Teilnehmer / die Teilnehmerin	target	14	Arbeit & Beruf
+der Termin	target	14	Arbeit & Beruf
+der Terminkalender	target	14	Arbeit & Beruf
+der Täter / die Täterin	target	14	Arbeit & Beruf
+der Unternehmer / die Unternehmerin	target	14	Arbeit & Beruf
+der Verein	target	14	Arbeit & Beruf
+der Verlag	target	14	Arbeit & Beruf
+der Zufall	target	14	Arbeit & Beruf
+die Arbeit	target	14	Arbeit & Beruf
+die Arbeitserlaubnis	target	14	Arbeit & Beruf
+die Arbeitslosigkeit	target	14	Arbeit & Beruf
+die Arbeitsstelle	target	14	Arbeit & Beruf
+die Aushilfe	target	14	Arbeit & Beruf
+die Bewerbung	target	14	Arbeit & Beruf
+die Entlassung	target	14	Arbeit & Beruf
+die Fabrik	target	14	Arbeit & Beruf
+die Fachleute	target	14	Arbeit & Beruf
+die Firma	target	14	Arbeit & Beruf
+die Forderung	target	14	Arbeit & Beruf
+die Förderung	target	14	Arbeit & Beruf
+die Führung	target	14	Arbeit & Beruf
+die Gelegenheit	target	14	Arbeit & Beruf
+die Generation	target	14	Arbeit & Beruf
+die Gewerkschaft	target	14	Arbeit & Beruf
+die Herausforderung	target	14	Arbeit & Beruf
+die Industrie	target	14	Arbeit & Beruf
+die Karriere	target	14	Arbeit & Beruf
+die Kündigung	target	14	Arbeit & Beruf
+die Leistung	target	14	Arbeit & Beruf
+die Leitung	target	14	Arbeit & Beruf
+die Mannschaft	target	14	Arbeit & Beruf
+die Migration	target	14	Arbeit & Beruf
+die Qualifikation	target	14	Arbeit & Beruf
+die Reparatur	target	14	Arbeit & Beruf
+die Reportage	target	14	Arbeit & Beruf
+die Teilnahme	target	14	Arbeit & Beruf
+die Teilzeit	target	14	Arbeit & Beruf
+die Tätigkeit	target	14	Arbeit & Beruf
+die Unterlagen	target	14	Arbeit & Beruf
+die Unterstützung	target	14	Arbeit & Beruf
+die Vollzeit	target	14	Arbeit & Beruf
+die Weiterbildung	target	14	Arbeit & Beruf
+die Werkstatt	target	14	Arbeit & Beruf
+die Überstunde	target	14	Arbeit & Beruf
+entlassen	target	14	Arbeit & Beruf
+erfolgreich	target	14	Arbeit & Beruf
+erledigen	target	14	Arbeit & Beruf
+fehlen	target	14	Arbeit & Beruf
+fleißig	target	14	Arbeit & Beruf
+fordern	target	14	Arbeit & Beruf
+fördern	target	14	Arbeit & Beruf
+gründen	target	14	Arbeit & Beruf
+handeln	target	14	Arbeit & Beruf
+herstellen	target	14	Arbeit & Beruf
+kündigen	target	14	Arbeit & Beruf
+leisten	target	14	Arbeit & Beruf
+leiten	target	14	Arbeit & Beruf
+nützen	target	14	Arbeit & Beruf
+reparieren	target	14	Arbeit & Beruf
+selbstständig	target	14	Arbeit & Beruf
+sich anstrengen	target	14	Arbeit & Beruf
+sich beteiligen	target	14	Arbeit & Beruf
+sich bewerben	target	14	Arbeit & Beruf
+teilnehmen	target	14	Arbeit & Beruf
+telefonieren	target	14	Arbeit & Beruf
+unterstützen	target	14	Arbeit & Beruf
+verdienen	target	14	Arbeit & Beruf
+zugänglich	target	14	Arbeit & Beruf
+zuständig	target	14	Arbeit & Beruf
+abschreiben	target	15	Schule & Bildung
+abwesend	target	15	Schule & Bildung
+analysieren	target	15	Schule & Bildung
+anwenden	target	15	Schule & Bildung
+anwesend	target	15	Schule & Bildung
+aufgeben	target	15	Schule & Bildung
+ausgebildet	target	15	Schule & Bildung
+aussprechen	target	15	Schule & Bildung
+beginnen	target	15	Schule & Bildung
+besichtigen	target	15	Schule & Bildung
+buchen	target	15	Schule & Bildung
+das Abitur	target	15	Schule & Bildung
+das Alphabet	target	15	Schule & Bildung
+das Beispiel	target	15	Schule & Bildung
+das Buch	target	15	Schule & Bildung
+das Ergebnis	target	15	Schule & Bildung
+das Forum	target	15	Schule & Bildung
+das Gedicht	target	15	Schule & Bildung
+das Institut	target	15	Schule & Bildung
+das Kapitel	target	15	Schule & Bildung
+das Referat	target	15	Schule & Bildung
+das Seminar	target	15	Schule & Bildung
+das System	target	15	Schule & Bildung
+der Abschluss	target	15	Schule & Bildung
+der Abschnitt	target	15	Schule & Bildung
+der Beginn	target	15	Schule & Bildung
+der Bereich	target	15	Schule & Bildung
+der Bleistift	target	15	Schule & Bildung
+der Eintritt	target	15	Schule & Bildung
+der Fortschritt	target	15	Schule & Bildung
+der Intensivkurs	target	15	Schule & Bildung
+der Kurs	target	15	Schule & Bildung
+der Kursleiter / die Kursleiter	target	15	Schule & Bildung
+der Lebenslauf	target	15	Schule & Bildung
+der Lehrer / die Lehrerin	target	15	Schule & Bildung
+der Lehrling	target	15	Schule & Bildung
+der Lerner / die Lernerin	target	15	Schule & Bildung
+der Leser / die Leserin	target	15	Schule & Bildung
+der Schüler / die Schülerin	target	15	Schule & Bildung
+der Stil	target	15	Schule & Bildung
+der Unterricht	target	15	Schule & Bildung
+der Übersetzer / die Übersetzerin	target	15	Schule & Bildung
+die Abbildung	target	15	Schule & Bildung
+die Aufgabe	target	15	Schule & Bildung
+die Ausbildung	target	15	Schule & Bildung
+die Aussprache	target	15	Schule & Bildung
+die Bibliothek	target	15	Schule & Bildung
+die Biologie	target	15	Schule & Bildung
+die Buchhandlung	target	15	Schule & Bildung
+die Entwicklung	target	15	Schule & Bildung
+die Erklärung	target	15	Schule & Bildung
+die Forschung	target	15	Schule & Bildung
+die Fortbildung	target	15	Schule & Bildung
+die Fortsetzung	target	15	Schule & Bildung
+die Geduld	target	15	Schule & Bildung
+die Hausaufgabe	target	15	Schule & Bildung
+die Klasse	target	15	Schule & Bildung
+die Klassenarbeit	target	15	Schule & Bildung
+die Lehre	target	15	Schule & Bildung
+die Lehrstelle	target	15	Schule & Bildung
+die Matura	target	15	Schule & Bildung
+die Nachhilfe	target	15	Schule & Bildung
+die Note	target	15	Schule & Bildung
+die Präsentation	target	15	Schule & Bildung
+die Prüfung	target	15	Schule & Bildung
+die Schularbeit	target	15	Schule & Bildung
+die Schule	target	15	Schule & Bildung
+die Universität	target	15	Schule & Bildung
+die Übersetzung	target	15	Schule & Bildung
+die Übung	target	15	Schule & Bildung
+eintreten	target	15	Schule & Bildung
+entwickeln	target	15	Schule & Bildung
+erklären	target	15	Schule & Bildung
+erstellen	target	15	Schule & Bildung
+fortsetzen	target	15	Schule & Bildung
+interkulturell	target	15	Schule & Bildung
+international	target	15	Schule & Bildung
+lernen	target	15	Schule & Bildung
+lesen	target	15	Schule & Bildung
+präsentieren	target	15	Schule & Bildung
+prüfen	target	15	Schule & Bildung
+theoretisch	target	15	Schule & Bildung
+unterrichten	target	15	Schule & Bildung
+übersetzen	target	15	Schule & Bildung
+abonnieren	target	16	Freizeit, Medien & Technik
+anklicken	target	16	Freizeit, Medien & Technik
+ansehen	target	16	Freizeit, Medien & Technik
+aufführen	target	16	Freizeit, Medien & Technik
+aufnehmen	target	16	Freizeit, Medien & Technik
+auftreten	target	16	Freizeit, Medien & Technik
+ausgehen	target	16	Freizeit, Medien & Technik
+ausstellen	target	16	Freizeit, Medien & Technik
+automatisch	target	16	Freizeit, Medien & Technik
+basteln	target	16	Freizeit, Medien & Technik
+beliebt	target	16	Freizeit, Medien & Technik
+bio	target	16	Freizeit, Medien & Technik
+Bio-	target	16	Freizeit, Medien & Technik
+das Abenteuer	target	16	Freizeit, Medien & Technik
+das Abonnement	target	16	Freizeit, Medien & Technik
+das Ballett	target	16	Freizeit, Medien & Technik
+das Bild	target	16	Freizeit, Medien & Technik
+das Billett	target	16	Freizeit, Medien & Technik
+das Denkmal	target	16	Freizeit, Medien & Technik
+das Diplom	target	16	Freizeit, Medien & Technik
+das Fernsehen	target	16	Freizeit, Medien & Technik
+das Fest	target	16	Freizeit, Medien & Technik
+das Foto	target	16	Freizeit, Medien & Technik
+das Gerät	target	16	Freizeit, Medien & Technik
+das Handy	target	16	Freizeit, Medien & Technik
+das Hobby	target	16	Freizeit, Medien & Technik
+das Instrument	target	16	Freizeit, Medien & Technik
+das Interview	target	16	Freizeit, Medien & Technik
+das Kabel	target	16	Freizeit, Medien & Technik
+das Kino	target	16	Freizeit, Medien & Technik
+das Klavier	target	16	Freizeit, Medien & Technik
+das Klima	target	16	Freizeit, Medien & Technik
+das Konzert	target	16	Freizeit, Medien & Technik
+das Laufwerk	target	16	Freizeit, Medien & Technik
+das Lexikon	target	16	Freizeit, Medien & Technik
+das Lied	target	16	Freizeit, Medien & Technik
+das Magazin	target	16	Freizeit, Medien & Technik
+das Mobiltelefon	target	16	Freizeit, Medien & Technik
+das Museum	target	16	Freizeit, Medien & Technik
+das Märchen	target	16	Freizeit, Medien & Technik
+das Orchester	target	16	Freizeit, Medien & Technik
+das Programm	target	16	Freizeit, Medien & Technik
+das Publikum	target	16	Freizeit, Medien & Technik
+das Quiz	target	16	Freizeit, Medien & Technik
+das Radio	target	16	Freizeit, Medien & Technik
+das Rätsel	target	16	Freizeit, Medien & Technik
+das Schwimmbad	target	16	Freizeit, Medien & Technik
+das Souvenir	target	16	Freizeit, Medien & Technik
+das Spiel	target	16	Freizeit, Medien & Technik
+das Spielzeug	target	16	Freizeit, Medien & Technik
+das Stadion	target	16	Freizeit, Medien & Technik
+das Studio	target	16	Freizeit, Medien & Technik
+das Studium	target	16	Freizeit, Medien & Technik
+das Symbol	target	16	Freizeit, Medien & Technik
+das Talent	target	16	Freizeit, Medien & Technik
+das Tennis	target	16	Freizeit, Medien & Technik
+das Theater	target	16	Freizeit, Medien & Technik
+das Thema	target	16	Freizeit, Medien & Technik
+das Ticket	target	16	Freizeit, Medien & Technik
+das Training	target	16	Freizeit, Medien & Technik
+das Video	target	16	Freizeit, Medien & Technik
+dekorieren	target	16	Freizeit, Medien & Technik
+der Auftritt	target	16	Freizeit, Medien & Technik
+der Autor / die Autorin	target	16	Freizeit, Medien & Technik
+der Ball	target	16	Freizeit, Medien & Technik
+der Basketball	target	16	Freizeit, Medien & Technik
+der Beleg	target	16	Freizeit, Medien & Technik
+der Bildschirm	target	16	Freizeit, Medien & Technik
+der Dialekt	target	16	Freizeit, Medien & Technik
+der Dialog	target	16	Freizeit, Medien & Technik
+der Feiertag	target	16	Freizeit, Medien & Technik
+der Fernseher	target	16	Freizeit, Medien & Technik
+der Film	target	16	Freizeit, Medien & Technik
+der Fotoapparat	target	16	Freizeit, Medien & Technik
+der Fotograf	target	16	Freizeit, Medien & Technik
+der Fußball	target	16	Freizeit, Medien & Technik
+der Karneval	target	16	Freizeit, Medien & Technik
+der Klick	target	16	Freizeit, Medien & Technik
+der Kopierer	target	16	Freizeit, Medien & Technik
+der Krimi	target	16	Freizeit, Medien & Technik
+der Künstler / die Künstlerin	target	16	Freizeit, Medien & Technik
+der Lautsprecher	target	16	Freizeit, Medien & Technik
+der Maler / die Malerin	target	16	Freizeit, Medien & Technik
+der Monitor	target	16	Freizeit, Medien & Technik
+der Musiker / die Musikerin	target	16	Freizeit, Medien & Technik
+der Plan	target	16	Freizeit, Medien & Technik
+der Prospekt	target	16	Freizeit, Medien & Technik
+der Rekord	target	16	Freizeit, Medien & Technik
+der Roman	target	16	Freizeit, Medien & Technik
+der Saal	target	16	Freizeit, Medien & Technik
+der Salon	target	16	Freizeit, Medien & Technik
+der Sieg	target	16	Freizeit, Medien & Technik
+der Sieger / die Siegerin	target	16	Freizeit, Medien & Technik
+der Sitz	target	16	Freizeit, Medien & Technik
+der Ski/Schi	target	16	Freizeit, Medien & Technik
+der Spaß	target	16	Freizeit, Medien & Technik
+der Spiegel	target	16	Freizeit, Medien & Technik
+der Spieler / die Spielerin	target	16	Freizeit, Medien & Technik
+der Spielplatz	target	16	Freizeit, Medien & Technik
+der Sport	target	16	Freizeit, Medien & Technik
+der Sportler / die Sportlerin	target	16	Freizeit, Medien & Technik
+der Star	target	16	Freizeit, Medien & Technik
+der Tanz	target	16	Freizeit, Medien & Technik
+der Titel	target	16	Freizeit, Medien & Technik
+der Tourismus	target	16	Freizeit, Medien & Technik
+der Tourist / die Touristin	target	16	Freizeit, Medien & Technik
+der Trainer / die Trainerin	target	16	Freizeit, Medien & Technik
+der Traum	target	16	Freizeit, Medien & Technik
+der Turm	target	16	Freizeit, Medien & Technik
+der Versuch	target	16	Freizeit, Medien & Technik
+der Virus	target	16	Freizeit, Medien & Technik
+der Wettbewerb	target	16	Freizeit, Medien & Technik
+der Zirkus	target	16	Freizeit, Medien & Technik
+der Zoo	target	16	Freizeit, Medien & Technik
+der Zuschauer / die Zuschauerin	target	16	Freizeit, Medien & Technik
+die Aktivität	target	16	Freizeit, Medien & Technik
+die Aufnahme	target	16	Freizeit, Medien & Technik
+die Ausstellung	target	16	Freizeit, Medien & Technik
+die Batterie	target	16	Freizeit, Medien & Technik
+die Bibliothek	target	16	Freizeit, Medien & Technik
+die Biologie	target	16	Freizeit, Medien & Technik
+die Broschüre	target	16	Freizeit, Medien & Technik
+die Bühne	target	16	Freizeit, Medien & Technik
+die Datei	target	16	Freizeit, Medien & Technik
+die Daten	target	16	Freizeit, Medien & Technik
+die Diskothek	target	16	Freizeit, Medien & Technik
+die Diskussion	target	16	Freizeit, Medien & Technik
+die Fantasie/Phantasie	target	16	Freizeit, Medien & Technik
+die Feier	target	16	Freizeit, Medien & Technik
+die Fernbedienung	target	16	Freizeit, Medien & Technik
+die Festplatte	target	16	Freizeit, Medien & Technik
+die Figur	target	16	Freizeit, Medien & Technik
+die Flöte	target	16	Freizeit, Medien & Technik
+die Fotografie	target	16	Freizeit, Medien & Technik
+die Freizeit	target	16	Freizeit, Medien & Technik
+die Galerie	target	16	Freizeit, Medien & Technik
+die Gitarre	target	16	Freizeit, Medien & Technik
+die Gymnastik	target	16	Freizeit, Medien & Technik
+die Kamera	target	16	Freizeit, Medien & Technik
+die Kassette	target	16	Freizeit, Medien & Technik
+die Klimaanlage	target	16	Freizeit, Medien & Technik
+die Kopie	target	16	Freizeit, Medien & Technik
+die Kultur	target	16	Freizeit, Medien & Technik
+die Kunst	target	16	Freizeit, Medien & Technik
+die Literatur	target	16	Freizeit, Medien & Technik
+die Mappe	target	16	Freizeit, Medien & Technik
+die Medien	target	16	Freizeit, Medien & Technik
+die Metropole	target	16	Freizeit, Medien & Technik
+die Mobilbox	target	16	Freizeit, Medien & Technik
+die Mobilität	target	16	Freizeit, Medien & Technik
+die Musik	target	16	Freizeit, Medien & Technik
+die Oper	target	16	Freizeit, Medien & Technik
+die Party	target	16	Freizeit, Medien & Technik
+die Phantasie/Fantasie	target	16	Freizeit, Medien & Technik
+die Planung	target	16	Freizeit, Medien & Technik
+die Rolle	target	16	Freizeit, Medien & Technik
+die Rose	target	16	Freizeit, Medien & Technik
+die Runde	target	16	Freizeit, Medien & Technik
+die Serie	target	16	Freizeit, Medien & Technik
+die Sportart	target	16	Freizeit, Medien & Technik
+die Station	target	16	Freizeit, Medien & Technik
+die Studie	target	16	Freizeit, Medien & Technik
+die Szene	target	16	Freizeit, Medien & Technik
+die Technik	target	16	Freizeit, Medien & Technik
+die Technologie	target	16	Freizeit, Medien & Technik
+die Theorie	target	16	Freizeit, Medien & Technik
+die Tradition	target	16	Freizeit, Medien & Technik
+die Veranstaltung	target	16	Freizeit, Medien & Technik
+die/das Glace/Glacé	target	16	Freizeit, Medien & Technik
+digital	target	16	Freizeit, Medien & Technik
+diskutieren	target	16	Freizeit, Medien & Technik
+einfügen	target	16	Freizeit, Medien & Technik
+einschalten	target	16	Freizeit, Medien & Technik
+elektrisch	target	16	Freizeit, Medien & Technik
+Elektro-	target	16	Freizeit, Medien & Technik
+elektronisch	target	16	Freizeit, Medien & Technik
+fantastisch	target	16	Freizeit, Medien & Technik
+feiern	target	16	Freizeit, Medien & Technik
+fernsehen	target	16	Freizeit, Medien & Technik
+fotografieren	target	16	Freizeit, Medien & Technik
+funktionieren	target	16	Freizeit, Medien & Technik
+genießen	target	16	Freizeit, Medien & Technik
+Golf	target	16	Freizeit, Medien & Technik
+historisch	target	16	Freizeit, Medien & Technik
+hochladen	target	16	Freizeit, Medien & Technik
+installieren	target	16	Freizeit, Medien & Technik
+klettern	target	16	Freizeit, Medien & Technik
+klicken	target	16	Freizeit, Medien & Technik
+kopieren	target	16	Freizeit, Medien & Technik
+kulturell	target	16	Freizeit, Medien & Technik
+malen	target	16	Freizeit, Medien & Technik
+musikalisch	target	16	Freizeit, Medien & Technik
+organisieren	target	16	Freizeit, Medien & Technik
+planen	target	16	Freizeit, Medien & Technik
+Prost	target	16	Freizeit, Medien & Technik
+reiten	target	16	Freizeit, Medien & Technik
+schwimmen	target	16	Freizeit, Medien & Technik
+sich amüsieren	target	16	Freizeit, Medien & Technik
+siegen	target	16	Freizeit, Medien & Technik
+singen	target	16	Freizeit, Medien & Technik
+spielen	target	16	Freizeit, Medien & Technik
+sportlich	target	16	Freizeit, Medien & Technik
+studieren	target	16	Freizeit, Medien & Technik
+tanzen	target	16	Freizeit, Medien & Technik
+technisch	target	16	Freizeit, Medien & Technik
+toll	target	16	Freizeit, Medien & Technik
+traditionell	target	16	Freizeit, Medien & Technik
+trainieren	target	16	Freizeit, Medien & Technik
+Traum-	target	16	Freizeit, Medien & Technik
+träumen	target	16	Freizeit, Medien & Technik
+virtuell	target	16	Freizeit, Medien & Technik
+Volleyball	target	16	Freizeit, Medien & Technik
+wetten	target	16	Freizeit, Medien & Technik
+zuschauen	target	16	Freizeit, Medien & Technik
+(sich) fürchten	target	17	Gefühle & Charakter
+(sich) wünschen	target	17	Gefühle & Charakter
+(sich) ärgern	target	17	Gefühle & Charakter
+aktiv	target	17	Gefühle & Charakter
+allein	target	17	Gefühle & Charakter
+angenehm	target	17	Gefühle & Charakter
+arm	target	17	Gefühle & Charakter	arm
+aufregen	target	17	Gefühle & Charakter
+befreit	target	17	Gefühle & Charakter
+befriedigend	target	17	Gefühle & Charakter
+begeistert	target	17	Gefühle & Charakter
+begrenzt	target	17	Gefühle & Charakter
+beißen	target	17	Gefühle & Charakter	to bite
+beleidigen	target	17	Gefühle & Charakter
+bereit	target	17	Gefühle & Charakter
+beruhigen	target	17	Gefühle & Charakter
+berühmt	target	17	Gefühle & Charakter
+betrunken	target	17	Gefühle & Charakter
+blass	target	17	Gefühle & Charakter
+böse	target	17	Gefühle & Charakter
+dankbar	target	17	Gefühle & Charakter
+das Glück	target	17	Gefühle & Charakter
+das Interesse	target	17	Gefühle & Charakter
+das Pech	target	17	Gefühle & Charakter
+das Vergnügen	target	17	Gefühle & Charakter
+das Vertrauen	target	17	Gefühle & Charakter
+das Wunder	target	17	Gefühle & Charakter
+der Friede	target	17	Gefühle & Charakter
+der Kellner / die Kellnerin	target	17	Gefühle & Charakter
+der Schreck	target	17	Gefühle & Charakter
+der Verlierer / die Verliererin	target	17	Gefühle & Charakter
+der Wunsch	target	17	Gefühle & Charakter
+der Ärger	target	17	Gefühle & Charakter
+die Angst	target	17	Gefühle & Charakter
+die Bewegung	target	17	Gefühle & Charakter
+die Eile	target	17	Gefühle & Charakter
+die Enttäuschung	target	17	Gefühle & Charakter
+die Freude	target	17	Gefühle & Charakter
+die Hoffnung	target	17	Gefühle & Charakter
+die Kritik	target	17	Gefühle & Charakter
+die Laune	target	17	Gefühle & Charakter
+die Liebe	target	17	Gefühle & Charakter
+die Lust	target	17	Gefühle & Charakter
+die Ruhe	target	17	Gefühle & Charakter
+die Wirkung	target	17	Gefühle & Charakter
+dringend	target	17	Gefühle & Charakter
+dumm	target	17	Gefühle & Charakter
+eilen	target	17	Gefühle & Charakter
+eilig	target	17	Gefühle & Charakter
+einsam	target	17	Gefühle & Charakter
+entspannend	target	17	Gefühle & Charakter
+enttäuschen	target	17	Gefühle & Charakter
+erleichtern	target	17	Gefühle & Charakter
+ernst	target	17	Gefühle & Charakter
+ernsthaft	target	17	Gefühle & Charakter
+faul	target	17	Gefühle & Charakter
+faulenzen	target	17	Gefühle & Charakter
+frech	target	17	Gefühle & Charakter
+frieren	target	17	Gefühle & Charakter
+froh	target	17	Gefühle & Charakter
+fröhlich	target	17	Gefühle & Charakter
+fühlen	target	17	Gefühle & Charakter
+geehrt	target	17	Gefühle & Charakter
+geeignet	target	17	Gefühle & Charakter
+gefallen	target	17	Gefühle & Charakter
+gemütlich	target	17	Gefühle & Charakter
+gespannt	target	17	Gefühle & Charakter
+glücklich	target	17	Gefühle & Charakter
+hassen	target	17	Gefühle & Charakter
+herzlich	target	17	Gefühle & Charakter
+hoffen	target	17	Gefühle & Charakter
+hoffentlich	target	17	Gefühle & Charakter
+höflich	target	17	Gefühle & Charakter
+interessant	target	17	Gefühle & Charakter
+interessieren	target	17	Gefühle & Charakter
+interessiert	target	17	Gefühle & Charakter
+klasse	target	17	Gefühle & Charakter
+kreativ	target	17	Gefühle & Charakter
+kritisch	target	17	Gefühle & Charakter
+kritisieren	target	17	Gefühle & Charakter
+ledig	target	17	Gefühle & Charakter
+leicht	target	17	Gefühle & Charakter
+leider	target	17	Gefühle & Charakter
+lieb	target	17	Gefühle & Charakter
+lieben	target	17	Gefühle & Charakter
+loben	target	17	Gefühle & Charakter
+lustig	target	17	Gefühle & Charakter
+neugierig	target	17	Gefühle & Charakter
+peinlich	target	17	Gefühle & Charakter
+ruhig	target	17	Gefühle & Charakter
+schade	target	17	Gefühle & Charakter
+schrecklich	target	17	Gefühle & Charakter
+sich eignen	target	17	Gefühle & Charakter
+sich etwas gefallen lassen	target	17	Gefühle & Charakter
+sich freuen	target	17	Gefühle & Charakter
+sich lohnen	target	17	Gefühle & Charakter
+sich vergnügen	target	17	Gefühle & Charakter
+sich verlieben	target	17	Gefühle & Charakter
+sich wundern	target	17	Gefühle & Charakter
+still	target	17	Gefühle & Charakter
+stolz	target	17	Gefühle & Charakter
+sympathisch	target	17	Gefühle & Charakter
+traurig	target	17	Gefühle & Charakter
+vergnügt	target	17	Gefühle & Charakter
+verliebt	target	17	Gefühle & Charakter
+verrückt	target	17	Gefühle & Charakter
+vertrauen	target	17	Gefühle & Charakter
+wach	target	17	Gefühle & Charakter
+willkommen	target	17	Gefühle & Charakter
+wirken	target	17	Gefühle & Charakter
+wunderbar	target	17	Gefühle & Charakter
+wunderschön	target	17	Gefühle & Charakter
+wütend	target	17	Gefühle & Charakter
+ängstlich	target	17	Gefühle & Charakter
+ärgerlich	target	17	Gefühle & Charakter
+(sich) siezen	target	18	Kommunikation & Post
+(sich) umdrehen	target	18	Kommunikation & Post
+(sich) unterhalten	target	18	Kommunikation & Post
+(sich) vorstellen	target	18	Kommunikation & Post
+aktuell	target	18	Kommunikation & Post
+ankündigen	target	18	Kommunikation & Post
+anrufen	target	18	Kommunikation & Post
+ansprechen	target	18	Kommunikation & Post
+antworten	target	18	Kommunikation & Post
+auffordern	target	18	Kommunikation & Post
+aufschreiben	target	18	Kommunikation & Post
+ausdrucken	target	18	Kommunikation & Post
+ausrichten	target	18	Kommunikation & Post
+beantworten	target	18	Kommunikation & Post
+bedeuten	target	18	Kommunikation & Post
+begegnen	target	18	Kommunikation & Post
+begrüßen	target	18	Kommunikation & Post
+behaupten	target	18	Kommunikation & Post
+bitte	target	18	Kommunikation & Post
+bitten	target	18	Kommunikation & Post
+buchstabieren	target	18	Kommunikation & Post
+dankbar	target	18	Kommunikation & Post
+danke	target	18	Kommunikation & Post
+danken	target	18	Kommunikation & Post
+das Einschreiben	target	18	Kommunikation & Post
+das Gespräch	target	18	Kommunikation & Post
+das Inserat	target	18	Kommunikation & Post
+das Kuvert	target	18	Kommunikation & Post
+das Netz	target	18	Kommunikation & Post
+das Netzwerk	target	18	Kommunikation & Post
+das Paket	target	18	Kommunikation & Post
+das Plakat	target	18	Kommunikation & Post
+das Schreiben	target	18	Kommunikation & Post
+das Wort	target	18	Kommunikation & Post
+das Wörterbuch	target	18	Kommunikation & Post
+der Absender / die Absenderin	target	18	Kommunikation & Post
+der Anruf	target	18	Kommunikation & Post
+der Anrufbeantworter	target	18	Kommunikation & Post
+der Apparat	target	18	Kommunikation & Post
+der Artikel	target	18	Kommunikation & Post
+der Ausdruck	target	18	Kommunikation & Post
+der Brief	target	18	Kommunikation & Post
+der Briefkasten	target	18	Kommunikation & Post
+der Briefträger	target	18	Kommunikation & Post
+der Briefumschlag	target	18	Kommunikation & Post
+der Buchstabe	target	18	Kommunikation & Post
+der Dank	target	18	Kommunikation & Post
+der Empfang	target	18	Kommunikation & Post
+der Empfänger	target	18	Kommunikation & Post
+der Glückwunsch	target	18	Kommunikation & Post
+der Gruß	target	18	Kommunikation & Post
+der Hinweise	target	18	Kommunikation & Post
+der Humor	target	18	Kommunikation & Post
+der Hörer / die Hörerin / der Zuhörer	target	18	Kommunikation & Post
+der Journalist / die Journalistin	target	18	Kommunikation & Post
+der Kontakt	target	18	Kommunikation & Post
+der Punkt	target	18	Kommunikation & Post
+der Pöstler / die Pöstlerin	target	18	Kommunikation & Post
+der Rat	target	18	Kommunikation & Post
+der Schriftsteller / die Schriftstellerin	target	18	Kommunikation & Post
+der Sender	target	18	Kommunikation & Post
+der Standpunkt	target	18	Kommunikation & Post
+der Text	target	18	Kommunikation & Post
+der Vertreter / die Vertreterin	target	18	Kommunikation & Post
+der Vorschlag	target	18	Kommunikation & Post
+der Vortrag	target	18	Kommunikation & Post
+der Wecker	target	18	Kommunikation & Post
+der Witz	target	18	Kommunikation & Post
+der Zuhörer / die Zuhörerin	target	18	Kommunikation & Post
+die Adresse	target	18	Kommunikation & Post
+die Annonce	target	18	Kommunikation & Post
+die Anrede	target	18	Kommunikation & Post
+die Ansage	target	18	Kommunikation & Post
+die Antwort	target	18	Kommunikation & Post
+die Aufforderung	target	18	Kommunikation & Post
+die Auskunft	target	18	Kommunikation & Post
+die Bedeutung	target	18	Kommunikation & Post
+die Bitte	target	18	Kommunikation & Post
+die Botschaft	target	18	Kommunikation & Post
+die Briefmarke	target	18	Kommunikation & Post
+die Brieftasche	target	18	Kommunikation & Post
+die Durchsage	target	18	Kommunikation & Post
+die e-card	target	18	Kommunikation & Post
+die ec-Karte/EC-Karte	target	18	Kommunikation & Post
+die Empfehlung	target	18	Kommunikation & Post
+die Entschuldigung	target	18	Kommunikation & Post
+die Erlaubnis	target	18	Kommunikation & Post
+die Erzählung	target	18	Kommunikation & Post
+die Frage	target	18	Kommunikation & Post
+die Fremdsprache	target	18	Kommunikation & Post
+die Grafik	target	18	Kommunikation & Post
+die Gratulation	target	18	Kommunikation & Post
+die Idee	target	18	Kommunikation & Post
+die Information	target	18	Kommunikation & Post
+die Klingel	target	18	Kommunikation & Post
+die Kommunikation	target	18	Kommunikation & Post
+die Mahnung	target	18	Kommunikation & Post
+die Meldung	target	18	Kommunikation & Post
+die Muttersprache	target	18	Kommunikation & Post
+die Neuigkeit	target	18	Kommunikation & Post
+die Nummer	target	18	Kommunikation & Post
+die Post	target	18	Kommunikation & Post
+die Postleitzahl	target	18	Kommunikation & Post
+die Presse	target	18	Kommunikation & Post
+die Recherche	target	18	Kommunikation & Post
+die Rede	target	18	Kommunikation & Post
+die Reklame	target	18	Kommunikation & Post
+die Rufnummer	target	18	Kommunikation & Post
+die Schrift	target	18	Kommunikation & Post
+die Sendung	target	18	Kommunikation & Post
+die Sprache	target	18	Kommunikation & Post
+die Stimme	target	18	Kommunikation & Post
+die Tastatur	target	18	Kommunikation & Post
+die Taste	target	18	Kommunikation & Post
+die Umfrage	target	18	Kommunikation & Post
+die Unterhaltung	target	18	Kommunikation & Post
+die Vertretung	target	18	Kommunikation & Post
+die Visitenkarte	target	18	Kommunikation & Post
+die Vorstellung	target	18	Kommunikation & Post
+die Vorwahl	target	18	Kommunikation & Post
+die Werbung	target	18	Kommunikation & Post
+die Wiederholung	target	18	Kommunikation & Post
+die Zeile	target	18	Kommunikation & Post
+die Zeitschrift	target	18	Kommunikation & Post
+die Zeitung	target	18	Kommunikation & Post
+die Zweitsprache	target	18	Kommunikation & Post
+die Überschrift	target	18	Kommunikation & Post
+duzen	target	18	Kommunikation & Post
+empfangen	target	18	Kommunikation & Post
+empfehlen	target	18	Kommunikation & Post
+entschuldigen	target	18	Kommunikation & Post
+erlauben	target	18	Kommunikation & Post
+erzählen	target	18	Kommunikation & Post
+fragen	target	18	Kommunikation & Post
+gratulieren	target	18	Kommunikation & Post
+grüßen	target	18	Kommunikation & Post
+hallo	target	18	Kommunikation & Post
+hinweisen	target	18	Kommunikation & Post
+hören	target	18	Kommunikation & Post
+informieren	target	18	Kommunikation & Post
+klingeln	target	18	Kommunikation & Post
+klingen	target	18	Kommunikation & Post
+klopfen	target	18	Kommunikation & Post
+melden	target	18	Kommunikation & Post
+mitteilen	target	18	Kommunikation & Post
+raten	target	18	Kommunikation & Post
+Ratschlag	target	18	Kommunikation & Post
+reden	target	18	Kommunikation & Post
+rufen	target	18	Kommunikation & Post
+sagen	target	18	Kommunikation & Post
+schicken	target	18	Kommunikation & Post
+schimpfen	target	18	Kommunikation & Post
+schreiben	target	18	Kommunikation & Post
+schreien	target	18	Kommunikation & Post
+schriftlich	target	18	Kommunikation & Post
+schweigen	target	18	Kommunikation & Post
+senden	target	18	Kommunikation & Post
+sich bedanken	target	18	Kommunikation & Post
+sich beeilen	target	18	Kommunikation & Post
+sich beschweren	target	18	Kommunikation & Post
+sich erkundigen	target	18	Kommunikation & Post
+sich konzentrieren	target	18	Kommunikation & Post
+speichern	target	18	Kommunikation & Post
+sprechen	target	18	Kommunikation & Post
+stimmen	target	18	Kommunikation & Post
+tippen	target	18	Kommunikation & Post
+umarmen	target	18	Kommunikation & Post
+vereinbaren	target	18	Kommunikation & Post
+verlangen	target	18	Kommunikation & Post
+versprechen	target	18	Kommunikation & Post
+vertreten	target	18	Kommunikation & Post
+verzeihen	target	18	Kommunikation & Post
+Verzeihung	target	18	Kommunikation & Post
+vorlesen	target	18	Kommunikation & Post
+vorschlagen	target	18	Kommunikation & Post
+wecken	target	18	Kommunikation & Post
+wiederholen	target	18	Kommunikation & Post
+zeigen	target	18	Kommunikation & Post
+zuhören	target	18	Kommunikation & Post
+überprüfen	target	18	Kommunikation & Post
+überreden	target	18	Kommunikation & Post
+üblich	target	18	Kommunikation & Post
+alltäglich	target	19	Zeit & Kalender
+anfangs	target	19	Zeit & Kalender
+aufstehen	target	19	Zeit & Kalender
+aufwachen	target	19	Zeit & Kalender
+bald	target	19	Zeit & Kalender
+bereits	target	19	Zeit & Kalender
+bevor	target	19	Zeit & Kalender
+bisher	target	19	Zeit & Kalender
+damals	target	19	Zeit & Kalender
+danach	target	19	Zeit & Kalender
+dann	target	19	Zeit & Kalender
+das Datum	target	19	Zeit & Kalender
+das Ende	target	19	Zeit & Kalender
+das Ereignis	target	19	Zeit & Kalender
+das Erlebnis	target	19	Zeit & Kalender
+das Frühstück	target	19	Zeit & Kalender
+das Leben	target	19	Zeit & Kalender
+das Semester	target	19	Zeit & Kalender
+das Verkehrszeichen	target	19	Zeit & Kalender
+das Zeichen	target	19	Zeit & Kalender
+das Zelt	target	19	Zeit & Kalender
+das Zündholz	target	19	Zeit & Kalender
+dauern	target	19	Zeit & Kalender
+dauernd	target	19	Zeit & Kalender
+der Alltag	target	19	Zeit & Kalender
+der Anfang	target	19	Zeit & Kalender
+der Augenblick	target	19	Zeit & Kalender
+der Donner	target	19	Zeit & Kalender
+der Kalender	target	19	Zeit & Kalender
+der Moment	target	19	Zeit & Kalender
+der Schluss	target	19	Zeit & Kalender
+der Start	target	19	Zeit & Kalender
+der Tagesablauf	target	19	Zeit & Kalender
+der Zeitpunkt	target	19	Zeit & Kalender
+die Anzahl	target	19	Zeit & Kalender
+die Dauer	target	19	Zeit & Kalender
+die Frist	target	19	Zeit & Kalender
+die Hälfte	target	19	Zeit & Kalender
+die Langeweile	target	19	Zeit & Kalender
+die Notiz	target	19	Zeit & Kalender
+die Pause	target	19	Zeit & Kalender
+die Saison	target	19	Zeit & Kalender
+die Stunde	target	19	Zeit & Kalender
+die Vergangenheit	target	19	Zeit & Kalender
+die Verspätung	target	19	Zeit & Kalender
+die Zahl	target	19	Zeit & Kalender
+die Zeichnung	target	19	Zeit & Kalender
+die Zeit	target	19	Zeit & Kalender
+die Zukunft	target	19	Zeit & Kalender
+die Zünder	target	19	Zeit & Kalender
+die Übernachtung	target	19	Zeit & Kalender
+diesmal	target	19	Zeit & Kalender
+donnern	target	19	Zeit & Kalender
+Doppel-	target	19	Zeit & Kalender
+doppelt	target	19	Zeit & Kalender
+einmal	target	19	Zeit & Kalender
+enden	target	19	Zeit & Kalender
+endgültig	target	19	Zeit & Kalender
+endlich	target	19	Zeit & Kalender
+erleben	target	19	Zeit & Kalender
+erst	target	19	Zeit & Kalender
+erst-	target	19	Zeit & Kalender
+ewig	target	19	Zeit & Kalender
+extra	target	19	Zeit & Kalender
+fertig	target	19	Zeit & Kalender
+fest	target	19	Zeit & Kalender
+früh	target	19	Zeit & Kalender
+früher/früher-	target	19	Zeit & Kalender
+frühstücken	target	19	Zeit & Kalender
+gerade	target	19	Zeit & Kalender
+gestern	target	19	Zeit & Kalender
+halb	target	19	Zeit & Kalender
+halbtags	target	19	Zeit & Kalender
+heute	target	19	Zeit & Kalender
+heutig-	target	19	Zeit & Kalender
+hinterher	target	19	Zeit & Kalender
+immer	target	19	Zeit & Kalender
+inzwischen	target	19	Zeit & Kalender
+irgendwann	target	19	Zeit & Kalender
+jederzeit	target	19	Zeit & Kalender
+jedes Mal	target	19	Zeit & Kalender
+jetzt	target	19	Zeit & Kalender
+jeweils	target	19	Zeit & Kalender
+kurz	target	19	Zeit & Kalender
+kürzlich	target	19	Zeit & Kalender
+lange	target	19	Zeit & Kalender
+langsam	target	19	Zeit & Kalender
+langweilig	target	19	Zeit & Kalender
+letzt-	target	19	Zeit & Kalender
+längst	target	19	Zeit & Kalender
+manchmal	target	19	Zeit & Kalender
+meist	target	19	Zeit & Kalender
+meist-	target	19	Zeit & Kalender
+mittlerweile	target	19	Zeit & Kalender
+nachher	target	19	Zeit & Kalender
+neulich	target	19	Zeit & Kalender
+noch	target	19	Zeit & Kalender
+noch mal	target	19	Zeit & Kalender
+nochmals	target	19	Zeit & Kalender
+normalerweise	target	19	Zeit & Kalender
+notieren	target	19	Zeit & Kalender
+nun	target	19	Zeit & Kalender
+nächst-	target	19	Zeit & Kalender
+oft/öfter	target	19	Zeit & Kalender
+plötzlich	target	19	Zeit & Kalender
+pünktlich	target	19	Zeit & Kalender
+rechtzeitig	target	19	Zeit & Kalender
+regelmäßig	target	19	Zeit & Kalender
+schließlich	target	19	Zeit & Kalender
+selten	target	19	Zeit & Kalender
+sich ereignen	target	19	Zeit & Kalender
+sich langweilen	target	19	Zeit & Kalender
+sofort	target	19	Zeit & Kalender
+sonst	target	19	Zeit & Kalender
+spät	target	19	Zeit & Kalender
+spätestens	target	19	Zeit & Kalender
+starten	target	19	Zeit & Kalender
+ständig	target	19	Zeit & Kalender
+tatsächlich	target	19	Zeit & Kalender
+verpassen	target	19	Zeit & Kalender
+voraussichtlich	target	19	Zeit & Kalender
+vorgestern	target	19	Zeit & Kalender
+vorher	target	19	Zeit & Kalender
+vorhin	target	19	Zeit & Kalender
+vorläufig	target	19	Zeit & Kalender
+weiter/weiter-	target	19	Zeit & Kalender
+wieder/wieder-	target	19	Zeit & Kalender
+zeichnen	target	19	Zeit & Kalender
+zelten	target	19	Zeit & Kalender
+zuerst	target	19	Zeit & Kalender
+zukünftig	target	19	Zeit & Kalender
+zuletzt	target	19	Zeit & Kalender
+zumindest	target	19	Zeit & Kalender
+zunächst	target	19	Zeit & Kalender
+zurzeit	target	19	Zeit & Kalender
+übermorgen	target	19	Zeit & Kalender
+übernachten	target	19	Zeit & Kalender
+ausländisch	target	20	Gesellschaft, Politik & Wirtschaft
+außerhalb	target	20	Gesellschaft, Politik & Wirtschaft
+der Ausländer / die Ausländerin	target	20	Gesellschaft, Politik & Wirtschaft
+der Gott	target	20	Gesellschaft, Politik & Wirtschaft
+der Mensch	target	20	Gesellschaft, Politik & Wirtschaft
+der Nachteil	target	20	Gesellschaft, Politik & Wirtschaft
+die Bevölkerung	target	20	Gesellschaft, Politik & Wirtschaft
+die Chance	target	20	Gesellschaft, Politik & Wirtschaft
+die Freiheit	target	20	Gesellschaft, Politik & Wirtschaft
+die Geschichte	target	20	Gesellschaft, Politik & Wirtschaft
+die Gewalt	target	20	Gesellschaft, Politik & Wirtschaft
+die Pflicht	target	20	Gesellschaft, Politik & Wirtschaft
+die Welt	target	20	Gesellschaft, Politik & Wirtschaft
+die Wirtschaft	target	20	Gesellschaft, Politik & Wirtschaft
+die Zusammenarbeit	target	20	Gesellschaft, Politik & Wirtschaft
+egal	target	20	Gesellschaft, Politik & Wirtschaft
+menschlich	target	20	Gesellschaft, Politik & Wirtschaft
+populär	target	20	Gesellschaft, Politik & Wirtschaft
+weltweit	target	20	Gesellschaft, Politik & Wirtschaft
+zusätzlich	target	20	Gesellschaft, Politik & Wirtschaft
+allgemein	target	21	Menge, Maß & Eigenschaften
+ausgezeichnet	target	21	Menge, Maß & Eigenschaften
+ausreichen	target	21	Menge, Maß & Eigenschaften
+ausreichend	target	21	Menge, Maß & Eigenschaften
+bequem	target	21	Menge, Maß & Eigenschaften
+besonder-	target	21	Menge, Maß & Eigenschaften
+bestimmt	target	21	Menge, Maß & Eigenschaften
+das Ding	target	21	Menge, Maß & Eigenschaften
+das Gewicht	target	21	Menge, Maß & Eigenschaften
+das Mal	target	21	Menge, Maß & Eigenschaften
+das Mittel	target	21	Menge, Maß & Eigenschaften
+das Original	target	21	Menge, Maß & Eigenschaften
+das Tempo	target	21	Menge, Maß & Eigenschaften
+der Bedarf	target	21	Menge, Maß & Eigenschaften
+der Durchschnitt	target	21	Menge, Maß & Eigenschaften
+der Gegensatz	target	21	Menge, Maß & Eigenschaften
+der Gegenstand	target	21	Menge, Maß & Eigenschaften
+der Satz	target	21	Menge, Maß & Eigenschaften
+der Vorteil	target	21	Menge, Maß & Eigenschaften
+der Wert	target	21	Menge, Maß & Eigenschaften
+deutlich	target	21	Menge, Maß & Eigenschaften
+dick	target	21	Menge, Maß & Eigenschaften
+die Breite	target	21	Menge, Maß & Eigenschaften
+die Einzelheit	target	21	Menge, Maß & Eigenschaften
+die Entfernung	target	21	Menge, Maß & Eigenschaften
+die Fähigkeit	target	21	Menge, Maß & Eigenschaften
+die Gewohnheit	target	21	Menge, Maß & Eigenschaften
+die Gruppe	target	21	Menge, Maß & Eigenschaften
+die Größe	target	21	Menge, Maß & Eigenschaften
+die Höhe	target	21	Menge, Maß & Eigenschaften
+die Intelligenz	target	21	Menge, Maß & Eigenschaften
+die Leiter	target	21	Menge, Maß & Eigenschaften
+die Menge	target	21	Menge, Maß & Eigenschaften
+die Qualität	target	21	Menge, Maß & Eigenschaften
+die Schwierigkeit	target	21	Menge, Maß & Eigenschaften
+durchschnittlich	target	21	Menge, Maß & Eigenschaften
+echt	target	21	Menge, Maß & Eigenschaften
+ehrlich	target	21	Menge, Maß & Eigenschaften
+eindeutig	target	21	Menge, Maß & Eigenschaften
+einfach	target	21	Menge, Maß & Eigenschaften
+einheitlich	target	21	Menge, Maß & Eigenschaften
+Einzel-	target	21	Menge, Maß & Eigenschaften
+einzeln	target	21	Menge, Maß & Eigenschaften
+einzig-	target	21	Menge, Maß & Eigenschaften
+enthalten	target	21	Menge, Maß & Eigenschaften
+erforderlich	target	21	Menge, Maß & Eigenschaften
+erfordern	target	21	Menge, Maß & Eigenschaften
+fair	target	21	Menge, Maß & Eigenschaften
+flexibel	target	21	Menge, Maß & Eigenschaften
+furchtbar	target	21	Menge, Maß & Eigenschaften
+genügen	target	21	Menge, Maß & Eigenschaften
+gerecht	target	21	Menge, Maß & Eigenschaften
+gering	target	21	Menge, Maß & Eigenschaften
+gewohnt	target	21	Menge, Maß & Eigenschaften
+gewöhnen	target	21	Menge, Maß & Eigenschaften
+gewöhnlich	target	21	Menge, Maß & Eigenschaften
+gleichberechtigt	target	21	Menge, Maß & Eigenschaften
+groß	target	21	Menge, Maß & Eigenschaften
+Groß-	target	21	Menge, Maß & Eigenschaften
+gut	target	21	Menge, Maß & Eigenschaften
+gültig	target	21	Menge, Maß & Eigenschaften
+haltbar	target	21	Menge, Maß & Eigenschaften
+hoch	target	21	Menge, Maß & Eigenschaften
+häufig	target	21	Menge, Maß & Eigenschaften
+hübsch	target	21	Menge, Maß & Eigenschaften
+ideal	target	21	Menge, Maß & Eigenschaften
+individuell	target	21	Menge, Maß & Eigenschaften
+intelligent	target	21	Menge, Maß & Eigenschaften
+intensiv	target	21	Menge, Maß & Eigenschaften
+klein	target	21	Menge, Maß & Eigenschaften
+klug	target	21	Menge, Maß & Eigenschaften
+knapp	target	21	Menge, Maß & Eigenschaften
+korrigieren	target	21	Menge, Maß & Eigenschaften
+kräftig	target	21	Menge, Maß & Eigenschaften
+messen	target	21	Menge, Maß & Eigenschaften
+minimal	target	21	Menge, Maß & Eigenschaften
+mündlich	target	21	Menge, Maß & Eigenschaften
+notwendig	target	21	Menge, Maß & Eigenschaften
+nötig	target	21	Menge, Maß & Eigenschaften
+nützlich	target	21	Menge, Maß & Eigenschaften
+optimistisch	target	21	Menge, Maß & Eigenschaften
+original	target	21	Menge, Maß & Eigenschaften
+pauschal	target	21	Menge, Maß & Eigenschaften
+perfekt	target	21	Menge, Maß & Eigenschaften
+positiv	target	21	Menge, Maß & Eigenschaften
+praktisch	target	21	Menge, Maß & Eigenschaften
+preiswert	target	21	Menge, Maß & Eigenschaften
+prima	target	21	Menge, Maß & Eigenschaften
+realistisch	target	21	Menge, Maß & Eigenschaften
+regional	target	21	Menge, Maß & Eigenschaften
+reich	target	21	Menge, Maß & Eigenschaften
+reif	target	21	Menge, Maß & Eigenschaften
+riesig	target	21	Menge, Maß & Eigenschaften
+scharf	target	21	Menge, Maß & Eigenschaften
+schlank	target	21	Menge, Maß & Eigenschaften
+schlecht	target	21	Menge, Maß & Eigenschaften
+schlimm	target	21	Menge, Maß & Eigenschaften
+schnell	target	21	Menge, Maß & Eigenschaften
+schwach	target	21	Menge, Maß & Eigenschaften
+schwer	target	21	Menge, Maß & Eigenschaften
+schwierig	target	21	Menge, Maß & Eigenschaften
+spannend	target	21	Menge, Maß & Eigenschaften
+stark	target	21	Menge, Maß & Eigenschaften
+steil	target	21	Menge, Maß & Eigenschaften
+stilistisch	target	21	Menge, Maß & Eigenschaften
+streng	target	21	Menge, Maß & Eigenschaften
+super	target	21	Menge, Maß & Eigenschaften
+teuer	target	21	Menge, Maß & Eigenschaften
+tief	target	21	Menge, Maß & Eigenschaften
+tolerant	target	21	Menge, Maß & Eigenschaften
+treu	target	21	Menge, Maß & Eigenschaften
+umgekehrt	target	21	Menge, Maß & Eigenschaften
+ungewöhnlich	target	21	Menge, Maß & Eigenschaften
+unglaublich	target	21	Menge, Maß & Eigenschaften
+unheimlich	target	21	Menge, Maß & Eigenschaften
+unterschiedlich	target	21	Menge, Maß & Eigenschaften
+vergrößern	target	21	Menge, Maß & Eigenschaften
+verlängern	target	21	Menge, Maß & Eigenschaften
+verschieden	target	21	Menge, Maß & Eigenschaften
+verständlich	target	21	Menge, Maß & Eigenschaften
+verwechseln	target	21	Menge, Maß & Eigenschaften
+voll	target	21	Menge, Maß & Eigenschaften
+wahnsinnig	target	21	Menge, Maß & Eigenschaften
+weiblich	target	21	Menge, Maß & Eigenschaften
+wert	target	21	Menge, Maß & Eigenschaften
+wertlos	target	21	Menge, Maß & Eigenschaften
+wertvoll	target	21	Menge, Maß & Eigenschaften
+wild	target	21	Menge, Maß & Eigenschaften
+zahlreich	target	21	Menge, Maß & Eigenschaften
+zufrieden	target	21	Menge, Maß & Eigenschaften
+zuverlässig	target	21	Menge, Maß & Eigenschaften
+ähnlich	target	21	Menge, Maß & Eigenschaften
+übertreiben	target	21	Menge, Maß & Eigenschaften
+(sich) schneiden	target	22	Handlungen: Alltagsverben
+(sich) setzen	target	22	Handlungen: Alltagsverben
+(sich) stoßen	target	22	Handlungen: Alltagsverben
+(sich) verbessern	target	22	Handlungen: Alltagsverben
+(sich) verstecken	target	22	Handlungen: Alltagsverben
+(sich) verstehen	target	22	Handlungen: Alltagsverben
+(sich) vorbereiten	target	22	Handlungen: Alltagsverben
+(sich) waschen	target	22	Handlungen: Alltagsverben
+abgeben	target	22	Handlungen: Alltagsverben
+abheben	target	22	Handlungen: Alltagsverben
+abholen	target	22	Handlungen: Alltagsverben
+abmachen	target	22	Handlungen: Alltagsverben
+abnehmen	target	22	Handlungen: Alltagsverben	to lose weight; to take off
+absagen	target	22	Handlungen: Alltagsverben
+abstimmen	target	22	Handlungen: Alltagsverben
+anfangen	target	22	Handlungen: Alltagsverben
+anschließen	target	22	Handlungen: Alltagsverben
+aufhalten	target	22	Handlungen: Alltagsverben
+aufheben	target	22	Handlungen: Alltagsverben
+aufhören	target	22	Handlungen: Alltagsverben
+aufladen	target	22	Handlungen: Alltagsverben
+aufpassen	target	22	Handlungen: Alltagsverben
+aufräumen	target	22	Handlungen: Alltagsverben
+ausmachen	target	22	Handlungen: Alltagsverben	to turn off
+ausziehen	target	22	Handlungen: Alltagsverben
+bedienen	target	22	Handlungen: Alltagsverben
+behalten	target	22	Handlungen: Alltagsverben
+behandeln	target	22	Handlungen: Alltagsverben
+bekommen	target	22	Handlungen: Alltagsverben
+benutzen	target	22	Handlungen: Alltagsverben
+benötigen	target	22	Handlungen: Alltagsverben
+beobachten	target	22	Handlungen: Alltagsverben
+beraten	target	22	Handlungen: Alltagsverben
+berechnen	target	22	Handlungen: Alltagsverben
+beschreiben	target	22	Handlungen: Alltagsverben
+beschränken	target	22	Handlungen: Alltagsverben
+besitzen	target	22	Handlungen: Alltagsverben
+besorgen	target	22	Handlungen: Alltagsverben
+besprechen	target	22	Handlungen: Alltagsverben
+bestehen	target	22	Handlungen: Alltagsverben
+bestellen	target	22	Handlungen: Alltagsverben
+bestätigen	target	22	Handlungen: Alltagsverben
+betreuen	target	22	Handlungen: Alltagsverben
+bieten	target	22	Handlungen: Alltagsverben
+bleiben	target	22	Handlungen: Alltagsverben
+brauchen	target	22	Handlungen: Alltagsverben
+bringen	target	22	Handlungen: Alltagsverben
+darstellen	target	22	Handlungen: Alltagsverben
+dekorieren	target	22	Handlungen: Alltagsverben
+der Beitrag	target	22	Handlungen: Alltagsverben
+der Betreuer / die Betreuerin	target	22	Handlungen: Alltagsverben
+der Druck	target	22	Handlungen: Alltagsverben
+der Drucker	target	22	Handlungen: Alltagsverben
+der Ersatz	target	22	Handlungen: Alltagsverben
+der Halt	target	22	Handlungen: Alltagsverben
+der Kampf	target	22	Handlungen: Alltagsverben
+der Protest	target	22	Handlungen: Alltagsverben
+der Spaziergang	target	22	Handlungen: Alltagsverben
+der Umtausch	target	22	Handlungen: Alltagsverben
+der Vergleich	target	22	Handlungen: Alltagsverben
+die Bedienungsanleitung	target	22	Handlungen: Alltagsverben
+die Beratung	target	22	Handlungen: Alltagsverben
+die Beschreibung	target	22	Handlungen: Alltagsverben
+die Besprechung	target	22	Handlungen: Alltagsverben
+die Bestätigung	target	22	Handlungen: Alltagsverben
+die Betreuung	target	22	Handlungen: Alltagsverben
+die Darstellung	target	22	Handlungen: Alltagsverben
+die Gebrauchsanweisung	target	22	Handlungen: Alltagsverben
+die Hilfe	target	22	Handlungen: Alltagsverben
+die Integration	target	22	Handlungen: Alltagsverben
+die Lieferung	target	22	Handlungen: Alltagsverben
+die Pflanze	target	22	Handlungen: Alltagsverben
+die Sorge	target	22	Handlungen: Alltagsverben
+die Stelle	target	22	Handlungen: Alltagsverben
+die Verbindung	target	22	Handlungen: Alltagsverben
+die Vorbereitung	target	22	Handlungen: Alltagsverben
+die Änderung	target	22	Handlungen: Alltagsverben
+dienen	target	22	Handlungen: Alltagsverben
+drehen	target	22	Handlungen: Alltagsverben
+drucken	target	22	Handlungen: Alltagsverben
+drücken	target	22	Handlungen: Alltagsverben
+einsetzen	target	22	Handlungen: Alltagsverben
+einstellen	target	22	Handlungen: Alltagsverben
+eintragen	target	22	Handlungen: Alltagsverben
+entfernen	target	22	Handlungen: Alltagsverben
+entgegenkommen	target	22	Handlungen: Alltagsverben
+ersetzen	target	22	Handlungen: Alltagsverben
+fangen	target	22	Handlungen: Alltagsverben
+geben	target	22	Handlungen: Alltagsverben
+gebrauchen	target	22	Handlungen: Alltagsverben
+gehen	target	22	Handlungen: Alltagsverben
+gehören	target	22	Handlungen: Alltagsverben
+gelingen	target	22	Handlungen: Alltagsverben
+greifen	target	22	Handlungen: Alltagsverben
+halten	target	22	Handlungen: Alltagsverben
+heben	target	22	Handlungen: Alltagsverben
+heißen	target	22	Handlungen: Alltagsverben
+helfen	target	22	Handlungen: Alltagsverben
+holen	target	22	Handlungen: Alltagsverben
+hängen	target	22	Handlungen: Alltagsverben
+integrieren	target	22	Handlungen: Alltagsverben
+klagen	target	22	Handlungen: Alltagsverben
+kriegen	target	22	Handlungen: Alltagsverben
+kämpfen	target	22	Handlungen: Alltagsverben
+lachen	target	22	Handlungen: Alltagsverben
+lang	target	22	Handlungen: Alltagsverben
+leben	target	22	Handlungen: Alltagsverben
+legen	target	22	Handlungen: Alltagsverben
+leihen	target	22	Handlungen: Alltagsverben
+liefern	target	22	Handlungen: Alltagsverben
+liegen	target	22	Handlungen: Alltagsverben
+lächeln	target	22	Handlungen: Alltagsverben
+löschen	target	22	Handlungen: Alltagsverben
+machen	target	22	Handlungen: Alltagsverben
+nah	target	22	Handlungen: Alltagsverben
+pflanzen	target	22	Handlungen: Alltagsverben
+protestieren	target	22	Handlungen: Alltagsverben
+reduzieren	target	22	Handlungen: Alltagsverben
+rennen	target	22	Handlungen: Alltagsverben
+sammeln	target	22	Handlungen: Alltagsverben
+schaffen	target	22	Handlungen: Alltagsverben
+schalten	target	22	Handlungen: Alltagsverben
+schauen	target	22	Handlungen: Alltagsverben
+schießen	target	22	Handlungen: Alltagsverben
+schlagen	target	22	Handlungen: Alltagsverben
+schließen	target	22	Handlungen: Alltagsverben
+schneien	target	22	Handlungen: Alltagsverben
+schütteln	target	22	Handlungen: Alltagsverben
+sich bemühen	target	22	Handlungen: Alltagsverben
+sich kümmern	target	22	Handlungen: Alltagsverben
+sich weigern	target	22	Handlungen: Alltagsverben
+sinken	target	22	Handlungen: Alltagsverben
+sitzen	target	22	Handlungen: Alltagsverben
+sorgen	target	22	Handlungen: Alltagsverben
+sparen	target	22	Handlungen: Alltagsverben
+sparsam	target	22	Handlungen: Alltagsverben
+spazieren gehen	target	22	Handlungen: Alltagsverben
+springen	target	22	Handlungen: Alltagsverben
+spülen	target	22	Handlungen: Alltagsverben
+staubsaugen	target	22	Handlungen: Alltagsverben
+stecken	target	22	Handlungen: Alltagsverben
+stehen	target	22	Handlungen: Alltagsverben
+stehen bleiben	target	22	Handlungen: Alltagsverben
+stehlen	target	22	Handlungen: Alltagsverben
+steigen	target	22	Handlungen: Alltagsverben
+stellen	target	22	Handlungen: Alltagsverben
+stinken	target	22	Handlungen: Alltagsverben
+stoppen	target	22	Handlungen: Alltagsverben
+stören	target	22	Handlungen: Alltagsverben
+stürzen	target	22	Handlungen: Alltagsverben
+suchen	target	22	Handlungen: Alltagsverben
+tauchen	target	22	Handlungen: Alltagsverben
+tauschen	target	22	Handlungen: Alltagsverben
+teilen	target	22	Handlungen: Alltagsverben
+tragen	target	22	Handlungen: Alltagsverben
+treffen	target	22	Handlungen: Alltagsverben
+treiben	target	22	Handlungen: Alltagsverben
+treten	target	22	Handlungen: Alltagsverben
+tun	target	22	Handlungen: Alltagsverben
+umtauschen	target	22	Handlungen: Alltagsverben
+unterbrechen	target	22	Handlungen: Alltagsverben
+unterlassen	target	22	Handlungen: Alltagsverben
+unternehmen	target	22	Handlungen: Alltagsverben
+unterscheiden	target	22	Handlungen: Alltagsverben
+unterstreichen	target	22	Handlungen: Alltagsverben
+verbinden	target	22	Handlungen: Alltagsverben
+verbrauchen	target	22	Handlungen: Alltagsverben
+verbringen	target	22	Handlungen: Alltagsverben
+vergeblich	target	22	Handlungen: Alltagsverben
+vergessen	target	22	Handlungen: Alltagsverben
+vergleichen	target	22	Handlungen: Alltagsverben
+verlassen	target	22	Handlungen: Alltagsverben
+verlieren	target	22	Handlungen: Alltagsverben
+vermeiden	target	22	Handlungen: Alltagsverben
+verpacken	target	22	Handlungen: Alltagsverben
+verpflichtet	target	22	Handlungen: Alltagsverben
+verschieben	target	22	Handlungen: Alltagsverben
+verschwinden	target	22	Handlungen: Alltagsverben
+versuchen	target	22	Handlungen: Alltagsverben
+verteilen	target	22	Handlungen: Alltagsverben
+verwenden	target	22	Handlungen: Alltagsverben
+verzichten	target	22	Handlungen: Alltagsverben
+vorhaben	target	22	Handlungen: Alltagsverben
+warten	target	22	Handlungen: Alltagsverben
+wechseln	target	22	Handlungen: Alltagsverben
+wehtun	target	22	Handlungen: Alltagsverben
+weinen	target	22	Handlungen: Alltagsverben
+weit	target	22	Handlungen: Alltagsverben
+wenden	target	22	Handlungen: Alltagsverben
+werfen	target	22	Handlungen: Alltagsverben
+wiegen	target	22	Handlungen: Alltagsverben
+winken	target	22	Handlungen: Alltagsverben
+ziehen	target	22	Handlungen: Alltagsverben
+zugehen	target	22	Handlungen: Alltagsverben
+zumachen	target	22	Handlungen: Alltagsverben
+zunehmen	target	22	Handlungen: Alltagsverben
+zurechtkommen	target	22	Handlungen: Alltagsverben
+zusagen	target	22	Handlungen: Alltagsverben
+zusammenfassen	target	22	Handlungen: Alltagsverben
+zuschauen	target	22	Handlungen: Alltagsverben
+ändern	target	22	Handlungen: Alltagsverben
+üben	target	22	Handlungen: Alltagsverben
+überlegen	target	22	Handlungen: Alltagsverben
+übernehmen	target	22	Handlungen: Alltagsverben
+(sich) überzeugen	target	23	Denken, Wissen & Meinen
+abhängen	target	23	Denken, Wissen & Meinen
+abhängig	target	23	Denken, Wissen & Meinen
+ablehnen	target	23	Denken, Wissen & Meinen
+achten	target	23	Denken, Wissen & Meinen
+akzeptieren	target	23	Denken, Wissen & Meinen
+alternativ	target	23	Denken, Wissen & Meinen
+annehmen	target	23	Denken, Wissen & Meinen
+auffallen	target	23	Denken, Wissen & Meinen
+auflösen	target	23	Denken, Wissen & Meinen
+aufmerksam	target	23	Denken, Wissen & Meinen
+ausschließen	target	23	Denken, Wissen & Meinen
+beachten	target	23	Denken, Wissen & Meinen
+beeinflussen	target	23	Denken, Wissen & Meinen
+begründen	target	23	Denken, Wissen & Meinen
+bekannt	target	23	Denken, Wissen & Meinen
+bemerken	target	23	Denken, Wissen & Meinen
+Bescheid geben	target	23	Denken, Wissen & Meinen
+Bescheid sagen	target	23	Denken, Wissen & Meinen
+beschließen	target	23	Denken, Wissen & Meinen
+beschäftigen	target	23	Denken, Wissen & Meinen
+bewegen	target	23	Denken, Wissen & Meinen
+beweisen	target	23	Denken, Wissen & Meinen
+das Geheimnis	target	23	Denken, Wissen & Meinen
+das Gewissen	target	23	Denken, Wissen & Meinen
+das Problem	target	23	Denken, Wissen & Meinen
+das Verhalten	target	23	Denken, Wissen & Meinen
+das Verhältnis	target	23	Denken, Wissen & Meinen
+das Verständnis	target	23	Denken, Wissen & Meinen
+das Wissen	target	23	Denken, Wissen & Meinen
+das Ziel	target	23	Denken, Wissen & Meinen
+denken	target	23	Denken, Wissen & Meinen
+der Bescheid	target	23	Denken, Wissen & Meinen
+der Beweis	target	23	Denken, Wissen & Meinen
+der Eindruck	target	23	Denken, Wissen & Meinen
+der Einfall	target	23	Denken, Wissen & Meinen
+der Einfluss	target	23	Denken, Wissen & Meinen
+der Faktor	target	23	Denken, Wissen & Meinen
+der Gedanke	target	23	Denken, Wissen & Meinen
+der Inhalt	target	23	Denken, Wissen & Meinen
+der Kompromiss	target	23	Denken, Wissen & Meinen
+der Respekt	target	23	Denken, Wissen & Meinen
+der Schein	target	23	Denken, Wissen & Meinen
+der Sinn	target	23	Denken, Wissen & Meinen
+der Tipp	target	23	Denken, Wissen & Meinen
+der Typ	target	23	Denken, Wissen & Meinen
+der Unterschied	target	23	Denken, Wissen & Meinen
+der Wissenschaftler / die Wissenschaftlerin	target	23	Denken, Wissen & Meinen
+der Zusammenhang	target	23	Denken, Wissen & Meinen
+der Zustand	target	23	Denken, Wissen & Meinen
+der Zweifel	target	23	Denken, Wissen & Meinen
+der/dasObers	target	23	Denken, Wissen & Meinen		regional (A) — out of scope; duplicate row, see das/derObers
+die Absicht	target	23	Denken, Wissen & Meinen
+die Ahnung	target	23	Denken, Wissen & Meinen
+die Alternative	target	23	Denken, Wissen & Meinen
+die Art	target	23	Denken, Wissen & Meinen
+die Begründung	target	23	Denken, Wissen & Meinen
+die Beschäftigung	target	23	Denken, Wissen & Meinen
+die Distanz	target	23	Denken, Wissen & Meinen
+die Entscheidung	target	23	Denken, Wissen & Meinen
+die Erfindung	target	23	Denken, Wissen & Meinen
+die Erinnerung	target	23	Denken, Wissen & Meinen
+die Herkunft	target	23	Denken, Wissen & Meinen
+die Kenntnisse	target	23	Denken, Wissen & Meinen
+die Konferenz	target	23	Denken, Wissen & Meinen
+die Konkurrenz	target	23	Denken, Wissen & Meinen
+die Lage	target	23	Denken, Wissen & Meinen
+die Liste	target	23	Denken, Wissen & Meinen
+die Lösung	target	23	Denken, Wissen & Meinen
+die Lüge	target	23	Denken, Wissen & Meinen
+die Meinung	target	23	Denken, Wissen & Meinen
+die Methode	target	23	Denken, Wissen & Meinen
+die Nachfrage	target	23	Denken, Wissen & Meinen
+die Nachricht	target	23	Denken, Wissen & Meinen
+die Nähe	target	23	Denken, Wissen & Meinen
+die Praxis	target	23	Denken, Wissen & Meinen	doctor's surgery, practice
+die Reaktion	target	23	Denken, Wissen & Meinen
+die Realität	target	23	Denken, Wissen & Meinen
+die Reihe	target	23	Denken, Wissen & Meinen
+die Reihenfolge	target	23	Denken, Wissen & Meinen
+die Rücksicht	target	23	Denken, Wissen & Meinen
+die Situation	target	23	Denken, Wissen & Meinen
+die Stimmung	target	23	Denken, Wissen & Meinen
+die Störung	target	23	Denken, Wissen & Meinen
+die Tat	target	23	Denken, Wissen & Meinen
+die Tatsache	target	23	Denken, Wissen & Meinen
+die Wahl	target	23	Denken, Wissen & Meinen
+die Wahrheit	target	23	Denken, Wissen & Meinen
+die Wirklichkeit	target	23	Denken, Wissen & Meinen
+die Wissenschaft	target	23	Denken, Wissen & Meinen
+die Zustimmung	target	23	Denken, Wissen & Meinen
+die Überraschung	target	23	Denken, Wissen & Meinen
+die Überzeugung	target	23	Denken, Wissen & Meinen
+einfallen	target	23	Denken, Wissen & Meinen
+entdecken	target	23	Denken, Wissen & Meinen
+entscheiden	target	23	Denken, Wissen & Meinen
+entschlossen	target	23	Denken, Wissen & Meinen
+erfinden	target	23	Denken, Wissen & Meinen
+erinnern	target	23	Denken, Wissen & Meinen
+erkennen	target	23	Denken, Wissen & Meinen
+erwarten	target	23	Denken, Wissen & Meinen
+fassen	target	23	Denken, Wissen & Meinen
+festhalten	target	23	Denken, Wissen & Meinen
+festlegen	target	23	Denken, Wissen & Meinen
+feststehen	target	23	Denken, Wissen & Meinen
+feststellen	target	23	Denken, Wissen & Meinen
+finden	target	23	Denken, Wissen & Meinen
+führen	target	23	Denken, Wissen & Meinen
+geheim	target	23	Denken, Wissen & Meinen
+gelten	target	23	Denken, Wissen & Meinen
+genehmigen	target	23	Denken, Wissen & Meinen
+geschehen	target	23	Denken, Wissen & Meinen
+glauben	target	23	Denken, Wissen & Meinen
+gründlich	target	23	Denken, Wissen & Meinen
+kennen	target	23	Denken, Wissen & Meinen
+kennenlernen	target	23	Denken, Wissen & Meinen
+lösen	target	23	Denken, Wissen & Meinen
+lügen	target	23	Denken, Wissen & Meinen
+meinen	target	23	Denken, Wissen & Meinen
+merken	target	23	Denken, Wissen & Meinen
+merkwürdig	target	23	Denken, Wissen & Meinen
+mischen	target	23	Denken, Wissen & Meinen
+nachdenken	target	23	Denken, Wissen & Meinen
+nachschlagen	target	23	Denken, Wissen & Meinen
+ordentlich	target	23	Denken, Wissen & Meinen
+reagieren	target	23	Denken, Wissen & Meinen
+realisieren	target	23	Denken, Wissen & Meinen
+reichen	target	23	Denken, Wissen & Meinen
+scheinen	target	23	Denken, Wissen & Meinen
+schätzen	target	23	Denken, Wissen & Meinen
+seltsam	target	23	Denken, Wissen & Meinen
+sich einigen	target	23	Denken, Wissen & Meinen
+sich entschließen	target	23	Denken, Wissen & Meinen
+sich irren	target	23	Denken, Wissen & Meinen
+sich nähern	target	23	Denken, Wissen & Meinen
+sich verhalten	target	23	Denken, Wissen & Meinen
+sichtbar	target	23	Denken, Wissen & Meinen
+sinnlos	target	23	Denken, Wissen & Meinen
+sinnvoll	target	23	Denken, Wissen & Meinen
+typisch	target	23	Denken, Wissen & Meinen
+unentschieden	target	23	Denken, Wissen & Meinen
+vermuten	target	23	Denken, Wissen & Meinen
+vernünftig	target	23	Denken, Wissen & Meinen
+vorkommen	target	23	Denken, Wissen & Meinen
+wahr	target	23	Denken, Wissen & Meinen
+wichtig	target	23	Denken, Wissen & Meinen
+widersprechen	target	23	Denken, Wissen & Meinen
+wirklich	target	23	Denken, Wissen & Meinen
+wissen	target	23	Denken, Wissen & Meinen
+wählen	target	23	Denken, Wissen & Meinen
+zustimmen	target	23	Denken, Wissen & Meinen
+zweifeln	target	23	Denken, Wissen & Meinen
+überraschen	target	23	Denken, Wissen & Meinen
+-weise	glue		Grad-, Mengen- & Modalpartikeln
+ab	glue		Präpositionen
+aber	glue		Konjunktionen & Satzverbinder
+absolut	glue		Grad-, Mengen- & Modalpartikeln
+all-	glue		Grad-, Mengen- & Modalpartikeln
+aller-	glue		Grad-, Mengen- & Modalpartikeln
+allerdings	glue		Grad-, Mengen- & Modalpartikeln
+als	glue		Konjunktionen & Satzverbinder
+als ob	glue		Konjunktionen & Satzverbinder
+also	glue		Konjunktionen & Satzverbinder
+an	glue		Präpositionen
+ander-	glue		Grad-, Mengen- & Modalpartikeln
+andererseits	glue		Konjunktionen & Satzverbinder
+anders	glue		Grad-, Mengen- & Modalpartikeln
+auch	glue		Grad-, Mengen- & Modalpartikeln
+auf	glue		Präpositionen
+aus	glue		Präpositionen
+auseinander	glue		Alltags-Kleinwörter & Small Talk
+ausschließlich	glue		Grad-, Mengen- & Modalpartikeln
+außer	glue		Grad-, Mengen- & Modalpartikeln
+außerdem	glue		Grad-, Mengen- & Modalpartikeln
+begleiten	glue		Alltags-Kleinwörter & Small Talk
+bei	glue		Präpositionen
+beid-	glue		Pronomen & Artikelwörter
+beinahe	glue		Grad-, Mengen- & Modalpartikeln
+besonders	glue		Grad-, Mengen- & Modalpartikeln
+bevor	glue		Konjunktionen & Satzverbinder
+bis	glue		Präpositionen
+bloß	glue		Alltags-Kleinwörter & Small Talk
+da	glue		Richtungs- & Pronominaladverbien
+dabei	glue		Richtungs- & Pronominaladverbien
+dafür	glue		Richtungs- & Pronominaladverbien
+dagegen	glue		Richtungs- & Pronominaladverbien
+daher	glue		Richtungs- & Pronominaladverbien
+dahin	glue		Richtungs- & Pronominaladverbien
+damit	glue		Richtungs- & Pronominaladverbien
+daneben	glue		Richtungs- & Pronominaladverbien
+das Detail	glue		Alltags-Kleinwörter & Small Talk
+das Gegenteil	glue		Alltags-Kleinwörter & Small Talk
+das Geschlecht	glue		Alltags-Kleinwörter & Small Talk
+das Stück/-stück	glue		Alltags-Kleinwörter & Small Talk
+das Teil	glue		Alltags-Kleinwörter & Small Talk
+dass	glue		Konjunktionen & Satzverbinder
+denn	glue		Konjunktionen & Satzverbinder
+der Fall	glue		Alltags-Kleinwörter & Small Talk
+der Teil	glue		Alltags-Kleinwörter & Small Talk
+der Zweck	glue		Alltags-Kleinwörter & Small Talk
+derselbe	glue		Pronomen & Artikelwörter
+deshalb	glue		Konjunktionen & Satzverbinder
+deswegen	glue		Konjunktionen & Satzverbinder
+die Ausnahme	glue		Bedingungen, Ausnahmen & Folgen
+die Bedingung	glue		Bedingungen, Ausnahmen & Folgen
+die Folge	glue		Bedingungen, Ausnahmen & Folgen
+die Länge	glue		Alltags-Kleinwörter & Small Talk
+die Möglichkeit	glue		Pronomen & Artikelwörter
+die Sache	glue		Alltags-Kleinwörter & Small Talk
+die Seite	glue		Alltags-Kleinwörter & Small Talk
+die Stufe	glue		Alltags-Kleinwörter & Small Talk
+die Voraussetzung	glue		Bedingungen, Ausnahmen & Folgen
+dies-	glue		Pronomen & Artikelwörter
+direkt	glue		Grad-, Mengen- & Modalpartikeln
+doch	glue		Konjunktionen & Satzverbinder
+dort	glue		Richtungs- & Pronominaladverbien
+dorthin	glue		Richtungs- & Pronominaladverbien
+drin	glue		Richtungs- & Pronominaladverbien
+drüben	glue		Richtungs- & Pronominaladverbien
+durch	glue		Präpositionen
+durcheinander	glue		Alltags-Kleinwörter & Small Talk
+dürfen	glue		Modal- & Hilfsverben
+eben	glue		Grad-, Mengen- & Modalpartikeln
+ebenfalls	glue		Grad-, Mengen- & Modalpartikeln
+ebenso	glue		Grad-, Mengen- & Modalpartikeln
+eher	glue		Grad-, Mengen- & Modalpartikeln
+eigen-	glue		Pronomen & Artikelwörter
+eigentlich	glue		Alltags-Kleinwörter & Small Talk
+ein bisschen	glue		Pronomen & Artikelwörter
+einerseits	glue		Konjunktionen & Satzverbinder
+einig-	glue		Grad-, Mengen- & Modalpartikeln
+einschließlich	glue		Alltags-Kleinwörter & Small Talk
+einverstanden	glue		Alltags-Kleinwörter & Small Talk
+entlang	glue		Präpositionen
+entstehen	glue		Alltags-Kleinwörter & Small Talk
+entweder ... oder	glue		Konjunktionen & Satzverbinder
+erfüllen	glue		Alltags-Kleinwörter & Small Talk
+ergänzen	glue		Alltags-Kleinwörter & Small Talk
+es	glue		Pronomen & Artikelwörter
+etwa	glue		Alltags-Kleinwörter & Small Talk
+etwas	glue		Alltags-Kleinwörter & Small Talk
+eventuell	glue		Alltags-Kleinwörter & Small Talk
+extrem	glue		Grad-, Mengen- & Modalpartikeln
+fallen	glue		Alltags-Kleinwörter & Small Talk
+falls	glue		Konjunktionen & Satzverbinder
+falsch	glue		Alltags-Kleinwörter & Small Talk
+fast	glue		Alltags-Kleinwörter & Small Talk
+folgen	glue		Bedingungen, Ausnahmen & Folgen
+folgend	glue		Bedingungen, Ausnahmen & Folgen
+frei	glue		Alltags-Kleinwörter & Small Talk
+freiwillig	glue		Alltags-Kleinwörter & Small Talk
+fremd	glue		Alltags-Kleinwörter & Small Talk
+fällig	glue		Alltags-Kleinwörter & Small Talk
+für	glue		Präpositionen
+ganz	glue		Grad-, Mengen- & Modalpartikeln
+gar	glue		Grad-, Mengen- & Modalpartikeln
+gegen	glue		Präpositionen
+gegenüber	glue		Präpositionen
+genau	glue		Grad-, Mengen- & Modalpartikeln
+genauso	glue		Grad-, Mengen- & Modalpartikeln
+genug	glue		Grad-, Mengen- & Modalpartikeln
+geradeaus	glue		Richtungs- & Pronominaladverbien
+gern/gerne	glue		Alltags-Kleinwörter & Small Talk
+gesamt-/Gesamt-	glue		Alltags-Kleinwörter & Small Talk
+gleich	glue		Grad-, Mengen- & Modalpartikeln
+gleichfalls	glue		Grad-, Mengen- & Modalpartikeln
+gleichzeitig	glue		Grad-, Mengen- & Modalpartikeln
+gucken	glue		Alltags-Kleinwörter & Small Talk
+haben	glue		Modal- & Hilfsverben
+halt	glue		Alltags-Kleinwörter & Small Talk
+heim	glue		Alltags-Kleinwörter & Small Talk	home; institution/hostel
+her/her-	glue		Richtungs- & Pronominaladverbien
+heraus-	glue		Richtungs- & Pronominaladverbien
+herein-	glue		Richtungs- & Pronominaladverbien
+herunter-	glue		Richtungs- & Pronominaladverbien
+hier/hier-	glue		Richtungs- & Pronominaladverbien
+hierher	glue		Richtungs- & Pronominaladverbien
+hinten	glue		Richtungs- & Pronominaladverbien
+hinter/hinter-	glue		Richtungs- & Pronominaladverbien
+hinterlassen	glue		Alltags-Kleinwörter & Small Talk
+höchstens	glue		Grad-, Mengen- & Modalpartikeln
+im Freien	glue		Alltags-Kleinwörter & Small Talk
+in	glue		Präpositionen
+indem	glue		Konjunktionen & Satzverbinder
+innen	glue		Richtungs- & Pronominaladverbien
+inner-	glue		Richtungs- & Pronominaladverbien
+innerhalb	glue		Richtungs- & Pronominaladverbien
+insgesamt	glue		Grad-, Mengen- & Modalpartikeln
+irgendirgendein	glue		Pronomen & Artikelwörter		typo in the official Goethe list itself: write 'irgendein'
+ja	glue		Grad-, Mengen- & Modalpartikeln
+je	glue		Alltags-Kleinwörter & Small Talk
+je … desto …	glue		Konjunktionen & Satzverbinder
+jeder	glue		Pronomen & Artikelwörter
+jedoch	glue		Konjunktionen & Satzverbinder
+jemals	glue		Pronomen & Artikelwörter
+jemand	glue		Pronomen & Artikelwörter
+kaum	glue		Grad-, Mengen- & Modalpartikeln
+kein-	glue		Pronomen & Artikelwörter
+klappen	glue		Alltags-Kleinwörter & Small Talk
+klar	glue		Alltags-Kleinwörter & Small Talk
+klären	glue		Alltags-Kleinwörter & Small Talk
+komisch	glue		Alltags-Kleinwörter & Small Talk
+kommen	glue		Alltags-Kleinwörter & Small Talk
+komplett	glue		Grad-, Mengen- & Modalpartikeln
+kompliziert	glue		Alltags-Kleinwörter & Small Talk
+korrekt	glue		Alltags-Kleinwörter & Small Talk
+können	glue		Modal- & Hilfsverben
+lassen	glue		Modal- & Hilfsverben
+leid tun	glue		Alltags-Kleinwörter & Small Talk
+Lieblings-	glue		Alltags-Kleinwörter & Small Talk
+mal	glue		Grad-, Mengen- & Modalpartikeln
+man	glue		Pronomen & Artikelwörter
+manch-	glue		Pronomen & Artikelwörter
+mehr	glue		Grad-, Mengen- & Modalpartikeln
+mehrere	glue		Grad-, Mengen- & Modalpartikeln
+meinetwegen	glue		Pronomen & Artikelwörter
+mindestens	glue		Grad-, Mengen- & Modalpartikeln
+miss-	glue		Alltags-Kleinwörter & Small Talk
+mit	glue		Präpositionen
+miteinander	glue		Alltags-Kleinwörter & Small Talk
+mitten	glue		Alltags-Kleinwörter & Small Talk
+mittler-	glue		Alltags-Kleinwörter & Small Talk
+mobil/mobil-	glue		Alltags-Kleinwörter & Small Talk
+möchten	glue		Modal- & Hilfsverben
+mögen	glue		Modal- & Hilfsverben
+möglich	glue		Pronomen & Artikelwörter
+möglichst	glue		Grad-, Mengen- & Modalpartikeln
+müssen	glue		Modal- & Hilfsverben
+nach	glue		Präpositionen
+nachdem	glue		Konjunktionen & Satzverbinder
+national/national-	glue		Alltags-Kleinwörter & Small Talk
+natürlich	glue		Grad-, Mengen- & Modalpartikeln
+neben	glue		Präpositionen
+nebenan	glue		Richtungs- & Pronominaladverbien
+nebenbei	glue		Richtungs- & Pronominaladverbien
+negativ	glue		Alltags-Kleinwörter & Small Talk
+nehmen	glue		Alltags-Kleinwörter & Small Talk
+nein	glue		Pronomen & Artikelwörter
+nennen	glue		Alltags-Kleinwörter & Small Talk
+nett	glue		Alltags-Kleinwörter & Small Talk
+neu	glue		Alltags-Kleinwörter & Small Talk
+nicht	glue		Alltags-Kleinwörter & Small Talk
+nichts	glue		Pronomen & Artikelwörter
+nie	glue		Pronomen & Artikelwörter
+niedrig	glue		Alltags-Kleinwörter & Small Talk
+niemand	glue		Pronomen & Artikelwörter
+nirgends	glue		Pronomen & Artikelwörter
+nirgendwo	glue		Pronomen & Artikelwörter
+normal	glue		Alltags-Kleinwörter & Small Talk
+nur	glue		Grad-, Mengen- & Modalpartikeln
+nutzen	glue		Alltags-Kleinwörter & Small Talk
+nämlich	glue		Grad-, Mengen- & Modalpartikeln
+ob	glue		Alltags-Kleinwörter & Small Talk
+oben	glue		Richtungs- & Pronominaladverbien
+ober-	glue		Richtungs- & Pronominaladverbien
+obwohl	glue		Konjunktionen & Satzverbinder
+oder	glue		Konjunktionen & Satzverbinder
+offen	glue		Alltags-Kleinwörter & Small Talk
+offenbar	glue		Grad-, Mengen- & Modalpartikeln
+ohne	glue		Präpositionen
+paar	glue		Grad-, Mengen- & Modalpartikeln
+passen	glue		Alltags-Kleinwörter & Small Talk
+passiv	glue		Alltags-Kleinwörter & Small Talk
+per	glue		Präpositionen
+privat	glue		Alltags-Kleinwörter & Small Talk
+pro	glue		Präpositionen
+quer	glue		Richtungs- & Pronominaladverbien
+rauf/rauf-	glue		Richtungs- & Pronominaladverbien
+raus/raus-	glue		Richtungs- & Pronominaladverbien
+recht	glue		Grad-, Mengen- & Modalpartikeln
+recht-	glue		Alltags-Kleinwörter & Small Talk
+rechts	glue		Richtungs- & Pronominaladverbien
+relativ	glue		Grad-, Mengen- & Modalpartikeln
+richtig	glue		Grad-, Mengen- & Modalpartikeln
+riechen	glue		Alltags-Kleinwörter & Small Talk
+schon	glue		Grad-, Mengen- & Modalpartikeln
+sehen	glue		Alltags-Kleinwörter & Small Talk
+sehr	glue		Grad-, Mengen- & Modalpartikeln
+sein	glue		Modal- & Hilfsverben
+seit	glue		Präpositionen
+seitdem	glue		Konjunktionen & Satzverbinder
+selb-	glue		Pronomen & Artikelwörter
+selber	glue		Pronomen & Artikelwörter
+selbst	glue		Pronomen & Artikelwörter
+selbstverständlich	glue		Grad-, Mengen- & Modalpartikeln
+sich befinden	glue		Alltags-Kleinwörter & Small Talk
+sicher	glue		Grad-, Mengen- & Modalpartikeln
+so	glue		Grad-, Mengen- & Modalpartikeln
+so viel/so viel wie	glue		Grad-, Mengen- & Modalpartikeln
+sobald	glue		Konjunktionen & Satzverbinder
+sodass	glue		Konjunktionen & Satzverbinder
+sogar	glue		Grad-, Mengen- & Modalpartikeln
+sogenannt-	glue		Alltags-Kleinwörter & Small Talk
+solange	glue		Konjunktionen & Satzverbinder
+solch-	glue		Pronomen & Artikelwörter
+sollen	glue		Modal- & Hilfsverben
+sondern	glue		Konjunktionen & Satzverbinder
+soviel	glue		Grad-, Mengen- & Modalpartikeln
+sowieso	glue		Grad-, Mengen- & Modalpartikeln
+sowohl … als auch	glue		Konjunktionen & Satzverbinder
+Speise-/-speise	glue		Alltags-Kleinwörter & Small Talk
+Spezial-	glue		Alltags-Kleinwörter & Small Talk
+speziell	glue		Alltags-Kleinwörter & Small Talk
+stammen	glue		Alltags-Kleinwörter & Small Talk
+statt	glue		Präpositionen
+stattfinden	glue		Alltags-Kleinwörter & Small Talk
+stumm	glue		Alltags-Kleinwörter & Small Talk
+sämtliche	glue		Grad-, Mengen- & Modalpartikeln
+total	glue		Grad-, Mengen- & Modalpartikeln
+trotz	glue		Präpositionen
+trotzdem	glue		Konjunktionen & Satzverbinder
+um	glue		Präpositionen
+um … zu	glue		Konjunktionen & Satzverbinder
+umso	glue		Grad-, Mengen- & Modalpartikeln
+umsonst	glue		Grad-, Mengen- & Modalpartikeln
+un-	glue		Alltags-Kleinwörter & Small Talk
+unbedingt	glue		Alltags-Kleinwörter & Small Talk
+und	glue		Konjunktionen & Satzverbinder
+ungefähr	glue		Grad-, Mengen- & Modalpartikeln
+unten	glue		Richtungs- & Pronominaladverbien
+unter	glue		Präpositionen
+unter-	glue		Richtungs- & Pronominaladverbien
+unterwegs	glue		Richtungs- & Pronominaladverbien
+ursprünglich	glue		Alltags-Kleinwörter & Small Talk
+vermutlich	glue		Grad-, Mengen- & Modalpartikeln
+vertrauen	glue		Alltags-Kleinwörter & Small Talk
+viel/viele	glue		Grad-, Mengen- & Modalpartikeln
+vielleicht	glue		Grad-, Mengen- & Modalpartikeln
+von	glue		Präpositionen
+voneinander	glue		Alltags-Kleinwörter & Small Talk
+vor	glue		Präpositionen
+vor allem	glue		Alltags-Kleinwörter & Small Talk
+voraus	glue		Alltags-Kleinwörter & Small Talk
+vorbei/vorbei-	glue		Richtungs- & Pronominaladverbien
+vorder-	glue		Richtungs- & Pronominaladverbien
+vorn	glue		Richtungs- & Pronominaladverbien
+vorwärts	glue		Grad-, Mengen- & Modalpartikeln
+völlig	glue		Grad-, Mengen- & Modalpartikeln
+wachsen	glue		Alltags-Kleinwörter & Small Talk
+wahrscheinlich	glue		Grad-, Mengen- & Modalpartikeln
+wann	glue		Fragewörter
+warum	glue		Fragewörter
+was	glue		Fragewörter
+was für ein-	glue		Fragewörter
+weder … noch	glue		Konjunktionen & Satzverbinder
+weg/weg-	glue		Richtungs- & Pronominaladverbien
+wegen	glue		Präpositionen
+weil	glue		Konjunktionen & Satzverbinder
+welcher	glue		Fragewörter
+wenig/wenige	glue		Grad-, Mengen- & Modalpartikeln
+wenigstens	glue		Grad-, Mengen- & Modalpartikeln
+wenn	glue		Konjunktionen & Satzverbinder
+wer	glue		Fragewörter
+werden	glue		Modal- & Hilfsverben
+weshalb	glue		Fragewörter
+wie	glue		Fragewörter
+wie viel	glue		Fragewörter
+wieso	glue		Fragewörter
+wo	glue		Fragewörter
+woher	glue		Fragewörter
+wohin	glue		Fragewörter
+wohl	glue		Grad-, Mengen- & Modalpartikeln
+wollen	glue		Modal- & Hilfsverben
+worum	glue		Pronomen & Artikelwörter
+worüber	glue		Pronomen & Artikelwörter
+während	glue		Präpositionen
+ziemlich	glue		Grad-, Mengen- & Modalpartikeln
+zu	glue		Alltags-Kleinwörter & Small Talk
+zu sein	glue		Alltags-Kleinwörter & Small Talk
+zufällig	glue		Pronomen & Artikelwörter
+zurück/zurück-	glue		Richtungs- & Pronominaladverbien
+zusammen/zusammen-	glue		Grad-, Mengen- & Modalpartikeln
+zwar	glue		Grad-, Mengen- & Modalpartikeln
+zwischen	glue		Präpositionen
+über	glue		Präpositionen
+überall	glue		Richtungs- & Pronominaladverbien
+überhaupt	glue		Grad-, Mengen- & Modalpartikeln
+übrig	glue		Alltags-Kleinwörter & Small Talk
+übrigens	glue		Alltags-Kleinwörter & Small Talk
