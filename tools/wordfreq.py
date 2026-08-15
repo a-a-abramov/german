@@ -44,7 +44,6 @@ import argparse
 import csv
 import json
 import os
-import re
 import sys
 import time
 import urllib.parse
@@ -111,47 +110,10 @@ def fetch_hits(word, cache):
     return cache[word]
 
 
-HEADWORD_RE = re.compile(r"^\|\s*([^|]+?)\s*\|")
-ARTICLES = ("der ", "die ", "das ")
-
-
-def read_wordlist(path, collapsed=None):
-    """
-    Pull headwords out of a batch wordlist.md table; strip article and forms.
-
-    Slash-variant headwords (`der Abwart / die Abwartin`, `Stiege/Treppe`) are collapsed
-    to the FIRST variant — the second is not ranked. Names of collapsed entries are
-    appended to `collapsed` so the caller can report them instead of dropping silently.
-    """
-    words = []
-    for line in open(path, encoding="utf-8"):
-        m = HEADWORD_RE.match(line)
-        if not m:
-            continue
-        w = m.group(1).strip()
-        if not w or w.startswith("-") or w.lower() in ("word (with article)", "word"):
-            continue
-        w = re.sub(r"\s*\(.*?\)", "", w).strip()      # drop "(D)" regional tags
-        w = w.split(",")[0].strip()                   # drop trailing forms
-        headword = w                                  # keep for reporting, pre-strip
-        for a in ARTICLES:
-            if w.startswith(a):
-                w = w[len(a):]
-                break
-        if "/" in w:
-            if collapsed is not None:
-                collapsed.append(headword)
-            w = w.split("/")[0].strip()
-        if w:
-            words.append(w)
-    return words
-
-
 def main():
     p = argparse.ArgumentParser(description=__doc__,
                                 formatter_class=argparse.RawDescriptionHelpFormatter)
-    p.add_argument("wordlist", nargs="?", help="a batch's wordlist.md")
-    p.add_argument("--words", nargs="+", help="rank these words instead")
+    p.add_argument("--words", nargs="+", required=True, help="the words to rank")
     p.add_argument("--hits", action="store_true",
                    help="fetch raw hits per word — SPOT-CHECKS ONLY, 1 request/word")
     p.add_argument("--hits-limit", type=int, default=25,
@@ -160,16 +122,8 @@ def main():
     p.add_argument("--tsv", action="store_true")
     args = p.parse_args()
 
-    collapsed = []
-    if args.words:
-        words = args.words
-    elif args.wordlist:
-        words = read_wordlist(args.wordlist, collapsed)
-    else:
-        p.error("give a wordlist.md or --words")
-
     seen, uniq = set(), []
-    for w in words:
+    for w in args.words:
         if w not in seen:
             seen.add(w)
             uniq.append(w)
@@ -237,10 +191,6 @@ def main():
         print(f"\n*Ambiguous lemmatisation, hits unusable ({len(amb)}): "
               f"{', '.join(amb)}. The API mapped these to more than one lemma and "
               f"returned 0 — that is 'could not attribute', not 'rare'.*")
-
-    if collapsed:
-        print(f"\n*Slash-variant headwords ranked by their FIRST variant only "
-              f"({len(collapsed)}): {', '.join(collapsed)}.*")
 
     missing = [r["word"] for r in rows if not r["known"]]
     if missing:
