@@ -201,9 +201,9 @@ not per batch: `vocab.py glue --open` lists what no finished text has used yet.
 Run `python3 tools/vocab.py status` for the live picture — it is the counter; don't mirror
 its numbers here.
 
-Three batches are written; none is carded yet. All three follow the scene-design +
+Four batches are written; none is carded yet. All four follow the scene-design +
 three-stage method — `scenes.md` groups the words into situations, `texts.md` has one
-dialogue per scene — and all three are **awaiting the cram + review pass**, so no
+dialogue per scene — and all four are **awaiting the cram + review pass**, so no
 `anki-*.txt` exists anywhere yet.
 
 - **`content/batches/01-in-der-wohnung/`** — Stage A, topic 1. 11 scenes, 11 dialogues.
@@ -211,5 +211,13 @@ dialogue per scene — and all three are **awaiting the cram + review pass**, so
   3 words skipped.
 - **`content/batches/03-essen-kochen-restaurant/`** — Stage A, topic 3. 12 scenes, 12
   dialogues, nothing skipped.
-- **Next:** write batch 04 (Tiere, 8 words) with the `text-writer` skill, or close out any
-  of batches 01–03 by cramming them and generating their cards.
+- **`content/batches/04-tiere/`** — Stage A, topic 4. 4 scenes, 4 dialogues, nothing skipped.
+  The corpus's smallest batch by a wide margin (8 words), so it is scened at 4 rather than
+  the usual 12: eight words across twelve dialogues would be the word list driving the
+  structure again. Two things worth knowing before reading it — `die Schlange` is taught as
+  a **queue**, which is the sense both of the Goethe list's example sentences carry, and
+  `der Tierpark` is the one word in the corpus so far with **no Wortprofil at all**
+  (`chunks.md` records the full ladder walk that found nothing). Its real yield is the glue
+  pool, which four dialogues moved 263 → 277 of 326.
+- **Next:** write batch 05 (Kleidung & Aussehen, 43 words) with the `text-writer` skill, or
+  close out any of batches 01–04 by cramming them and generating their cards.
