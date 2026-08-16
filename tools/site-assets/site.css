@@ -1,61 +1,49 @@
-/* site.css — two surfaces, one repo.
+/* site.css — one identity, two layouts.
  *
- *   .kartei    the ledger seen from above: cool paper, teal, tabular numerals
- *   .lesesaal  the reading room: Reclam lemon on white, serif set large enough
- *              to read aloud from
+ * The Reclam sheet is the whole site's look: warm paper, near-black ink, a lemon
+ * band across the top, German set in a serif and everything *about* the German set
+ * small in a sans. The two body classes name page kinds, not palettes:
  *
- * Both are token-driven so the dark scheme is a token swap, not a second sheet.
+ *   .lesesaal  the reading room: one dialogue on one sheet, set large enough to
+ *              read aloud from
+ *   .kartei    the ledger seen from above — the index, a batch, its chunks: the
+ *              same sheet cut into cards and rows, on the desk they lie on
+ *
+ * So there is one token set, and the dark scheme is a swap of it, not a second sheet.
+ * The only colour outside it is #14130E, the one ink that reads on lemon in both
+ * schemes — the band and the active filter chip hardcode it on purpose.
  */
 
 *, *::before, *::after { box-sizing: border-box; }
 
 :root {
-  /* Kartei */
-  --bg:      #F2F4F3;
-  --surface: #FFFFFF;
-  --ink:     #16211D;
-  --dim:     #5F6D68;
-  --rule:    #DDE3E0;
-  --hair:    #EDF1EF;
-  --teal:    #0F6E63;
-  --done:    #2E7D5B;
-  --idle:    #A9B3AF;
+  --bg:      #F7F5EC;   /* the desk: paper, a shade under the sheet */
+  --surface: #FFFFFF;   /* the sheet: a reader page, a card, a table */
+  --ink:     #14130E;
+  --dim:     #6B6A5F;
+  --rule:    #E4E2D8;
+  --hair:    #F0EEE4;
+  --idle:    #8A8776;   /* an unwritten topic: clearly secondary, still legible (3.3:1) */
 
-  /* Lesesaal */
-  --paper:   #FFFFFF;
-  --pink:    #14130E;   /* paper ink */
-  --pdim:    #6B6A5F;
-  --prule:   #E4E2D8;
-  --lemon:   #F2E205;
-  --deep:    #6E6400;
-
-  --shadow: 0 1px 2px rgba(22,33,29,.05), 0 10px 26px -14px rgba(22,33,29,.22);
+  --lemon:   #F2E205;   /* a fill, never text — 1.2:1 on paper */
+  --deep:    #6E6400;   /* the same yellow taken down to text contrast — 6.4:1 */
 
   --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
   --sans:  "Avenir Next", "Segoe UI", system-ui, -apple-system, sans-serif;
-  --mono:  ui-monospace, "SF Mono", Menlo, monospace;
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg:      #14171A;
-    --surface: #1C2023;
-    --ink:     #E3E7E5;
-    --dim:     #97A29E;
-    --rule:    #2C3235;
-    --hair:    #24292C;
-    --teal:    #6FC3B4;
-    --done:    #62B98D;
-    --idle:    #5A6461;
+    --bg:      #121214;
+    --surface: #1A1A1C;
+    --ink:     #E8E7DF;
+    --dim:     #9A998D;
+    --rule:    #2E2E30;
+    --hair:    #242426;
+    --idle:    #5E5C52;
 
-    --paper:   #16171A;
-    --pink:    #E8E7DF;
-    --pdim:    #9A998D;
-    --prule:   #2C2E31;
     --lemon:   #C9BC12;
     --deep:    #D7C93A;
-
-    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 14px 34px -18px rgba(0,0,0,.8);
   }
 }
 
@@ -71,21 +59,26 @@ body {
 }
 
 a { color: inherit; }
-:focus-visible { outline: 2px solid var(--teal); outline-offset: 2px; border-radius: 2px; }
+:focus-visible { outline: 2px solid var(--deep); outline-offset: 2px; border-radius: 2px; }
 
 .wrap { max-width: 1080px; margin: 0 auto; padding: 0 22px 90px; }
 
-/* ------------------------------------------------------------------ kartei */
+/* ------------------------------------------------------- the band, every page */
 
-.kartei .topbar {
-  display: flex; align-items: center; gap: 14px;
-  padding: 13px 22px; background: var(--surface);
-  border-bottom: 1px solid var(--rule);
-  font-size: 12.5px; color: var(--dim);
+/* The one piece of chrome the whole site carries: where you are on the left, where
+   you can go on the right. It wraps rather than overflows, because the index's crumb
+   is a whole sentence and a phone is 360px wide. */
+.kartei .topbar, .lese .band {
   position: sticky; top: 0; z-index: 5;
+  background: var(--lemon); color: #14130E;
+  display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 2px 16px; padding: 9px 22px;
+  font-size: 11px; letter-spacing: .15em; text-transform: uppercase; font-weight: 700;
 }
-.kartei .topbar .home { margin-left: auto; text-decoration: none; color: var(--teal); font-weight: 600; }
-.kartei .topbar .home:first-child { margin-left: 0; margin-right: auto; }
+.kartei .topbar a, .lese .band a { text-decoration: none; }
+.kartei .topbar a:hover, .lese .band a:hover { text-decoration: underline; }
+
+/* ------------------------------------------------------------------ kartei */
 
 .kartei .pagetitle {
   font-family: var(--serif); font-weight: 600; letter-spacing: -.015em;
@@ -113,7 +106,7 @@ a { color: inherit; }
   display: flex; align-items: baseline; gap: 10px;
   margin: 34px 0 12px; padding-bottom: 7px; border-bottom: 1px solid var(--rule);
 }
-.stagehead b { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--teal); }
+.stagehead b { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--deep); }
 .stagehead span { font-size: 13px; color: var(--dim); }
 
 /* the 23 topics: a numbered list in cram order, written ones the only live links */
@@ -128,9 +121,10 @@ a { color: inherit; }
   font-size: 12px; color: var(--dim); font-variant-numeric: tabular-nums;
   letter-spacing: .06em;
 }
-.topics .t { font-size: 15.5px; padding: 8px 0; }
+/* the topic is German, so it is set the way the reader sets German */
+.topics .t { font-family: var(--serif); font-size: 17px; padding: 8px 0; }
 .topics .m { font-size: 12px; color: var(--dim); font-variant-numeric: tabular-nums; }
-.topics a .t { font-weight: 600; color: var(--teal); }
+.topics a .t { font-weight: 600; color: var(--deep); }
 .topics a:hover .t { text-decoration: underline; }
 .topics li.idle .t, .topics li.idle .n { color: var(--idle); }
 @media (max-width: 560px) {
@@ -142,9 +136,9 @@ a { color: inherit; }
 /* batch page: the scene list */
 .side {
   display: block; text-decoration: none; margin-bottom: 26px;
-  border-left: 2px solid var(--teal); padding: 10px 16px;
+  border-left: 3px solid var(--lemon); padding: 10px 16px;
   background: var(--surface); border-radius: 0 4px 4px 0;
-  font-weight: 600; font-size: 14.5px; color: var(--teal);
+  font-weight: 600; font-size: 14.5px; color: var(--deep);
 }
 .side span { display: block; font-weight: 400; font-size: 12.5px; color: var(--dim); }
 .side:hover { background: var(--hair); }
@@ -156,10 +150,15 @@ a { color: inherit; }
   border: 1px solid var(--rule); border-radius: 5px; padding: 15px 17px;
   transition: border-color .12s, transform .12s;
 }
-a.scene:hover { border-color: var(--teal); transform: translateY(-1px); }
-.scene .n { font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--teal); }
+a.scene:hover { border-color: var(--deep); transform: translateY(-1px); }
+.scene .n { font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--deep); }
 .scene h3 { margin: 4px 0 6px; font-size: 17px; font-weight: 600; font-family: var(--serif); }
-.scene .premise { margin: 0 0 10px; font-size: 13.5px; color: var(--dim); line-height: 1.5; }
+/* the premise is English planning prose — the same content type the reader carries in
+   .scenenote, so it gets the same italic serif rather than a second treatment */
+.scene .premise {
+  margin: 0 0 10px; font-family: var(--serif); font-style: italic;
+  font-size: 14px; color: var(--dim); line-height: 1.5;
+}
 .scene .meta { font-size: 11.5px; color: var(--dim); font-variant-numeric: tabular-nums; }
 .scene.idle { background: transparent; border-style: dashed; }
 .scene.idle h3 { color: var(--idle); }
@@ -180,7 +179,8 @@ a.scene:hover { border-color: var(--teal); transform: translateY(-1px); }
   border: 1px solid var(--rule); background: var(--surface); color: var(--dim);
 }
 .f:hover { color: var(--ink); }
-.f.on { background: var(--teal); border-color: var(--teal); color: #fff; }
+/* #14130E, not white: white on lemon is 1.1:1. Same ink the band uses. */
+.f.on { background: var(--lemon); border-color: var(--lemon); color: #14130E; }
 .count { margin-left: auto; font-size: 12px; color: var(--dim); font-variant-numeric: tabular-nums; }
 
 .tablewrap { overflow-x: auto; border: 1px solid var(--rule); border-radius: 5px; background: var(--surface); }
@@ -195,11 +195,12 @@ a.scene:hover { border-color: var(--teal); transform: translateY(-1px); }
   background: var(--surface); border-bottom: 1px solid var(--rule);
 }
 #words td { padding: 6px 16px; border-bottom: 1px solid var(--hair); vertical-align: baseline; }
-#words td.lemma { font-weight: 600; white-space: nowrap; }
+/* the lemma is the German — serif, like every other German word on the site */
+#words td.lemma { font-family: var(--serif); font-size: 15px; font-weight: 600; white-space: nowrap; }
 #words td.gloss, #words td.topic { color: var(--dim); }
 #words td.topic { font-size: 12.5px; white-space: nowrap; }
 #words td.none { color: var(--idle); }
-#words td.used a { color: var(--teal); text-decoration: none; white-space: nowrap; }
+#words td.used a { color: var(--deep); text-decoration: none; white-space: nowrap; }
 #words td.used a:hover { text-decoration: underline; }
 #words tr.hide { display: none; }
 /* DWDS frequency band 0-6, drawn as pips in one element so 2,886 rows stay light */
@@ -207,8 +208,8 @@ a.scene:hover { border-color: var(--teal); transform: translateY(-1px); }
   display: inline-block; width: 34px; height: 11px; vertical-align: -1px;
   background-repeat: no-repeat;
   background-image:
-    repeating-linear-gradient(90deg, var(--teal) 0 4px, transparent 4px 6px),
-    repeating-linear-gradient(90deg, color-mix(in srgb, var(--teal) 20%, transparent) 0 4px,
+    repeating-linear-gradient(90deg, var(--deep) 0 4px, transparent 4px 6px),
+    repeating-linear-gradient(90deg, color-mix(in srgb, var(--deep) 20%, transparent) 0 4px,
                               transparent 4px 6px);
   background-size: calc(var(--n, 0) * 6px) 100%, 100% 100%;
 }
@@ -217,7 +218,7 @@ a.scene:hover { border-color: var(--teal); transform: translateY(-1px); }
 .chunklist { display: flex; flex-direction: column; gap: 6px; }
 .chunklist details {
   background: var(--surface); border: 1px solid var(--rule); border-radius: 5px;
-  scroll-margin-top: 58px;
+  scroll-margin-top: 46px;   /* clears the sticky band, which is 36px tall */
 }
 .chunklist summary {
   cursor: pointer; padding: 10px 16px; display: flex; align-items: baseline; gap: 12px;
@@ -241,25 +242,19 @@ table.chunks th {
 table.chunks td { padding: 4px 0; border-bottom: 1px solid var(--hair); }
 table.chunks td.de { font-family: var(--serif); font-size: 14.5px; }
 table.chunks .num { text-align: right; font-variant-numeric: tabular-nums; color: var(--dim); width: 5.5em; }
-:target > summary { background: color-mix(in srgb, var(--teal) 10%, transparent); }
+/* a deep-linked chunk word gets the same lemon wash a target word gets in the reader */
+:target > summary { background: color-mix(in srgb, var(--lemon) 22%, transparent); }
 
 /* --------------------------------------------------------------- lesesaal */
 
-body.lesesaal { background: var(--paper); color: var(--pink); }
-
-.lese .band {
-  position: sticky; top: 0; z-index: 5;
-  background: var(--lemon); color: #14130E;
-  padding: 9px 30px; display: flex; justify-content: space-between; align-items: center;
-  font-size: 11px; letter-spacing: .15em; text-transform: uppercase; font-weight: 700;
-}
-.lese .band a { text-decoration: none; }
-.lese .band a:hover { text-decoration: underline; }
+/* The reader is a single sheet, so it is --surface all the way out to the edges —
+   the desk tint of --bg is what the kartei's cards lie on, and there are none here. */
+body.lesesaal { background: var(--surface); }
 
 .lese .read { max-width: 720px; margin: 0 auto; padding: 44px 34px 48px; }
 .lese .kicker {
   font-size: 11px; letter-spacing: .13em; text-transform: uppercase;
-  color: var(--pdim); margin: 0 0 7px;
+  color: var(--dim); margin: 0 0 7px;
 }
 .lese h1 {
   font-family: var(--serif); font-size: clamp(26px, 4.4vw, 34px); font-weight: 600;
@@ -270,19 +265,19 @@ body.lesesaal { background: var(--paper); color: var(--pink); }
 .scenenote { margin: 0 0 30px; max-width: 56ch; }
 .scenenote summary {
   cursor: pointer; list-style: none; display: inline-block;
-  font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--pdim);
-  border-bottom: 1px dotted var(--prule); padding-bottom: 2px;
+  font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--dim);
+  border-bottom: 1px dotted var(--rule); padding-bottom: 2px;
 }
 .scenenote summary::-webkit-details-marker { display: none; }
-.scenenote summary:hover { color: var(--pink); }
+.scenenote summary:hover { color: var(--ink); }
 .scenenote p {
   font-family: var(--serif); font-style: italic; font-size: 15px; line-height: 1.55;
-  color: var(--pdim); margin: 12px 0 0;
+  color: var(--dim); margin: 12px 0 0;
 }
 .scenenote .angle { font-size: 14px; }
 .lese .turn { display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 10px; margin-bottom: 18px; }
 .lese .who {
-  font-size: 11px; font-weight: 700; letter-spacing: .06em; color: var(--pdim); padding-top: 8px;
+  font-size: 11px; font-weight: 700; letter-spacing: .06em; color: var(--dim); padding-top: 8px;
 }
 .lese .line {
   font-family: var(--serif); font-size: 19px; line-height: 1.62; margin: 0; max-width: 54ch;
@@ -295,32 +290,44 @@ body.lesesaal { background: var(--paper); color: var(--pink); }
   background: color-mix(in srgb, var(--lemon) 13%, transparent);
   color: inherit; padding: .08em .12em; border-radius: 2px; cursor: help;
 }
-.tw:hover mark, .tw:focus mark, .tw:focus-within mark {
+/* gated the same way the tip is: iOS leaves :hover stuck on a tapped word, which would
+   keep the dark wash sitting there after the gloss had gone */
+.tw:focus-visible mark, .tw.open mark {
   background: color-mix(in srgb, var(--lemon) 38%, transparent);
 }
+@media (hover: hover) {
+  .tw:hover mark { background: color-mix(in srgb, var(--lemon) 38%, transparent); }
+}
+/* display:none, not visibility:hidden — a hidden tip still takes up layout, and on a
+   phone the ones near the end of a line pushed the document wider than the viewport.
+   The sticky band is only 100% of the viewport, so it then stopped short of the right
+   edge and read as crooked. site.js clamps an *open* tip back inside the same way. */
 .tw .tip {
+  display: none;
   position: absolute; left: 0; top: calc(100% + 7px); z-index: 8;
   background: #14130E; color: #FFFDF0; border-radius: 4px; padding: 8px 12px;
   font-family: var(--sans); font-size: 13px; line-height: 1.45; white-space: nowrap;
   box-shadow: 0 10px 24px -10px rgba(0,0,0,.55);
-  opacity: 0; visibility: hidden; transition: opacity .1s;
   pointer-events: none;
 }
 .tw .tip b { color: var(--lemon); font-weight: 600; }
-.tw:hover .tip, .tw:focus .tip, .tw:focus-within .tip { opacity: 1; visibility: visible; }
+/* Three ways in, deliberately kept apart: a mouse hovers, a keyboard focuses, a finger
+   taps (site.js sets .open). Plain :focus is *not* here — on iOS a tap leaves the word
+   focused, so the tip could never be dismissed by tapping it or the page again. */
+.tw.open .tip, .tw:focus-visible .tip { display: block; }
+@media (hover: hover) { .tw:hover .tip { display: block; } }
 
 .lese .pager {
-  max-width: 720px; margin: 0 auto; border-top: 1px solid var(--prule);
+  max-width: 720px; margin: 0 auto; border-top: 1px solid var(--rule);
   padding: 14px 34px 40px; display: flex; justify-content: space-between; gap: 20px;
-  font-size: 13px; color: var(--pdim);
+  font-size: 13px; color: var(--dim);
 }
 .lese .pager a { text-decoration: none; }
-.lese .pager a:hover { color: var(--pink); }
-.lese .pager b { color: var(--pink); font-weight: 600; }
+.lese .pager a:hover { color: var(--ink); }
+.lese .pager b { color: var(--ink); font-weight: 600; }
 
 @media (max-width: 820px) {
   .lese .read { padding: 30px 20px 36px; }
-  .lese .band { padding: 9px 20px; }
   .lese .pager { padding: 14px 20px 36px; }
   .tw .tip { white-space: normal; min-width: 180px; }
 }
@@ -328,7 +335,7 @@ body.lesesaal { background: var(--paper); color: var(--pink); }
 @media print {
   .lese .band, .lese .pager { display: none; }
   .tw mark { background: none; }
-  .tw .tip { display: none; }
+  .tw .tip, .tw.open .tip { display: none; }   /* .open would otherwise out-specify this */
 }
 
 @media (prefers-reduced-motion: reduce) {

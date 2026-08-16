@@ -294,7 +294,8 @@ def render_text(batch, topic, text, hits, scene, words_by_id, prev_t, next_t):
     {"".join(turns)}
   </article>
   <nav class="pager">{prev_link}{next_link}</nav>
-</div>"""
+</div>
+<script src="../../assets/site.js"></script>"""
     return page(f'{text["title"]} — Batch {batch}', 2, body, cls="lesesaal")
 
 
