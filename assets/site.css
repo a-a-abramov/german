@@ -214,36 +214,47 @@ a.scene:hover { border-color: var(--deep); transform: translateY(-1px); }
   background-size: calc(var(--n, 0) * 6px) 100%, 100% 100%;
 }
 
-/* chunks */
-.chunklist { display: flex; flex-direction: column; gap: 6px; }
-.chunklist details {
+/* Wortprofil & Belege: one block per load-bearing word — its heading, the link out to
+   DWDS, and our own sentences under it. The sentences are the German on this page, so
+   they get the serif and the width; everything around them stays small and sans. */
+.wpcount {
+  font-size: 12px; letter-spacing: .06em; color: var(--dim);
+  margin: -22px 0 30px; font-variant-numeric: tabular-nums;
+}
+.wplist { display: flex; flex-direction: column; gap: 8px; }
+.wp {
   background: var(--surface); border: 1px solid var(--rule); border-radius: 5px;
+  padding: 13px 17px 15px;
   scroll-margin-top: 46px;   /* clears the sticky band, which is 36px tall */
 }
-.chunklist summary {
-  cursor: pointer; padding: 10px 16px; display: flex; align-items: baseline; gap: 12px;
-  list-style: none;
+.wp h2 {
+  display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 12px;
+  margin: 0; font-weight: 600;
 }
-.chunklist summary::-webkit-details-marker { display: none; }
-.chunklist summary::before { content: "›"; color: var(--dim); transition: transform .12s; display: inline-block; }
-.chunklist details[open] summary::before { transform: rotate(90deg); }
-.chunklist summary .w { font-family: var(--serif); font-size: 17px; font-weight: 600; }
-.chunklist summary .c { margin-left: auto; font-size: 11.5px; color: var(--dim); font-variant-numeric: tabular-nums; }
-.chunklist .cg { padding: 0 16px 16px; }
-.rel {
-  font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--dim);
-  margin: 16px 0 6px;
+.wp h2 .w { font-family: var(--serif); font-size: 19px; letter-spacing: -.01em; }
+.wp h2 .g { font-size: 13px; font-weight: 400; color: var(--dim); }
+.wp .dwds {
+  margin-left: auto; font-size: 11px; letter-spacing: .1em; text-transform: uppercase;
+  font-weight: 700; color: var(--deep); text-decoration: none; white-space: nowrap;
 }
-table.chunks { width: 100%; border-collapse: collapse; font-size: 13px; }
-table.chunks th {
-  text-align: left; font-size: 10px; letter-spacing: .1em; text-transform: uppercase;
-  color: var(--dim); font-weight: 600; padding: 4px 0; border-bottom: 1px solid var(--rule);
+.wp .dwds:hover { text-decoration: underline; }
+.wp .nobeleg { margin: 8px 0 0; font-size: 13px; color: var(--idle); }
+
+.belege { list-style: none; margin: 10px 0 0; padding: 0; }
+.belege li { padding: 9px 0; border-top: 1px solid var(--hair); }
+.belege li:first-child { border-top: 0; padding-top: 4px; }
+.belege .de {
+  font-family: var(--serif); font-size: 16px; line-height: 1.5; margin: 0;
+  max-width: 68ch;
 }
-table.chunks td { padding: 4px 0; border-bottom: 1px solid var(--hair); }
-table.chunks td.de { font-family: var(--serif); font-size: 14.5px; }
-table.chunks .num { text-align: right; font-variant-numeric: tabular-nums; color: var(--dim); width: 5.5em; }
-/* a deep-linked chunk word gets the same lemon wash a target word gets in the reader */
-:target > summary { background: color-mix(in srgb, var(--lemon) 22%, transparent); }
+.belege mark { background: color-mix(in srgb, var(--lemon) 42%, transparent); color: inherit; }
+.belege .src {
+  display: inline-block; margin-top: 3px; font-size: 11.5px; color: var(--dim);
+  text-decoration: none;
+}
+.belege .src:hover { color: var(--deep); text-decoration: underline; }
+/* a deep-linked word gets the same lemon wash a target word gets in the reader */
+.wp:target { background: color-mix(in srgb, var(--lemon) 16%, var(--surface)); }
 
 /* --------------------------------------------------------------- lesesaal */
 
