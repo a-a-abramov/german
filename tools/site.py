@@ -5,12 +5,14 @@ site.py — build the static reader that lives on GitHub Pages.
 WHY THIS EXISTS: `content/batches/` is the only directory a human reads, but it reads
 as markdown in a text editor, which is the wrong shape for the two things actually done
 with it — cramming one dialogue at a time, and asking the ledger where a word stands.
-So this renders both:
+So this renders three surfaces:
 
     the index      curriculum/vocab.db seen from above — 23 topics, what is written,
                    what is owed, and every word in the ledger, searchable
     the reader     one dialogue per page, set to be read aloud from, with the scene's
                    owned words in the margin and a gloss on every target word
+    the chunks     per batch, per load-bearing word: a link to that word's live DWDS
+                   Wortprofil, and every sentence we have written with the word
 
 It is a pure function of the repo: `curriculum/vocab.db` + `content/batches/`. Nothing
 is authored here and nothing in `site/` is committed on master — `publish-site.sh`
@@ -38,6 +40,7 @@ import shutil
 import sqlite3
 import sys
 from collections import defaultdict
+from urllib.parse import quote
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
@@ -118,32 +121,31 @@ def read_texts(path):
     return texts
 
 
-def read_chunks(path):
-    """[{word, groups:[{relation, rows:[(chunk, logdice, freq)]}]}, ...] from chunks.md."""
-    words, word, group = [], None, None
+def read_chunk_words(path):
+    """The batch's load-bearing words, in chunks.md order.
+
+    chunks.md is still the spine of the chunks page — it is the list of words the batch
+    was actually built around — but only its headings are read. The collocation tables
+    under them are not re-rendered: DWDS keeps a better, live copy of exactly that at
+    /wp, so the page links there instead. A heading with no table under it was a word
+    the corpus had nothing to say about, and is dropped the way it always was.
+    """
+    words, word, rows = [], None, 0
     for line in open(path, encoding="utf-8"):
         line = line.rstrip("\n")
         m = re.match(r"^##\s+(?!#)(.+)$", line)
         if m:
-            word = {"word": m.group(1).strip(), "groups": [], "n": 0}
-            words.append(word)
-            group = None
+            word, rows = m.group(1).strip(), 0
             continue
-        if word is None:
-            continue
-        m = re.match(r"^###\s+(.+)$", line)
-        if m:
-            group = {"relation": m.group(1).strip(), "rows": []}
-            word["groups"].append(group)
-            continue
-        if group is None or not line.startswith("|"):
+        if word is None or not line.startswith("|"):
             continue
         cells = [c.strip() for c in line.strip("|").split("|")]
         if len(cells) < 5 or cells[0] in ("chunk", "") or set(cells[0]) <= set("-: "):
             continue
-        group["rows"].append((cells[0], cells[3], cells[4]))
-        word["n"] += 1
-    return [w for w in words if w["n"]]
+        rows += 1
+        if rows == 1:
+            words.append(word)
+    return words
 
 
 # ---------------------------------------------------------------- the ledger
@@ -320,8 +322,9 @@ def render_batch(batch, topic, scenes, texts, covered, words_by_id, batch_words,
       <p class="premise">{e(sc["premise"])}</p>
       {status}{tail}""")
 
-    chunks_link = ('<a class="side" href="chunks.html">Belegte Chunks →<span>'
-                   'attestierte Kollokationen zu jedem tragenden Wort</span></a>'
+    chunks_link = ('<a class="side" href="chunks.html">Wortprofil &amp; Belege →<span>'
+                   'zu jedem tragenden Wort das DWDS-Wortprofil und jeder Satz, '
+                   'in dem wir es benutzt haben</span></a>'
                    if has_chunks else "")
     body = f"""<header class="topbar">
   <a class="home" href="../../index.html">← Alle Themen</a>
@@ -341,39 +344,192 @@ def render_batch(batch, topic, scenes, texts, covered, words_by_id, batch_words,
     return page(f"Batch {batch:02d} — {topic}", 2, body, cls="kartei")
 
 
+# ------------------------------------------------------- chunks page: the two sources
+
+# The Wortprofil as the user reads it, their filter settings baked in; only `q` and
+# `pos` change per word. Nothing here fetches it. https://www.dwds.de/robots.txt
+# disallows /wp for robots outright — tools/wortprofil.py carries the full notice — so
+# the page hands over a link and the reader opens it, which is an ordinary page view.
+DWDS_WP = ("https://www.dwds.de/wp/?q={q}&comp-method=diff&comp=&display=lemma&pos={pos}"
+           "&minstat=3&minfreq=100&by=logDice&limit=15&view=table&table=&mode=")
+
+
+def dwds_link(word, row):
+    """The DWDS Wortprofil URL for one chunk word.
+
+    `q` is the chunks.md heading itself: those headings came from the Wortprofil in the
+    first place, so they are already the lemma DWDS knows. `pos` only narrows it when
+    the ledger's headword makes the part of speech plain — an article means a noun, a
+    `hat`/`ist` principal part means a verb. Empty otherwise: /wp resolves a bare lemma
+    by itself, and a wrong pos would return an empty table.
+    """
+    pos = ""
+    if row is not None:
+        if row["lemma"].strip().split(" ")[0].lower() in ("der", "die", "das"):
+            pos = "Substantiv"
+        elif re.search(r",\s*(hat|ist)\s+\w", row["forms"] or ""):
+            pos = "Verb"
+    return DWDS_WP.format(q=quote(word), pos=pos)
+
+
+SENT_SPLIT = re.compile(r'(?<=[.!?…])\s+(?=[A-ZÄÖÜ„»"(])')
+ABBREV = ("dr.", "fr.", "hr.", "nr.", "st.", "ca.", "bzw.", "usw.", "z.", "b.")
+
+
+def sentences(line):
+    """One dialogue turn cut into the sentences this page quotes.
+
+    A turn runs to four sentences and usually only one of them carries the word, so
+    quoting whole turns would bury what the reader came for. A stop only splits before
+    a capital — German capitalises its nouns, so that costs nothing — and never after a
+    title: `Dr. Sänger` is the one abbreviation the corpus actually contains.
+    """
+    out = []
+    for part in SENT_SPLIT.split(line):
+        part = part.strip()
+        if not part:
+            continue
+        if out and out[-1].rsplit(" ", 1)[-1].lower() in ABBREV:
+            out[-1] += " " + part
+        else:
+            out.append(part)
+    return out
+
+
+def exact_owners(pool):
+    """{surface: word_id} for every single-word form the ledger spells out.
+
+    vocab's matcher folds umlauts and strips inflection, which is right for its own
+    question ("does this text realise this word?") but too loose for this one ("which
+    word is this sentence a sighting of?"): it lets `die Küche` claim the token
+    *Kuchen*. A form the ledger spells out exactly belongs to the word that spells it,
+    and no fuzzy claim survives against it.
+
+    Spelling is taken literally — umlauts and capital both. That is the whole point of
+    the map: `Küchen` and `Arm` must not be answered by `der Kuchen` and `arm`. It only
+    ever rejects, so the one thing it gets wrong — a verb capitalised at the start of a
+    sentence, where `Trinken` is not the noun the map knows — is the harmless direction:
+    the surface is simply not in it, and the matcher's claim stands.
+    """
+    out = {}
+    for r in pool:
+        for f in variants(r["lemma"]) + csv_forms(r["forms"]):
+            if " " not in f:
+                out.setdefault(f, r["id"])
+    return out
+
+
+def belege(word, row, corpus, owner):
+    """[(batch, slug, text, sentence, surface), ...] — every sighting in every dialogue.
+
+    The corpus is one house across all batches, so a word keeps turning up after its
+    own batch is done; those later sightings are the interesting ones and the page
+    would be poorer for cutting them.
+    """
+    wid = row["id"] if row is not None else None
+    forms = ((variants(row["lemma"]) + csv_forms(row["forms"])) if row is not None
+             else [word])
+    forms = list(dict.fromkeys(forms))
+    out = []
+    for batch, slug, text in corpus:
+        for _, line in text["turns"]:
+            for s in sentences(line):
+                toks = re.findall(r"[%s-]+" % WORD_CHAR, s)
+                hit = next((h for f in forms if (h := phrase_matches(toks, f))), None)
+                if hit and owner.get(hit, wid) == wid:
+                    out.append((batch, slug, text, s, hit))
+    return out
+
+
+def mark(sentence, surface):
+    """The word itself, marked in its sentence — and nothing more.
+
+    Deliberately not `highlight`: that hangs a gloss popover off every marked word,
+    which earns its place in a dialogue you are reading and would be pure noise on a
+    list of a hundred sightings of words you already have the gloss for above.
+    """
+    rx = re.compile(r"(?<![%s])(%s)(?![%s])" % (WORD_CHAR, re.escape(surface), WORD_CHAR),
+                    re.IGNORECASE)
+    out, last = [], 0
+    for m in rx.finditer(sentence):
+        out.append(e(sentence[last:m.start()]))
+        out.append(f"<mark>{e(m.group(1))}</mark>")
+        last = m.end()
+    out.append(e(sentence[last:]))
+    return "".join(out)
+
+
 # ---------------------------------------------------------------- chunks page
 
-def render_chunks(batch, topic, chunks):
-    blocks = []
-    for w in chunks:
-        groups = []
-        for g in w["groups"]:
-            if not g["rows"]:
-                continue
-            rows = "".join(
-                f'<tr><td class="de">{e(c)}</td><td class="num">{e(ld)}</td>'
-                f'<td class="num">{e(fr)}</td></tr>' for c, ld, fr in g["rows"])
-            groups.append(f'<p class="rel">{e(g["relation"])}</p>'
-                          f'<table class="chunks"><thead><tr><th>Chunk</th>'
-                          f'<th class="num">logDice</th><th class="num">Freq</th></tr></thead>'
-                          f'<tbody>{rows}</tbody></table>')
-        blocks.append(f"""<details id="{anchor(w["word"])}">
-  <summary><span class="w">{e(w["word"])}</span><span class="c">{w["n"]} Chunks</span></summary>
-  <div class="cg">{"".join(groups)}</div>
-</details>""")
+def render_chunks(batch, topic, words, index, corpus, owner, seen, text_at):
+    """Per load-bearing word: the live Wortprofil, and every line we have written with it.
+
+    This used to reprint a filtered snapshot of the collocation tables. DWDS serves the
+    same tables live, better, and with every knob exposed, so the profile is now one
+    link — and the space goes to the half no one else can render, which is the word
+    standing in our own sentences, each one a click from the dialogue it comes from.
+    """
+    def link(b, no):
+        """The dialogue at (batch, text no), as href and label from where we stand."""
+        bslug, title = text_at[(b, no)]
+        href = f'text-{no}.html' if b == batch else f'../{bslug}/text-{no}.html'
+        label = f'Text {no} · {e(title)}' if b == batch \
+            else f'Batch {b:02d} · Text {no} · {e(title)}'
+        return href, label
+
+    blocks, total = [], 0
+    for w in words:
+        row = index.get(w) or index.get(fold(w))
+        hits = belege(w, row, corpus, owner)
+        hits.sort(key=lambda h: (h[0] != batch, h[0], h[2]["no"]))
+        total += len(hits)
+
+        lis = []
+        for b, _, t, sentence, surface in hits:
+            href, label = link(b, t["no"])
+            lis.append(f'<li><p class="de">{mark(sentence, surface)}</p>'
+                       f'<a class="src" href="{href}">{label}</a></li>')
+
+        # A word the matcher cannot reach — `das Ei` in *Eier*, `erschrecken` in
+        # *erschrocken* — may still be recorded in the ledger by hand. The sentence
+        # cannot be cut out automatically, but the dialogue it is in is known, and
+        # saying nothing here would contradict every coverage number on the site.
+        recorded = seen.get(row["id"]) if row is not None else None
+        if lis:
+            found = f'<ol class="belege">{"".join(lis)}</ol>'
+        elif recorded and (recorded[0], recorded[1]) in text_at:
+            href, label = link(recorded[0], recorded[1])
+            found = (f'<p class="nobeleg">im Ledger belegt, aber nicht automatisch '
+                     f'aus dem Satz zu schneiden — <a class="src" href="{href}">'
+                     f'{label}</a></p>')
+        else:
+            found = '<p class="nobeleg">noch in keinem Dialog</p>'
+
+        head = e(row["lemma"]) if row is not None else e(w)
+        gloss = (f'<span class="g">{e(row["gloss"])}</span>'
+                 if row is not None and row["gloss"] else "")
+        blocks.append(f"""<section class="wp" id="{anchor(w)}">
+  <h2><span class="w">{head}</span>{gloss}
+    <a class="dwds" href="{e(dwds_link(w, row))}" target="_blank"
+       rel="noopener">DWDS-Wortprofil ↗</a></h2>
+  {found}
+</section>""")
+
     body = f"""<header class="topbar">
   <a class="home" href="index.html">← Batch {batch:02d}</a>
-  <span class="crumb">Chunks</span>
+  <span class="crumb">Wortprofil &amp; Belege</span>
 </header>
 <main class="wrap">
-  <h1 class="pagetitle">Belegte Chunks</h1>
-  <p class="lede">Kollokationen aus dem OpenSubtitles-Korpus, gefiltert auf B1-Lemmata
-  (Freq ≥ 20, logDice ≥ 4,0). Sie sind der Rohstoff der Dialoge in {e(topic)} — was ein
-  Muttersprachler mit diesem Wort tatsächlich sagt, nicht was grammatisch ginge.</p>
-  <div class="chunklist">{"".join(blocks)}</div>
+  <h1 class="pagetitle">Wortprofil &amp; Belege</h1>
+  <p class="lede">Die tragenden Wörter aus {e(topic)}. Zu jedem Wort das
+  DWDS-Wortprofil — was ein Muttersprachler mit dem Wort tatsächlich sagt, live und
+  vollständig, statt einer Kopie davon — und darunter jeder Satz, den wir selbst damit
+  geschrieben haben, mit dem Weg zurück in seinen Dialog.</p>
+  <p class="wpcount">{len(words)} Wörter · {total} Belege aus allen Batches</p>
+  <div class="wplist">{"".join(blocks)}</div>
 </main>
 <script src="../../assets/site.js"></script>"""
-    return page(f"Chunks — Batch {batch:02d}", 2, body, cls="kartei")
+    return page(f"Wortprofil & Belege — Batch {batch:02d}", 2, body, cls="kartei")
 
 
 # ---------------------------------------------------------------- the index (Kartei)
@@ -491,6 +647,30 @@ def build(out):
 
     by_id = {r["id"]: r for r in rows}
 
+    # The chunks page quotes the whole corpus, not just its own batch, so every
+    # dialogue has to be in hand before the first one is rendered. Two flat lookups
+    # over the ledger go with it: the headword a chunks.md heading names, and who owns
+    # a surface outright (see exact_owners).
+    corpus = []
+    for b, s, p in batch_dirs():
+        tpath = os.path.join(p, "texts.md")
+        if os.path.exists(tpath):
+            corpus += [(b, s, t) for t in read_texts(tpath)]
+    # Spelling first, folded second: `Arm` and `arm` fold together, and the heading
+    # `## Arm` means the noun. Only a heading no spelling matches falls through.
+    index = {}
+    for r in rows:
+        for v in variants(r["lemma"]):
+            index.setdefault(v, r)
+    for r in rows:
+        for v in variants(r["lemma"]):
+            index.setdefault(fold(v), r)
+    owner = exact_owners(rows)
+
+    # Where a dialogue lives, by (batch, text number) — the chunks page links across
+    # batches, and the ledger's own record of a use carries no slug.
+    text_at = {(b, t["no"]): (s, t["title"]) for b, s, t in corpus}
+
     written, dirslug = {}, {}
     for batch, slug, path in batch_dirs():
         dirslug[batch] = slug
@@ -501,7 +681,7 @@ def build(out):
         texts = read_texts(tpath)
         scenes = read_scenes(os.path.join(path, "scenes.md")) \
             if os.path.exists(os.path.join(path, "scenes.md")) else []
-        chunks = read_chunks(os.path.join(path, "chunks.md")) \
+        chunks = read_chunk_words(os.path.join(path, "chunks.md")) \
             if os.path.exists(os.path.join(path, "chunks.md")) else []
         pool = list(con.execute(
             "SELECT * FROM words WHERE (kind='glue' OR (kind='target' AND batch=?))"
@@ -530,7 +710,8 @@ def build(out):
         write(out, f"batch/{slug}/index.html", render_batch(
             batch, topic, scenes, texts, covered, by_id, batch_words, bool(chunks)))
         if chunks:
-            write(out, f"batch/{slug}/chunks.html", render_chunks(batch, topic, chunks))
+            write(out, f"batch/{slug}/chunks.html",
+                  render_chunks(batch, topic, chunks, index, corpus, owner, seen, text_at))
         print(f"  batch {batch:02d} {slug}: {len(texts)} texts, "
               f"{len(scenes)} scenes, {len(chunks)} chunk words")
 

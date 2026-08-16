@@ -93,12 +93,16 @@ reviews and what `vocab.py scan` parses. The reader front-end renders it:
 
 live at **https://a-a-abramov.github.io/german/**. It is a pure function of
 `curriculum/vocab.db` and `content/batches/` — nothing is authored in it, `site/` is
-git-ignored, and only the `gh-pages` branch carries HTML. Two surfaces:
+git-ignored, and only the `gh-pages` branch carries HTML. Three surfaces:
 
 - **the index** — the 23 topics in cram order with their real state, and every word in
   the ledger, searchable, each linking to the text that taught it
 - **the reader** — one dialogue per page, big serif, the scene's owned words in the
-  margin, a gloss on every target word, and the batch's chunk tables one click away
+  margin, a gloss on every target word
+- **Wortprofil & Belege** — one page per batch, one block per load-bearing word: a link
+  to that word's live DWDS-Wortprofil, and under it every sentence in *our* dialogues
+  that uses the word, each a click from the dialogue it comes from. The collocation
+  tables themselves are no longer reprinted — DWDS serves a better, live copy at `/wp`
 
 Which target words a dialogue realises is not recomputed here: `site.py` imports
 `vocab.py`'s matcher (`variants` / `csv_forms` / `phrase_matches`), so the site and
