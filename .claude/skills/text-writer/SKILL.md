@@ -16,23 +16,87 @@ They are two stages of one memory: the cards are cut **from** the finalized text
 reviewing a card replays the exact scene the user built by hand. Never card a text that
 doesn't exist yet.
 
-## The one failure mode to avoid
+## The two failure modes to avoid
 
-A previous pass produced texts that read like vocabulary lists with quotation marks. The
-cause was mechanical: it sorted the batch's words, cut the sorted list into chunks of
-thirteen, and wrote one "scene" per chunk. Words that share a first letter share nothing
-else, so every dialogue was a forced march through unrelated nouns.
+Both produce the same symptom — texts that read like vocabulary lists with quotation
+marks — and both are introduced in Step 1, where no amount of careful writing can undo
+them. Check for both before you write a line.
+
+### 1. Letting the list's order become the scenes' structure
+
+A previous pass sorted the batch's words, cut the sorted list into chunks of thirteen, and
+wrote one "scene" per chunk. Words that share a first letter share nothing else, so every
+dialogue was a forced march through unrelated nouns.
 
 **Never let the word list's order become the scenes' structure.** Not alphabetical, not
 frequency order (`vocab.py words` prints commonest-first — reading it top-to-bottom and
 chunking is the same mistake with a different sort key), not database order. Read the
-whole list, then group by **meaning**: what situations do these words actually live in?
+whole list, then group by **situation**: what places and moments do these words live in?
 Each scene mixes frequency bands — the common words earn prominent positions, the rare
 ones ride along in a subordinate clause.
 
-**A natural dialogue beats a complete one.** 90–95% coverage with texts that sound like
-two people talking is a better outcome than 100% with texts that sound like an inventory.
-Words that resist a natural home get `skip`ped with a reason and are picked up later.
+### 2. Stacking synonyms into one scene
+
+Grouping "by meaning" collapses very easily into grouping by **synonymy**, which is the
+opposite of grouping by situation. Batches 1 and 2 were built that way and every one of
+their eleven synonym sets landed in a single dialogue: `Flur`+`Korridor`, `Dose`+`Büchse`,
+`Sofa`+`Couch`, `Klinik`+`Krankenhaus`, `putzen`+`reinigen`, `Kuli`+`Kugelschreiber`,
+`Heim`+`Zuhause`, `Stock`+`Stockwerk`+`Etage`, and so on. The result is a sentence no
+German has ever said: *"trag den Rest durch den Flur ins Zimmer — der Korridor ist breit
+genug."*
+
+Real speakers prime lexically: you pick a word for a thing and reuse it for the rest of
+the conversation. Two synonyms in one exchange happens only when a speaker is **correcting
+or being ironic**. Everywhere else it reads as a thesaurus.
+
+> **The rule: two synonyms may both live in a batch, never in the same dialogue.**
+> Distribute them across distant texts — a speaker who says *Flur* in Text 2 and
+> *Korridor* in Text 7 is fine, those are different conversations. Never `skip` one of a
+> pair to solve this; they are all on the Goethe list, and moving costs no coverage.
+
+Two things this rule does **not** cover:
+
+- **Derivational families** — `krank`/`die Krankheit`, `der Mut`/`mutig`,
+  `der Hunger`/`hungrig`. A noun and its adjective in one conversation is ordinary German
+  (*"Ich bin krank." / "Was für eine Krankheit?"*). Leave them together.
+- **Superordinate + specific** — *"Hast du einen Stift?" / "Nimm den Kugelschreiber."*
+  That is a general request answered with a specific object, not two names for one thing.
+
+But watch for **self-glossing**, where a speaker defines their own word mid-turn: *"Ich bin
+süchtig nach Süßem, das ist eine richtige Sucht."* Cut the gloss clause and move the
+second word to another text.
+
+Check it twice. **At Step 1**, against the scene plan — this is the cheap moment, before
+any text exists:
+
+```bash
+python3 - <<'EOF'
+import re
+SETS = [("der Flur","der Korridor"), ("die Dose","die Büchse")]   # every set in the batch
+owner={}; scene=None
+for ln in open('content/batches/NN-<slug>/scenes.md'):
+    m=re.match(r'### Scene (\d+)', ln)
+    if m: scene=int(m.group(1))
+    m=re.match(r'- \*\*Words \(\d+\):\*\* (.*)', ln)
+    if m:
+        for w in m.group(1).split(', '): owner[w.strip()]=scene
+for a,b in SETS:
+    sa,sb=owner.get(a),owner.get(b)
+    print(("STACKED " if sa==sb is not None else "split   ")+f"{a} [S{sa}] | {b} [S{sb}]")
+EOF
+```
+
+**At Stage 3**, against the ledger, which records where the words actually landed — swap
+the lookup for `select u.batch,u.text_no from uses u join words w on w.id=u.word_id where
+w.lemma=?` and compare text numbers instead of scene numbers.
+
+### And: a natural dialogue beats a complete one
+
+90–95% coverage with texts that sound like two people talking is a better outcome than
+100% with texts that sound like an inventory. Words that resist a natural home get
+`skip`ped with a reason and are picked up later. Note that 100% is not itself the problem
+— redistributing words across texts reaches it without contortion. Chasing the last few
+words *inside one scene* is.
 
 ## What makes a text work
 
@@ -40,6 +104,11 @@ Words that resist a natural home get `skip`ped with a reason and are picked up l
   monologue with quotes in it. Spoken exchange is the register the user needs, and it is
   the only place the function words (`wieso`, `doch`, `na klar`, `eben`) sound right.
 - **Concrete and imaginable** — a specific situation you could film.
+- **Every speaker recoverable from the first turn or two.** The `A:`/`B:`/`C:` labels are
+  scaffolding the card checker keys on — they can never become names, so the *dialogue*
+  has to say who is talking, via direct address, Sie/du, or role (*"Tobi, trag den Rest
+  …"*, *"Machen Sie das Hemd auf, Herr Bruckner"*). A turn that could belong to nobody in
+  the cast is a bug: check each speaker against the cast list in `scenes.md`.
 - **Emotionally hooked / funny** — mild comedy and absurdity stick. In service of memory,
   never at the cost of being comprehensible or correct.
 - **Short enough to memorize verbatim** — 4–8 turns.
@@ -100,6 +169,8 @@ it will carry. Rules:
 - Group by **situation**, not by list position. A kitchen scene pulls `der Herd`,
   `der Topf`, `abwaschen`, `das Geschirr` from wherever they sit in the list.
 - 10–18 words per scene is comfortable. Some scenes carry fewer; that's fine.
+- **Before you finish the plan, list the batch's synonym sets and check that no scene
+  holds two members of one set.** This is much cheaper here than after the texts exist.
 - A word may appear in several scenes — coverage counts the first natural use.
 - Leftovers are expected. Park them in a "still homeless" list; Stage 2 finds homes for
   most, Stage 3 skips the rest.
@@ -154,10 +225,34 @@ python3 tools/vocab.py scan content/batches/NN-<slug>/texts.md --batch N -v
 
 **Stage 2 — Review and enrichment.** Re-read every dialogue as a native speaker would.
 First fix what sounds off: stilted word order, a turn nobody would ever say, comedy that
-doesn't land, a speaker explaining things to someone who'd already know them. Only then
-take the `missing` list from the scan and ask, word by word: *is there a line this word
-would genuinely belong in?* If yes, rewrite the turn around it — don't bolt it on. If no,
-leave it for Stage 3. Enrichment that damages naturalness is a regression, not progress.
+doesn't land, a speaker explaining things to someone who'd already know them.
+
+These five tells are what a coverage-driven draft actually produces. Hunt them by name:
+
+1. **Synonym stacking** — see the failure modes above. Run the check script.
+2. **Three-item lists with a particle in the third slot** — *"Meine Nase läuft, der Kopf
+   ist schwer, und müde bin ich **sowieso**."* One or two per batch is real speech; one
+   per text is the batch's signature. The `außerdem`/`sowieso` is carrying the word list,
+   not the speaker.
+3. **Bolt-on final turns** — a closing utterance that dumps two unrelated objects
+   (*"Zieh dich um, an deiner Hose ist Waschmittel. Und häng den Schirm an die Garderobe."*).
+   Tie the object to what the scene is already about, or move it.
+4. **Recap turns** — *"Also zwei Zimmer, vierter Stock, kein Aufzug."* Nobody summarizes
+   back what they were just told. This is a drill, not a turn.
+5. **Register slips** — written or bureaucratic vocabulary in casual speech: `reinigen`
+   for `putzen`, `der Zugang`, `das Lager` in a private flat, *"trotz aller Regeln"*. When
+   in doubt, check which verb the corpus actually uses (`Fenster putzen` has 368 hits;
+   `reinigen` does not appear in *Fenster*'s top 18 at all). A target word in the wrong
+   register usually just needs a different scene, not deletion.
+
+Only then take the `missing` list from the scan and ask, word by word: *is there a line
+this word would genuinely belong in?* If yes, rewrite the turn around it — don't bolt it
+on. If no, leave it for Stage 3. Enrichment that damages naturalness is a regression, not
+progress.
+
+**Deliver the angle, not just the words.** Each scene in `scenes.md` has a comedic angle.
+Re-read it against the finished text: if the angle isn't on the page, the text is carried
+by vocabulary alone and will read flat. Restoring a designed joke costs no coverage.
 
 **Stage 3 — Final pass.** Read every dialogue aloud, start to finish. Cut anything that
 still reads like a list. Check the mechanics: genders and verb forms against the CSV,
@@ -276,8 +371,11 @@ off.
 ## Definition of done
 
 - [ ] `scenes.md`: 8–14 scenes grouped by situation, each with premise + angle + words.
+- [ ] No scene holds two members of one synonym set (check script in the failure modes).
 - [ ] `chunks.md`: harvested at `--min-freq 20 --min-dice 4 --top 15`.
 - [ ] `texts.md`: one dialogue per scene, all three stages done, natural, user-approved.
+- [ ] Every speaker recoverable from the dialogue; every scene's angle actually on the page.
+- [ ] No verbatim 4-word span repeated across two texts (n-gram scan over `texts.md`).
 - [ ] `vocab.py scan --apply` run on the final text; leftovers `skip`ped with a reason;
       batch coverage ≥ 90%.
 - [ ] `anki-cloze.txt` + `anki-basic.txt` cut verbatim from the final texts;
