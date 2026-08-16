@@ -197,10 +197,15 @@ not per batch: `vocab.py glue --open` lists what no finished text has used yet.
 Run `python3 tools/vocab.py status` for the live picture — it is the counter; don't mirror
 its numbers here.
 
-- **`content/batches/01-in-der-wohnung/`** — Stage A, topic 1. Rewritten with the scene-design +
-  three-stage method: `scenes.md` groups the 142 words into 11 situations, `texts.md` has
-  one dialogue each (142/142 covered, 154 glue words). **Awaiting the cram + review pass**;
-  Anki cards are held until then, so `anki-*.txt` don't exist yet.
-- **`content/batches/02-koerper-gesundheit/`** — chunks harvested, nothing written.
-- **Next:** write batch 02 with the `text-writer` skill, or finish batch 01 by generating
-  its cards.
+Three batches are written; none is carded yet. All three follow the scene-design +
+three-stage method — `scenes.md` groups the words into situations, `texts.md` has one
+dialogue per scene — and all three are **awaiting the cram + review pass**, so no
+`anki-*.txt` exists anywhere yet.
+
+- **`content/batches/01-in-der-wohnung/`** — Stage A, topic 1. 11 scenes, 11 dialogues.
+- **`content/batches/02-koerper-gesundheit/`** — Stage A, topic 2. 12 scenes, 12 dialogues;
+  3 words skipped.
+- **`content/batches/03-essen-kochen-restaurant/`** — Stage A, topic 3. 12 scenes, 12
+  dialogues, nothing skipped.
+- **Next:** write batch 04 (Tiere, 8 words) with the `text-writer` skill, or close out any
+  of batches 01–03 by cramming them and generating their cards.
