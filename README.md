@@ -201,9 +201,9 @@ not per batch: `vocab.py glue --open` lists what no finished text has used yet.
 Run `python3 tools/vocab.py status` for the live picture — it is the counter; don't mirror
 its numbers here.
 
-Four batches are written; none is carded yet. All four follow the scene-design +
+Five batches are written; none is carded yet. All five follow the scene-design +
 three-stage method — `scenes.md` groups the words into situations, `texts.md` has one
-dialogue per scene — and all four are **awaiting the cram + review pass**, so no
+dialogue per scene — and all five are **awaiting the cram + review pass**, so no
 `anki-*.txt` exists anywhere yet.
 
 - **`content/batches/01-in-der-wohnung/`** — Stage A, topic 1. 11 scenes, 11 dialogues.
@@ -219,5 +219,14 @@ dialogue per scene — and all four are **awaiting the cram + review pass**, so 
   `der Tierpark` is the one word in the corpus so far with **no Wortprofil at all**
   (`chunks.md` records the full ladder walk that found nothing). Its real yield is the glue
   pool, which four dialogues moved 263 → 277 of 326.
-- **Next:** write batch 05 (Kleidung & Aussehen, 43 words) with the `text-writer` skill, or
-  close out any of batches 01–04 by cramming them and generating their cards.
+- **`content/batches/05-kleidung-aussehen/`** — Stage A, topic 5. 7 scenes, 7 dialogues,
+  nothing skipped. Scened at 7 rather than the usual 12 because 43 words across twelve
+  dialogues would be three target words per text. Two words are **not** the word the topic
+  makes you expect, and `scenes.md` argues both from the CSV: `das Modell` is a product
+  model (*"Dieses Modell gefällt mir nicht"*, of a car), never a person on a catwalk, and
+  `das Kostüm` is a costume for a party, not a woman's suit. The batch's real design
+  problem was its five evaluative adjectives (`schön`, `hässlich`, `elegant`, `schick`,
+  `modern`), which are distributed one per scene so no garment is ever praised twice over.
+  Its glue yield is the largest so far: **277 → 309 of 326 (85% → 95%)** on seven dialogues.
+- **Next:** write batch 06 (Farben, Formen & Material, 41 words) with the `text-writer`
+  skill, or close out any of batches 01–05 by cramming them and generating their cards.
