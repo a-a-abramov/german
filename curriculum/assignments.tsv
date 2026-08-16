@@ -421,14 +421,14 @@ trinken	target	3	Essen, Kochen & Restaurant
 vegetarisch	target	3	Essen, Kochen & Restaurant
 verpflegen	target	3	Essen, Kochen & Restaurant
 zubereiten	target	3	Essen, Kochen & Restaurant
-das Haustier	target	4	Tiere
-das Tier	target	4	Tiere
-der Bauer	target	4	Tiere
-der Bauernhof	target	4	Tiere
-der Tierpark	target	4	Tiere
-die Schlange	target	4	Tiere
-fressen	target	4	Tiere
-füttern	target	4	Tiere
+das Haustier	target	4	Tiere	pet
+das Tier	target	4	Tiere	animal
+der Bauer	target	4	Tiere	farmer (weak: beim Bauern)
+der Bauernhof	target	4	Tiere	farm
+der Tierpark	target	4	Tiere	zoo, animal park
+die Schlange	target	4	Tiere	queue, line (also: snake)
+fressen	target	4	Tiere	to eat (of an animal)
+füttern	target	4	Tiere	to feed (an animal or a baby)
 (sich) anziehen	target	5	Kleidung & Aussehen
 anhaben	target	5	Kleidung & Aussehen
 aussehen	target	5	Kleidung & Aussehen
