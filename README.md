@@ -201,9 +201,9 @@ not per batch: `vocab.py glue --open` lists what no finished text has used yet.
 Run `python3 tools/vocab.py status` for the live picture — it is the counter; don't mirror
 its numbers here.
 
-Five batches are written; none is carded yet. All five follow the scene-design +
+Six batches are written; none is carded yet. All six follow the scene-design +
 three-stage method — `scenes.md` groups the words into situations, `texts.md` has one
-dialogue per scene — and all five are **awaiting the cram + review pass**, so no
+dialogue per scene — and all six are **awaiting the cram + review pass**, so no
 `anki-*.txt` exists anywhere yet.
 
 - **`content/batches/01-in-der-wohnung/`** — Stage A, topic 1. 11 scenes, 11 dialogues.
@@ -228,5 +228,19 @@ dialogue per scene — and all five are **awaiting the cram + review pass**, so 
   problem was its five evaluative adjectives (`schön`, `hässlich`, `elegant`, `schick`,
   `modern`), which are distributed one per scene so no garment is ever praised twice over.
   Its glue yield is the largest so far: **277 → 309 of 326 (85% → 95%)** on seven dialogues.
-- **Next:** write batch 06 (Farben, Formen & Material, 41 words) with the `text-writer`
-  skill, or close out any of batches 01–05 by cramming them and generating their cards.
+- **`content/batches/06-farben-formen-material/`** — Stage A, topic 6. 7 scenes, 7
+  dialogues, nothing skipped. Scened at 7 for the same reason as batch 05 (41 words over
+  twelve dialogues would be three targets per text), but the design problem is the
+  opposite one: **24 of the 41 words are adjectives**, and five of them are one half of an
+  antonym pair. Where batch 05 had to pull its five evaluative adjectives *apart*, this
+  batch deliberately keeps `hart`/`weich`, `hell`/`dunkel`, `laut`/`leise`,
+  `breit`/`schmal` and `senkrecht`/`waagerecht` *together*, one pair per scene — the
+  contrast is what makes a speaker say either word at all. Three words are taught in the
+  Goethe list's sense rather than the corpus's: `der Bogen` is a sheet of paper (not the
+  one you shoot with), `der Kreis` a drawn circle (not a district or a circle of friends),
+  `das Kreuz` a mark in a box (not the religious one) — and the word *Formular* is banned
+  batch-wide because the scanner would read `Form` inside it. Glue yield **309 → 322 of
+  326 (95% → 99%)**, leaving four words open, one of which is the CSV typo entry
+  `irgendirgendein`.
+- **Next:** write batch 07 (Familie & Beziehungen, 104 words) with the `text-writer`
+  skill, or close out any of batches 01–06 by cramming them and generating their cards.
