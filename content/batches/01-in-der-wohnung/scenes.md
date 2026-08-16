@@ -6,7 +6,7 @@ could actually be standing in, and the words were pulled to it from wherever the
 the list.
 
 Recurring cast, so the batch reads as one flat and one week:
-**Nadja** (moves in), **Herr Bruckner** (the caretaker/Hausmeister),
+**Julia** (moves in), **Herr Bruckner** (the caretaker/Hausmeister),
 **Tobi** (friend who helps and eats), **Frau Wolf** (the neighbour from next door).
 
 **Standard German only.** The Goethe list's Austrian and Swiss doublets (Stiege,
@@ -16,7 +16,7 @@ five they replace (Treppe, Treppenhaus, Ecke, Sessel, Hausmeister) carry those m
 ---
 
 ### Scene 1 — Die Wohnungsbesichtigung
-- **Premise:** Nadja views an empty flat; the caretaker walks her through it, selling the central location and quietly downplaying the broken lift.
+- **Premise:** Julia views an empty flat; the caretaker walks her through it, selling the central location and quietly downplaying the broken lift.
 - **Angle:** He calls the fourth floor "sportlich" and the lift "gerade in Reparatur" — for two years.
 - **Words (11):** die Wohnung, wohnen, zentral, das Zentrum, der Raum, das Zimmer, der Stock, der Aufzug, der Hausmeister / die Hausmeisterin, möbliert, die Einrichtung
 
@@ -26,7 +26,7 @@ five they replace (Treppe, Treppenhaus, Ecke, Sessel, Hausmeister) carry those m
 - **Words (12):** der Umzug, umziehen, packen, die Schachtel, das Tor, der Eingang, die Treppe, das Treppenhaus, der Flur, die Halle, die Etage, der Kuli
 
 ### Scene 3 — Ausgesperrt
-- **Premise:** Nadja is locked out on the first evening; Tobi is on the phone; the plan involves the neighbour's balcony.
+- **Premise:** Julia is locked out on the first evening; Tobi is on the phone; the plan involves the neighbour's balcony.
 - **Angle:** The note she leaves for the caretaker gets longer than the problem, and the spare key was in her pocket.
 - **Words (12):** der Schlüssel, das Schloss, die Tür, öffnen, das Schild, der Balkon, der Zettel, der Stift, der Kugelschreiber, das Blatt, das Papier, das Stockwerk
 
@@ -57,11 +57,11 @@ five they replace (Treppe, Treppenhaus, Ecke, Sessel, Hausmeister) carry those m
 
 ### Scene 9 — Waschtag
 - **Premise:** Laundry day in the shared basement machine, plus the pile of things that need mending or the dry cleaner.
-- **Angle:** He can sew exactly one thing. Nadja's childhood doll goes through the machine once a year on purpose and survives every time.
+- **Angle:** He can sew exactly one thing. Julia's childhood doll goes through the machine once a year on purpose and survives every time.
 - **Words (13):** die Wäsche, das Waschmittel, die Reinigung, reinigen, die Socke, die Nadel, nähen, die Schere, die Garderobe, sich umziehen, der Schirm, die Puppe, das Wasser
 
 ### Scene 10 — Die kalte Wohnung
-- **Premise:** The heating dies in November. Nadja and Tobi want a bath; Bruckner is already in it, "testing whether the hot water still works".
+- **Premise:** The heating dies in November. Julia and Tobi want a bath; Bruckner is already in it, "testing whether the hot water still works".
 - **Angle:** The one man who could fix the heating is the reason nobody can get warm.
 - **Words (13):** das Bad, die Badewanne, baden, besetzen, die Heizung, heizen, die Zahnbürste, das Bett, der Schlaf, schlafen, die Decke, die Couch, das Heim
 

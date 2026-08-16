@@ -1,7 +1,7 @@
 # Batch 3 — Essen, Kochen & Restaurant · Cramming-Dialoge
 
 Zwölf Dialoge, einer pro Szene aus `scenes.md`. Deutsch only. Es ist dasselbe Haus wie in
-Batch 1 und 2, jetzt Spätwinter bis Frühling: **Nadja** im vierten Stock, **Tobi**, der
+Batch 1 und 2, jetzt Spätwinter bis Frühling: **Julia** im vierten Stock, **Tobi**, der
 alles isst, **Frau Wolf** von nebenan, **Herr Bruckner**, dem endlich die Schulter operiert
 wurde. Neu: **Frau Aydin** (Bäckerin), **Herr Pohl** (Metzger), **Jule** (Tobis Schwester,
 sie studiert) und ein **Ober**, der nie einen Namen bekommt.
@@ -125,7 +125,7 @@ A: Herr Bruckner, Sie haben ja noch gar nichts gegessen.
 
 B: Frau Wolf, das ist mein drittes Mal. Ich bin satt.
 
-A: Satt sagt man, solange noch Klöße da sind. Nadja, Sie ebenfalls — Kartoffeln oder Klöße?
+A: Satt sagt man, solange noch Klöße da sind. Julia, Sie ebenfalls — Kartoffeln oder Klöße?
 
 C: Klöße, bitte. Ein Stück.
 
@@ -165,7 +165,7 @@ C: Das ist relativ vernünftig. Es ist nämlich das Einzige, was übrig ist.
 
 ## Text 8 — Im Café gegenüber
 
-A: Kommen Sie, Nadja, wir gehen ins Café gegenüber. Da ist es netter als hier auf der Treppe.
+A: Kommen Sie, Julia, wir gehen ins Café gegenüber. Da ist es netter als hier auf der Treppe.
 
 B: Und was trinken Sie da?
 
@@ -257,7 +257,7 @@ B: Herr Bruckner, was steht denn da vor Ihnen?
 
 A: Suppe. Das Krankenhaus verpflegt vierhundert Patienten am Tag, da kann es nicht drei Sorten geben.
 
-B: Das ist keine Mahlzeit, das ist warmes Wasser. Nadja, halten Sie mal meine Tasche.
+B: Das ist keine Mahlzeit, das ist warmes Wasser. Julia, halten Sie mal meine Tasche.
 
 C: Frau Wolf, was haben Sie da alles eingepackt? Ich hatte im Speisewagen vorhin nur einen Kaffee, und der war teurer als die Fahrkarte.
 

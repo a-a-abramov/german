@@ -8,7 +8,7 @@ because it is next on an anatomical tour. The examination scene is capped at fou
 parts for the same reason.
 
 Cast carried over from Batch 1, so the two batches read as one flat and one autumn:
-**Nadja** (the new tenant), **Tobi** (the friend who helps and eats), **Frau Wolf** (the
+**Julia** (the new tenant), **Tobi** (the friend who helps and eats), **Frau Wolf** (the
 neighbour from next door), **Herr Bruckner** (the caretaker). New this batch:
 **Dr. Sänger** (the GP), **Herr Kern** (the pharmacist), **Frau Roth** (the dentist),
 **Meike** (the nurse on Bruckner's ward).
@@ -21,13 +21,13 @@ boxes up four floors of a house whose lift has been broken for two years.
 ---
 
 ### Scene 1 — Montagmorgen, achtunddreißig Grad
-- **Premise:** Nadja wakes up ill and phones Tobi, who diagnoses her over the phone with great confidence and no medical training.
+- **Premise:** Julia wakes up ill and phones Tobi, who diagnoses her over the phone with great confidence and no medical training.
 - **Angle:** He upgrades her from a cold to flu to something fatal in four turns, then offers to bring soup he has not made.
 - **Words (16):** krank, die Krankheit, die Erkältung, erkältet, sich erkälten, die Grippe, der Husten, husten, das Fieber, die Temperatur, schwitzen, der Hals, die Nase, müde, die Besserung, der Kopf
 
 ### Scene 2 — Anmeldung in der Praxis
-- **Premise:** The reception desk. Nadja has no appointment, the wrong insurance card, and forty minutes of waiting ahead of her.
-- **Angle:** The receptionist is unbeatable at the counter and completely kind about it; Nadja thanks her for the trouble anyway.
+- **Premise:** The reception desk. Julia has no appointment, the wrong insurance card, and forty minutes of waiting ahead of her.
+- **Angle:** The receptionist is unbeatable at the counter and completely kind about it; Julia thanks her for the trouble anyway.
 - **Words (9):** die Praxis, die Sprechstunde, die Krankenkasse, der Patient / die Patientin, die Krankenschwester, der Kranke / die Kranke, der Arzt / die Ärztin, die Mühe, die Untersuchung
 - **Glue:** *Seit wann?*, *woher*, *falls*, *sobald*
 
@@ -38,7 +38,7 @@ boxes up four floors of a house whose lift has been broken for two years.
 - **Note:** four body parts only (Brust, Herz, Rücken, Schulter); *das Ohr* appears because he mishears, not as anatomy.
 
 ### Scene 4 — In der Apotheke
-- **Premise:** Herr Kern hands over three things, two of which Nadja did not ask for, and explains which one must never be swallowed.
+- **Premise:** Herr Kern hands over three things, two of which Julia did not ask for, and explains which one must never be swallowed.
 - **Angle:** The ointment is *nur äußerlich* — he says it three times because everybody gets it wrong once.
 - **Words (11):** die Apotheke, das Medikament, die Tablette, die Salbe, äußerlich, mild, das Schmerzmittel, verschreiben, der Schnupfen, das Vitamin, das Pflaster
 
@@ -48,12 +48,12 @@ boxes up four floors of a house whose lift has been broken for two years.
 - **Words (11):** der Zahn, der Mund, die Lippe, die Zange, die Spritze, der Schmerz, beißen, bluten, mutig, der Mut, stechen
 
 ### Scene 6 — Der Sturz im Treppenhaus
-- **Premise:** Bruckner goes down the last four stairs with a box. Nadja finds him; Frau Wolf has already called the ambulance and given them the wrong house number.
+- **Premise:** Bruckner goes down the last four stairs with a box. Julia finds him; Frau Wolf has already called the ambulance and given them the wrong house number.
 - **Angle:** Bruckner insists he is fine while bleeding onto the stairs he himself cleaned this morning.
 - **Words (16):** (sich) verletzen, die Verletzung, die Wunde, bluten, der Knochen, das Knie, das Bein, der Fuß, der Arm, der Finger, die Hand, erschrecken, der Krankenwagen, die Notaufnahme, die Infektion, die Klinik
 
 ### Scene 7 — Besuch auf Station drei
-- **Premise:** Nadja and Tobi visit Bruckner after the operation. Meike the nurse runs the room; Bruckner runs nothing for the first time in twenty years.
+- **Premise:** Julia and Tobi visit Bruckner after the operation. Meike the nurse runs the room; Bruckner runs nothing for the first time in twenty years.
 - **Angle:** He has already worked out what is broken on the ward and wants tools.
 - **Words (11):** das Krankenhaus, die Operation, operieren, der Pfleger / die Pflegerin, pflegen, die Therapie, leiden, spüren, das Gefühl, die Besserung, sich erholen
 - **Note:** *pflegen* is used here in the ward sense; Scene 12 uses it again of Frau Wolf's husband. Card it from this scene.
@@ -71,17 +71,17 @@ boxes up four floors of a house whose lift has been broken for two years.
 
 ### Scene 10 — Das Bad, Viertel nach sieben
 - **Premise:** One bathroom, two people, one of whom is shaving off a beard he has had for four years.
-- **Angle:** Nadja doesn't recognise the face that comes out, and says so.
+- **Angle:** Julia doesn't recognise the face that comes out, and says so.
 - **Words (10):** die Dusche, (sich) duschen, (sich) rasieren, der Bart, die Seife, die Zahncreme/-pasta, das Gesicht, das Haar, der Kopf, der Blick
 
 ### Scene 11 — Zehn Minuten vor dem Vorstellungsgespräch
-- **Premise:** Nadja in a stairwell before a job interview, hands shaking. Tobi talks her down badly.
+- **Premise:** Julia in a stairwell before a job interview, hands shaking. Tobi talks her down badly.
 - **Angle:** "Sei einfach du selbst" is the least calming sentence in the language, and he says it twice.
 - **Words (11):** der Nerv, nervös, der Mut, mutig, das Gefühl, spüren, die Träne, der Blick, die Hand, das Auge, das Herz
 - **Note:** *das Herz* first occurs medically in Scene 3; card it from Scene 3. *das Gefühl*, *spüren* first occur in Scene 7; card those from Scene 7. *mutig*, *der Mut* are Scene 5's; card them there.
 
 ### Scene 12 — Frau Wolf über ihren Mann
-- **Premise:** Late evening on the landing. Frau Wolf tells Nadja, plainly and without drama, about the years she nursed her husband.
+- **Premise:** Late evening on the landing. Frau Wolf tells Julia, plainly and without drama, about the years she nursed her husband.
 - **Angle:** No comedy here. It is the one quiet text in the batch, and it is short.
 - **Words (7):** der Tod, tot, sterben, leiden, vermissen, pflegen, der Krankenpfleger
 
@@ -98,7 +98,7 @@ not the scene above — one answer, no ambiguity.
 | der Kopf | 10 | **Text 1** (heavy head, day one of the flu) |
 | müde, schwitzen | 8 | **Text 1** |
 | die Besserung | 7 | **Text 1** ("Gute Besserung") |
-| die Untersuchung | 3 | **Text 2** (Nadja at the desk) |
+| die Untersuchung | 3 | **Text 2** (Julia at the desk) |
 | der Arm | 6 | **Text 3** (Bruckner rolls up his sleeve) |
 | das Herz | 11 | **Text 3** (the doctor listens to it) |
 | die Lippe | 5 | **Text 4** (the ointment is for the lips) |
@@ -110,7 +110,7 @@ not the scene above — one answer, no ambiguity.
 | die Hand | 11 | **Text 6** (helping Bruckner up) |
 | erschrecken | 6 | **Text 6** — scanner misses the strong form *erschrocken*; set by hand |
 | das Gefühl, spüren | 11 | **Text 7** (the leg after the operation) |
-| der Blick | 11 | **Text 10** (Nadja's face at the beard) |
+| der Blick | 11 | **Text 10** (Julia's face at the beard) |
 | abnehmen | 9 | **Text 9** (half a kilo) — Text 3's *Blut abnehmen* is the earlier hit but the wrong sense |
 | pflegen, leiden | 12 | **Text 7** (the ward) |
 

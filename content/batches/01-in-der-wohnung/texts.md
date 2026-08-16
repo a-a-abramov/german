@@ -1,7 +1,7 @@
 # Batch 1 — In der Wohnung & Zuhause · Cramming-Dialoge
 
 Elf Dialoge, einer pro Szene aus `scenes.md`. Deutsch only. Die Szenen spielen alle in
-einem Haus und in einer Woche: **Nadja** zieht ein, **Herr Bruckner** ist der Hausmeister,
+einem Haus und in einer Woche: **Julia** zieht ein, **Herr Bruckner** ist der Hausmeister,
 **Tobi** hilft und isst, **Frau Wolf** ist die Nachbarin von nebenan. Standarddeutsch —
 keine österreichischen oder Schweizer Varianten.
 
@@ -16,7 +16,7 @@ mehrmals abschreiben.
 
 ## Text 1 — Die Wohnungsbesichtigung
 
-A: Guten Tag, ich bin Nadja. Ich komme wegen der Wohnung.
+A: Guten Tag, ich bin Julia. Ich komme wegen der Wohnung.
 
 B: Bruckner, ich bin hier der Hausmeister. Ich mache das Haus seit zwanzig Jahren. Vierter Stock, kommen Sie.
 

@@ -1,7 +1,7 @@
 # Batch 2 — Körper & Gesundheit · Cramming-Dialoge
 
 Zwölf Dialoge, einer pro Szene aus `scenes.md`. Deutsch only. Es ist derselbe Hausflur wie
-in Batch 1, ein paar Wochen später: **Nadja** wohnt jetzt im vierten Stock, **Tobi** ist
+in Batch 1, ein paar Wochen später: **Julia** wohnt jetzt im vierten Stock, **Tobi** ist
 weiter da, **Frau Wolf** wohnt nebenan, **Herr Bruckner** ist der Hausmeister — und der
 Aufzug ist immer noch kaputt. Neu: **Dr. Sänger** (Hausärztin), **Herr Kern** (Apotheker),
 **Frau Roth** (Zahnärztin), **Meike** (Pflegerin auf Station drei).
@@ -124,7 +124,7 @@ C: Dann fahren sie eben zweimal. — Herr Bruckner, Sie kommen mit dem linken Be
 
 B: Alles wegen einer kleinen Wunde. Dann ist eben ein Knochen kaputt, der wächst wieder zusammen.
 
-C: Die Wunde wird trotzdem sauber gemacht, sonst haben Sie in drei Tagen eine Infektion. Das habe ich oft genug erlebt. Fassen Sie mit an, Nadja, wir heben ihn hoch.
+C: Die Wunde wird trotzdem sauber gemacht, sonst haben Sie in drei Tagen eine Infektion. Das habe ich oft genug erlebt. Fassen Sie mit an, Julia, wir heben ihn hoch.
 
 ## Text 7 — Besuch auf Station drei
 
@@ -164,7 +164,7 @@ B: Das hast du bei der ersten Bank auch gesagt. Ich bin müde, ich bin durstig, 
 
 ## Text 9 — Frau Wolfs neue Diät
 
-A: Nadja! Kommen Sie rein, ich habe Kuchen.
+A: Julia! Kommen Sie rein, ich habe Kuchen.
 
 B: Ich dachte, Sie machen seit Montag eine Diät.
 
