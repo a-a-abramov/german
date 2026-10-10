@@ -201,9 +201,9 @@ not per batch: `vocab.py glue --open` lists what no finished text has used yet.
 Run `python3 tools/vocab.py status` for the live picture — it is the counter; don't mirror
 its numbers here.
 
-Nineteen batches are written; none is carded yet. All nineteen follow the scene-design +
+Twenty batches are written; none is carded yet. All twenty follow the scene-design +
 three-stage method — `scenes.md` groups the words into situations, `texts.md` has one
-dialogue per scene — and all nineteen are **awaiting the cram + review pass**, so no
+dialogue per scene — and all twenty are **awaiting the cram + review pass**, so no
 `anki-*.txt` exists anywhere yet.
 
 - **`content/batches/01-in-der-wohnung/`** — Stage A, topic 1. 11 scenes, 11 dialogues.
@@ -421,5 +421,18 @@ dialogue per scene — and all nineteen are **awaiting the cram + review pass**,
   playing football in the courtyard; Aydin's rolls cost 10 cents more; the cellar door
   sticks again since the new lock (as in Batch 13). This batch also filled the English glosses for its 20
   words.
+- **`content/batches/21-menge-mass-eigenschaften/`** — Stage D, topic 21. 15 scenes, 15
+  dialogues, nothing skipped. July Y4. Almost all adjectives and quantities, so every
+  scene needs something measured, compared or judged: Neumann's Hoffest with a cake
+  contest runs through Texts 1–10 (cherries at the market, a recipe scaled up to forty,
+  Bruckner's recipe card with salt and sugar swapped, a jury that has to average out
+  Leon's ten-points-for-everyone), and Julia's 2.20 m sofa meets the 80 cm stairs. CSV
+  senses: `die Leiter` is the ladder (the ledger row carries the manager's forms — gloss
+  it "ladder — pl. die Leitern"), `echt` genuine, `knapp` narrowly, `pauschal` a flat
+  delivery rate. `gewöhnen` and `Einzel-` are recorded by hand (scanner false matches).
+  New standing facts: Bruckner won the cake contest with his mother's Marmorkuchen,
+  baked with Tobi, by Leon's one point; Frau Wolf came second with her grandmother's
+  Kirschkuchen; the sofa from Möbel Winkler went back; Bruckner wants to enlarge his
+  railway; Frau Wolf is a regular at the café gegenüber.
 - **Next:** write batch 19 (Zeit & Kalender, 136 words) with the `text-writer` skill, or
   close out any written batch by cramming it and generating its cards.
