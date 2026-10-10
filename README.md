@@ -201,9 +201,9 @@ not per batch: `vocab.py glue --open` lists what no finished text has used yet.
 Run `python3 tools/vocab.py status` for the live picture — it is the counter; don't mirror
 its numbers here.
 
-Six batches are written; none is carded yet. All six follow the scene-design +
+Seven batches are written; none is carded yet. All seven follow the scene-design +
 three-stage method — `scenes.md` groups the words into situations, `texts.md` has one
-dialogue per scene — and all six are **awaiting the cram + review pass**, so no
+dialogue per scene — and all seven are **awaiting the cram + review pass**, so no
 `anki-*.txt` exists anywhere yet.
 
 - **`content/batches/01-in-der-wohnung/`** — Stage A, topic 1. 11 scenes, 11 dialogues.
@@ -242,5 +242,19 @@ dialogue per scene — and all six are **awaiting the cram + review pass**, so n
   batch-wide because the scanner would read `Form` inside it. Glue yield **309 → 322 of
   326 (95% → 99%)**, leaving four words open, one of which is the CSV typo entry
   `irgendirgendein`.
-- **Next:** write batch 07 (Familie & Beziehungen, 104 words) with the `text-writer`
-  skill, or close out any of batches 01–06 by cramming them and generating their cards.
+- **`content/batches/07-familie-beziehungen/`** — Stage A, topic 7. 12 scenes, 12
+  dialogues, nothing skipped. The whole semantic field is a family tree, so every scene
+  has something at stake that happens to need the kinship words (a napkin diagram, a
+  seating plan, a buffet queue, an Oma counting who visits). Its `scenes.md` is the first
+  with a **continuity table** checked against Batches 1–6, and it fixed four
+  contradictions in the original plan: Kevin's November party is the postponed
+  celebration of the September Standesamt wedding from Batch 5; Bruckner lives alone (no
+  wife); he has been caretaker 21 years; the divided flat is on the third floor. New
+  standing facts for later batches: Tobi's family (the Wagners, Elke and Rolf, Kevin,
+  Sandra, Oma Erna in the Altenheim), Anna Sattler on the second floor, expecting in March,
+  the Lorenz couple living separated on the third, and **Bruckner retires at the end of
+  December** but stays in the house. Glue yield **322 → 325 of 326**; only the CSV typo
+  entry `irgendirgendein` stays open.
+- **Next:** write batch 08 (Gefahr, Notfall & Sicherheit, 38 words) with the
+  `text-writer` skill, or close out any of batches 01–07 by cramming them and generating
+  their cards.
