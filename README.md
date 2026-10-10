@@ -201,9 +201,9 @@ not per batch: `vocab.py glue --open` lists what no finished text has used yet.
 Run `python3 tools/vocab.py status` for the live picture — it is the counter; don't mirror
 its numbers here.
 
-Twenty batches are written; none is carded yet. All twenty follow the scene-design +
+Twenty-one batches are written; none is carded yet. All twenty-one follow the scene-design +
 three-stage method — `scenes.md` groups the words into situations, `texts.md` has one
-dialogue per scene — and all twenty are **awaiting the cram + review pass**, so no
+dialogue per scene — and all twenty-one are **awaiting the cram + review pass**, so no
 `anki-*.txt` exists anywhere yet.
 
 - **`content/batches/01-in-der-wohnung/`** — Stage A, topic 1. 11 scenes, 11 dialogues.
@@ -410,6 +410,19 @@ dialogue per scene — and all twenty are **awaiting the cram + review pass**, s
   Herr Simon; Jan Sattler's Muttersprache is Polnisch; Herr Lorenz is flat-hunting; Tobi's
   Muttertag parcel goes out late; Frau Wolf and Bruckner try du once her phone is repaired
   (a callback to Batch 17's birthday promise of morning calls) and go back to Sie.
+- **`content/batches/19-zeit-kalender/`** — Stage C, topic 19. 13 scenes, 13 dialogues,
+  nothing skipped. May – June Y4. The 136 words are mostly time adverbs, so every scene
+  has a time problem instead of a schedule: a doubled Saturday, a check-up missed by a man
+  who is "pünktlich" a day late, a deadline at noon, a technician who rings in the one
+  minute Julia is at the letterbox, a bank holiday that bores everyone by eleven. CSV
+  senses: `Zeichen` a signal, `fest` a fixed time, `extra` on purpose, `Dauer` as in
+  *auf Dauer*, `Doppel-` as in *Doppelzimmer*. Written-register words go to people who
+  talk like notices (Neumann; Frau Wolf with her calendar archive). Five words are logged
+  in an earlier text than their card text (`früh`, `lange`, `meist-`, `erst-`, `spät` —
+  table in `scenes.md`). New standing facts: Herr Unger runs the café gegenüber (outdoor
+  season from 1 May); Bruckner wakes at five and keeps a written Tagesablauf; Frau Wolf
+  phones him every day at nine; Anna Sattler works halbtags from June; Frau Wolf keeps
+  all her old calendars, fifty of them; Tobi owns a tent.
 - **`content/batches/20-gesellschaft-politik-wirtschaft/`** — Stage C, topic 20. 3
   scenes, 3 dialogues, nothing skipped — the smallest batch after 04 (20 words). Politics
   and economy enter the house only through everyday objects: an election poster at the
@@ -434,5 +447,5 @@ dialogue per scene — and all twenty are **awaiting the cram + review pass**, s
   baked with Tobi, by Leon's one point; Frau Wolf came second with her grandmother's
   Kirschkuchen; the sofa from Möbel Winkler went back; Bruckner wants to enlarge his
   railway; Frau Wolf is a regular at the café gegenüber.
-- **Next:** write batch 19 (Zeit & Kalender, 136 words) with the `text-writer` skill, or
+- **Next:** write batch 22 (Handlungen: Alltagsverben, 204 words) with the `text-writer` skill, or
   close out any written batch by cramming it and generating its cards.
