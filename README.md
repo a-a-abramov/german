@@ -44,8 +44,11 @@ curriculum/          ← THE PLAN AND THE BOOKKEEPING: what is to be learned, an
 ├── assignments.tsv   ← the ledger's plain-text seed (diffable; vocab.py init reads it)
 ├── topics.md         ← 23 topics in concrete→abstract cram order, plus a non-binding
 │                        bank of scene premises. No word lists — those are in the ledger.
-└── glue-pool.md      ← why 326 closed-class function words are pooled instead of scened,
-                         and how they get woven through every batch's texts.
+├── glue-pool.md      ← why 326 closed-class function words are pooled instead of scened,
+│                        and how they get woven through every batch's texts.
+└── story/            ← the shared story's facts, sourced to batch/text: bible-01-10.md and
+                         bible-11-23.md, slots.md (which batch owns which fact), and
+                         sweep-decisions.md (how the cross-batch conflicts were resolved).
 
 tools/
 ├── paths.py          ← every repo path in one place; the other tools import it
@@ -201,9 +204,9 @@ not per batch: `vocab.py glue --open` lists what no finished text has used yet.
 Run `python3 tools/vocab.py status` for the live picture — it is the counter; don't mirror
 its numbers here.
 
-Six batches are written; none is carded yet. All six follow the scene-design +
+Twenty-three batches are written; none is carded yet. All twenty-three follow the scene-design +
 three-stage method — `scenes.md` groups the words into situations, `texts.md` has one
-dialogue per scene — and all six are **awaiting the cram + review pass**, so no
+dialogue per scene — and all twenty-three are **awaiting the cram + review pass**, so no
 `anki-*.txt` exists anywhere yet.
 
 - **`content/batches/01-in-der-wohnung/`** — Stage A, topic 1. 11 scenes, 11 dialogues.
@@ -242,5 +245,239 @@ dialogue per scene — and all six are **awaiting the cram + review pass**, so n
   batch-wide because the scanner would read `Form` inside it. Glue yield **309 → 322 of
   326 (95% → 99%)**, leaving four words open, one of which is the CSV typo entry
   `irgendirgendein`.
-- **Next:** write batch 07 (Familie & Beziehungen, 104 words) with the `text-writer`
-  skill, or close out any of batches 01–06 by cramming them and generating their cards.
+- **`content/batches/07-familie-beziehungen/`** — Stage A, topic 7. 12 scenes, 12
+  dialogues, nothing skipped. The whole semantic field is a family tree, so every scene
+  has something at stake that happens to need the kinship words (a napkin diagram, a
+  seating plan, a buffet queue, an Oma counting who visits). Its `scenes.md` is the first
+  with a **continuity table** checked against Batches 1–6, and it fixed four
+  contradictions in the original plan: Kevin's November party is the postponed
+  celebration of the September Standesamt wedding from Batch 5; Bruckner lives alone (no
+  wife); he has been caretaker 21 years; the divided flat is on the third floor. New
+  standing facts for later batches: Tobi's family (the Wagners, Elke and Rolf, Kevin,
+  Sandra, Oma Erna in the Altenheim), Anna Sattler on the second floor, expecting in March,
+  the Lorenz couple living separated on the third, and **Bruckner retires at the end of
+  December** but stays in the house. Glue yield **322 → 325 of 326**; only the CSV typo
+  entry `irgendirgendein` stays open.
+- **`content/batches/08-gefahr-notfall-sicherheit/`** — Stage A, topic 8. 6 scenes, 6
+  dialogues, nothing skipped. Scened at 6 for the same reason as batches 05–06 (38 words).
+  The topic's risk is register: the corpus uses `Katastrophe`, `Gift`, `tödlich`, `Flucht`
+  and `zerstören` for thrillers. So **nothing serious happens**. Every scene is a small
+  domestic emergency that one speaker inflates and another plays down: burnt rice that
+  brings the Feuerwehr, a cat and a poisonous plant, a fall in front of a parked car, a
+  break-in that steals nothing. Sense decisions from the CSV: `Katastrophe` is the
+  everyday exaggeration, `sichern` is saving your work on a computer, `Schutz` is
+  protection against cold, and `Unglück` is a serious incident, not bad luck. Two
+  near-synonym pairs share a text on purpose, both argued in `scenes.md`:
+  *zerstört* → *beschädigt* is a correction, and *kaputtgemacht* → *kaputtgegangen* is
+  Tobi dodging the blame. The scanner cannot match `Achtung!`, `kaputtmachen` or
+  `kaputtgehen`, so those are recorded by hand. New standing facts: **Herr Neumann** is
+  the caretaker from January (Sie with everyone; signs everywhere; sand instead of salt).
+  Bruckner is retired and still lives downstairs. Julia owns a bike, and Tobi broke its light.
+  The cellar door was forced in a February break-in and **no longer sticks**. The lift is
+  still broken.
+- **`content/batches/09-natur-wetter-umwelt/`** — Stage B, topic 9. 14 scenes, 14
+  dialogues, nothing skipped. The words are seasonal, so the scenes run from March to
+  July and the weather is spread across the months. There is no forecast scene. The
+  landscape words share one scene with something at stake: the view from the top is
+  fog. The environment words come from people with selfish reasons: a school project,
+  the Hausordnung, a paint tin. Sense decisions from the CSV: `Kanal` is a TV channel,
+  `Birne` a pear, `Strom` electricity, `Energie` personal energy (*keine Energie mehr*),
+  `Rind` beef *aus der Region*. Two pairs share a text on purpose, as corrections:
+  `Rasen`/`Gras` and `Berg`/`Hügel`. `der See` and `die See` share the surface *See*, and
+  `Öko-` can never match, so both are recorded by hand. New standing facts: Bruckner lives
+  in the **Erdgeschoss**, and the Sattlers' baby was born in March. The house heats with
+  oil, and the heating is off from 1 May. The stairwell light now stays on for 30 seconds.
+  There is a pear tree in the garden, and Kessler is selling his field as building land.
+  **Julia and Tobi plan two weeks on an Ostsee island in August**, which Batch 11 can
+  pick up.
+- **`content/batches/10-unterwegs-verkehr/`** — Stage B, topic 10. 12 scenes, 12
+  dialogues; 2 words skipped (`der Lift`, `das Tram` — the CSV cross-references them to
+  *Aufzug*/*Straßenbahn*, i.e. they are the CH words). Runs 20 July – 6 August, before the
+  Ostsee trip, which is left to Batch 11. Directions are never recited: Bruckner gives them
+  without glasses and with the map upside down. CSV senses: `Gang` is a gear, `Maschine`
+  the aircraft, `Wagen` a railway carriage, `Schalter` a staffed counter, `Zone` a fare
+  zone, `Rundfahrt` a city bus tour, `Fähre` a river ferry (recorded by hand — the scanner
+  reads *Fahrer* as `Fähre`). New standing facts: Julia commutes by S-Bahn (line closed
+  until end of August); Tobi has an old small blue car; Jule passed her driving test in
+  July; Bruckner builds a model railway; Neumann rides a motorbike; there is a bus stop in
+  front of number 19; Julia's bike light, promised in March, was in Tobi's rucksack.
+- **`content/batches/11-reisen-urlaub/`** — Stage B, topic 11. 10 scenes, 10 dialogues,
+  nothing skipped. August Y3: Julia and Tobi's two weeks on the Ostsee island (Sat 8 –
+  Sat 22 Aug). Tobi booked a hotel on the mainland *mit Blick auf die Insel*; Frau Wolf
+  rescues the trip through her old landlady Frau Claasen, whose Pension by the beach
+  carries the rest of the batch — the ferry, the arrival, the guests at dinner, a rained-out
+  boat trip, and Julia phoning Frau Wolf from her late husband's bench. Sense decisions:
+  `die Pension` is the guesthouse and `in Pension sein` the retirement of a former civil
+  servant (they share one line on purpose; `pensioniert` belongs to Frau Claasen, a retired
+  teacher); `die Kabine` is a changing cubicle; `erreichen` is reaching someone by phone.
+  `Viertel`/`Vorort` stay together as a contrast. `Ferien-` (*Ferienwohnung*, Text 1) is recorded by
+  hand; the scanner does not credit compounds. New standing facts: Frau Claasen's
+  Pension at the beach, twenty minutes from the harbour; the Behrens couple (twenty summers there, live in a Vorort);
+  Tobi gets seasick; Bruckner took his first trip abroad, a five-day bus tour, while Frau
+  Wolf fed his cat.
+- **`content/batches/12-einkaufen-geld/`** — Stage B, topic 12. 15 scenes, 15 dialogues;
+  2 words skipped (`einnehmen` — the CSV sense is taking medicine; `die Vermittlung` —
+  both CSV senses are dated). September Y3, after the Ostsee trip: Tobi is short of money
+  (rent up 80 € from December, a broken washing machine, a flea market that ends with him buying a
+  stereo, a month-end spreadsheet) while the house does its own sums around him. CSV
+  senses: `Gewinn` a raffle prize, `Verlust` a lost wallet, `Anlage` a stereo, `Kasten` a
+  crate of water, `Karte` a cinema ticket. `einzahlen` and `der Markt` are recorded by hand
+  (scanner false matches). The scanner folds umlauts, so *Zahlen* also credits `zählen`;
+  Text 1 has both. New standing facts:
+  Tobi's landlord Herr Fuchs; Herr Fink's coffee roastery where the old Lokal an der Ecke
+  was; Jule's Girokonto with Frau Dietz; Kessler's Saturday market stall; Bruckner's first
+  invoice "Nummer eins"; Leon carries Frau Wolf's bags for 50 cents a floor.
+- **`content/batches/13-stadt-aemter-recht/`** — Stage B, topic 13. 14 scenes, 14
+  dialogues; `der Personenstand` skipped (the CSV's D/A form is *Familienstand*, already
+  taught in Batch 7). October Y3. The paperwork words are split over three settings with
+  a stake each — Tobi at the Rathaus learning he never registered his own flat, the
+  Sattlers' visa for Jan's parents, Bruckner's Urkunde with a coded Zeugnis — and every
+  crime word belongs to someone in the house: Frau Wolf turns a fake-police phone scam
+  round with the broken lift and later testifies against February's burglars; Neumann's
+  new camera would film the building's only smoker: himself. Legal facts checked (not registering is
+  unlawful but not *strafbar*). CSV senses: `Messe` a trade fair, `Anzeige` a police
+  report, `Ursache` as in *Keine Ursache!*, `Zeugnis` an employment reference. Five
+  scanner false-firsts (`streiten`, `anzeigen`, `Schulden`, `schuld`, `Recht`) are
+  recorded by hand. New standing facts: **Neumann smokes** (cellar; the stairwell is now
+  no-smoking); Tobi got a Strafzettel and a new Ausweis; the burglars, arrested in June, were sentenced; the
+  cellar door sticks again; Bruckner got his Urkunde; there is a camera at the front door.
+- **`content/batches/14-arbeit-beruf/`** — Stage B, topic 14. 14 scenes, 14 dialogues,
+  nothing skipped. November Y3. **Establishes both jobs: Tobi is a Mechaniker in the
+  Uni's Werkstatt** (*"eine Werkstatt für Geräte, nicht für Kraftfahrzeuge"*), Chef
+  Meister Kaminski, Monday Besprechung at nine; he smokes only on breaks with Kaminski,
+  which pays off Batch 3's *"Nicht privat"*. **Julia works part-time at a small Verlag**,
+  two days a week at home, since the Batch 2 interview; her Chefin is Frau Lindner.
+  Professions belong to people, never to a list. CSV senses: `Fach` a fridge compartment,
+  `Führung` a factory tour, `Leitung` management, `Mangel` a defect, `Täter` the office
+  yoghurt thief. The scanner cross-credits `Fehler`/`fehlen`, `fordern`/`fördern`,
+  `Forderung`/`Förderung`, `Angestellte`/`anstellen`, `Hersteller`/`herstellen`, and
+  `Arbeit` credits `arbeiten` — all six recorded by hand (`scenes.md` names each card's
+  text). New standing facts: Kaminski retires next summer and offers Tobi the workshop
+  (undecided); Jule waits tables at the café gegenüber; Frau Wolf was a factory
+  Direktor's Sekretärin; Jan Sattler's Kraftwerk closes in two years; Frau Lorenz, once a
+  Stewardess, is applying for work again; Kai imports coffee machines.
+- **`content/batches/15-schule-bildung/`** — Stage B, topic 15. 10 scenes, 10 dialogues;
+  1 word skipped (`eintreten` — its CSV sense is joining a club, which belongs to Batch 16).
+  December Y3 – January Y4. No school-vocabulary parade: each scene has one learner with
+  something at stake (Jule's Referat on sleep after two sleepless nights; Leon teaching his
+  tutor patience; Amir writing a yellow door into his Lebenslauf). CSV senses: `Note` a
+  school grade, `Lehre` an apprenticeship, `aufgeben` to give up, `Eintritt` an admission
+  fee, `Forum` an internet forum, `Bereich` a field of work. `buchen` (the scanner reads
+  *Buch*) and `Kursleiter` (headword typo) are recorded by hand. New standing facts:
+  **Jule studies Biologie, Lehramt**; Prüfung in February; from January she teaches
+  Tuesdays in **Herr Krämer**'s class, where she was once a pupil (the pupils call her
+  *Frau Wagner*). Amir wants a Lehrstelle in a car workshop instead of the Abitur. Jule
+  gives Leon paid Nachhilfe. Neumann went on a heating Fortbildung; in January the oil tank
+  runs empty. Bruckner volunteers in a German Intensivkurs taught by **Frau Martens**, and
+  he and Frau Wolf sign up again for March.
+- **`content/batches/16-freizeit-medien-technik/`** — Stage B, topic 16. 16 scenes, 16
+  dialogues; 1 word skipped (`das Billett` — Swiss-only, CSV *→ D, A: Fahrkarte*).
+  Mid-January – late March Y4; Easter Y4 falls in late March, so Karneval is early
+  February. `der Dialekt` is Bruckner mistaking Italian opera for a dialect — no regional
+  contrast. The largest batch (213 words), so every scene turns on one
+  stake rather than a hobby list: a TV remote without batteries, a piano noise complaint,
+  a lost file, a bet, a video that goes viral. Print words get a speaker who justifies
+  them (Gisela reads *Metropole* and *Tourismus* from a Prospekt). CSV senses: `Runde` a
+  lap, `Figur` a person's figure, `Station` a U-Bahn stop, `Plan` a city map,
+  `aufnehmen` recording. Two pairs share a text as corrections (*"Karneval ist ein Fest,
+  keine Party"*; Maler/Künstlerin). `Bio-`, `Spiel`, `Studium` and `studieren` are
+  recorded by hand.
+  New standing facts: Julia has a new TV and teaches herself a digital piano; Tobi's club
+  has a new trainer, Nils; Frau Wolf has a smartphone, dances at Karneval and takes
+  Bruckner to the opera on the theatre subscription she never cancelled after her
+  husband died; Leon's video of Bruckner's railway went viral; Frau Lorenz paints; Jule climbs on Thursdays; Werner plays golf;
+  the Sattler child turned one on Easter Monday.
+- **`content/batches/17-gefuehle-charakter/`** — Stage C, topic 17. 13 scenes, 13
+  dialogues, nothing skipped. March – April Y4. The risk is an inventory of forty feeling
+  adjectives, so nobody lists their own feelings: each one is caused by something on the
+  page and usually named by someone else (a 4:0 makes Tobi a *schrecklicher Verlierer*;
+  the cat bites an *ängstlich* Neumann; Frau Wolf corrects *neugierig* to
+  *interessiert*). CSV senses: `arm` poor, `befreit` exempt (*vom Sport befreit*),
+  `geehrt` only in a mock speech, `befriedigend` a grade for a soup, `wirken` a tablet
+  working. `lieben`, `vertrauen` and `sich vergnügen` are recorded by hand (`vocab.py use
+  "vertrauen"` resolves to the noun — a tool bug). New standing facts: Jule has been in
+  love since January (with whom stays open); Oma Erna dances with Herr Rademacher, once a
+  radio singer; Frau Wolf's birthday is at the end of April; Bruckner is *ledig* and asks
+  Frau Wolf to keep phoning him every morning.
+- **`content/batches/18-kommunikation-post/`** — Stage C, topic 18. 16 scenes, 16
+  dialogues, nothing skipped (sixteen, because 179 words in fifteen overloaded the
+  journalist and phone scenes). April – May Y4. A light arc: Frau Wolf campaigns for the
+  lift by letter, radio, tenants' meeting and newspaper — and nothing is repaired.
+  Written-register words (`hinweisen`, `mitteilen`, `das Schreiben`, `Aufforderung`,
+  `Kommunikation`) are spoken only by the Verwaltung and Neumann. CSV senses: `Botschaft`
+  an embassy, `Empfang` receipt of a letter, `Vertretung` a stand-in, `Sender`/`Hörer`
+  radio, `Vorstellung` a performance, `raten` as in *Rate mal*. Contrast pairs kept
+  together on purpose: Bitte/Aufforderung, Fremd-/Zweit-/Muttersprache, Artikel/
+  Erzählung, duzen/siezen. Eleven owner texts are recorded by hand (`vocab.py use
+  "schreiben"` resolves to the noun). New standing facts: new letterboxes (Frau Wolf's
+  plate misspelt „Wolff"); post still comes for the previous tenant, Frau Seidel; postman
+  Herr Simon; Jan Sattler's Muttersprache is Russisch; Herr Lorenz is flat-hunting; Tobi's
+  Muttertag parcel goes out late; Frau Wolf and Bruckner try du once her phone is repaired
+  (a callback to Batch 17's birthday promise of morning calls) and go back to Sie.
+- **`content/batches/19-zeit-kalender/`** — Stage C, topic 19. 13 scenes, 13 dialogues,
+  nothing skipped. May – June Y4. The 136 words are mostly time adverbs, so every scene
+  has a time problem instead of a schedule: a doubled Saturday, a check-up missed by a man
+  who is "pünktlich" a day late, a deadline at noon, a technician who rings in the one
+  minute Julia is at the letterbox, a bank holiday that bores everyone by eleven. CSV
+  senses: `Zeichen` a signal, `fest` a fixed time, `extra` on purpose, `Dauer` as in
+  *auf Dauer*, `Doppel-` as in *Doppelzimmer*. Written-register words go to people who
+  talk like notices (Neumann; Frau Wolf with her calendar archive). Five words are logged
+  in an earlier text than their card text (`früh`, `lange`, `meist-`, `erst-`, `spät` —
+  table in `scenes.md`). New standing facts: Herr Unger runs the café gegenüber (outdoor
+  season from 1 May); Bruckner wakes at five and keeps a written Tagesablauf; Frau Wolf
+  phones him every day at nine; Anna Sattler works halbtags from June; Frau Wolf keeps
+  all her old calendars, fifty of them; Tobi owns a tent.
+- **`content/batches/20-gesellschaft-politik-wirtschaft/`** — Stage C, topic 20. 3
+  scenes, 3 dialogues, nothing skipped — the smallest batch after 04 (20 words). Politics
+  and economy enter the house only through everyday objects: an election poster at the
+  bus stop, a ten-cent rise on rolls at Bäckerei Aydin, one of Neumann's signs. June Y4.
+  Sense decisions: `die Gewalt` is force (the cellar door opens only *mit Gewalt*);
+  `die Pflicht` is argued on purpose (Frau Wolf calls voting a Pflicht, Bruckner corrects
+  her); `der Gott` is *Gott sei Dank*; `die Geschichte` a thing's history. New standing
+  facts: a June election whose candidate Herr Vollmer once broke Bruckner's windows
+  playing football in the courtyard; Aydin's rolls cost 10 cents more; the cellar door
+  sticks again since the new lock (as in Batch 13). This batch also filled the English glosses for its 20
+  words.
+- **`content/batches/21-menge-mass-eigenschaften/`** — Stage D, topic 21. 15 scenes, 15
+  dialogues, nothing skipped. July Y4. Almost all adjectives and quantities, so every
+  scene needs something measured, compared or judged: Neumann's Hoffest with a cake
+  contest runs through Texts 1–10 (cherries at the market, a recipe scaled up to forty,
+  Bruckner's recipe card with salt and sugar swapped, a jury that has to average out
+  Leon's ten-points-for-everyone), and Julia's 2.20 m sofa meets the 80 cm stairs. CSV
+  senses: `die Leiter` is the ladder (gloss it "ladder — pl. die Leitern"), `echt` genuine, `knapp` narrowly, `pauschal` a flat
+  delivery rate. `gewöhnen` and `Einzel-` are recorded by hand (scanner false matches).
+  New standing facts: Bruckner won the cake contest with his mother's Marmorkuchen,
+  baked with Tobi, by Leon's one point; Frau Wolf came second with her grandmother's
+  Kirschkuchen; the sofa from Möbel Winkler went back; Bruckner wants to enlarge his
+  railway; Frau Wolf is a regular at the café gegenüber.
+- **`content/batches/22-handlungen-alltagsverben/`** — Stage D, topic 22. 17 scenes, 17
+  dialogues; 1 word skipped (`der Halt` — the CSV sense is a stop on a route, and the batch
+  has no transit scene). August Y4: Herr Lorenz finally moves out of the third floor,
+  closing Batch 7's divided-flat thread. The batch follows the move — the date fixed, the
+  household divided, a sofa ordered, the helpers' plan printed thirty times, a farewell
+  collection, the moving Saturday (Neumann versus the van, a cat taped into a box, the
+  handover, the van stopping for a forgotten plant) — and Frau Lorenz's first Sunday
+  alone, which carries the position verbs. CSV senses: `abmachen` to agree, `der Druck`
+  tyre pressure, `wenden` a vehicle U-turn, `dienen` as in *als … dienen*, `bestehen` as
+  in *aus*, `treiben` as in *Sport treiben*. The scanner folds umlauts, so *Drucker* also credits
+  `drücken`; Text 4 has both on purpose. Nineteen
+  separable verbs are recorded by hand (the scanner credits them on the base verb;
+  `scenes.md` lists them). New standing facts: Herr Lorenz lives nearby now; Frau Lorenz
+  keeps the flat, the cat and the balcony; Julia has a printer; Neumann has banned ball
+  games in the courtyard; Frau Lorenz's picture „Ein Mann von hinten“ now hangs where his
+  calendar was.
+- **`content/batches/23-denken-wissen-meinen/`** — Stage D, topic 23, the finale. 12
+  scenes, 12 dialogues; 2 words skipped (`auflösen` — CSV sense is a dissolving tablet;
+  `die Herkunft` — its only home read as an identity joke). September Y4: **the lift is repaired** after almost five
+  years, and the mental verbs sit in that story's concrete moments (Neumann's notice, a
+  coin toss, a notebook used as proof, a crossword, Neumann's list of who rides first).
+  `die Wahl`/`wählen` are used in the choosing sense only. CSV senses: `Schein` a
+  banknote, `Praxis` practice vs theory, `Lage` location, `Bescheid` the Verwaltung's
+  decision, `unentschieden` a draw. New standing facts: Frau Wolf got the repair with
+  coffee for the Verwaltung's Chefin and 59 letters; the missing part lay in Bruckner's
+  cellar all along; on the first ride Neumann, Frau Wolf and Bruckner were stuck for 40
+  minutes, and she still takes the stairs; Tobi takes over the Werkstatt from October;
+  "Lisa" was a cover — Jule's boyfriend is Moritz
+  (one evening in Y2, together since January Y4).
+- **Next:** all 23 batches are written. Close them out by cramming each one and
+  generating its cards.

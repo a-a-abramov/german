@@ -156,7 +156,7 @@ B: Ich bin erschöpft, jeder Muskel tut weh, und mein Wasser ist seit zwölf Uhr
 
 A: Meins ist auch leer. Ich habe so einen Durst.
 
-B: Du hast gesagt: kleine Runde, zwei Stunden, gute Erholung. Ich schwitze, meine Haut brennt, und überall stechen mich die Mücken.
+B: Du hast gesagt: kleine Runde, zwei Stunden, gute Erholung. Ich schwitze, meine Haut brennt, und sogar jetzt im Herbst stechen mich die Mücken.
 
 A: Zehn Minuten noch, dann sind wir am Auto. Ich weiß jetzt genau, wo wir sind.
 

@@ -243,7 +243,7 @@ B: Große, bitte. — Was ist das genau?
 
 C: Junger Mann, ich bin seit achtzehn Jahren Köchin hier. Wenn ich Ihnen sage, was das ist, essen Sie es nicht.
 
-B: Es steht doch korrekt dran: "Nahrungsmittel pflanzlicher Herkunft".
+B: Es steht doch korrekt dran: „Nahrungsmittel pflanzlicher Herkunft“.
 
 A: Einerseits ist es billig, andererseits ist das keine Beschreibung, sondern eine Warnung. Die Preise sind hier speziell niedrig, und das hat Gründe.
 

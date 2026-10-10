@@ -441,6 +441,10 @@ def cmd_init(args):
             hit = next((table[short_key(k)] for k in ks if short_key(k) in table), None)
         if not isinstance(hit, list):
             return hit
+        # folding merges `zählen`/`zahlen`, `die Leiter`/`der Leiter`: an exact headword wins
+        exact = next((h for h in hit if csv_head(h) == lemma.strip()), None)
+        if exact:
+            return exact
         # `der Arm` and `arm` share a key; keep the one whose part of speech matches
         return next((h for h in hit if is_noun(h) == is_noun(lemma)), hit[0])
 

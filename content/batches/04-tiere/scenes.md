@@ -109,3 +109,6 @@ discrepancy to resolve at Step 5.
 | der Tierpark | 4 | — |
 | die Schlange | 4 | — |
 | das Tier | 4 | — |
+
+**Story order:** Text 2 (*"Dann füttert Tobi sie ab morgen"*) happens before Tobi leaves for
+the summer in Text 1. Text numbers follow word ownership.
