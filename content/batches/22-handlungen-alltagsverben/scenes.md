@@ -19,9 +19,8 @@ something else.
 - **`der Halt`** — skipped. The CSV sense is a stop on a route (*"Nächster Halt ist am
   Südbahnhof"*), and this batch has no transit scene (transport belongs to Batch 10). The
   particle *halt* would also be scanned as it. The batch avoids the interjection *Halt!*.
-- **`drücken`** is *to press* (*"auf den grünen Knopf drücken"*, Text 4). **Ledger bug:** its
-  stored forms are those of `drucken` (*drucken, druckt, druckte*), so the scanner credits
-  `drücken` on *Drucker*. Text 4 carries `der Drucker`, `drucken` and `drücken` together on
+- **`drücken`** is *to press* (*"auf den grünen Knopf drücken"*, Text 4). The scanner folds
+  umlauts, so it credits `drücken` on *Drucker*. Text 4 carries `der Drucker`, `drucken` and `drücken` together on
   purpose. The joke is *gedrückt* → *gedruckt*: Frau Wolf presses three times, and thirty
   copies come out.
 - **`der Druck`** is the tyre pressure (*"Den Druck in den Reifen habe ich schon geprüft"*,

@@ -50,9 +50,8 @@ The topic has two hazards:
 - **`die Karte`** is a **cinema ticket** (CSV sense 3, *"Karten für das Konzert"*). Text 14.
   No earlier text says the bare word *Karte*.
 - **`zählen`** means to **count change** (*"zählen Sie das Wechselgeld nach"*). Text 1.
-  Its ledger forms column holds **zahlen's** forms (a data bug). The scanner therefore
-  credits `zählen` for any *zahlt*/*Zahlen*, and it does not see *zählen* or *gezählt*
-  (probe run). Text 1 has both, so the scan row lands in the right text and needs no fix.
+  The scanner folds umlauts, so it credits `zählen` for any *zahlt*/*Zahlen*. Text 1 has
+  both, so the scan row lands in the right text and needs no fix.
 - **`die Aktion`** is a **promotional campaign** for the shop's opening (Text 9). This is
   close to the CSV's *"eine Aktion für Familien planen"*: it is something organised for
   people, not a sale price.
@@ -111,7 +110,7 @@ The probe run showed which forms the scanner reads:
   *getestet*/*testen*, so the order is safe.
 - Bare *Karte* stays out of Texts 1–13. *Fahrkarte*, *Chipkarte*, *Kreditkarte* and
   *Versichertenkarte* do not credit it.
-- *zahlt* credits `zählen`, so the row is fixed by hand (see above).
+- *zahlt* credits `zählen` (umlaut folding); harmless, see above.
 
 ## Continuity
 
@@ -384,7 +383,7 @@ text, or need a hand fix:
 |---|---|---|---|
 | `einzahlen` | scan: T1 (*zählen*); manual: T4 | **T4** *"etwas einzahlen"* | *zählen* matches the separable stem *zahlen ein*. Recorded with `use --batch 12 --text 4 "einzahlen"`. The T1 scan row comes back on every rescan and is ignored |
 | `der Markt` | scan: T7 (*Marke*); manual: T12 | **T12** *"einen Stand auf dem Markt"* | stem match. Recorded with `use --text 12`. The T7 scan row is ignored |
-| `zählen` | T1 (surface *Zahlen*) | **T1** *"Dann zählen Sie bitte …"* | the ledger forms are zahlen's; same text, so it needs no fix |
+| `zählen` | T1 (surface *Zahlen*) | **T1** *"Dann zählen Sie bitte …"* | the scanner folds umlauts; same text, so it needs no fix |
 | `kosten` | T2 (*Kosten*) | **T3** *"Bei Frau Aydin kostet ein Birnenkuchen zwölf Euro"* | *kostet* and *gekostet* are not matched |
 | `die Ausnahme` | T2 | **T14** | T14 is the scene's designed line |
 | `verkaufen` | T5 (*der sie verkauft*) | **T6** *"Wie viel hast du heute auf dem Flohmarkt verkauft?"* | Text 5 says it first, in passing |

@@ -307,7 +307,8 @@ dialogue per scene — and all twenty-three are **awaiting the cram + review pas
   `die Pension` is the guesthouse and `in Pension sein` the retirement of a former civil
   servant (they share one line on purpose; `pensioniert` belongs to Frau Claasen, a retired
   teacher); `die Kabine` is a changing cubicle; `erreichen` is reaching someone by phone.
-  `Viertel`/`Vorort` stay together as a contrast. New standing facts: Frau Claasen's
+  `Viertel`/`Vorort` stay together as a contrast. `Ferien-` (*Ferienwohnung*, Text 1) is recorded by
+  hand; the scanner does not credit compounds. New standing facts: Frau Claasen's
   Pension at the beach, twenty minutes from the harbour; the Behrens couple (twenty summers there, live in a Vorort);
   Tobi gets seasick; Bruckner took his first trip abroad, a five-day bus tour, while Frau
   Wolf fed his cat.
@@ -318,8 +319,8 @@ dialogue per scene — and all twenty-three are **awaiting the cram + review pas
   stereo, a month-end spreadsheet) while the house does its own sums around him. CSV
   senses: `Gewinn` a raffle prize, `Verlust` a lost wallet, `Anlage` a stereo, `Kasten` a
   crate of water, `Karte` a cinema ticket. `einzahlen` and `der Markt` are recorded by hand
-  (scanner false matches). Ledger note: the forms stored for `zählen` are those of
-  `zahlen`, so every *zahlt* credits it — fix in `assignments.tsv`. New standing facts:
+  (scanner false matches). The scanner folds umlauts, so *Zahlen* also credits `zählen`;
+  Text 1 has both. New standing facts:
   Tobi's landlord Herr Fuchs; Herr Fink's coffee roastery where the old Lokal an der Ecke
   was; Jule's Girokonto with Frau Dietz; Kessler's Saturday market stall; Bruckner's first
   invoice "Nummer eins"; Leon carries Frau Wolf's bags for 50 cents a floor.
@@ -440,8 +441,7 @@ dialogue per scene — and all twenty-three are **awaiting the cram + review pas
   contest runs through Texts 1–10 (cherries at the market, a recipe scaled up to forty,
   Bruckner's recipe card with salt and sugar swapped, a jury that has to average out
   Leon's ten-points-for-everyone), and Julia's 2.20 m sofa meets the 80 cm stairs. CSV
-  senses: `die Leiter` is the ladder (the ledger row carries the manager's forms — gloss
-  it "ladder — pl. die Leitern"), `echt` genuine, `knapp` narrowly, `pauschal` a flat
+  senses: `die Leiter` is the ladder (gloss it "ladder — pl. die Leitern"), `echt` genuine, `knapp` narrowly, `pauschal` a flat
   delivery rate. `gewöhnen` and `Einzel-` are recorded by hand (scanner false matches).
   New standing facts: Bruckner won the cake contest with his mother's Marmorkuchen,
   baked with Tobi, by Leon's one point; Frau Wolf came second with her grandmother's
@@ -456,8 +456,8 @@ dialogue per scene — and all twenty-three are **awaiting the cram + review pas
   handover, the van stopping for a forgotten plant) — and Frau Lorenz's first Sunday
   alone, which carries the position verbs. CSV senses: `abmachen` to agree, `der Druck`
   tyre pressure, `wenden` a vehicle U-turn, `dienen` as in *als … dienen*, `bestehen` as
-  in *aus*, `treiben` as in *Sport treiben*. Ledger note: the forms stored for `drücken`
-  are those of `drucken`, so *Drucker* credits it — fix in `assignments.tsv`. Nineteen
+  in *aus*, `treiben` as in *Sport treiben*. The scanner folds umlauts, so *Drucker* also credits
+  `drücken`; Text 4 has both on purpose. Nineteen
   separable verbs are recorded by hand (the scanner credits them on the base verb;
   `scenes.md` lists them). New standing facts: Herr Lorenz lives nearby now; Frau Lorenz
   keeps the flat, the cat and the balcony; Julia has a printer; Neumann has banned ball

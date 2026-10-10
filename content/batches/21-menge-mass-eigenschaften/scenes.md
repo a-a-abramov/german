@@ -15,9 +15,8 @@ word per turn. The praise and intensifier words are therefore spread one or two 
 ## Sense decisions made against the CSV
 
 - **`die Leiter` is the ladder** (*"Haben Sie eine Leiter für mich?"*, CSV `die Leiter, -n`),
-  Text 8. The ledger row carries the forms of `der Leiter / die Leiterin` (manager), which is
-  a separate entry owned by Batch 14. The forms column is wrong for this row; *Leiterin* is
-  never written here. Gloss for the carding pass: *ladder — pl. die Leitern*.
+  Text 8. The manager (`der Leiter / die Leiterin`) is a separate entry owned by Batch 14;
+  *Leiterin* is never written here. Gloss for the carding pass: *ladder — pl. die Leitern*.
 - **`knapp`** is CSV sense 3–5, *only just* (*"knapp gewonnen"*), Text 9.
 - **`echt`** is CSV sense 1, *genuine* (*"echtes Leder"*), Text 5. The filler *echt?* is kept
   out of Texts 1–4.
