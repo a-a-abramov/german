@@ -201,9 +201,9 @@ not per batch: `vocab.py glue --open` lists what no finished text has used yet.
 Run `python3 tools/vocab.py status` for the live picture — it is the counter; don't mirror
 its numbers here.
 
-Fourteen batches are written; none is carded yet. All fourteen follow the scene-design +
+Fifteen batches are written; none is carded yet. All fifteen follow the scene-design +
 three-stage method — `scenes.md` groups the words into situations, `texts.md` has one
-dialogue per scene — and all fourteen are **awaiting the cram + review pass**, so no
+dialogue per scene — and all fifteen are **awaiting the cram + review pass**, so no
 `anki-*.txt` exists anywhere yet.
 
 - **`content/batches/01-in-der-wohnung/`** — Stage A, topic 1. 11 scenes, 11 dialogues.
@@ -338,6 +338,18 @@ dialogue per scene — and all fourteen are **awaiting the cram + review pass**,
   (undecided); Jule waits tables at the café gegenüber; Frau Wolf was a factory
   Direktor's Sekretärin; Jan Sattler's Kraftwerk closes in two years; Frau Lorenz, once a
   Stewardess, is applying for work again; Kai imports coffee machines.
+- **`content/batches/17-gefuehle-charakter/`** — Stage C, topic 17. 13 scenes, 13
+  dialogues, nothing skipped. March – April Y4. The risk is an inventory of forty feeling
+  adjectives, so nobody lists their own feelings: each one is caused by something on the
+  page and usually named by someone else (a 4:0 makes Tobi a *schrecklicher Verlierer*;
+  the cat bites an *ängstlich* Neumann; Frau Wolf corrects *neugierig* to
+  *interessiert*). CSV senses: `arm` poor, `befreit` exempt (*vom Sport befreit*),
+  `geehrt` only in a mock speech, `befriedigend` a grade for a soup, `wirken` a tablet
+  working. `lieben`, `vertrauen` and `sich vergnügen` are recorded by hand (`vocab.py use
+  "vertrauen"` resolves to the noun — a tool bug). New standing facts: Jule has been in
+  love since January (with whom stays open); Oma Erna dances with Herr Rademacher, once a
+  radio singer; Frau Wolf's birthday is at the end of April; Bruckner is *ledig* and asks
+  Frau Wolf to keep phoning him every morning.
 - **`content/batches/20-gesellschaft-politik-wirtschaft/`** — Stage C, topic 20. 3
   scenes, 3 dialogues, nothing skipped — the smallest batch after 04 (20 words). Politics
   and economy enter the house only through everyday objects: an election poster at the
