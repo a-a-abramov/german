@@ -201,9 +201,9 @@ not per batch: `vocab.py glue --open` lists what no finished text has used yet.
 Run `python3 tools/vocab.py status` for the live picture — it is the counter; don't mirror
 its numbers here.
 
-Sixteen batches are written; none is carded yet. All sixteen follow the scene-design +
+Seventeen batches are written; none is carded yet. All seventeen follow the scene-design +
 three-stage method — `scenes.md` groups the words into situations, `texts.md` has one
-dialogue per scene — and all sixteen are **awaiting the cram + review pass**, so no
+dialogue per scene — and all seventeen are **awaiting the cram + review pass**, so no
 `anki-*.txt` exists anywhere yet.
 
 - **`content/batches/01-in-der-wohnung/`** — Stage A, topic 1. 11 scenes, 11 dialogues.
@@ -352,6 +352,23 @@ dialogue per scene — and all sixteen are **awaiting the cram + review pass**, 
   gives Leon paid Nachhilfe. Neumann went on a heating Fortbildung; in January the oil tank
   runs empty. Bruckner volunteers in a German Intensivkurs taught by **Frau Martens**, and
   he and Frau Wolf sign up again for March.
+- **`content/batches/16-freizeit-medien-technik/`** — Stage B, topic 16. 16 scenes, 16
+  dialogues; 1 word skipped (`das Billett` — Swiss-only, CSV *→ D, A: Fahrkarte*).
+  Mid-January – late March Y4; Easter Y4 falls in late March, so Karneval is early
+  February. `der Dialekt` is Bruckner mistaking Italian opera for a dialect — no regional
+  contrast. The largest batch (213 words), so every scene turns on one
+  stake rather than a hobby list: a TV remote without batteries, a piano noise complaint,
+  a lost file, a bet, a video that goes viral. Print words get a speaker who justifies
+  them (Gisela reads *Metropole* and *Tourismus* from a Prospekt). CSV senses: `Runde` a
+  lap, `Figur` a person's figure, `Station` a U-Bahn stop, `Plan` a city map,
+  `aufnehmen` recording. Two pairs share a text as corrections (*"Karneval ist ein Fest,
+  keine Party"*; Maler/Künstlerin). `Bio-`, `Spiel`, `Studium` and `studieren` are
+  recorded by hand.
+  New standing facts: Julia has a new TV and teaches herself a digital piano; Tobi's club
+  has a new trainer, Nils; Frau Wolf has a smartphone, dances at Karneval and takes
+  Bruckner to the opera on the theatre subscription she never cancelled after her
+  husband died; Leon's video of Bruckner's railway went viral; Frau Lorenz paints; Jule climbs on Thursdays; Werner plays golf;
+  the Sattler child turned one on Easter Monday.
 - **`content/batches/17-gefuehle-charakter/`** — Stage C, topic 17. 13 scenes, 13
   dialogues, nothing skipped. March – April Y4. The risk is an inventory of forty feeling
   adjectives, so nobody lists their own feelings: each one is caused by something on the
