@@ -201,9 +201,9 @@ not per batch: `vocab.py glue --open` lists what no finished text has used yet.
 Run `python3 tools/vocab.py status` for the live picture — it is the counter; don't mirror
 its numbers here.
 
-Twelve batches are written; none is carded yet. All twelve follow the scene-design +
+Thirteen batches are written; none is carded yet. All thirteen follow the scene-design +
 three-stage method — `scenes.md` groups the words into situations, `texts.md` has one
-dialogue per scene — and all twelve are **awaiting the cram + review pass**, so no
+dialogue per scene — and all thirteen are **awaiting the cram + review pass**, so no
 `anki-*.txt` exists anywhere yet.
 
 - **`content/batches/01-in-der-wohnung/`** — Stage A, topic 1. 11 scenes, 11 dialogues.
@@ -323,5 +323,20 @@ dialogue per scene — and all twelve are **awaiting the cram + review pass**, s
   Tobi's landlord Herr Fuchs; Herr Fink's coffee roastery where the old Lokal an der Ecke
   was; Jule's Girokonto with Frau Dietz; Kessler's Saturday market stall; Bruckner's first
   invoice "Nummer eins"; Leon carries Frau Wolf's bags for 50 cents a floor.
+- **`content/batches/14-arbeit-beruf/`** — Stage B, topic 14. 14 scenes, 14 dialogues,
+  nothing skipped. November Y3. **Establishes both jobs: Tobi is a Mechaniker in the
+  Uni's Werkstatt** (*"eine Werkstatt für Geräte, nicht für Kraftfahrzeuge"*), Chef
+  Meister Kaminski, Monday Besprechung at nine; he smokes only on breaks with Kaminski,
+  which pays off Batch 3's *"Nicht privat"*. **Julia works part-time at a small Verlag**,
+  two days a week at home, since the Batch 2 interview; her Chefin is Frau Lindner.
+  Professions belong to people, never to a list. CSV senses: `Fach` a fridge compartment,
+  `Führung` a factory tour, `Leitung` management, `Mangel` a defect, `Täter` the office
+  yoghurt thief. The scanner cross-credits `Fehler`/`fehlen`, `fordern`/`fördern`,
+  `Forderung`/`Förderung`, `Angestellte`/`anstellen`, `Hersteller`/`herstellen`, and
+  `Arbeit` credits `arbeiten` — all six recorded by hand (`scenes.md` names each card's
+  text). New standing facts: Kaminski retires next summer and offers Tobi the workshop
+  (undecided); Jule waits tables at the café gegenüber; Frau Wolf was a factory
+  Direktor's Sekretärin; Jan Sattler's Kraftwerk closes in two years; Frau Lorenz, once a
+  Stewardess, is applying for work again; Kai imports coffee machines.
 - **Next:** write batch 13 (Stadt, Ämter & Recht, 140 words) with the `text-writer` skill, or
   close out any written batch by cramming it and generating its cards.
