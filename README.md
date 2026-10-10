@@ -201,9 +201,9 @@ not per batch: `vocab.py glue --open` lists what no finished text has used yet.
 Run `python3 tools/vocab.py status` for the live picture — it is the counter; don't mirror
 its numbers here.
 
-Thirteen batches are written; none is carded yet. All thirteen follow the scene-design +
+Fourteen batches are written; none is carded yet. All fourteen follow the scene-design +
 three-stage method — `scenes.md` groups the words into situations, `texts.md` has one
-dialogue per scene — and all thirteen are **awaiting the cram + review pass**, so no
+dialogue per scene — and all fourteen are **awaiting the cram + review pass**, so no
 `anki-*.txt` exists anywhere yet.
 
 - **`content/batches/01-in-der-wohnung/`** — Stage A, topic 1. 11 scenes, 11 dialogues.
@@ -338,5 +338,16 @@ dialogue per scene — and all thirteen are **awaiting the cram + review pass**,
   (undecided); Jule waits tables at the café gegenüber; Frau Wolf was a factory
   Direktor's Sekretärin; Jan Sattler's Kraftwerk closes in two years; Frau Lorenz, once a
   Stewardess, is applying for work again; Kai imports coffee machines.
+- **`content/batches/20-gesellschaft-politik-wirtschaft/`** — Stage C, topic 20. 3
+  scenes, 3 dialogues, nothing skipped — the smallest batch after 04 (20 words). Politics
+  and economy enter the house only through everyday objects: an election poster at the
+  bus stop, a ten-cent rise on rolls at Bäckerei Aydin, one of Neumann's signs. June Y4.
+  Sense decisions: `die Gewalt` is force (the cellar door opens only *mit Gewalt*);
+  `die Pflicht` is argued on purpose (Frau Wolf calls voting a Pflicht, Bruckner corrects
+  her); `der Gott` is *Gott sei Dank*; `die Geschichte` a thing's history. New standing
+  facts: a June election whose candidate Herr Vollmer once broke Bruckner's windows
+  playing football in the courtyard; Aydin's rolls cost 10 cents more; the cellar door
+  sticks again since the new lock (as in Batch 13). This batch also filled the English glosses for its 20
+  words.
 - **Next:** write batch 13 (Stadt, Ämter & Recht, 140 words) with the `text-writer` skill, or
   close out any written batch by cramming it and generating its cards.
