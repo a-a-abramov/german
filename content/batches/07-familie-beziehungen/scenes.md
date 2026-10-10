@@ -41,7 +41,7 @@ Where a scene could not find a stake, it got fewer words rather than a longer li
   Helden"* — Scene 12 uses it as a refusal (*"Ich bin kein Held"*), not as a compliment
   about a rescue.
 - **`die Bevölkerung` is the statistic**, per the CSV (*"11 % der Bevölkerung wurden nicht
-  im Inland geboren"*). Scene 10 has Bruckner quote a newspaper line about the population
+  im Inland geboren"*). Scene 10 has Frau Wolf quote a newspaper line about the population
   ageing — it is the only register that word has.
 
 ## Synonym / near-pair check
@@ -82,8 +82,8 @@ text before the one that owns it. This batch is the most exposed in the corpus s
 because a wedding and a family gathering will pull in half the list unbidden. The
 avoidances that cost something:
 
-- **Texts 1–5 never say `Leute`, `Person`, `Geschenk`, `schenken`, `einladen`,
-  `eingeladen` or `Einladung`** — all owned by Text 6, and all five earlier scenes
+- **Texts 1–5 never say `Leute`, `Geschenk`, `schenken`, `einladen`, `eingeladen` or
+  `Einladung`** — all owned by Text 6 (and Texts 1–4 never say `Person`, owned by Text 5), and all five earlier scenes
   (especially the wedding) want them. Text 2 says *auf der Liste*, Text 3 says *die Gäste*.
 - **Text 2 never says `Paar`, `Kuss`, `küssen`, `Dame`, `verändert` or `Freund`.** A
   wedding is the natural home of every one of them — *das junge Paar*, *der erste Kuss*,
@@ -113,11 +113,69 @@ matcher rather than by the prose:
 - **`in Rente gehen/sein`** — the ledger's headword is the slash form, so `variants()`
   emits `sein` as a spelling of it, and the first utterance in the batch containing
   *sein/seine* claims the word. It belongs to Text 10.
+  Recorded with `vocab.py use --batch 7 --text 10`; the scanner's own Text 1 row
+  (*"Bei ihr musst du am nettesten sein"*) comes back on every rescan and is ignored.
+  The card is cut from Text 10: *"Ich will in Rente gehen, einundzwanzig Jahre sind genug."*
 - **`das Altenheim` / `das Altersheim`** need checking against their owner texts rather
   than the scan, since the CSV prints one example for both.
 - **`irgendirgendein`**, the glue pool's last open entry, is a typo in the official
   Goethe list and matches nothing the scanner can be shown. It stays open forever; the
   batch writes *irgendein* anyway, in Text 3.
+
+## Continuity with Batches 1–6
+
+Checked against every dialogue in Batches 1–6 before writing. The facts this batch must
+not contradict:
+
+| fact | source |
+|---|---|
+| The story is about a year on from Julia's move-in; Batches 5 and 6 were September and October | implied by the Batch 1–6 headers |
+| Bruckner has been caretaker *"seit zwanzig Jahren"* at the move-in — **twenty-one years** now | Batch 1, Text 1; Batch 2, Text 3 |
+| **Bruckner lives alone**, in the house, with a cat | Batch 3, Text 3; Batch 4, Text 2 |
+| Bruckner's door is near the courtyard | implied by Batch 3, Text 9 (*"Das Schild hängt an Ihrer eigenen Tür"*) |
+| Bruckner: operated knee and left shoulder, no alcohol since; deaf on the right ear | Batch 2, Texts 3 and 7; Batch 3, Text 9 |
+| The lift has been broken since two years before the move-in — three years now | Batch 1, Text 1 |
+| Frau Wolf: widowed six years, nursed her husband two; has known Bruckner fourteen years | Batch 2, Text 12; Batch 6, Text 4 |
+| Frau Wolf says **du** and *Kind* to Julia and Jule; Julia says **Sie** to her | Batch 5, Texts 1 and 5; Batch 6, Text 2 |
+| Bruckner says **du** to Tobi, **Sie** to Julia; both say Sie to him | Batch 4, Text 2; Batch 6, Text 1 |
+| Frau Wolf says **Sie** and *junger Mann* to Tobi | Batch 4, Text 1 |
+| Tobi's family (new here) says **du** to Julia from the first meeting, and Julia says du back to everyone except Oma Erna, whom she calls Sie | decided in this batch |
+| Tobi is Julia's boyfriend, has his own flat, a job with a Chef, does not smoke; surname **Wagner** | Batch 1, Text 10; Batch 2, Texts 5 and 10; Batch 3, Text 10; Batch 4, Text 1 |
+| Tobi has a brother (the suit) and a sister, Jule, who studies | Batch 3, Text 11; Batch 5, Text 3 |
+| **Tobi's cousin married in September**; Tobi held the rings, button glued on | Batch 5, Text 3 |
+| Children around the house (Frau Wolf takes *die Kinder* to the zoo); the courtyard has the bike stands and the fence | implied by Batch 4, Text 4; Batch 6, Text 4 |
+| The café is *gegenüber*; the Lokal *unten an der Ecke* tasted of old fat | Batch 3, Texts 6 and 8 |
+
+Fixed in this plan as a result:
+
+- **Kevin's wedding (Texts 2–3)** is the same cousin's wedding as Batch 5. The September
+  date was the Standesamt, in a full Saal; the November event is the postponed party.
+  Kevin is already married in these texts.
+- **Bruckner has no wife** (Scene 10). The angle that relied on one now rests on his living
+  alone with the cat.
+- **Bruckner's tenure is twenty-one years** (Scene 10), not nineteen.
+- **The divided flat (Scene 8) is on the third floor**, directly under Julia, as its title
+  says; it had been placed on the first floor.
+- **Scene 1's café is the one across the street**, and Julia has already met Jule.
+- **Oma Erna is Werner's mother**, so the "mother-in-law" of Scene 2 and the Oma of
+  Scene 9 are one person.
+- **The boy in Scene 4 is a neighbour family's son**, not Frau Wolf's. She has no
+  children on record, and Batch 2, Text 12 has her nursing her husband alone.
+
+## Calendar
+
+| when | text |
+|---|---|
+| Thursday, early November | 1 — napkin in the café, two evenings before the Feier |
+| Friday | 2 — Gisela's final seating plan |
+| Saturday | 3 — the Feier. Julia meets Oma Erna here for the first time |
+| the Saturday after | 4 — the courtyard window |
+| the following week | 5, 7 (a Friday), 8 |
+| a Saturday later in November | 6 — the guest list is written for Julia's birthday that Saturday |
+| a Wednesday in late November | 9 — Altenheim; Erna has met Julia once, at the Feier |
+| late November | 10 — Bruckner announces he stops at the end of the year |
+| late November | 11 — Jule's class trip |
+| December | 12 — the farewell in the courtyard |
 
 ## Cast
 
@@ -126,10 +184,13 @@ Same house as Batches 1–6, now November. **Julia** (fourth floor), **Tobi**, *
 caretaker). This is the batch where the house acquires relatives, so it is also the only
 one that adds people:
 
-- **Gisela** and **Werner** — Tobi's parents. **Kai**, his older brother.
-- **Elke** (Tobi's aunt) and **Rolf** (his uncle); their son **Kevin**, whose wedding is
-  Texts 2 and 3, and their daughter **Sandra**, who is divorced from **Micha**.
-- **Oma Erna**, 84, in the Altenheim (Text 9).
+- **Gisela** and **Werner Wagner** — Tobi's parents (Tobi is *Herr Wagner* at the dentist,
+  Batch 2, Text 5). **Kai**, his older brother, whose suit Tobi wore in Batch 5.
+- **Elke** (Tobi's aunt, Werner's sister) and **Rolf** (his uncle); their son **Kevin** —
+  the cousin who married in September (Batch 5, Text 3) — and their daughter **Sandra**,
+  who is divorced from **Micha**.
+- **Oma Erna**, 84, Werner's and Elke's mother, in the Altenheim (Text 9). Gisela's
+  mother-in-law in Text 2 is Erna.
 - **Frau Sattler**, pregnant, and her husband, who move into the second floor (Text 5).
 - **Herr Krämer**, the teacher on Jule's class trip, and **Amir**, thirteen (Text 11).
 
@@ -137,8 +198,8 @@ one that adds people:
 
 ### Scene 1 — Die Serviette
 
-- **Premise:** The café downstairs, the evening before Julia meets Tobi's family for the
-  first time. She has asked him to draw the family; he is drawing it on a napkin while
+- **Premise:** The café across the street (Batch 3, Text 8), two evenings before Julia
+  meets Tobi's family — everybody except Jule, whom she knows — for the first time. She has asked him to draw the family; he is drawing it on a napkin while
   the coffee arrives.
 - **Angle:** The diagram grows a line every time he remembers somebody, until the napkin
   is full and the last figure is squeezed into a corner — and that squeezed figure is the
@@ -154,8 +215,13 @@ one that adds people:
 
 ### Scene 2 — Der Sitzplan
 
-- **Premise:** Gisela is doing the seating plan for Kevin's wedding at the kitchen table.
-  Tobi has been given the job of carrying the cards from one pile to the other.
+- **Premise:** Kevin married at the Standesamt in September — that is the ceremony where
+  Tobi held the rings in front of the whole Saal with a glued-on button (Batch 5, Text 3).
+  The party was put off to November (*"die Hochzeit feiern wir im November nach"* — the
+  bare *Hochzeit*, since the scanner does not read it inside *Hochzeitsfeier*), and Gisela is doing its seating plan at the
+  kitchen table. Tobi has been given the job of carrying the cards from one pile to the
+  other. Kevin is therefore already *verheiratet* in this text, which is what the word is
+  for.
 - **Angle:** Every arrangement solves one problem and creates the next. Sandra and Micha
   are divorced and cannot sit together; Micha's new partner cannot sit near Gisela's
   mother-in-law; and the only chair nobody objects to is at the children's table.
@@ -173,7 +239,7 @@ one that adds people:
 
 ### Scene 3 — Am Büfett
 
-- **Premise:** The reception, in the Lokal an hour later. Julia is in the buffet queue
+- **Premise:** The Feier itself, Saturday evening, in a Lokal. Julia is in the buffet queue
   with Tobi's aunt Elke, having been introduced to about thirty people and retained none.
 - **Angle:** Elke re-identifies everybody by what is on their plate, which works
   perfectly and explains nothing; and she will not let Julia past the table until she has
@@ -194,7 +260,8 @@ one that adds people:
 
 ### Scene 4 — Die Kinder im Hof
 
-- **Premise:** Frau Wolf and Julia at the courtyard window on a Saturday. Four children
+- **Premise:** Frau Wolf and Julia at Frau Wolf's kitchen window, which looks onto the
+  courtyard (her bedroom faces the street, Batch 6, Text 6), on a Saturday. Four children
   are playing below; one of them is standing on the bicycle rack.
 - **Angle:** Frau Wolf delivers a complete theory of modern child-rearing, and the boy
   she has just written off as badly brought up is the one who comes up two minutes later
@@ -257,8 +324,9 @@ one that adds people:
 - **Premise:** Friday evening. Jule has come by to return a book and is leaving again
   after four minutes. Julia notices the shoes.
 - **Angle:** Jule denies having anywhere to be, in a pair of shoes she has never worn to
-  return a book. Every denial adds a detail nobody asked for. The lipstick on the
-  doorframe settles it after she has gone.
+  return a book. Every denial adds a detail nobody asked for. Tobi, arriving as she
+  leaves, settles it: he has just seen her kiss somebody in the street. `das Paar` is the
+  couple sense (*"Die sind doch ein Paar!"*); the shoes are never called a *Paar*.
 - **Words (8):** (sich) verabreden *(owner)*, verabredet *(owner)*, die Verabredung
   *(owner)*, küssen *(owner)*, der Kuss *(owner)*, heimlich *(owner)*, das Paar *(owner)*,
   der Freund *(owner)*
@@ -271,8 +339,8 @@ one that adds people:
 
 ### Scene 8 — Die Wohnung unter Julia
 
-- **Premise:** Bruckner is fitting a second doorbell to the first-floor flat. Julia asks
-  why one flat needs two.
+- **Premise:** Bruckner is fitting a second doorbell to the third-floor flat, directly
+  under Julia's. Julia asks why one flat needs two.
 - **Angle:** The flat has been divided rather than vacated — he lists which room now
   belongs to whom, and the kitchen is shared on alternate weeks. Bruckner's position is
   that this is none of his business, held while giving the complete floor plan.
@@ -315,11 +383,13 @@ one that adds people:
 ### Scene 10 — Bruckner hört auf
 
 - **Premise:** Bruckner tells Frau Wolf on the stairs that he is stopping at the end of
-  the year. He has been the caretaker for nineteen years.
+  the year. He has been the caretaker for twenty-one years (*"seit zwanzig Jahren"* when
+  Julia moved in, Batch 1, Text 1, a year ago).
 - **Angle:** Frau Wolf takes it as a personal betrayal and negotiates — first for two
   more years, then for one. What finally reconciles her is the discovery that he is not
-  moving away, and that his wife still works, so he will be at home all day with nothing
-  to do and can therefore still be phoned.
+  moving away: he lives alone with the cat (Batch 3, Text 3; Batch 4, Text 2), so he will
+  be at home all day with nothing to do and can therefore still be phoned. `Hausmann` is
+  what he announces he will become — for himself and the cat.
 - **Words (7):** die Rente *(owner)*, in Rente gehen / sein *(owner)*, der Rentner /
   die Rentnerin *(owner)*, das Altersheim *(owner)*, der Chef / die Chefin *(owner)*,
   die Bevölkerung *(owner)*, die Hausfrau / der Hausmann *(owner)*
@@ -333,13 +403,15 @@ one that adds people:
 - **Glue:** *demnächst*, *keineswegs*, *stattdessen*, *insgesamt*, *ach was*, *nachdem*
 - **Note:** three of its seven words share the root *Rente*. Guarded by giving each a
   different speaker and a different grammatical shape — *"ich gehe in Rente"* (his plan),
-  *"davon leben"* (her objection), *"ein Rentner"* (what she calls him, as an insult).
+  *"Von der Rente?"* (her objection), *"ein armer Rentner"* (what he calls himself, shrugging
+  off her objection).
 
 ### Scene 11 — Zweite Nacht, Jugendherberge
 
 - **Premise:** The class trip Jule is helping to supervise. Half past ten, the corridor
   of a youth hostel, Jule and Herr Krämer outside a door somebody is crying behind.
-- **Angle:** Jule is twenty-one and has been adopted by the thirteen-year-olds as one of
+- **Angle:** Jule is twenty-one, on the trip as a paid Betreuerin (a student job, which is
+  why she is there at all), and has been adopted by the thirteen-year-olds as one of
   them, which is fine until she has to be the one who turns the lights out. And Amir's
   homesickness is for a city he left when he was four — he is missing a childhood rather
   than a place, which Jule recognises because she did the same thing in the same hostel.
