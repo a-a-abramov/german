@@ -201,9 +201,9 @@ not per batch: `vocab.py glue --open` lists what no finished text has used yet.
 Run `python3 tools/vocab.py status` for the live picture — it is the counter; don't mirror
 its numbers here.
 
-Eleven batches are written; none is carded yet. All eleven follow the scene-design +
+Twelve batches are written; none is carded yet. All twelve follow the scene-design +
 three-stage method — `scenes.md` groups the words into situations, `texts.md` has one
-dialogue per scene — and all eleven are **awaiting the cram + review pass**, so no
+dialogue per scene — and all twelve are **awaiting the cram + review pass**, so no
 `anki-*.txt` exists anywhere yet.
 
 - **`content/batches/01-in-der-wohnung/`** — Stage A, topic 1. 11 scenes, 11 dialogues.
@@ -311,5 +311,17 @@ dialogue per scene — and all eleven are **awaiting the cram + review pass**, s
   Pension at the beach, twenty minutes from the harbour; the Behrens couple (twenty summers there, live in a Vorort);
   Tobi gets seasick; Bruckner took his first trip abroad, a five-day bus tour, while Frau
   Wolf fed his cat.
-- **Next:** write batch 12 (Einkaufen & Geld, 126 words) with the `text-writer` skill, or
-  close out any of batches 01–11 by cramming them and generating their cards.
+- **`content/batches/12-einkaufen-geld/`** — Stage B, topic 12. 15 scenes, 15 dialogues;
+  2 words skipped (`einnehmen` — the CSV sense is taking medicine; `die Vermittlung` —
+  both CSV senses are dated). September Y3, after the Ostsee trip: Tobi is short of money
+  (rent up 80 € from December, a broken washing machine, a flea market that ends with him buying a
+  stereo, a month-end spreadsheet) while the house does its own sums around him. CSV
+  senses: `Gewinn` a raffle prize, `Verlust` a lost wallet, `Anlage` a stereo, `Kasten` a
+  crate of water, `Karte` a cinema ticket. `einzahlen` and `der Markt` are recorded by hand
+  (scanner false matches). Ledger note: the forms stored for `zählen` are those of
+  `zahlen`, so every *zahlt* credits it — fix in `assignments.tsv`. New standing facts:
+  Tobi's landlord Herr Fuchs; Herr Fink's coffee roastery where the old Lokal an der Ecke
+  was; Jule's Girokonto with Frau Dietz; Kessler's Saturday market stall; Bruckner's first
+  invoice "Nummer eins"; Leon carries Frau Wolf's bags for 50 cents a floor.
+- **Next:** write batch 13 (Stadt, Ämter & Recht, 140 words) with the `text-writer` skill, or
+  close out any written batch by cramming it and generating its cards.
