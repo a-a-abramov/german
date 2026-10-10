@@ -201,9 +201,9 @@ not per batch: `vocab.py glue --open` lists what no finished text has used yet.
 Run `python3 tools/vocab.py status` for the live picture — it is the counter; don't mirror
 its numbers here.
 
-Seventeen batches are written; none is carded yet. All seventeen follow the scene-design +
+Eighteen batches are written; none is carded yet. All eighteen follow the scene-design +
 three-stage method — `scenes.md` groups the words into situations, `texts.md` has one
-dialogue per scene — and all seventeen are **awaiting the cram + review pass**, so no
+dialogue per scene — and all eighteen are **awaiting the cram + review pass**, so no
 `anki-*.txt` exists anywhere yet.
 
 - **`content/batches/01-in-der-wohnung/`** — Stage A, topic 1. 11 scenes, 11 dialogues.
@@ -323,6 +323,20 @@ dialogue per scene — and all seventeen are **awaiting the cram + review pass**
   Tobi's landlord Herr Fuchs; Herr Fink's coffee roastery where the old Lokal an der Ecke
   was; Jule's Girokonto with Frau Dietz; Kessler's Saturday market stall; Bruckner's first
   invoice "Nummer eins"; Leon carries Frau Wolf's bags for 50 cents a floor.
+- **`content/batches/13-stadt-aemter-recht/`** — Stage B, topic 13. 14 scenes, 14
+  dialogues; `der Personenstand` skipped (the CSV's D/A form is *Familienstand*, already
+  taught in Batch 7). October Y3. The paperwork words are split over three settings with
+  a stake each — Tobi at the Rathaus learning he never registered his own flat, the
+  Sattlers' visa for Jan's parents, Bruckner's Urkunde with a coded Zeugnis — and every
+  crime word belongs to someone in the house: Frau Wolf turns a fake-police phone scam
+  round with the broken lift and later testifies against February's burglars; Neumann's
+  new camera would film the building's only smoker: himself. Legal facts checked (not registering is
+  unlawful but not *strafbar*). CSV senses: `Messe` a trade fair, `Anzeige` a police
+  report, `Ursache` as in *Keine Ursache!*, `Zeugnis` an employment reference. Five
+  scanner false-firsts (`streiten`, `anzeigen`, `Schulden`, `schuld`, `Recht`) are
+  recorded by hand. New standing facts: **Neumann smokes** (cellar; the stairwell is now
+  no-smoking); Tobi got a Strafzettel and a new Ausweis; the burglars, arrested in June, were sentenced; the
+  cellar door sticks again; Bruckner got his Urkunde; there is a camera at the front door.
 - **`content/batches/14-arbeit-beruf/`** — Stage B, topic 14. 14 scenes, 14 dialogues,
   nothing skipped. November Y3. **Establishes both jobs: Tobi is a Mechaniker in the
   Uni's Werkstatt** (*"eine Werkstatt für Geräte, nicht für Kraftfahrzeuge"*), Chef
@@ -392,5 +406,5 @@ dialogue per scene — and all seventeen are **awaiting the cram + review pass**
   playing football in the courtyard; Aydin's rolls cost 10 cents more; the cellar door
   sticks again since the new lock (as in Batch 13). This batch also filled the English glosses for its 20
   words.
-- **Next:** write batch 13 (Stadt, Ämter & Recht, 140 words) with the `text-writer` skill, or
+- **Next:** write batch 18 (Kommunikation & Post, 179 words) with the `text-writer` skill, or
   close out any written batch by cramming it and generating its cards.
