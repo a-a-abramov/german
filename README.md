@@ -201,9 +201,9 @@ not per batch: `vocab.py glue --open` lists what no finished text has used yet.
 Run `python3 tools/vocab.py status` for the live picture — it is the counter; don't mirror
 its numbers here.
 
-Eight batches are written; none is carded yet. All eight follow the scene-design +
+Nine batches are written; none is carded yet. All nine follow the scene-design +
 three-stage method — `scenes.md` groups the words into situations, `texts.md` has one
-dialogue per scene — and all eight are **awaiting the cram + review pass**, so no
+dialogue per scene — and all nine are **awaiting the cram + review pass**, so no
 `anki-*.txt` exists anywhere yet.
 
 - **`content/batches/01-in-der-wohnung/`** — Stage A, topic 1. 11 scenes, 11 dialogues.
@@ -272,5 +272,20 @@ dialogue per scene — and all eight are **awaiting the cram + review pass**, so
   Bruckner is retired and still lives downstairs. Julia owns a bike, and Tobi broke its light.
   The cellar door was forced in a February break-in and **no longer sticks**. The lift is
   still broken.
-- **Next:** write batch 09 (Natur, Wetter & Umwelt, 95 words) with the `text-writer`
-  skill, or close out any of batches 01–08 by cramming them and generating their cards.
+- **`content/batches/09-natur-wetter-umwelt/`** — Stage B, topic 9. 14 scenes, 14
+  dialogues, nothing skipped. The words are seasonal, so the scenes run from March to
+  July and the weather is spread across the months. There is no forecast scene. The
+  landscape words share one scene with something at stake: the view from the top is
+  fog. The environment words come from people with selfish reasons: a school project,
+  the Hausordnung, a paint tin. Sense decisions from the CSV: `Kanal` is a TV channel,
+  `Birne` a pear, `Strom` electricity, `Energie` personal energy (*keine Energie mehr*),
+  `Rind` beef *aus der Region*. Two pairs share a text on purpose, as corrections:
+  `Rasen`/`Gras` and `Berg`/`Hügel`. `der See` and `die See` share the surface *See*, and
+  `Öko-` can never match, so both are recorded by hand. New standing facts: Bruckner lives
+  in the **Erdgeschoss**, and the Sattlers' baby was born in March. The house heats with
+  oil, and the heating is off from 1 May. The stairwell light now stays on for 30 seconds.
+  There is a pear tree in the garden, and Kessler is selling his field as building land.
+  **Julia and Tobi plan two weeks on an Ostsee island in August**, which Batch 11 can
+  pick up.
+- **Next:** write batch 10 (Unterwegs & Verkehr, 103 words) with the `text-writer`
+  skill, or close out any of batches 01–09 by cramming them and generating their cards.
