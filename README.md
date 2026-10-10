@@ -201,9 +201,9 @@ not per batch: `vocab.py glue --open` lists what no finished text has used yet.
 Run `python3 tools/vocab.py status` for the live picture — it is the counter; don't mirror
 its numbers here.
 
-Seven batches are written; none is carded yet. All seven follow the scene-design +
+Eight batches are written; none is carded yet. All eight follow the scene-design +
 three-stage method — `scenes.md` groups the words into situations, `texts.md` has one
-dialogue per scene — and all seven are **awaiting the cram + review pass**, so no
+dialogue per scene — and all eight are **awaiting the cram + review pass**, so no
 `anki-*.txt` exists anywhere yet.
 
 - **`content/batches/01-in-der-wohnung/`** — Stage A, topic 1. 11 scenes, 11 dialogues.
@@ -255,6 +255,22 @@ dialogue per scene — and all seven are **awaiting the cram + review pass**, so
   the Lorenz couple living separated on the third, and **Bruckner retires at the end of
   December** but stays in the house. Glue yield **322 → 325 of 326**; only the CSV typo
   entry `irgendirgendein` stays open.
-- **Next:** write batch 08 (Gefahr, Notfall & Sicherheit, 38 words) with the
-  `text-writer` skill, or close out any of batches 01–07 by cramming them and generating
-  their cards.
+- **`content/batches/08-gefahr-notfall-sicherheit/`** — Stage A, topic 8. 6 scenes, 6
+  dialogues, nothing skipped. Scened at 6 for the same reason as batches 05–06 (38 words).
+  The topic's risk is register: the corpus uses `Katastrophe`, `Gift`, `tödlich`, `Flucht`
+  and `zerstören` for thrillers. So **nothing serious happens**. Every scene is a small
+  domestic emergency that one speaker inflates and another plays down: burnt rice that
+  brings the Feuerwehr, a cat and a poisonous plant, a fall in front of a parked car, a
+  break-in that steals nothing. Sense decisions from the CSV: `Katastrophe` is the
+  everyday exaggeration, `sichern` is saving your work on a computer, `Schutz` is
+  protection against cold, and `Unglück` is a serious incident, not bad luck. Two
+  near-synonym pairs share a text on purpose, both argued in `scenes.md`:
+  *zerstört* → *beschädigt* is a correction, and *kaputtgemacht* → *kaputtgegangen* is
+  Tobi dodging the blame. The scanner cannot match `Achtung!`, `kaputtmachen` or
+  `kaputtgehen`, so those are recorded by hand. New standing facts: **Herr Neumann** is
+  the caretaker from January (Sie with everyone; signs everywhere; sand instead of salt).
+  Bruckner is retired and still lives downstairs. Julia owns a bike, and Tobi broke its light.
+  The cellar door was forced in a February break-in and **no longer sticks**. The lift is
+  still broken.
+- **Next:** write batch 09 (Natur, Wetter & Umwelt, 95 words) with the `text-writer`
+  skill, or close out any of batches 01–08 by cramming them and generating their cards.
