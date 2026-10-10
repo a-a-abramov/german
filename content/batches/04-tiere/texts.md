@@ -4,7 +4,7 @@ Vier Dialoge, einer pro Szene aus `scenes.md`. Deutsch only. Dasselbe Haus wie i
 bis 3, jetzt Frühsommer: **Julia** im vierten Stock, **Tobi**, der alles isst, **Frau Wolf**
 von nebenan, **Herr Bruckner**, der Hausmeister, der seine operierte Schulter noch schont,
 und **Jule**, Tobis Schwester, die studiert. Neu: **Herr Kessler**, ein Bauer, der mit Namen
-angeredet wird — „Bauer" sagt man über jemanden, nicht zu ihm.
+angeredet wird — „Bauer“ sagt man über jemanden, nicht zu ihm.
 Standarddeutsch — keine österreichischen oder Schweizer Varianten, und keine Zeile, in der
 jemand über Wörter aus anderen Ländern redet.
 

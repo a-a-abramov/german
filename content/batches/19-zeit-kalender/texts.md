@@ -55,7 +55,7 @@ B: Sie sieht mich jedes Mal hier unten sitzen, sagt sie. Sie wollte nie stören.
 
 ## Text 3 — Doppelt
 
-A: Tobi, schau mal in den Kalender. Übermorgen, Samstag: „Oma Erna, 14 Uhr". Das hast du selbst reingeschrieben.
+A: Tobi, schau mal in den Kalender. Übermorgen, Samstag: „Oma Erna, 14 Uhr“. Das hast du selbst reingeschrieben.
 
 B: Übermorgen? Julia, am Samstag spielen wir doch, um drei. Das habe ich mir notiert, ganz sicher.
 
@@ -67,7 +67,7 @@ A: In der Jeans, die gerade in der Waschmaschine ist?
 
 B: … Dann ist der Samstag eben doppelt. Diesmal fahre ich zuerst zu Oma und danach zum Spiel. Einmal komme ich halt zu spät.
 
-A: Moment, Tobi. Gleiches Datum, 18 Uhr: „Kino mit Julia". Auch deine Schrift.
+A: Moment, Tobi. Gleiches Datum, 18 Uhr: „Kino mit Julia“. Auch deine Schrift.
 
 B: Das stand bestimmt auch auf der Notiz. Auf der Rückseite.
 
@@ -155,7 +155,7 @@ B: Zehn. Die Hälfte. Zehn ist doch eine schöne Zahl. Zunächst mache ich mal e
 
 A: Deine letzte Pause war vor zehn Minuten. Und warum hast du drei Dateien?
 
-B: Die hier heißt „vorläufig", die heißt „endgültig", und die heißt „endgültig 2". Am Anfang vom Semester hatte ich nur eine.
+B: Die hier heißt „vorläufig“, die heißt „endgültig“, und die heißt „endgültig 2“. Am Anfang vom Semester hatte ich nur eine.
 
 A: Jule, dein Laptop startet gerade neu.
 
@@ -163,11 +163,11 @@ B: Nein, nein, nein! … Gut. Am Ende vom Semester lache ich darüber.
 
 ## Text 9 — Nur kurz
 
-A: Tobi! Du bist seit zwanzig Minuten im Bad. Du wolltest nur kurz duschen.
+A: Tobi! Du wolltest doch nur kurz duschen. Das Wasser läuft schon seit Viertel vor sieben.
 
 B: Julia, ich bin sofort fertig!
 
-A: „Sofort" dauert bei dir eine Viertelstunde. Ich muss um halb acht los.
+A: „Sofort“ dauert bei dir eine Viertelstunde. Ich muss um halb acht los.
 
 B: Dann frühstücke doch schon. Ich komme gleich dazu.
 
@@ -177,7 +177,7 @@ B: So, fertig. Siehst du, das hat gar nicht lange gedauert.
 
 A: Auf Dauer geht das so nicht, Tobi. Ich stehe schon oft extra früh auf, damit ich vor dir ins Bad komme. Morgen gehe ich noch vorher rein.
 
-B: Gute Idee. Ach, und das warme Wasser ist übrigens alle.
+B: Gute Idee. Ach, und warmes Wasser ist keins mehr da.
 
 ## Text 10 — Zwischen acht und vierzehn Uhr
 
@@ -205,7 +205,7 @@ B: Fünf Stück, Herr Bruckner, ganz klein. Das hier habe ich zuletzt gezeichnet
 
 A: Zeig mal. Die Zeichnung ist gut, aber dieses Schild gibt es nicht. Eine Katze in einem roten Dreieck?
 
-B: „Achtung, Katze." Ihre Katze läuft ständig über die Schienen.
+B: „Achtung, Katze.“ Ihre Katze läuft ständig über die Schienen.
 
 A: Auf meiner Eisenbahn ist alles echt, Leon. Wie bei der richtigen Bahn. So, ich gebe dir ein Zeichen, dann fährt der Zug los. Langsam … jetzt!
 
@@ -219,7 +219,7 @@ A: Frau Wolf, was ist denn in den Kisten? Die sind ja schwer.
 
 B: Meine Kalender, Julia. Zwei Kisten, jeweils fünfundzwanzig Stück. Mein ganzes Leben, mit Datum.
 
-A: Darf ich? … 1979, zwölfter Mai: „Flur bunt gestrichen". War das ein Ereignis?
+A: Darf ich? … 1979, zwölfter Mai: „Flur bunt gestrichen“. War das ein Ereignis?
 
 B: Damals schon! Die ganze Straße kam gucken. Was ich alles erlebt habe, Kind. Heute ereignet sich ja nichts mehr.
 

@@ -46,7 +46,7 @@ A: So, fertig. Setzen Sie die Brille wieder auf, dann sehen Sie es selbst.
 
 B: Moment. — Frau Reiter, ich wollte nur die Spitzen. Das hier ist eine ganz neue Frisur, und blond bin ich auch.
 
-A: Sie haben „kürzer und heller" gesagt. Kürzer und heller ist es geworden.
+A: Sie haben „kürzer und heller“ gesagt. Kürzer und heller ist es geworden.
 
 C: Jule, Frau Reiter ist die beste Friseurin im ganzen Viertel. Du hast ihr nur das falsche Wort gesagt, und ich habe dich hierher begleitet, mehr nicht.
 
@@ -54,7 +54,7 @@ B: Julia, du sitzt seit einer Stunde stumm da hinten. Du findest es hässlich, s
 
 C: Ich finde es mutig.
 
-B: „Mutig" sagt man, um nichts Negatives sagen zu müssen. — Frau Reiter, wann haben Sie den nächsten Termin frei?
+B: „Mutig“ sagt man, um nichts Negatives sagen zu müssen. — Frau Reiter, wann haben Sie den nächsten Termin frei?
 
 A: In sechs Wochen. Bis dahin haben Sie sich daran gewöhnt, und ohne Brille sehen Sie es sowieso nicht.
 

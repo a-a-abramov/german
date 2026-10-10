@@ -22,13 +22,13 @@ dann mehrmals mit der Hand abschreiben.
 
 ## Text 1 — Das Plakat an der Haltestelle
 
-A: Herr Bruckner, sehen Sie mal, jetzt hängt der auch noch an unserer Haltestelle. „Mehr Freiheit für unser Viertel." Was soll das denn heißen?
+A: Herr Bruckner, sehen Sie mal, jetzt hängt der auch noch an unserer Haltestelle. „Mehr Freiheit für unser Viertel.“ Was soll das denn heißen?
 
 B: Mehr Fußball im Hof, wahrscheinlich. Das ist ja der kleine Vollmer, Frau Wolf! Der hat hier früher jeden Nachmittag gespielt und mir zwei Fensterscheiben kaputtgemacht.
 
 A: Auf dem Plakat sieht er aber sehr nett aus. Und in der Zeitung steht, er ist bei den jungen Leuten ziemlich populär.
 
-B: Auf einem Plakat sieht jeder aus wie ein anderer Mensch. Und unser Viertel ist dem doch egal, der wohnt doch längst außerhalb vom Viertel.
+B: Auf einem Plakat sieht jeder aus wie ein anderer Mensch. Und unser Viertel ist dem doch egal. Der wohnt längst außerhalb.
 
 A: Trotzdem, am Sonntag gehen Sie wählen. Nur noch die Hälfte der Bevölkerung geht hin, dabei ist das Pflicht!
 

@@ -45,7 +45,7 @@ five they replace (Treppe, Treppenhaus, Ecke, Sessel, Hausmeister) carry those m
 - **Angle:** Whoever cooks doesn't wash up — so both suddenly want to cook, and nobody has started.
 - **Words (14):** die Küche, der Herd, derOfen, der Kühlschrank, der Topf, die Schüssel, das Geschirr, abwaschen, das Messer, der Löffel, das Glas, die Flasche, das Brot, die Dose
 
-### Scene 7 — Der Frühjahrsputz
+### Scene 7 — Der Großputz
 - **Premise:** A whole Saturday of cleaning, sorting and labelling.
 - **Angle:** Three hours in, the flat is dirtier than at the start because everything is now on the floor "in order".
 - **Words (14):** putzen, sauber, schmutzig, der Schmutz, der Staub, das Tuch, die Bürste, die Ordnung, ordnen, der Ordner, das Heft, das Lager, die Ecke, der Korridor

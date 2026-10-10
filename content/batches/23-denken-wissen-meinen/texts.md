@@ -4,7 +4,7 @@ Zwölf Dialoge, einer pro Szene aus `scenes.md`. Deutsch only. Dasselbe Haus wie
 bis 22, jetzt im September, fast fünf Jahre nach dem Tag, an dem der Aufzug stehen
 geblieben ist: **Julia** im vierten Stock, **Tobi**, **Jule**, **Frau Wolf** von nebenan,
 **Herr Bruckner**, in Rente im Erdgeschoss, und **Herr Neumann**, der Hausmeister. Neu:
-**Herr Paulsen** von der Aufzugsfirma und **Moritz**, den man bisher nur als „Lisa" kannte.
+**Herr Paulsen** von der Aufzugsfirma und **Moritz**, den man bisher nur als „Lisa“ kannte.
 Standarddeutsch — keine österreichischen oder Schweizer Varianten.
 
 **Wörter, die hier das bedeuten, was die Goethe-Liste meint.** `der Schein` ist ein
@@ -28,13 +28,13 @@ A: Guten Morgen, Frau Wolf. Bitte beachten Sie den neuen Zettel an der Tür. Ein
 
 B: Noch ein Schild, Herr Neumann? Julia, Kind, lies du vor. Meine Brille liegt oben im vierten Stock.
 
-C: „Die Verwaltung hat beschlossen, den Aufzug zu reparieren. Die Reparatur ist genehmigt, der Termin steht fest: ab dem vierzehnten September." — Ist das wahr, Herr Neumann? Wirklich der Aufzug?
+C: „Die Verwaltung hat beschlossen, den Aufzug zu reparieren. Die Reparatur ist genehmigt, der Termin steht fest: ab dem vierzehnten September.“ — Ist das wahr, Herr Neumann? Wirklich der Aufzug?
 
 A: Der Bescheid liegt in meinem Büro, mit Stempel und mit der Zustimmung vom Eigentümer. Da gibt es keinen Zweifel.
 
 B: Fast fünf Jahre lang hat die Verwaltung alles abgelehnt, was ich geschrieben habe, ohne Begründung. Und auf einmal geht es? Das glaube ich erst, wenn ich drinstehe.
 
-C: Hier unten steht noch etwas: „Während der Reparatur benutzen Sie alternativ bitte die Treppe. Wir bitten um Ihr Verständnis."
+C: Hier unten steht noch etwas: „Während der Reparatur benutzen Sie alternativ bitte die Treppe. Wir bitten um Ihr Verständnis.“
 
 B: Alternativ! Ich nehme seit fast fünf Jahren alternativ die Treppe.
 
@@ -82,9 +82,9 @@ A: Tobi, du sitzt seit einer Stunde vor diesem Zettel. Was ist das?
 
 B: Eine Liste, Julia. Links alles, was für die Werkstatt spricht, rechts alles dagegen. Und morgen muss ich der Uni Bescheid geben.
 
-A: Links stehen zwölf Sachen, rechts eine: „Zwei Jahre abends lernen." Worüber denkst du da noch nach? Wo ist denn der Unterschied zu jetzt? Seit August machst du Kaminskis Arbeit doch schon.
+A: Links stehen zwölf Sachen, rechts eine: „Zwei Jahre abends lernen.“ Worüber denkst du da noch nach? Wo ist denn der Unterschied zu jetzt? Seit August machst du Kaminskis Arbeit doch schon.
 
-B: Jetzt mache ich sie nur vertretungsweise. Als Leiter ist in der Praxis vieles ganz anders: mit den Professoren streiten, jeden Abend Unterricht … Ob ich das schaffe, hängt doch auch von meinen Kenntnissen ab.
+B: Jetzt bin ich nur die Vertretung. Als Leiter ist in der Praxis vieles ganz anders: mit den Professoren streiten, jeden Abend Unterricht … Ob ich das schaffe, hängt doch auch von meinen Kenntnissen ab.
 
 A: Und die Alternative? Noch zwanzig Jahre warten, bis dich wieder jemand fragt? — Hier, eine Münze. Das ist meine Methode für schwere Entscheidungen. Kopf heißt: Du nimmst an. Zahl heißt: Du lässt es.
 
@@ -100,7 +100,7 @@ A: Tobi, Julia, es steht unentschieden. Nur noch eine Frage, und am Nebentisch s
 
 B: Gegen unser Wissen haben die keine Chance, Jule. Und die haben ihre Handys unter dem Tisch. Wer nachschlägt, ist raus!
 
-C: Pst, ihr zwei, wir sind an der Reihe. Die letzte Frage: „Wann wurde der erste sichere Aufzug erfunden?" Wir können zwischen drei Antworten wählen: 1853, 1903 oder 1953. Und es gibt sogar einen Tipp: Es war in Amerika.
+C: Pst, ihr zwei, wir sind an der Reihe. Die letzte Frage: „Wann wurde der erste sichere Aufzug erfunden?“ Wir können zwischen drei Antworten wählen: 1853, 1903 oder 1953. Und es gibt sogar einen Tipp: Es war in Amerika.
 
 B: Keine Ahnung. In unserem Haus ist er jedenfalls noch nicht erfunden. Ich nehme irgendeine Zahl, 1903.
 
@@ -140,7 +140,7 @@ C: So ist das nicht geschehen, Frau Wolf. Tatsache ist: Sie sind mit dem Schrank
 
 B: Widersprechen Sie mir nicht, Herr Bruckner. Meine Erinnerung ist besser als Ihre. Sie können sich ja nicht mal Ihre eigene Telefonnummer merken.
 
-C: Dafür schreibe ich alles auf, das ist so meine Art. Hier, mein Heft von damals. Das ist der Beweis: „Vierzehnter Oktober. Aufzug bleibt zwischen zweitem und drittem Stock stehen. Im Aufzug: ein Schrank, Frau Wolf und der Hausmeister mit Werkzeugkasten."
+C: Dafür schreibe ich alles auf, das ist so meine Art. Hier, mein Heft von damals. Das ist der Beweis: „Vierzehnter Oktober. Aufzug bleibt zwischen zweitem und drittem Stock stehen. Im Aufzug: ein Schrank, Frau Wolf und der Hausmeister mit Werkzeugkasten.“
 
 A: Sie waren also beide drin. Was meinen Sie, Frau Wolf? Beweist das jetzt etwas?
 
@@ -168,11 +168,11 @@ C: Kein Problem. Ich will ja einen guten Eindruck machen. Ich habe auch eine kle
 
 A: Frau Wolf, warum sitzen Sie hier im zweiten Stock auf einem Stuhl?
 
-B: Pause, Kind. Halbe Strecke. Und dabei löse ich mein Kreuzworträtsel. Hilf mir mal: „Weg nach oben, sechs Buchstaben."
+B: Pause, Kind. Halbe Strecke. Und dabei löse ich mein Kreuzworträtsel. Hilf mir mal: „Weg nach oben, sechs Buchstaben.“
 
 A: Aufzug? A, U, F, Z, U, G. Sechs. Passt.
 
-B: Das ist mir auch eingefallen. Aber „Treppe" hat auch sechs. Und das ist hier die Realität.
+B: Das ist mir auch eingefallen. Aber „Treppe“ hat auch sechs. Und das ist hier die Realität.
 
 C: Entschuldigen Sie die Störung, meine Damen. Ich muss mit dem Werkzeug hier durch.
 
@@ -180,7 +180,7 @@ B: Bitte, Herr Paulsen. Sagen Sie, wie lange brauchen Sie noch?
 
 C: Wenn nichts mehr fehlt, bis Samstag.
 
-B: Dann schreibe ich „Aufzug". Ab Samstag ist das die richtige Lösung.
+B: Dann schreibe ich „Aufzug“. Ab Samstag ist das die richtige Lösung.
 
 ## Text 10 — Die Reihenfolge
 
@@ -220,11 +220,11 @@ C: Wohin denn, Frau Wolf? Keine Sorge, ich habe meinen Werkzeugkasten dabei.
 
 ## Text 12 — Treppen halten jung
 
-A: Tobi, weißt du, was Herr Bruckner bei der Besichtigung zu mir gesagt hat? Ich habe nach dem Aufzug gefragt, und er hat gesagt: „Seit zwei Jahren in Reparatur. Aber Treppen halten jung." Danach hat er nur noch von der Lage geredet. Das ist meine erste Erinnerung an dieses Haus.
+A: Tobi, weißt du, was Herr Bruckner bei der Besichtigung zu mir gesagt hat? Ich habe nach dem Aufzug gefragt, und er hat gesagt: „Seit zwei Jahren in Reparatur. Aber Treppen halten jung.“ Danach hat er nur noch von der Lage geredet. Das ist meine erste Erinnerung an dieses Haus.
 
 B: Und heute hat er mit Frau Wolf und Neumann vierzig Minuten im Aufzug gesteckt. Ich kann es noch gar nicht realisieren: Ab morgen fährst du einfach hoch, wie in einem normalen Haus.
 
-A: Ehrlich gesagt habe ich gemischte Gefühle. Fast drei Jahre lang war ich von dir abhängig, wenn ich Wasser gekauft habe. Bei dem Gedanken, dass du jetzt keinen Grund mehr hast, jeden Tag vorbeizukommen …
+A: Ehrlich gesagt habe ich gemischte Gefühle. Fast drei Jahre lang war ich bei jedem Wasserkasten von dir abhängig. Bei dem Gedanken, dass du jetzt keinen Grund mehr hast, jeden Tag vorbeizukommen …
 
 B: Zweifelst du etwa an mir? Ich komme doch nicht wegen der Wasserkästen.
 

@@ -46,7 +46,7 @@ A: Ja, hier Wolf. … Von der Kriminalpolizei? — Julia, Kind, bleib bitte hier
 
 C: Frau Wolf, hier spricht Hauptkommissar Hartmann. Keine Angst, es ist nichts passiert. Noch nicht.
 
-A: Was heißt hier „noch nicht"?
+A: Was heißt hier „noch nicht“?
 
 C: In Ihrem Gebiet sind zurzeit Einbrecher unterwegs, und Ihr Name steht auf ihrer Liste. Haben Sie Geld oder Schmuck in der Wohnung? Ein Kollege holt alles heute um sechs ab und bringt es zur Sicherheit aufs Revier.
 
@@ -74,7 +74,7 @@ B: Das Geburtsdatum auch? — Und kommt das dann in die Zeitung?
 
 A: Die Zeitung wird darüber berichten, wir müssen die Öffentlichkeit warnen. Aber Ihren Namen veröffentlichen wir natürlich nicht.
 
-B: Schade. Dann schreiben Sie wenigstens nicht „Rentnerin". Schreiben Sie: „eine Dame aus dem vierten Stock".
+B: Schade. Dann schreiben Sie wenigstens nicht „Rentnerin“. Schreiben Sie: „eine Dame aus dem vierten Stock“.
 
 ## Text 4 — Der Strafzettel
 
@@ -98,7 +98,7 @@ B: Und einen Strafzettel hat der Bus auch noch nie bekommen.
 
 A: Nummer zweiundvierzig, bitte. — Worum geht es?
 
-B: Ich muss einen neuen Ausweis beantragen. Mein Portemonnaie ist weg, mit dem Ausweis drin. Meine Freundin hat schon überall gesucht.
+B: Ich muss einen neuen Ausweis beantragen. Mein Portemonnaie ist seit September weg, mit dem Ausweis drin. Meine Freundin hat schon überall gesucht.
 
 C: Im Fundbüro waren wir auch schon, gleich hier unten im Rathaus. Da ist er nicht.
 
@@ -116,11 +116,11 @@ A: Erlaubt ist es nicht, und ja, es kostet etwas. Aber ich bin Beamtin, keine Po
 
 A: Tobi, zeig mal her. So füllt man doch kein Formular aus.
 
-B: Wieso, Julia? Name, Geburtsdatum, alles da. Nur bei „Religion" weiß ich nicht weiter. Kann ich da „Fußball" hinschreiben?
+B: Wieso, Julia? Name, Geburtsdatum, alles da. Nur bei „Religion“ weiß ich nicht weiter. Kann ich da „Fußball“ hinschreiben?
 
 A: Nein. Da kommt eine echte Religion hin, oder ein Strich.
 
-B: Dann einen Strich. — Und hier: „Früherer Wohnort". Muss ich da wirklich die Adresse von meinen Eltern angeben?
+B: Dann einen Strich. — Und hier: „Früherer Wohnort“. Muss ich da wirklich die Adresse von meinen Eltern angeben?
 
 A: Natürlich. Offiziell hast du bis heute bei deiner Mama gewohnt. Die Angaben müssen stimmen, sonst ist die ganze Anmeldung falsch.
 
@@ -134,7 +134,7 @@ B: Jetzt streiten wir uns bitte nicht im Rathaus, Julia. Ich hole einfach noch e
 
 A: Sie sehen ja ganz erschöpft aus, Frau Sattler. Ist es das Baby?
 
-B: Nein, das Baby schläft wunderbar. Es ist der Stress mit dem Visum, Frau Wolf. Jans Eltern wollen das Baby endlich sehen, und ohne Visum dürfen sie nicht kommen.
+B: Diesmal nicht. Es ist der Stress mit dem Visum, Frau Wolf. Jans Eltern wollen das Baby endlich sehen, und ohne Visum dürfen sie nicht kommen.
 
 A: Und woran hängt es?
 
@@ -188,15 +188,15 @@ B: Ein Einbrecher mit goldenen Händen, Julia. Herr Neumann hat ein neues Schlos
 
 A: Julia, kommen Sie mal kurz rein. Schauen Sie, was heute gekommen ist. Von der Verwaltung.
 
-B: Eine Urkunde, Herr Bruckner! „Für einundzwanzig Jahre treuen Dienst." Mit Unterschrift von der Chefin.
+B: Eine Urkunde, Herr Bruckner! „Für einundzwanzig Jahre treuen Dienst.“ Mit Unterschrift von der Chefin.
 
 A: Zehn Monate nach meinem letzten Arbeitstag. Und ein Zeugnis ist auch dabei. Lesen Sie mal den letzten Satz.
 
-B: „Herr Bruckner hat sich stets bemüht, die Wünsche der Mieter zu erfüllen."
+B: „Herr Bruckner hat sich stets bemüht, die Wünsche der Mieter zu erfüllen.“
 
 A: Schön, oder? Stets bemüht. Das hänge ich neben die Urkunde.
 
-B: Herr Bruckner … in einem Zeugnis heißt „stets bemüht" nichts Gutes. Das heißt: Er hat es versucht, aber es hat nicht geklappt.
+B: Herr Bruckner … in einem Zeugnis heißt „stets bemüht“ nichts Gutes. Das heißt: Er hat es versucht, aber es hat nicht geklappt.
 
 A: Ich habe es ja einundzwanzig Jahre lang versucht. Der Aufzug, die Heizung, die Kellertür. Dann stimmt es ja genau.
 
@@ -230,7 +230,7 @@ B: Ich habe ein Zertifikat dafür, Herr Bruckner. Ich weiß, was ich tue.
 
 A: Ein Zertifikat ist kein Gesetz. Ist das rechtlich wirklich in Ordnung? Jeder Mieter hat das Recht, ohne Kamera seine Wäsche zu holen.
 
-B: Die Kamera filmt nur die Tür, nicht die Mieter. Und darunter kommt noch ein Schild: „Rauchen im Keller untersagt".
+B: Die Kamera filmt nur die Tür, nicht die Mieter. Und darunter kommt noch ein Schild: „Rauchen im Keller untersagt“.
 
 C: Untersagt, aha. Dann filmt Ihre Kamera ab heute jeden Abend den einzigen Raucher im Haus.
 

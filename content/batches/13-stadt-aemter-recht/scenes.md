@@ -169,7 +169,7 @@ Decisions made as a result:
 - **Neumann reported Tobi's car, parked across the Einfahrt, to the Amt.** Tobi got a Strafzettel
   (Text 4).
 - **Tobi had never registered his own flat.** Officially he lived with his parents until
-  this October. He lost his wallet with his ID and has applied for a new Ausweis
+  this October. He lost his wallet with his ID back in September (B12 T1) and has applied for a new Ausweis
   (Texts 5–6).
 - **Jan Sattler's parents live abroad and need a visa** to visit the baby (Text 7).
 - **The February burglars were caught in June** at another break-in and sentenced in
@@ -286,7 +286,7 @@ mentioned. New, all surnames G–H:
 ### Scene 7 — Besuch für das Baby
 
 - **Premise:** Mid-October, the stairwell. Frau Wolf meets an exhausted Anna Sattler.
-- **Angle:** The baby is fine. The visa is the problem. Frau Wolf offers to write to the
+- **Angle:** For once it is not the baby (it sleeps badly, B14 T8, B19 T6). The visa is the problem. Frau Wolf offers to write to the
   consulate, and Anna has seen her letters to Neumann.
 - **Words (8):** der Stress, das Visum, das Konsulat, das Dokument, der Stempel, die Behörde, der Pass, die Grenze
 - **Chunks:** *"Ein Visum bekommst du auch im Konsulat"* (CSV), *"Das Visum ist für drei

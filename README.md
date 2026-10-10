@@ -407,7 +407,7 @@ dialogue per scene — and all twenty-three are **awaiting the cram + review pas
   Erzählung, duzen/siezen. Eleven owner texts are recorded by hand (`vocab.py use
   "schreiben"` resolves to the noun). New standing facts: new letterboxes (Frau Wolf's
   plate misspelt „Wolff"); post still comes for the previous tenant, Frau Seidel; postman
-  Herr Simon; Jan Sattler's Muttersprache is Polnisch; Herr Lorenz is flat-hunting; Tobi's
+  Herr Simon; Jan Sattler's Muttersprache is Russisch; Herr Lorenz is flat-hunting; Tobi's
   Muttertag parcel goes out late; Frau Wolf and Bruckner try du once her phone is repaired
   (a callback to Batch 17's birthday promise of morning calls) and go back to Sie.
 - **`content/batches/19-zeit-kalender/`** — Stage C, topic 19. 13 scenes, 13 dialogues,

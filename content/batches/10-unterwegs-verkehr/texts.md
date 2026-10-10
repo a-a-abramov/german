@@ -112,7 +112,7 @@ A: Eben. Seit Januar hat mich hier keiner mehr gebraucht. Und jetzt zeig mir mal
 
 ## Text 6 — Ausgang D
 
-A: Tobi, auf der Tafel steht „gelandet", seit zwanzig Minuten. Alle Passagiere sind längst draußen, nur deine Eltern nicht.
+A: Tobi, auf der Tafel steht „gelandet“, seit zwanzig Minuten. Alle Passagiere sind längst draußen, nur deine Eltern nicht.
 
 B: Der Flug hatte eine Stunde Verspätung, Julia, und Mama sucht bestimmt noch ihre Brille. Ich frage mal am Schalter.
 
@@ -132,7 +132,7 @@ A: Herr Wagner! Ich sehe Sie da oben am Fenster. Ist das Ihr Fahrzeug in der Ein
 
 B: Guten Morgen, Herr Neumann. Ja, der kleine Blaue ist meiner.
 
-A: An der Wand hängt ein Schild: „Einfahrt freihalten". Hier dürfen Sie nicht parken. Ich muss mit dem Motorrad raus, und zwar jetzt.
+A: An der Wand hängt ein Schild: „Einfahrt freihalten“. Hier dürfen Sie nicht parken. Ich muss mit dem Motorrad raus, und zwar jetzt.
 
 B: Ich habe heute Nacht eine halbe Stunde gesucht. Die Straße ist ja eine Einbahnstraße, ich bin dreimal ums Haus gefahren.
 
@@ -152,7 +152,7 @@ B: Mama, wir stehen seit einer halben Stunde im Stau. Wie soll ich da eine Ausfa
 
 A: Da vorne ist doch eine. Ich bin die Strecke dreißig Jahre lang gefahren.
 
-B: Na gut. — Und jetzt steht da „Umleitung".
+B: Na gut. — Und jetzt steht da „Umleitung“.
 
 C: Tobi, bei dir blinkt da vorne etwas Gelbes. Heißt das, der Tank ist leer?
 

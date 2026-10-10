@@ -135,7 +135,7 @@ Decisions:
 
 - **The lift is repaired.** Notice on Wed 1 Sep: the Verwaltung *hat beschlossen*, repair
   *genehmigt*, work from **14 Sep**. Done by **Sat 25 Sep**. On the first ride Neumann,
-  Frau Wolf and Bruckner were **stuck for forty minutes between the 3rd and 4th floor**; it
+  Frau Wolf and Bruckner were **stuck for forty minutes just short of the 3rd floor**, where it stopped on 14 October; it
   works after that.
 - **How it broke:** on **14 October**, almost five years earlier, it stopped between the 2nd and 3rd floor carrying Frau
   Wolf, her mother's wardrobe (≈200 kg) and Bruckner with his toolbox (Bruckner's notebook).
@@ -248,7 +248,7 @@ is not a leap year, so 1 Sep Y4 is a Wednesday. Dialogue names no weekday with a
 - **Chunks:** *"Habt ihr den Termin schon festgelegt?"* (CSV), *"Nehmen Sie bitte Rücksicht auf …"* (CSV), *"Ich mache Sie darauf aufmerksam, dass …"* (CSV), `Kompromiss(Akk.) finden`
 
 ### Scene 11 — Halten Sie sich fest
-- **Premise:** Sat 25 Sep. The three in the cabin; it stops between 3rd and 4th.
+- **Premise:** Sat 25 Sep. The three in the cabin; it stops just short of the 3rd floor, as on 14 October.
 - **Angle:** Bruckner plays pilot, Neumann says it's under control, Frau Wolf wants distance in a cabin with no room, and Bruckner has brought the toolbox, as he did the day it broke.
 - **Words (12):** achten, das Ziel, sich nähern, bemerken, seltsam, reagieren, scheinen, der Sinn, die Situation, Bescheid sagen, vorkommen, die Distanz
 - **Chunks:** *"Halt dich gut fest"* (CSV), *"Er nähert sich … ganz langsam"* (CSV), *"Das kann vorkommen"* (CSV), *"Es hat keinen Sinn"* (CSV)

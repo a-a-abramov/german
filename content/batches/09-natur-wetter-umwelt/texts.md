@@ -84,7 +84,7 @@ B: Das ist noch der Sand vom Winter. Die Leute tragen ihn an den Schuhen nach ob
 
 C: Das habe ich Ihnen im Januar gesagt, Herr Neumann, Julia war dabei. Mit Salz wäre das nicht passiert.
 
-B: Herr Bruckner, Sie liegen auf dem Rasen. Haben Sie mein neues Schild nicht gesehen? „Bitte den Rasen nicht betreten!"
+B: Herr Bruckner, Sie liegen auf dem Rasen. Haben Sie mein neues Schild nicht gesehen? „Bitte den Rasen nicht betreten!“
 
 C: Ich betrete ihn nicht, ich liege im Gras. Unter diesem Baum liege ich jedes Frühjahr, wenn er blüht.
 
@@ -182,7 +182,7 @@ B: Wo? … Ich sehe nur Nebel.
 
 ## Text 10 — Zu verkaufen
 
-A: Julia, schau mal. — Herr Kessler, was ist das für ein Schild an Ihrem Feld? „Zu verkaufen"?
+A: Julia, schau mal. — Herr Kessler, was ist das für ein Schild an Ihrem Feld? „Zu verkaufen“?
 
 B: Guten Morgen, die Damen. Ja, das Feld verkaufe ich. Als Grundstück, für sechs Häuser.
 

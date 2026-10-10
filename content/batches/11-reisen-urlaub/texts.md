@@ -34,15 +34,15 @@ A: Mit Blick auf die Insel, Tobi. Das heißt: Das Hotel steht nicht auf der Inse
 
 C: Aber der Blick ist wunderschön, Julia. Das stand so im Internet.
 
-B: Ich schaue trotzdem mal nach … Nein, tut mir leid. Auf der Insel ist kein einziges Bett mehr frei.
+B: Ich schaue trotzdem mal nach … Nein, tut mir leid. Auf der Insel ist kein einziges Bett mehr frei, nicht mal in einer Ferienwohnung.
 
 A: Dann verbringen wir unseren Urlaub eben gegenüber und schauen jeden Abend rüber.
 
 ## Text 2 — Frau Wolf hat telefoniert
 
-A: Julia, Kind! Gute Nachrichten. Ich habe gerade Frau Claasen erreicht.
+A: Julia, Kind! Ihr habt nichts gefunden, habe ich gehört. Aber gute Nachrichten: Ich habe gerade Frau Claasen erreicht.
 
-B: Frau Wolf, Sie haben schon wieder durch die Wand mitgehört. Wer ist Frau Claasen?
+B: Frau Wolf, woher wissen Sie, dass wir nichts gefunden haben? Wer ist Frau Claasen?
 
 A: Sie hat eine kleine Pension auf der Insel, direkt am Strand. Da haben mein Mann und ich jeden Sommer gewohnt. Ich habe euch bei ihr ein Zimmer reserviert, für die ganzen zwei Wochen.
 

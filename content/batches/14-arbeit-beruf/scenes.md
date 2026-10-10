@@ -157,7 +157,7 @@ Checked against continuity.md (Batches 1–10) and slots.md.
 - **Frau Wolf was a Sekretärin for almost forty years** to the Direktor of a chocolate
   factory, and by her own account she ran it.
 - **Bruckner's "selbstständig" is a one-off joke, not a standing arrangement.** He fixes
-  Frau Wolf's heating once, "seit heute", and is paid in cake. Batch 19 owns his retirement
+  Frau Wolf's heating once, self-employed "seit September" (his first invoice, B12 T13), and is paid in cake. Batch 19 owns his retirement
   year and is free to use it or drop it.
 - **Jan Sattler is an Ingenieur at the Kraftwerk and sits on the Betriebsrat.** The
   Kraftwerk closes in two years. 200 workers are at risk, and there is a strike on a Friday
@@ -246,7 +246,7 @@ Checked against continuity.md (Batches 1–10) and slots.md.
 
 - **Premise:** The same Monday at ten, Professorin Imhof's lab. The equipment is dead and
   the manufacturer's specialist can come in March.
-- **Angle:** The plug was out. Tobi does not cancel the specialist; let him come in March and search.
+- **Angle:** The red button was pressed after all (T1 set it up; her *"Diesmal nicht"* was wrong). A plug-was-out ending would repeat B10 T9. Tobi does not cancel the specialist; let him come in March and search.
 - **Words (7):** die Studierenden, der Hersteller, der Spezialist, die Reparatur, der Mangel, nützen, der Zufall
 - **Chunks:** *"Wir schicken es an den Hersteller zurück"* (CSV), *"Die Maschine hat
   technische Mängel"* (CSV), *"Es hat nichts genützt"* (CSV), *"Es war reiner Zufall"* (CSV)

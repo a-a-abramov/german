@@ -26,7 +26,7 @@ B: Auf die Serviette? Na gut. Oben meine Eltern, Werner und Gisela. Darunter wir
 
 A: Kai ist der Bruder mit dem Anzug?
 
-B: Genau, der Älteste. Meine Mutter nennt ihn bis heute „das Kind", und er ist sechsunddreißig.
+B: Genau, der Älteste. Meine Mutter nennt ihn bis heute „das Kind“, und er ist sechsunddreißig.
 
 A: Und für wen ist die Feier am Samstag? Den Namen hast du mir schon dreimal gesagt.
 
@@ -120,7 +120,7 @@ A: Das sind schon vierzehn. Und Herr Bruckner, der hat dir zwei Regale an die Wa
 
 B: Jule, so viele Leute passen nicht in meine Wohnung. Ich streiche jetzt jemanden.
 
-A: Zu spät, eine Einladung habe ich schon ohne dich geschrieben. „Liebe Frau Wolf …"
+A: Zu spät, eine Einladung habe ich schon ohne dich geschrieben. „Liebe Frau Wolf …“
 
 B: Frau Wolf. Die hätte ich nie weglassen dürfen. Sie ist immer so freundlich zu mir, und sie hört durch die Wand jedes Wort.
 
@@ -228,6 +228,6 @@ B: Vierzehn Jahre Freundschaft, Herr Bruckner, und Sie zählen Fenster. Hier hat
 
 A: Ich bin Nichtraucher, Frau Wolf. Das wissen Sie.
 
-C: Dann sagen Sie wenigstens ein paar Worte. Fangen Sie mit „Meine Damen und Herren" an.
+C: Dann sagen Sie wenigstens ein paar Worte. Fangen Sie mit „Meine Damen und Herren“ an.
 
 A: Meine Damen und Herren … nein. — Mach's gut, Hof. Ab Januar fegt dich ein anderer.

@@ -131,8 +131,8 @@ Decisions made as a result:
 
 | when | text |
 |---|---|
-| first days of July | 1. Neumann's notice |
-| the Saturday after, market morning | 2. cherries at the market |
+| Thu 1 Jul (*"am Samstag in zwei Wochen"* = 17 Jul) | 1. Neumann's notice |
+| Sat 10 Jul, a week before the Hoffest, market morning | 2. cherries at the market |
 | same Saturday, afternoon | 3. the test cake |
 | Sunday | 4. Bruckner's recipe card |
 | Monday | 5. Möbel Winkler |

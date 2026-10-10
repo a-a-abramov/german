@@ -122,7 +122,7 @@ A: Erst kochen. Sonst steht das schmutzige Geschirr morgen früh immer noch da.
 
 B: Wer kocht, wäscht nicht ab. Du hast es selbst gesagt.
 
-## Text 7 — Der Frühjahrsputz
+## Text 7 — Der Großputz
 
 A: Heute putzen wir die ganze Wohnung. Ich habe zwei Tücher und eine Bürste gekauft.
 
@@ -190,7 +190,7 @@ A: Er prüft, ob wenigstens das warme Wasser noch geht. Und er singt dabei.
 
 B: Ich habe hier eine Zahnbürste. Ich habe mehr Recht auf das Bad als er.
 
-A: Du wohnst hier auch nicht. — Ich wollte baden, aber es ist besetzt. Zwei Decken, Mantel, Mütze: so schlafe ich seit Tagen, an richtigen Schlaf ist gar nicht zu denken.
+A: Du wohnst hier auch nicht. — Ich wollte baden, aber es ist besetzt. Zwei Decken, Mantel, Mütze: So habe ich heute Nacht geschlafen, an richtigen Schlaf war gar nicht zu denken.
 
 B: Nimm die Decke von der Couch, ich habe sie dir schon aufs Bett gelegt. Bei der Kälte ist das hier kein Heim, das ist ein Kühlschrank.
 

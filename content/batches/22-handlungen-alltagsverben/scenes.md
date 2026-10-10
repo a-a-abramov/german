@@ -80,7 +80,7 @@ something else.
 | `abnehmen` / `zunehmen` | antonyms | 5 / 5 | together: Bruckner gained, Frau Wolf lost; that is the joke |
 | `absagen` / `zusagen` | antonyms | 1 / 1 | together |
 | `steigen` / `sinken` | antonyms, different subjects | 17 / 17 | together: the lake sinks, the temperature rises |
-| `lachen` / `lächeln` | not synonyms | 8 / 8 | together: *es lächelt … Es lacht sogar!* is a step up |
+| `lachen` / `lächeln` | not synonyms | 8 / 8 | together: *es lächelt mich an … Es lacht sogar!* is a step up |
 | derivational families (`beraten`/`Beratung`, `vergleichen`/`Vergleich`, `besprechen`/`Besprechung`, `bestätigen`/`Bestätigung`, `betreuen`/`Betreuung`/`Betreuer`, `beschreiben`/`Beschreibung`, `protestieren`/`Protest`, `integrieren`/`Integration`, `umtauschen`/`Umtausch`, `ersetzen`/`Ersatz`, `ändern`/`Änderung`, `sparen`/`sparsam`, `helfen`/`Hilfe`, `(sich) vorbereiten`/`Vorbereitung`, `abnehmen`/`zunehmen`) | derivational | same text | allowed by the skill |
 
 ## Ownership and scanner artefacts
@@ -119,7 +119,7 @@ coordinator passed on from Batch 14.
 |---|---|
 | Herr & Frau Lorenz, 3rd floor, directly under Julia. Separated since October Y2 after 15 years together. He has the big room, she has the small one; they take turns with the kitchen week by week. Two doorbells. He has a new partner; she has the cat. "Die Scheidung läuft" | B7 T8 |
 | "fast zwei Jahre" / "seit zwei Jahren" separated: October Y2 → August Y4 is 22 months. "Fünfzehn Jahre" always counts the relationship up to the separation | B7 T8 |
-| Stairs 80 cm wide; Tobi's table stuck around the second floor; Julia's 2.20 m sofa on the stairs one month earlier | B6 T1; B21 (via coordinator) |
+| Stairs 80 cm wide; Tobi's table stuck around the second floor; Julia's 2.20 m sofa never got past the Hof one month earlier | B6 T1; B21 (via coordinator) |
 | *„Ein Mann von hinten“*, a picture of Frau Lorenz | B16 T11 (via coordinator) |
 | No lift (*"ohne Aufzug"*, Texts 5, 15); the lift stays broken until B23 | B1 T1; slots.md |
 | Einfahrt, one-way street, Neumann's motorbike; *"fremdes Fahrzeug"*; *"noch zwanzig andere"* signs | B10 T7, T3 |
@@ -288,7 +288,7 @@ Decisions made as a result:
 ### Scene 9 — Achtzig Zentimeter
 
 - **Premise:** 10:30. The sofa sticks on the stairs. That is the third time in this stairwell,
-  after Tobi's table (B6 T1) and Julia's sofa a month earlier (B21). Jan comes up from the
+  after Tobi's table (B6 T1) and Julia's sofa a month earlier, which never even got in (B21 T6). Jan comes up from the
   second floor.
 - **Angle:** A 2.20 m sofa on 80 cm of stairs. Tobi gets hurt, Jule gets stepped on, and the
   wardrobe is still to come.

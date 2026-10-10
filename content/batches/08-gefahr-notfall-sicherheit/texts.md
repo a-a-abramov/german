@@ -43,7 +43,7 @@ A: Herr Bruckner, Sie sind seit einer Woche in Rente, der Hausmeister bin jetzt 
 
 B: Salz für die Stufen vor der Haustür, Herr Neumann, wie jeden Winter. Und was kleben Sie da an meine Wand?
 
-A: „Achtung, Stufe!" Eins pro Etage. Nach dem Einsatz der Feuerwehr am Samstag will die Verwaltung mehr Sicherheit im Haus. An die Haustür kommt außerdem ein Schild: Notausgang.
+A: „Achtung, Stufe!“ Eins pro Etage. Nach dem Einsatz der Feuerwehr am Samstag will die Verwaltung mehr Sicherheit im Haus. An die Haustür kommt außerdem ein Schild: Notausgang.
 
 B: Das ist ein Treppenhaus, hier ist alles Stufe. Einundzwanzig Jahre lang ist in diesem Haus kein einziges Unglück passiert. Stimmt's, Julia?
 
@@ -95,7 +95,7 @@ B: Dann kaufst du das Licht, und bei Eis fährst du ab jetzt vorsichtig. Oder du
 
 A: Julia, Tobi, kommt! Der See ist zugefroren, wir gehen einmal quer rüber. Das ist viel kürzer.
 
-B: Jule, da vorne steht ein Schild: „Betreten auf eigene Gefahr".
+B: Jule, da vorne steht ein Schild: „Betreten auf eigene Gefahr“.
 
 A: Auf eigene Gefahr heißt doch: Man darf, Julia. Und das Eis ist bestimmt zehn Zentimeter dick.
 

@@ -9,8 +9,8 @@ Standarddeutsch — keine österreichischen oder Schweizer Varianten.
 **Drei Wörter bedeuten hier das, was die Goethe-Liste meint, und nicht das, was man zuerst
 denkt.** `der Bogen` ist ein Bogen Papier (Text 4), kein Bogen zum Schießen; `der Kreis`
 ist ein gemalter Kreis (Text 4), kein Landkreis und kein Freundeskreis; `das Kreuz` ist ein
-Kreuz in einem Feld (Text 4). Und `rein` heißt **rein** wie „reine Wolle" (Text 2) —
-niemand sagt in diesen Texten „komm rein".
+Kreuz in einem Feld (Text 4). Und `rein` heißt **rein** wie „reine Wolle“ (Text 2) —
+niemand sagt in diesen Texten „komm rein“.
 
 **Format:** eine Sprecherzeile pro Zug, `A:` / `B:` / `C:`. Die Sprecherkennung ist Gerüst,
 kein Deutsch — sie wird nicht mitgelernt und kommt auf keine Karte. Wer spricht, muss aus

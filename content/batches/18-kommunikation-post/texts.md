@@ -28,15 +28,15 @@ dann mehrmals mit der Hand abschreiben.
 
 A: Guten Morgen, Frau Wolf, guten Morgen, Julia. Die neuen Briefkästen hängen, und an der Haustür sind auch die neuen Klingeln dran.
 
-B: Herr Neumann, wo ist mein Schild? Auf meinem alten Briefkasten stand seit Jahren: „Bitte keine Reklame".
+B: Herr Neumann, wo ist mein Schild? Auf meinem alten Briefkasten stand seit Jahren: „Bitte keine Reklame“.
 
 A: Auf die neuen Briefkästen kommt nur der Name, sonst nichts. Das hat die Verwaltung in ihrem Schreiben angekündigt, ich weise Sie nur noch einmal darauf hin.
 
-B: Dann habe ich ab morgen jeden Tag Reklame im Kasten. Und schauen Sie mal auf meinen Namen: „Wolff", mit zwei F!
+B: Dann habe ich ab morgen jeden Tag Reklame im Kasten. Und schauen Sie mal auf meinen Namen: „Wolff“, mit zwei F!
 
 C: Herr Neumann, hat denn keiner die Namen überprüft? Dann steht er an der Klingel bestimmt auch falsch.
 
-A: Das machen die Mieter selbst. Hier steht es: „Bitte überprüfen Sie Ihren Namen bis Freitag."
+A: Das machen die Mieter selbst. Hier steht es: „Bitte überprüfen Sie Ihren Namen bis Freitag.“
 
 B: Eine Bitte? Dann habe ich auch eine Bitte: Sie streichen das zweite F, und mein Schild kommt wieder dran.
 
@@ -102,7 +102,7 @@ A: Julia, Kind, du hast doch einen Computer. Ich will einen Brief an die Zeitung
 
 B: Gern, Frau Wolf. Setzen Sie sich, ich tippe. Wie fangen wir an?
 
-A: Mit der richtigen Anrede: „Sehr geehrte Damen und Herren". Und dann: Seit über vier Jahren steht in unserem Haus ein Aufzug, der nicht fährt.
+A: Mit der richtigen Anrede: „Sehr geehrte Damen und Herren“. Und dann: Seit über vier Jahren steht in unserem Haus ein Aufzug, der nicht fährt.
 
 B: Langsam, Frau Wolf, ich muss mich konzentrieren. Auf dieser Tastatur klemmt die Taste mit dem Ü.
 
@@ -174,11 +174,11 @@ A: Frau Wolf, hier ist er, der Artikel! Seite zwölf.
 
 B: Seite zwölf? Lies vor, Kind, ich habe meine Brille nicht dabei.
 
-A: Die Überschrift: „Vierter Stock, kein Aufzug: Eine Frau kämpft". Und dann kommen zwanzig Zeilen, zwischen den Annoncen.
+A: Die Überschrift: „Vierter Stock, kein Aufzug: Eine Frau kämpft“. Und dann kommen zwanzig Zeilen, zwischen den Annoncen.
 
-C: Zwischen „Suche Garage" und „Verkaufe Kinderwagen". Aber der Text ist gut, Frau Wolf. Hören Sie mal: „Jede Stufe ist ein Kampf, sagt Frau W. Trotzdem trägt sie jeden Morgen ihre Einkäufe nach oben, und sie lächelt dabei."
+C: Zwischen „Suche Garage“ und „Verkaufe Kinderwagen“. Aber der Text ist gut, Frau Wolf. Hören Sie mal: „Jede Stufe ist ein Kampf, sagt Frau W. Trotzdem trägt sie jeden Morgen ihre Einkäufe nach oben, und sie lächelt dabei.“
 
-B: „Kampf"? Den Ausdruck habe ich nie benutzt, junger Mann. Und ich lächle nie auf der Treppe! Das ist doch kein Artikel, das ist eine Erzählung. Der Mann ist kein Journalist, der ist ein Schriftsteller.
+B: „Kampf“? Den Ausdruck habe ich nie benutzt, junger Mann. Und ich lächle nie auf der Treppe! Das ist doch kein Artikel, das ist eine Erzählung. Der Mann ist kein Journalist, der ist ein Schriftsteller.
 
 C: Dann kaufen Sie die Zeitung also nicht?
 
@@ -186,17 +186,17 @@ B: Doch. Zehnmal. Eine bekommt Herr Bruckner, und eine lege ich Herrn Neumann vo
 
 ## Text 10 — Sieben Buchstaben
 
-A: So, Jan. „Okay". Vier Buchstaben, und das O liegt auf dem roten Feld. Julia, schreib auf.
+A: So, Jan. „Okay“. Vier Buchstaben, und das O liegt auf dem roten Feld. Julia, schreib auf.
 
 C: Okay ist Englisch. Wörter aus einer Fremdsprache zählen nicht.
 
 A: Okay sagt doch jeder, Jan. Ich sage das zwanzigmal am Tag.
 
-B: Ich schaue im Wörterbuch nach … Es steht tatsächlich drin. Und die Bedeutung auch: „in Ordnung".
+B: Ich schaue im Wörterbuch nach … Es steht tatsächlich drin. Und die Bedeutung auch: „in Ordnung“.
 
 A: Siehst du, Jan? Für dich ist Deutsch eben eine Fremdsprache.
 
-C: Keine Fremdsprache, Tobi. Meine Muttersprache ist Polnisch, und Deutsch ist meine Zweitsprache. Ich spreche es seit dem Kindergarten. — So, jetzt ich: „Sprache". Alle sieben Buchstaben auf einmal.
+C: Keine Fremdsprache, Tobi. Meine Muttersprache ist Russisch, und Deutsch ist meine Zweitsprache. Ich lebe seit fünfzehn Jahren hier. — So, jetzt ich: „Sprache“. Alle sieben Buchstaben auf einmal.
 
 B: Was bedeutet das für Tobi, Jan?
 
@@ -232,7 +232,7 @@ C: Julia, sagen Sie meiner Frau, hier ist meine Antwort: Diese Woche ist meine W
 
 B: Herr Lorenz, sie hört doch jedes Wort. Können Sie nicht ein ganz normales Gespräch führen, zehn Minuten lang?
 
-A: Wir haben keinen Kontakt mehr, Julia. — Und richten Sie ihm aus: Sein Inserat habe ich gelesen. „Ruhiger Mann sucht Wohnung." Ruhig!
+A: Wir haben keinen Kontakt mehr, Julia. — Und richten Sie ihm aus: Sein Inserat habe ich gelesen. „Ruhiger Mann sucht Wohnung.“ Ruhig!
 
 C: Antworten Sie ihr: Ich bin sehr ruhig. Seit sie meine Blumen nicht genommen hat, schweige ich.
 
@@ -252,7 +252,7 @@ B: Natürlich, ich schaue im Computer nach. So. Und die Karte da würde ich nich
 
 A: Danke für die Empfehlung. Aber die Karte ist noch leer.
 
-B: Hinter Ihnen warten zwölf Leute. Schreiben Sie sie zu Hause und schicken Sie sie mit Briefmarke hinterher. Dann zahlen Sie bitte hier.
+B: Die Schlange geht schon bis zur Tür. Schreiben Sie sie zu Hause und schicken Sie sie mit Briefmarke hinterher. Dann zahlen Sie bitte hier.
 
 A: Moment … Wo ist meine Brieftasche? — Julia, hast du deine EC-Karte dabei?
 

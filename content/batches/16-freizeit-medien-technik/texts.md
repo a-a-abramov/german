@@ -88,7 +88,7 @@ B: Das ist die Kamera. Wenn Sie unten auf den Kreis drücken, fotografieren Sie 
 
 A: Drei? Ich verstehe nichts von Technik. Wer ruft mich denn an?
 
-B: Einfach anklicken. … Alle drei sind von Herrn Bruckner: „Frau Wolf, Sie haben seit einer Woche nicht angerufen. Geht es Ihnen gut?"
+B: Einfach anklicken. … Alle drei sind von Herrn Bruckner: „Frau Wolf, Sie haben seit einer Woche nicht angerufen. Geht es Ihnen gut?“
 
 A: Ich habe das Ding eine Woche lang nur als Spiegel benutzt! Muss ich jetzt noch ein Programm installieren, damit er sich keine Sorgen macht? Und was passiert dann mit meinen Daten?
 
@@ -136,7 +136,7 @@ A: Tobi, Julia, hört zu: letzte Frage. Wir haben genauso viele Punkte wie der T
 
 B: Kein Problem, Jule. Heute siegen wir. Für so ein Quiz bin ich geboren. Das Thema ist bestimmt Sport.
 
-C: Das Thema ist Biologie, Tobi. Er hat die Frage gerade vorgelesen: „Wie viele Stunden am Tag schläft eine Katze?"
+C: Das Thema ist Biologie, Tobi. Er hat die Frage gerade vorgelesen: „Wie viele Stunden am Tag schläft eine Katze?“
 
 B: Vier. Dazu gibt es eine Studie, die habe ich neulich gelesen. In der Theorie brauchen Katzen kaum Schlaf.
 
@@ -152,7 +152,7 @@ B: Ich hatte die Katze auch im Kopf. Ich wollte nur testen, ob ihr aufpasst.
 
 A: Julia, du bist ja noch gar nicht angezogen! Heute ist Karneval, wir gehen aus. Um zehn fängt die Party in der Stadt an.
 
-B: Jule, ich bin müde. Und ich habe kein Kostüm. Ich setze mir Katzenohren auf, das muss reichen.
+B: Jule, ich bin müde. Und ich habe wie immer kein Kostüm. Ich setze mir Katzenohren auf, das muss reichen.
 
 C: Katzenohren? Kinder, ihr habt keine Fantasie. Seht mal her.
 
@@ -190,7 +190,7 @@ A: Herr Bruckner, Sie sind ein Star! Das Video von Ihrer Eisenbahn hat schon dre
 
 B: Was für ein Video, Leon? Du wolltest doch nur mit deinem Handy ein bisschen aufnehmen.
 
-A: Und dann habe ich es hochgeladen. Hier, die Leute schreiben „fantastisch" und „der schönste Bahnhof im Internet". Zweihundert haben den Kanal schon abonniert.
+A: Und dann habe ich es hochgeladen. Hier, die Leute schreiben „fantastisch“ und „der schönste Bahnhof im Internet“. Zweihundert haben den Kanal schon abonniert.
 
 B: Das ist doch kein Spielzeug fürs Internet. Das ist eine elektrische Eisenbahn, da steckt ein ganzes Jahr Arbeit drin.
 
@@ -214,7 +214,7 @@ C: Herr Wagner, Wände streichen ist keine Kunst. Ich bin Künstlerin.
 
 A: Sieh dir mal das große Bild an, Tobi. Wie heißt es denn, Frau Lorenz?
 
-C: Der Titel ist „Ein Mann von hinten". Die Galerie stellt zwölf Bilder von mir aus, und das ist mein liebstes.
+C: Der Titel ist „Ein Mann von hinten“. Die Galerie stellt zwölf Bilder von mir aus, und das ist mein liebstes.
 
 B: Moment … das ist doch Herr Lorenz. Die Jacke kenne ich aus dem Treppenhaus.
 
@@ -284,7 +284,7 @@ A: Warst du schon mal auf dem Turm? Oder im Historischen Museum?
 
 B: … Nein. Aber ich habe einen Plan von der Stadt auf dem Handy.
 
-A: Wo ist denn meine Brille? … Ah. „Unsere Stadt: eine Metropole mit kulturellem Leben an jeder Ecke. Der Tourismus wächst jedes Jahr." Siehst du?
+A: Wo ist denn meine Brille? … Ah. „Unsere Stadt: eine Metropole mit kulturellem Leben an jeder Ecke. Der Tourismus wächst jedes Jahr.“ Siehst du?
 
 C: Gisela, das haben wir uns gestern Abend schon alles virtuell angeschaut. Tobi, kann man hier eigentlich Golf spielen?
 

@@ -70,7 +70,7 @@ C: Aber das ist ja Ihr altes Sofa! Die zwei kann man gar nicht unterscheiden.
 
 B: Doch. Dieses hier gibt es in Grün. Das bestelle ich, Hauptsache nicht braun. Danke für die Beratung, Herr Ziegler.
 
-A: Sehr gern. Besitzen Sie ein Auto, oder sollen wir liefern? Dann bekommen Sie es nächste Woche.
+A: Sehr gern. Besitzen Sie ein Auto, oder sollen wir liefern? Dann bekommen Sie es in zwei Wochen.
 
 ## Text 4 — Der Drucker
 
@@ -112,7 +112,7 @@ B: Zwanzig! Dann nehme ich auch ein Stück, Kind. Ich habe zwei Kilo abgenommen.
 
 A: Herr Wagner, was berechnet Ihr Kollege eigentlich für den Wagen? Und sind die Reifen in Ordnung? Die sehen so platt aus.
 
-B: Nichts, nur das Benzin. Er hat ihn mir gern geliehen, aber sparsam ist der nicht. Der verbraucht vierzehn Liter. Und den Druck in den Reifen habe ich heute früh geprüft, Herr Lorenz.
+B: Nichts, nur das Benzin. Er hat ihn mir gern geliehen, aber sparsam ist der Wagen nicht. Der verbraucht vierzehn Liter. Und den Druck in den Reifen habe ich heute früh geprüft, Herr Lorenz.
 
 A: Hauptsache, ich spare mir die Umzugsfirma.
 
@@ -154,7 +154,7 @@ C: Ich helfe mit, Frau Sattler. Tragen darf ich ja nicht. Zwei Betreuer sind bes
 
 B: Herr Bruckner, Sie haben eine Katze. Ein Kind ist keine Katze.
 
-C: Kinder und Katzen muss man genau gleich behandeln: Man redet leise, und man sorgt dafür, dass immer was zu essen da ist. Sehen Sie, es lächelt schon.
+C: Kinder und Katzen muss man genau gleich behandeln: Man redet leise, und man sorgt dafür, dass immer was zu essen da ist. Sehen Sie, es lächelt mich an.
 
 A: Es lacht sogar! So lacht es bei mir nie.
 
@@ -290,7 +290,7 @@ A: Gut. Die Rechnung müssen Sie aber aufheben, falls doch noch was ist.
 
 ## Text 16 — Das neue Schild
 
-A: Herr Wagner, haben Sie das neue Schild nicht gelesen? „Ballspielen im Hof ist zu unterlassen."
+A: Herr Brandt, haben Sie das neue Schild nicht gelesen? „Ballspielen im Hof ist zu unterlassen.“
 
 B: Aber ich übe doch nur, Herr Neumann! Tobi sagt, ich habe mich total verbessert.
 
@@ -304,7 +304,7 @@ A: Ich bin integriert, Herr Wagner. Ich bin der Hausmeister. … Na gut. Einmal.
 
 B: Tor! … Nein, Moment. Das war das Schild.
 
-A: Kein Problem. Ich habe noch zwanzig andere.
+A: Kein Problem. Morgen hängt ein neues. Einen Meter höher.
 
 ## Text 17 — Der Schlüssel im See
 

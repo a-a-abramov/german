@@ -10,7 +10,7 @@ Standarddeutsch — keine österreichischen oder Schweizer Varianten.
 
 **Drei Wörter bedeuten hier das, was die Goethe-Liste meint.** `die Note` ist eine Note in
 der Schule (Text 6), `die Lehre` ist eine Ausbildung im Betrieb (Text 5), und `aufgeben`
-heißt „nicht mehr weitermachen" (Text 3).
+heißt „nicht mehr weitermachen“ (Text 3).
 
 **Format:** eine Sprecherzeile pro Zug, `A:` / `B:` / `C:`. Die Sprecherkennung ist Gerüst,
 kein Deutsch — sie wird nicht mitgelernt und kommt auf keine Karte. Wer spricht, muss aus
@@ -49,7 +49,7 @@ A: Das ist ein Weihnachtsgeschenk. Für mich. — Moment, hier steht ein anderer
 
 B: Ein neuer Übersetzer. Lesen Sie doch erst mal ein paar Seiten.
 
-A: Hör dir das an: „Der Kommissar war echt sauer." Echt sauer! So schreibt man doch keinen Krimi. Der Stil ist ja furchtbar.
+A: Hör dir das an: „Der Kommissar war echt sauer.“ Echt sauer! So schreibt man doch keinen Krimi. Der Stil ist ja furchtbar.
 
 B: Vielleicht ist die Übersetzung nur am Anfang so. Und Sie kaufen es trotzdem?
 
@@ -75,7 +75,7 @@ B: … Pst, Tobi. Ich muss lernen.
 
 ## Text 4 — Vier Zeilen
 
-A: Frau Wolf, haben Sie kurz Zeit? Ich muss bis Freitag ein Gedicht lernen. Das ist meine Hausaufgabe.
+A: Frau Wolf, können Sie mir helfen? Ich muss bis Freitag ein Gedicht lernen. Das ist meine Hausaufgabe.
 
 B: Natürlich, Leon. Was für ein Gedicht denn, mein Junge?
 

@@ -151,3 +151,7 @@ With twelve food dialogues, `Kaffee`, `Brot`, `Fleisch`, `essen` and `schmecken`
 texts, so `vocab.py scan`'s first-sighting will not always be the scene that owns the word.
 **Cut each cloze from the scene listed above**, not from wherever the scanner logged it.
 Where the two differ, the scene list here is the answer.
+
+**Story order is not text order:** Text 12 (Bruckner in hospital after the shoulder operation)
+comes before Text 9 (the first warm evening, *"Seit der Schulter keinen Alkohol mehr"*).
+Text numbers follow word ownership.

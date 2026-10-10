@@ -80,7 +80,7 @@ B: Ein riesiger Kuchen ist für einen Wettbewerb ideal. Dann sieht die Jury nur 
 
 A: Julia, haben Sie kurz Zeit? Jeder Kuchen braucht eine Rezeptkarte für die Jury. Können Sie meine korrigieren?
 
-B: Zeigen Sie mal, Herr Bruckner. Erster Satz: „Die Butter ist vor Beginn der Arbeiten aus dem Kühlschrank zu entfernen."
+B: Zeigen Sie mal, Herr Bruckner. Erster Satz: „Die Butter ist vor Beginn der Arbeiten aus dem Kühlschrank zu entfernen.“
 
 A: Ist doch deutlich. So habe ich über zwanzig Jahre lang die Schilder im Treppenhaus geschrieben.
 
@@ -140,7 +140,7 @@ A: Deine Mutter backt nicht gegen Frau Wolf. Ein Kuchen erfordert Ruhe. Wie bei 
 
 B: Und warum messen Sie die Temperatur mit einem Thermometer? Der Ofen hat doch eine Anzeige.
 
-A: Die Anzeige ist so alt wie der Ofen. Ich messe lieber selbst. Der Ofen ist alt, aber zuverlässig. Zuverlässiger als dein Auto.
+A: Die Anzeige stimmt seit Jahren nicht. Ich messe lieber selbst. Der Ofen ist alt, aber zuverlässig. Zuverlässiger als dein Auto.
 
 B: Gut, gut. Darf ich den Teig wenigstens probieren?
 
@@ -232,7 +232,7 @@ A: Frage zwei: Kann sie Türen aufmachen? Im Internet gibt es eine Katze, die ka
 
 B: Durchschnittlich? Diese Katze? Das ist aber ungewöhnlich. Lies mal den Text unten, der ist bestimmt positiv.
 
-A: „Ihre Katze hat sich gut an ihr Leben gewöhnt. Sie macht nur, was sie will."
+A: „Ihre Katze hat sich gut an ihr Leben gewöhnt. Sie macht nur, was sie will.“
 
 B: Siehst du? Ein Genie. Genau wie ich.
 
@@ -280,7 +280,7 @@ B: Für zehn Euro? Herr Bruckner, dann ist die bestimmt viel mehr wert.
 
 A: Das sage ich ja. Der Mann wusste gar nicht, was er da hat. So ein Gegenstand ist wertvoll. Vielleicht bin ich jetzt reich.
 
-B: Darf ich mal? Ich bin ja Mechaniker. … Herr Bruckner, unten klebt ein Zettel: „Kopie. Plastik."
+B: Darf ich mal? Ich bin ja Mechaniker. … Herr Bruckner, unten klebt ein Zettel: „Kopie. Plastik.“
 
 A: Eine Kopie? Dann ist sie gar nicht original?
 

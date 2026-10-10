@@ -66,7 +66,7 @@ A: Julia, Ines, kommen Sie bitte kurz zu mir. Unser Reporter hat gekündigt. Per
 
 C: Gekündigt? Und das Buch? Die Reportagen sollen doch im März fertig sein.
 
-A: Einen Grund schreibt er nicht. Nur einen Satz: „Ich gehe nach Australien."
+A: Einen Grund schreibt er nicht. Nur einen Satz: „Ich gehe nach Australien.“
 
 B: Und wer ist jetzt für das Projekt zuständig?
 
@@ -90,11 +90,11 @@ B: Im März? Und bis dahin?
 
 A: Bis dahin sollen wir es nicht anfassen, sonst zahlen sie die Reparatur nicht. Und einen Mangel hat das Gerät angeblich auch nicht, sagen sie.
 
-B: Das nützt Ihren Studierenden nicht viel. Darf ich mal hinter den Tisch schauen? … So. Es läuft.
+B: Das nützt Ihren Studierenden nicht viel. Darf ich mal? … So. Es läuft.
 
 A: Was haben Sie gemacht? Das war doch reiner Zufall.
 
-B: Kein Zufall. Der Stecker war draußen. Dem Spezialisten sagen wir trotzdem nicht ab. Der soll im März ruhig kommen und suchen.
+B: Kein Zufall. Der rote Knopf war gedrückt, Frau Imhof. Dem Spezialisten sagen wir trotzdem nicht ab. Der soll im März ruhig kommen und suchen.
 
 ## Text 5 — Die Aushilfe
 
@@ -130,7 +130,7 @@ B: Inoffiziell habe ich sie geleitet. Er hat unterschrieben, und ich wusste, wo 
 
 A: Und eine Karriere? Wollten Sie nie selbst Chefin werden?
 
-B: Ich war eine einfache Angestellte, und in der Industrie war das für eine Frau damals schon viel. Schreib bei „Beruf": Sekretärin. Und darunter, ganz klein: eigentlich Direktorin.
+B: Ich war eine einfache Angestellte, und in der Industrie war das für eine Frau damals schon viel. Schreib bei „Beruf“: Sekretärin. Und darunter, ganz klein: eigentlich Direktorin.
 
 ## Text 7 — Selbstständig
 
@@ -140,7 +140,7 @@ C: Meine Heizung tropft, Herr Neumann. Seit gestern Abend steht eine Schüssel d
 
 A: Für die Heizung ist eine Firma zuständig, und Herr Bruckner ist hier nicht mehr angestellt. Der Handwerker kommt in drei Wochen.
 
-B: In drei Wochen steht Frau Wolf in einem See. Stimmt, angestellt bin ich nicht mehr. Ich bin selbstständig. Seit heute.
+B: In drei Wochen steht Frau Wolf in einem See. Stimmt, angestellt bin ich nicht mehr. Ich bin selbstständig. Seit September.
 
 A: Und wenn etwas schiefgeht? Dann hat Frau Wolf keinen Anspruch mehr auf eine neue Heizung.
 
@@ -180,7 +180,7 @@ B: Lassen Sie mal sehen. Was haben Sie denn früher gemacht?
 
 A: Vor der Ehe war ich Stewardess. Drei Sprachen, Nachtflüge, Passagiere mit zu viel Wein.
 
-B: Das sind doch tolle Qualifikationen! Und was schreiben wir für die letzten fünfzehn Jahre bei „Tätigkeit"?
+B: Das sind doch tolle Qualifikationen! Und was schreiben wir für die letzten fünfzehn Jahre bei „Tätigkeit“?
 
 A: Haushalt. Und einen Mann, der fünfzehn Jahre lang jeden Morgen seine Schlüssel gesucht hat.
 
@@ -230,7 +230,7 @@ B: Ich nicht, Ines. Mir fehlt seit Dienstag ein Stück Käse.
 
 A: Dann haben wir einen Täter im Haus. Ich hänge einen Zettel an den Kühlschrank.
 
-B: Da hängt doch schon dein Zettel fürs Wichteln. „Teilnahme freiwillig." Wie viele Teilnehmer hast du denn?
+B: Da hängt doch schon dein Zettel fürs Wichteln. „Teilnahme freiwillig.“ Wie viele Teilnehmer hast du denn?
 
 A: Zwei. Du und ich. Die anderen Kollegen wollen nicht teilnehmen, Wichteln ist angeblich was für Kinder.
 
@@ -272,6 +272,6 @@ C: Ich auch, junger Mann!
 
 A: Frau Wolf? Hören Sie etwa zu?
 
-C: Die Wand ist dünn, das wissen Sie doch. Und ich weiß, wovon ich rede: Wer oben sitzt, braucht unten gute Leute. Mit der richtigen Unterstützung schafft man alles.
+C: Ihren Gesang unter der Dusche höre ich auch, junger Mann. Und ich weiß, wovon ich rede: Wer oben sitzt, braucht unten gute Leute. Mit der richtigen Unterstützung schafft man alles.
 
 B: Siehst du? Zwei Stimmen dafür. Jetzt kannst du gar nicht mehr Nein sagen.

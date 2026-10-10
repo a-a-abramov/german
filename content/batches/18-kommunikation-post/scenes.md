@@ -216,8 +216,8 @@ and nobody moves out.
   theatre tickets for a Saturday (T6).
 - **Frau Seifert** is a Verwaltung employee who held the Hausversammlung. Her survey had one
   respondent, Neumann. Bruckner offered to repair the lift himself (T7).
-- **Jan Sattler's Muttersprache is Polnisch.** He has spoken German since kindergarten, and
-  he beats Tobi and Julia at a word game (T10).
+- **Jan Sattler's Muttersprache is Russisch.** He has lived here fifteen years; his parents still live abroad and need a visa (B13 T7), which rules out an EU country such as Poland. He
+  beats Tobi and Julia at a word game (T10).
 - **Bruckner's cat went missing for a morning** and turned up in Frau Wolf's kitchen, where it
   was given cake (T11). Tobi posted it in a neighbourhood Netzwerk.
 - **Herr Lorenz has an Inserat in the paper, looking for a flat.** He still lives on the
@@ -249,9 +249,9 @@ and nobody moves out.
 | May | 11. the missing cat |
 | May | 12. the Lorenzes on the landing |
 | the week after Muttertag (2nd Sunday in May) | 13. the late parcel |
-| mid-May | 14. the hotline; the technician comes the next Tuesday |
+| Fri 14 May (after Batch 19 T2, Mon 10 May, when she still phones Bruckner) | 14. the hotline; the technician comes the next Tuesday (Monday is Pfingstmontag) |
 | a few days later | 15. Jule's call from the train |
-| the Tuesday after T14 | 16. the technician has been; Bruckner comes up |
+| Tue 18 May | 16. the technician has been; Bruckner comes up |
 
 T11 comes before T14: Frau Wolf's phone still works in T11.
 
