@@ -973,7 +973,7 @@ die Anlage	target	12	Einkaufen & Geld
 die Ausgabe	target	12	Einkaufen & Geld
 die Ausnahme	target	12	Einkaufen & Geld
 die Auswahl	target	12	Einkaufen & Geld
-die Bank	target	12	Einkaufen & Geld
+die Bank	target	12	Einkaufen & Geld		the money bank (CSV "die Bank, -en"); init picks the bench entry, so set forms by hand
 die Bankleitzahl	target	12	Einkaufen & Geld
 die Bankomat-Karte	target	12	Einkaufen & Geld
 die Bohne	target	12	Einkaufen & Geld
