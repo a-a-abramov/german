@@ -564,7 +564,7 @@ der Vater	target	7	Familie & Beziehungen
 der Verwandte / die Verwandte	target	7	Familie & Beziehungen
 der Vorname	target	7	Familie & Beziehungen
 der Wirt / die Wirtin	target	7	Familie & Beziehungen
-die Bevölkerung	target	7	Familie & Beziehungen
+die Bevölkerung	target	7	Familie & Beziehungen	population
 die Beziehung	target	7	Familie & Beziehungen
 die Dame	target	7	Familie & Beziehungen
 die Ehe	target	7	Familie & Beziehungen
@@ -2057,26 +2057,26 @@ zunächst	target	19	Zeit & Kalender
 zurzeit	target	19	Zeit & Kalender
 übermorgen	target	19	Zeit & Kalender
 übernachten	target	19	Zeit & Kalender
-ausländisch	target	20	Gesellschaft, Politik & Wirtschaft
-außerhalb	target	20	Gesellschaft, Politik & Wirtschaft
-der Ausländer / die Ausländerin	target	20	Gesellschaft, Politik & Wirtschaft
-der Gott	target	20	Gesellschaft, Politik & Wirtschaft
-der Mensch	target	20	Gesellschaft, Politik & Wirtschaft
-der Nachteil	target	20	Gesellschaft, Politik & Wirtschaft
-die Bevölkerung	target	20	Gesellschaft, Politik & Wirtschaft
-die Chance	target	20	Gesellschaft, Politik & Wirtschaft
-die Freiheit	target	20	Gesellschaft, Politik & Wirtschaft
-die Geschichte	target	20	Gesellschaft, Politik & Wirtschaft
-die Gewalt	target	20	Gesellschaft, Politik & Wirtschaft
-die Pflicht	target	20	Gesellschaft, Politik & Wirtschaft
-die Welt	target	20	Gesellschaft, Politik & Wirtschaft
-die Wirtschaft	target	20	Gesellschaft, Politik & Wirtschaft
-die Zusammenarbeit	target	20	Gesellschaft, Politik & Wirtschaft
-egal	target	20	Gesellschaft, Politik & Wirtschaft
-menschlich	target	20	Gesellschaft, Politik & Wirtschaft
-populär	target	20	Gesellschaft, Politik & Wirtschaft
-weltweit	target	20	Gesellschaft, Politik & Wirtschaft
-zusätzlich	target	20	Gesellschaft, Politik & Wirtschaft
+ausländisch	target	20	Gesellschaft, Politik & Wirtschaft	foreign
+außerhalb	target	20	Gesellschaft, Politik & Wirtschaft	outside (of town)
+der Ausländer / die Ausländerin	target	20	Gesellschaft, Politik & Wirtschaft	foreigner
+der Gott	target	20	Gesellschaft, Politik & Wirtschaft	God (Gott sei Dank: thank God)
+der Mensch	target	20	Gesellschaft, Politik & Wirtschaft	human being, person
+der Nachteil	target	20	Gesellschaft, Politik & Wirtschaft	disadvantage
+die Bevölkerung	target	20	Gesellschaft, Politik & Wirtschaft	population
+die Chance	target	20	Gesellschaft, Politik & Wirtschaft	chance
+die Freiheit	target	20	Gesellschaft, Politik & Wirtschaft	freedom
+die Geschichte	target	20	Gesellschaft, Politik & Wirtschaft	history; story
+die Gewalt	target	20	Gesellschaft, Politik & Wirtschaft	force; violence
+die Pflicht	target	20	Gesellschaft, Politik & Wirtschaft	duty, obligation (Das ist Pflicht: it's mandatory)
+die Welt	target	20	Gesellschaft, Politik & Wirtschaft	world
+die Wirtschaft	target	20	Gesellschaft, Politik & Wirtschaft	economy
+die Zusammenarbeit	target	20	Gesellschaft, Politik & Wirtschaft	cooperation
+egal	target	20	Gesellschaft, Politik & Wirtschaft	all the same (Das ist mir egal: I don't care)
+menschlich	target	20	Gesellschaft, Politik & Wirtschaft	human (Fehler sind menschlich: to err is human)
+populär	target	20	Gesellschaft, Politik & Wirtschaft	popular
+weltweit	target	20	Gesellschaft, Politik & Wirtschaft	worldwide
+zusätzlich	target	20	Gesellschaft, Politik & Wirtschaft	additional(ly), extra
 allgemein	target	21	Menge, Maß & Eigenschaften
 ausgezeichnet	target	21	Menge, Maß & Eigenschaften
 ausreichen	target	21	Menge, Maß & Eigenschaften
