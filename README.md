@@ -201,9 +201,9 @@ not per batch: `vocab.py glue --open` lists what no finished text has used yet.
 Run `python3 tools/vocab.py status` for the live picture — it is the counter; don't mirror
 its numbers here.
 
-Twenty-one batches are written; none is carded yet. All twenty-one follow the scene-design +
+Twenty-two batches are written; none is carded yet. All twenty-two follow the scene-design +
 three-stage method — `scenes.md` groups the words into situations, `texts.md` has one
-dialogue per scene — and all twenty-one are **awaiting the cram + review pass**, so no
+dialogue per scene — and all twenty-two are **awaiting the cram + review pass**, so no
 `anki-*.txt` exists anywhere yet.
 
 - **`content/batches/01-in-der-wohnung/`** — Stage A, topic 1. 11 scenes, 11 dialogues.
@@ -447,5 +447,18 @@ dialogue per scene — and all twenty-one are **awaiting the cram + review pass*
   baked with Tobi, by Leon's one point; Frau Wolf came second with her grandmother's
   Kirschkuchen; the sofa from Möbel Winkler went back; Bruckner wants to enlarge his
   railway; Frau Wolf is a regular at the café gegenüber.
+- **`content/batches/23-denken-wissen-meinen/`** — Stage D, topic 23, the finale. 12
+  scenes, 12 dialogues; 2 words skipped (`auflösen` — CSV sense is a dissolving tablet;
+  `die Herkunft` — its only home read as an identity joke). September Y4: **the lift is repaired** after almost five
+  years, and the mental verbs sit in that story's concrete moments (Neumann's notice, a
+  coin toss, a notebook used as proof, a crossword, Neumann's list of who rides first).
+  `die Wahl`/`wählen` are used in the choosing sense only. CSV senses: `Schein` a
+  banknote, `Praxis` practice vs theory, `Lage` location, `Bescheid` the Verwaltung's
+  decision, `unentschieden` a draw. New standing facts: Frau Wolf got the repair with
+  coffee for the Verwaltung's Chefin and 59 letters; the missing part lay in Bruckner's
+  cellar all along; on the first ride Neumann, Frau Wolf and Bruckner were stuck for 40
+  minutes, and she still takes the stairs; Tobi takes over the Werkstatt from October;
+  "Lisa" was a cover — Jule's boyfriend is Moritz
+  (one evening in Y2, together since January Y4).
 - **Next:** write batch 22 (Handlungen: Alltagsverben, 204 words) with the `text-writer` skill, or
   close out any written batch by cramming it and generating its cards.
