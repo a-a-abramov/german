@@ -201,9 +201,9 @@ not per batch: `vocab.py glue --open` lists what no finished text has used yet.
 Run `python3 tools/vocab.py status` for the live picture — it is the counter; don't mirror
 its numbers here.
 
-Twenty-two batches are written; none is carded yet. All twenty-two follow the scene-design +
+Twenty-three batches are written; none is carded yet. All twenty-three follow the scene-design +
 three-stage method — `scenes.md` groups the words into situations, `texts.md` has one
-dialogue per scene — and all twenty-two are **awaiting the cram + review pass**, so no
+dialogue per scene — and all twenty-three are **awaiting the cram + review pass**, so no
 `anki-*.txt` exists anywhere yet.
 
 - **`content/batches/01-in-der-wohnung/`** — Stage A, topic 1. 11 scenes, 11 dialogues.
@@ -447,6 +447,22 @@ dialogue per scene — and all twenty-two are **awaiting the cram + review pass*
   baked with Tobi, by Leon's one point; Frau Wolf came second with her grandmother's
   Kirschkuchen; the sofa from Möbel Winkler went back; Bruckner wants to enlarge his
   railway; Frau Wolf is a regular at the café gegenüber.
+- **`content/batches/22-handlungen-alltagsverben/`** — Stage D, topic 22. 17 scenes, 17
+  dialogues; 1 word skipped (`der Halt` — the CSV sense is a stop on a route, and the batch
+  has no transit scene). August Y4: Herr Lorenz finally moves out of the third floor,
+  closing Batch 7's divided-flat thread. The batch follows the move — the date fixed, the
+  household divided, a sofa ordered, the helpers' plan printed thirty times, a farewell
+  collection, the moving Saturday (Neumann versus the van, a cat taped into a box, the
+  handover, the van stopping for a forgotten plant) — and Frau Lorenz's first Sunday
+  alone, which carries the position verbs. CSV senses: `abmachen` to agree, `der Druck`
+  tyre pressure, `wenden` a vehicle U-turn, `dienen` as in *als … dienen*, `bestehen` as
+  in *aus*, `treiben` as in *Sport treiben*. Ledger note: the forms stored for `drücken`
+  are those of `drucken`, so *Drucker* credits it — fix in `assignments.tsv`. Nineteen
+  separable verbs are recorded by hand (the scanner credits them on the base verb;
+  `scenes.md` lists them). New standing facts: Herr Lorenz lives nearby now; Frau Lorenz
+  keeps the flat, the cat and the balcony; Julia has a printer; Neumann has banned ball
+  games in the courtyard; Frau Lorenz's picture „Ein Mann von hinten“ now hangs where his
+  calendar was.
 - **`content/batches/23-denken-wissen-meinen/`** — Stage D, topic 23, the finale. 12
   scenes, 12 dialogues; 2 words skipped (`auflösen` — CSV sense is a dissolving tablet;
   `die Herkunft` — its only home read as an identity joke). September Y4: **the lift is repaired** after almost five
@@ -460,5 +476,5 @@ dialogue per scene — and all twenty-two are **awaiting the cram + review pass*
   minutes, and she still takes the stairs; Tobi takes over the Werkstatt from October;
   "Lisa" was a cover — Jule's boyfriend is Moritz
   (one evening in Y2, together since January Y4).
-- **Next:** write batch 22 (Handlungen: Alltagsverben, 204 words) with the `text-writer` skill, or
-  close out any written batch by cramming it and generating its cards.
+- **Next:** all 23 batches are written. Close them out by cramming each one and
+  generating its cards.
