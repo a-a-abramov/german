@@ -201,9 +201,9 @@ not per batch: `vocab.py glue --open` lists what no finished text has used yet.
 Run `python3 tools/vocab.py status` for the live picture — it is the counter; don't mirror
 its numbers here.
 
-Ten batches are written; none is carded yet. All ten follow the scene-design +
+Eleven batches are written; none is carded yet. All eleven follow the scene-design +
 three-stage method — `scenes.md` groups the words into situations, `texts.md` has one
-dialogue per scene — and all ten are **awaiting the cram + review pass**, so no
+dialogue per scene — and all eleven are **awaiting the cram + review pass**, so no
 `anki-*.txt` exists anywhere yet.
 
 - **`content/batches/01-in-der-wohnung/`** — Stage A, topic 1. 11 scenes, 11 dialogues.
@@ -298,5 +298,18 @@ dialogue per scene — and all ten are **awaiting the cram + review pass**, so n
   until end of August); Tobi has an old small blue car; Jule passed her driving test in
   July; Bruckner builds a model railway; Neumann rides a motorbike; there is a bus stop in
   front of number 19; Julia's bike light, promised in March, was in Tobi's rucksack.
-- **Next:** write batch 11 (Reisen & Urlaub, 48 words) with the `text-writer` skill, or
-  close out any of batches 01–10 by cramming them and generating their cards.
+- **`content/batches/11-reisen-urlaub/`** — Stage B, topic 11. 10 scenes, 10 dialogues,
+  nothing skipped. August Y3: Julia and Tobi's two weeks on the Ostsee island (Sat 8 –
+  Sat 22 Aug). Tobi booked a hotel on the mainland *mit Blick auf die Insel*; Frau Wolf
+  rescues the trip through her old landlady Frau Claasen, whose Pension by the beach
+  carries the rest of the batch — the ferry, the arrival, the guests at dinner, a rained-out
+  boat trip, and Julia phoning Frau Wolf from her late husband's bench. Sense decisions:
+  `die Pension` is the guesthouse and `in Pension sein` the retirement of a former civil
+  servant (they share one line on purpose; `pensioniert` belongs to Frau Claasen, a retired
+  teacher); `die Kabine` is a changing cubicle; `erreichen` is reaching someone by phone.
+  `Viertel`/`Vorort` stay together as a contrast. New standing facts: Frau Claasen's
+  Pension at the beach, twenty minutes from the harbour; the Behrens couple (twenty summers there, live in a Vorort);
+  Tobi gets seasick; Bruckner took his first trip abroad, a five-day bus tour, while Frau
+  Wolf fed his cat.
+- **Next:** write batch 12 (Einkaufen & Geld, 126 words) with the `text-writer` skill, or
+  close out any of batches 01–11 by cramming them and generating their cards.
