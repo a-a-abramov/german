@@ -201,9 +201,9 @@ not per batch: `vocab.py glue --open` lists what no finished text has used yet.
 Run `python3 tools/vocab.py status` for the live picture — it is the counter; don't mirror
 its numbers here.
 
-Fifteen batches are written; none is carded yet. All fifteen follow the scene-design +
+Sixteen batches are written; none is carded yet. All sixteen follow the scene-design +
 three-stage method — `scenes.md` groups the words into situations, `texts.md` has one
-dialogue per scene — and all fifteen are **awaiting the cram + review pass**, so no
+dialogue per scene — and all sixteen are **awaiting the cram + review pass**, so no
 `anki-*.txt` exists anywhere yet.
 
 - **`content/batches/01-in-der-wohnung/`** — Stage A, topic 1. 11 scenes, 11 dialogues.
@@ -338,6 +338,20 @@ dialogue per scene — and all fifteen are **awaiting the cram + review pass**, 
   (undecided); Jule waits tables at the café gegenüber; Frau Wolf was a factory
   Direktor's Sekretärin; Jan Sattler's Kraftwerk closes in two years; Frau Lorenz, once a
   Stewardess, is applying for work again; Kai imports coffee machines.
+- **`content/batches/15-schule-bildung/`** — Stage B, topic 15. 10 scenes, 10 dialogues;
+  1 word skipped (`eintreten` — its CSV sense is joining a club, which belongs to Batch 16).
+  December Y3 – January Y4. No school-vocabulary parade: each scene has one learner with
+  something at stake (Jule's Referat on sleep after two sleepless nights; Leon teaching his
+  tutor patience; Amir writing a yellow door into his Lebenslauf). CSV senses: `Note` a
+  school grade, `Lehre` an apprenticeship, `aufgeben` to give up, `Eintritt` an admission
+  fee, `Forum` an internet forum, `Bereich` a field of work. `buchen` (the scanner reads
+  *Buch*) and `Kursleiter` (headword typo) are recorded by hand. New standing facts:
+  **Jule studies Biologie, Lehramt**; Prüfung in February; from January she teaches
+  Tuesdays in **Herr Krämer**'s class, where she was once a pupil (the pupils call her
+  *Frau Wagner*). Amir wants a Lehrstelle in a car workshop instead of the Abitur. Jule
+  gives Leon paid Nachhilfe. Neumann went on a heating Fortbildung; in January the oil tank
+  runs empty. Bruckner volunteers in a German Intensivkurs taught by **Frau Martens**, and
+  he and Frau Wolf sign up again for March.
 - **`content/batches/17-gefuehle-charakter/`** — Stage C, topic 17. 13 scenes, 13
   dialogues, nothing skipped. March – April Y4. The risk is an inventory of forty feeling
   adjectives, so nobody lists their own feelings: each one is caused by something on the
