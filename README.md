@@ -201,9 +201,9 @@ not per batch: `vocab.py glue --open` lists what no finished text has used yet.
 Run `python3 tools/vocab.py status` for the live picture — it is the counter; don't mirror
 its numbers here.
 
-Eighteen batches are written; none is carded yet. All eighteen follow the scene-design +
+Nineteen batches are written; none is carded yet. All nineteen follow the scene-design +
 three-stage method — `scenes.md` groups the words into situations, `texts.md` has one
-dialogue per scene — and all eighteen are **awaiting the cram + review pass**, so no
+dialogue per scene — and all nineteen are **awaiting the cram + review pass**, so no
 `anki-*.txt` exists anywhere yet.
 
 - **`content/batches/01-in-der-wohnung/`** — Stage A, topic 1. 11 scenes, 11 dialogues.
@@ -395,6 +395,21 @@ dialogue per scene — and all eighteen are **awaiting the cram + review pass**,
   love since January (with whom stays open); Oma Erna dances with Herr Rademacher, once a
   radio singer; Frau Wolf's birthday is at the end of April; Bruckner is *ledig* and asks
   Frau Wolf to keep phoning him every morning.
+- **`content/batches/18-kommunikation-post/`** — Stage C, topic 18. 16 scenes, 16
+  dialogues, nothing skipped (sixteen, because 179 words in fifteen overloaded the
+  journalist and phone scenes). April – May Y4. A light arc: Frau Wolf campaigns for the
+  lift by letter, radio, tenants' meeting and newspaper — and nothing is repaired.
+  Written-register words (`hinweisen`, `mitteilen`, `das Schreiben`, `Aufforderung`,
+  `Kommunikation`) are spoken only by the Verwaltung and Neumann. CSV senses: `Botschaft`
+  an embassy, `Empfang` receipt of a letter, `Vertretung` a stand-in, `Sender`/`Hörer`
+  radio, `Vorstellung` a performance, `raten` as in *Rate mal*. Contrast pairs kept
+  together on purpose: Bitte/Aufforderung, Fremd-/Zweit-/Muttersprache, Artikel/
+  Erzählung, duzen/siezen. Eleven owner texts are recorded by hand (`vocab.py use
+  "schreiben"` resolves to the noun). New standing facts: new letterboxes (Frau Wolf's
+  plate misspelt „Wolff"); post still comes for the previous tenant, Frau Seidel; postman
+  Herr Simon; Jan Sattler's Muttersprache is Polnisch; Herr Lorenz is flat-hunting; Tobi's
+  Muttertag parcel goes out late; Frau Wolf and Bruckner try du once her phone is repaired
+  (a callback to Batch 17's birthday promise of morning calls) and go back to Sie.
 - **`content/batches/20-gesellschaft-politik-wirtschaft/`** — Stage C, topic 20. 3
   scenes, 3 dialogues, nothing skipped — the smallest batch after 04 (20 words). Politics
   and economy enter the house only through everyday objects: an election poster at the
@@ -406,5 +421,5 @@ dialogue per scene — and all eighteen are **awaiting the cram + review pass**,
   playing football in the courtyard; Aydin's rolls cost 10 cents more; the cellar door
   sticks again since the new lock (as in Batch 13). This batch also filled the English glosses for its 20
   words.
-- **Next:** write batch 18 (Kommunikation & Post, 179 words) with the `text-writer` skill, or
+- **Next:** write batch 19 (Zeit & Kalender, 136 words) with the `text-writer` skill, or
   close out any written batch by cramming it and generating its cards.
