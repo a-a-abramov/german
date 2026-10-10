@@ -201,9 +201,9 @@ not per batch: `vocab.py glue --open` lists what no finished text has used yet.
 Run `python3 tools/vocab.py status` for the live picture — it is the counter; don't mirror
 its numbers here.
 
-Nine batches are written; none is carded yet. All nine follow the scene-design +
+Ten batches are written; none is carded yet. All ten follow the scene-design +
 three-stage method — `scenes.md` groups the words into situations, `texts.md` has one
-dialogue per scene — and all nine are **awaiting the cram + review pass**, so no
+dialogue per scene — and all ten are **awaiting the cram + review pass**, so no
 `anki-*.txt` exists anywhere yet.
 
 - **`content/batches/01-in-der-wohnung/`** — Stage A, topic 1. 11 scenes, 11 dialogues.
@@ -287,5 +287,16 @@ dialogue per scene — and all nine are **awaiting the cram + review pass**, so 
   There is a pear tree in the garden, and Kessler is selling his field as building land.
   **Julia and Tobi plan two weeks on an Ostsee island in August**, which Batch 11 can
   pick up.
-- **Next:** write batch 10 (Unterwegs & Verkehr, 103 words) with the `text-writer`
-  skill, or close out any of batches 01–09 by cramming them and generating their cards.
+- **`content/batches/10-unterwegs-verkehr/`** — Stage B, topic 10. 12 scenes, 12
+  dialogues; 2 words skipped (`der Lift`, `das Tram` — the CSV cross-references them to
+  *Aufzug*/*Straßenbahn*, i.e. they are the CH words). Runs 20 July – 6 August, before the
+  Ostsee trip, which is left to Batch 11. Directions are never recited: Bruckner gives them
+  without glasses and with the map upside down. CSV senses: `Gang` is a gear, `Maschine`
+  the aircraft, `Wagen` a railway carriage, `Schalter` a staffed counter, `Zone` a fare
+  zone, `Rundfahrt` a city bus tour, `Fähre` a river ferry (recorded by hand — the scanner
+  reads *Fahrer* as `Fähre`). New standing facts: Julia commutes by S-Bahn (line closed
+  until end of August); Tobi has an old small blue car; Jule passed her driving test in
+  July; Bruckner builds a model railway; Neumann rides a motorbike; there is a bus stop in
+  front of number 19; Julia's bike light, promised in March, was in Tobi's rucksack.
+- **Next:** write batch 11 (Reisen & Urlaub, 48 words) with the `text-writer` skill, or
+  close out any of batches 01–10 by cramming them and generating their cards.
