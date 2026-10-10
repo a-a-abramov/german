@@ -3,6 +3,15 @@
 Builds `data/wortprofil.db` from OPUS OpenSubtitles on the server `atlas` (192.168.88.5),
 in a rootless podman container with nothing installed on the host.
 
+**Just want the database?** Download it rather than rebuilding: release
+[`db-v1`](https://github.com/a-a-abramov/german/releases/tag/db-v1) has it as a
+271 MB zstd archive (1.5 GB unpacked).
+
+```bash
+curl -LO https://github.com/a-a-abramov/german/releases/download/db-v1/wortprofil.db.zst
+zstd -d --long=27 wortprofil.db.zst -o data/wortprofil.db
+```
+
 **Two documents, depending on what you need:**
 
 - **[`../../docs/collocations-query.md`](../../docs/collocations-query.md)** — how to *query* the database.
