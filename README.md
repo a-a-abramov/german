@@ -44,8 +44,11 @@ curriculum/          ← THE PLAN AND THE BOOKKEEPING: what is to be learned, an
 ├── assignments.tsv   ← the ledger's plain-text seed (diffable; vocab.py init reads it)
 ├── topics.md         ← 23 topics in concrete→abstract cram order, plus a non-binding
 │                        bank of scene premises. No word lists — those are in the ledger.
-└── glue-pool.md      ← why 326 closed-class function words are pooled instead of scened,
-                         and how they get woven through every batch's texts.
+├── glue-pool.md      ← why 326 closed-class function words are pooled instead of scened,
+│                        and how they get woven through every batch's texts.
+└── story/            ← the shared story's facts, sourced to batch/text: bible-01-10.md and
+                         bible-11-23.md, slots.md (which batch owns which fact), and
+                         sweep-decisions.md (how the cross-batch conflicts were resolved).
 
 tools/
 ├── paths.py          ← every repo path in one place; the other tools import it
